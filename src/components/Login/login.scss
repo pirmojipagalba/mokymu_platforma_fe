@@ -1,0 +1,35 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0 60px;
+
+  &__heading {
+    font-size: $sub-heading;
+    line-height: 1.5;
+    font-weight: bold;
+    color: $text;
+  }
+
+  &__button {
+    color: $text;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid $border;
+    border-radius: 8px;
+    background-color: $background-secondary;
+    font-weight: 600;
+
+    &:hover {
+      background-color: $background;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.footer {
+  background: $background-secondary;
+  padding: 16px 0;
+  text-align: center;
+  color: $text;
+  margin-top: auto;
+  height: 147px;
+  max-height: 147px;
+  box-sizing: border-box;
+
+  .container {
+    display: flex;
+    height: 100%;
+  }
+
+  &__content {
+    font-size: $paragraph;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  &__means-of-communication {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+  }
+
+  &__link {
+    font-size: $paragraph;
+    color: $text;
+  }
+
+  &__social {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__social-icon {
+    width: 24px;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.logout {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &__image {
+    width: 24px;
+  }
+}

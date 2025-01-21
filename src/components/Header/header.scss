@@ -1,0 +1,46 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  color: $text;
+  position: sticky;
+  top: 0;
+  background: $light-gray;
+  z-index: 999;
+  transition: box-shadow 0.3s ease;
+
+  &--scrolled {
+    box-shadow: 0 6px 14px #0000001a;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 161px;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+      width: 133px;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__welcome-message {
+    font-size: $paragraph;
+  }
+
+  &__user-name {
+    font-weight: 700;
+  }
+}

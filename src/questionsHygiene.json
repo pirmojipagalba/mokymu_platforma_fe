@@ -1,0 +1,942 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Įvykio vietos saugumo ir nukentėjusiojo būklės įvertinimas. Gyvybei pavojingos psichikos būsenos, jų atpažinimas, pirmoji pagalba ir medicinos pagalbos organizavimas. Psichologinės pagalbos principai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks yra pirmasis veiksmas, suteikiant pirmąją pagalbą?",
+          "options": [
+            { "optionId": "a1b2c", "optionText": "Paskambinti 112" },
+            {
+              "optionId": "d3e4f",
+              "optionText": "Patikrinti situacijos saugumą"
+            },
+            { "optionId": "g5h6i", "optionText": "Pradėti gaivinimą" }
+          ],
+          "correctAnswer": "d3e4f"
+        },
+        {
+          "id": "q2",
+          "question": "Ką reiškia pirmosios pagalbos tikslas „Neleisti būklei pablogėti“?",
+          "options": [
+            { "optionId": "j7k8l", "optionText": "Stebėti žmogaus kvėpavimą" },
+            {
+              "optionId": "m9n0o",
+              "optionText": "Suteikti pagalbą, kad išvengtumėte papildomų sužeidimų"
+            },
+            {
+              "optionId": "p1q2r",
+              "optionText": "Pranešti apie situaciją policijai"
+            }
+          ],
+          "correctAnswer": "m9n0o"
+        },
+        {
+          "id": "q3",
+          "question": "Koks yra teisingas P–P–P algoritmo žingsnių eiliškumas?",
+          "options": [
+            {
+              "optionId": "s3t4u",
+              "optionText": "Padėk – Paskambink – Patikrink"
+            },
+            {
+              "optionId": "v5w6x",
+              "optionText": "Patikrink – Paskambink – Padėk"
+            },
+            {
+              "optionId": "y7z8a",
+              "optionText": "Patikrink – Padėk – Paskambink"
+            }
+          ],
+          "correctAnswer": "v5w6x"
+        },
+        {
+          "id": "q4",
+          "question": "Ką reikia daryti, jei nukentėjusysis yra nesąmoningas, bet kvėpuoja?",
+          "options": [
+            {
+              "optionId": "b9c0d",
+              "optionText": "Palikti jį gulėti ant nugaros"
+            },
+            {
+              "optionId": "e1f2g",
+              "optionText": "Paguldyti į stabilią šoninę padėtį, jeigu neįtariame stuburo traumų"
+            },
+            { "optionId": "h3i4j", "optionText": "Pradėti širdies masažą" }
+          ],
+          "correctAnswer": "e1f2g"
+        },
+        {
+          "id": "q5",
+          "question": "Kaip patikrinti, ar žmogus kvėpuoja?",
+          "options": [
+            {
+              "optionId": "k5l6m",
+              "optionText": "Klausyti, ar jis reaguoja į klausimus"
+            },
+            {
+              "optionId": "n7o8p",
+              "optionText": "Pasiklausyti, ar yra kvėpavimo garsas, ir stebėti, ar krūtinė juda"
+            },
+            { "optionId": "q9r0s", "optionText": "Uždėti ranką ant kaklo" }
+          ],
+          "correctAnswer": "n7o8p"
+        },
+        {
+          "id": "q6",
+          "question": "Koks yra efektyvios kompresijos (krūtinės ląstos paspaudimų) gylis, kad kraujas būtų išstumtas iš širdies skilvelių?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q7",
+          "question": "Ką svarbu nurodyti skambinant 112?",
+          "options": [
+            { "optionId": "t1u2v", "optionText": "Tik įvykio adresą" },
+            {
+              "optionId": "w3x4y",
+              "optionText": "Įvykio adresą, situacijos aprašymą ir nukentėjusiųjų skaičių"
+            },
+            { "optionId": "z5a6b", "optionText": "Nukentėjusiojo vardą" }
+          ],
+          "correctAnswer": "w3x4y"
+        },
+        {
+          "id": "q8",
+          "question": "Kaip iškviesti medicinos pagalbą, kokiu telefono numeriu skambinti?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q9",
+          "question": "Kiek laiko reikia skirti kvėpavimo tikrinimui?",
+          "options": [
+            { "optionId": "c7d8e", "optionText": "5 sekundes" },
+            { "optionId": "f9g0h", "optionText": "10 sekundžių" },
+            { "optionId": "i1j2k", "optionText": "15 sekundžių" }
+          ],
+          "correctAnswer": "f9g0h"
+        },
+        {
+          "id": "q10",
+          "question": "Ką reikia daryti, jei nukentėjusysis nekvėpuoja?",
+          "options": [
+            {
+              "optionId": "l3m4n",
+              "optionText": "Paskambinti 112 ir pradėti gaivinimą"
+            },
+            {
+              "optionId": "o5p6q",
+              "optionText": "Laukti profesionalios pagalbos"
+            },
+            {
+              "optionId": "r7s8t",
+              "optionText": "Pabandykite pakelti nukentėjusiojo ranką"
+            }
+          ],
+          "correctAnswer": "l3m4n"
+        },
+        {
+          "id": "q11",
+          "question": "Kas gali sukelti pavojų pirmosios pagalbos teikėjui?",
+          "options": [
+            {
+              "optionId": "u9v0w",
+              "optionText": "Nestabilūs daiktai, agresyvūs žmonės, elektros srovė"
+            },
+            { "optionId": "x1y2z", "optionText": "Tik transporto eismas" },
+            { "optionId": "a3b4c", "optionText": "Tik pavojus nuo sprogimo" }
+          ],
+          "correctAnswer": "u9v0w"
+        },
+        {
+          "id": "q12",
+          "question": "Kuris iš šių teiginių apie pirmąją pagalbą yra teisingas?",
+          "options": [
+            {
+              "optionId": "d5e6f",
+              "optionText": "Pirmąją pagalbą gali suteikti tik medicinos specialistas"
+            },
+            {
+              "optionId": "g7h8i",
+              "optionText": "Pirmąją pagalbą gali suteikti kiekvienas, įvertinęs situaciją ir savo saugumą"
+            },
+            {
+              "optionId": "j9k0l",
+              "optionText": "Tik vyresni nei 18 metų asmenys gali teikti pagalbą"
+            }
+          ],
+          "correctAnswer": "g7h8i"
+        }
+      ]
+    },
+    {
+      "sectionId": "2",
+      "title": "Pradinis gaivinimas. Pradinis gaivinimas naudojant išorinį širdies defibriliatorių.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Ką pirmiausia reikia padaryti prieš pradėdami pradėti gaivinimą?",
+          "options": [
+            {
+              "optionId": "a1b2c1",
+              "optionText": "Patikrinti nukentėjusiojo asmens dokumentus"
+            },
+            {
+              "optionId": "d3e4f1",
+              "optionText": "Įsitikinti, kad aplinka yra saugi"
+            },
+            {
+              "optionId": "g5h6i1",
+              "optionText": "Iš karto pradėti daryti įpūtimus"
+            }
+          ],
+          "correctAnswer": "d3e4f1"
+        },
+        {
+          "id": "q2",
+          "question": "Kas yra teisinga krūtinės ląstos paspaudimų gylio rekomendacija suaugusiesiems?",
+          "options": [
+            { "optionId": "m9n0o1", "optionText": "2–3 cm" },
+            { "optionId": "p1q2r1", "optionText": "3–4 cm" },
+            { "optionId": "s3t4u1", "optionText": "5–6 cm" }
+          ],
+          "correctAnswer": "s3t4u1"
+        },
+        {
+          "id": "q3",
+          "question": "Kas yra teisinga krūtinės ląstos paspaudimų gylio rekomendacija suaugusiesiems?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q4",
+          "question": "Ką reikia daryti prieš atliekant įpūtimus?",
+          "options": [
+            {
+              "optionId": "m9n0o2",
+              "optionText": "Patikrinti nukentėjusiojo pulsą"
+            },
+            {
+              "optionId": "p1q2r2",
+              "optionText": "Atverti kvėpavimo takus pakeliant smakrą ir atlošiant galvą"
+            },
+            {
+              "optionId": "s3t4u2",
+              "optionText": "Apnuoginti nukentėjusiojo krūtinę"
+            }
+          ],
+          "correctAnswer": "p1q2r2"
+        },
+        {
+          "id": "q5",
+          "question": "Koks yra santykis tarp krūtinės ląstos paspaudimų ir įpūtimų atliekant gaivinimą?",
+          "options": [
+            { "optionId": "m9n0o3", "optionText": "15:1" },
+            { "optionId": "p1q2r3", "optionText": "30:2" },
+            { "optionId": "s3t4u3", "optionText": "20:2" }
+          ],
+          "correctAnswer": "p1q2r3"
+        },
+        {
+          "id": "q6",
+          "question": "Kokiu atveju reikia naudoti automatinį išorinį širdies defibriliatorių (AED)?",
+          "options": [
+            {
+              "optionId": "m9n0o4",
+              "optionText": "Kai nukentėjusysis reaguoja, bet nekvėpuoja tinkamai"
+            },
+            {
+              "optionId": "p1q2r4",
+              "optionText": "Kai nukentėjusysis yra nesąmoningas ir nekvėpuoja"
+            },
+            {
+              "optionId": "s3t4u4",
+              "optionText": "Kai nukentėjusysis kvėpuoja paviršutiniškai"
+            }
+          ],
+          "correctAnswer": "p1q2r4"
+        },
+        {
+          "id": "q7",
+          "question": "Ką reikia daryti, jei AED nurodo neduoti elektrošoko?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q8",
+          "question": "Kodėl svarbu atlikti krūtinės ląstos paspaudimus ant kieto pagrindo?",
+          "options": [
+            {
+              "optionId": "m9n0o5",
+              "optionText": "Kad nukentėjusysis nepatirtų skausmo"
+            },
+            {
+              "optionId": "p1q2r5",
+              "optionText": "Kad paspaudimai būtų efektyvūs ir tinkamai išstumtų kraują"
+            },
+            { "optionId": "s3t4u5", "optionText": "Kad AED geriau veiktų" }
+          ],
+          "correctAnswer": "p1q2r5"
+        },
+        {
+          "id": "q9",
+          "question": "Kokie yra pagrindiniai požymiai, rodantys, kad nukentėjusysis nekvėpuoja?",
+          "options": [
+            {
+              "optionId": "m9n0o6",
+              "optionText": "Krūtinė nekinta, girdimas kvėpavimo triukšmas"
+            },
+            {
+              "optionId": "p1q2r6",
+              "optionText": "Krūtinė nekinta, kvėpavimo garsas negirdimas"
+            },
+            {
+              "optionId": "s3t4u6",
+              "optionText": "Krūtinė kyla ir leidžiasi, girdimas garsas"
+            }
+          ],
+          "correctAnswer": "p1q2r6"
+        },
+        {
+          "id": "q10",
+          "question": "Kaip patikrinti sąmonę?",
+          "options": [
+            { "optionId": "m9n0o7", "optionText": "Patapšnoti per veidą" },
+            {
+              "optionId": "p1q2r7",
+              "optionText": "Garsiai paklauskite, jeigu neatsako - papurtykite lengvai už pečių"
+            },
+            { "optionId": "s3t4u7", "optionText": "Ieškoti asmens dokumentų" },
+            { "optionId": "asda27", "optionText": "Papurtyti ranką" }
+          ],
+          "correctAnswer": "p1q2r7"
+        },
+        {
+          "id": "q11",
+          "question": "Koks yra pirmas veiksmas, kai pastebima, kad žmogus neturi gyvybės požymių?",
+          "options": [
+            {
+              "optionId": "m9n0o8",
+              "optionText": "Pradėti daryti dirbtinius įpūtimus"
+            },
+            {
+              "optionId": "p1q2r8",
+              "optionText": "Nedelsiant kviesti pagalbą, skambinant 112"
+            },
+            {
+              "optionId": "s3t4u8",
+              "optionText": "Patikrinti kūno temperatūrą"
+            }
+          ],
+          "correctAnswer": "p1q2r8"
+        },
+        {
+          "id": "q12",
+          "question": "Koks yra teisingas AED naudojimo veiksmas?",
+          "options": [
+            {
+              "optionId": "m9n0o9",
+              "optionText": "Atidaryti aparatą, laikytis nurodymų ir priklijuoti elektrodus"
+            },
+            {
+              "optionId": "p1q2r9",
+              "optionText": "Tik įjungti ir laukti pagalbos"
+            },
+            {
+              "optionId": "s3t4u9",
+              "optionText": "Palikti jį išjungtą, jei žmogus nekvėpuoja"
+            }
+          ],
+          "correctAnswer": "m9n0o9"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Kraujavimo stabdymas. Šautinės, durtinės ir plėštinės žaizdos. Tvarstymas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks yra pagrindinis arterinio kraujavimo požymis?",
+          "options": [
+            {
+              "optionId": "a1b2c3",
+              "optionText": "Kraujo spalva tamsiai raudona"
+            },
+            {
+              "optionId": "d3e4f5",
+              "optionText": "Kraujas teka pulsuojančia čiurkšle, skaisčiai raudona spalva"
+            },
+            { "optionId": "g5h6i7", "optionText": "Kraujas teka tolygiai" }
+          ],
+          "correctAnswer": "d3e4f5"
+        },
+        {
+          "id": "q2",
+          "question": "Ką reikia padaryti, jei kraujavimas iš venos nesustoja po tiesioginio spaudimo?",
+          "options": [
+            { "optionId": "m9n0o1", "optionText": "Uždėti turniketą" },
+            {
+              "optionId": "p1q2r3",
+              "optionText": "Pakelti galūnę virš širdies lygio"
+            },
+            {
+              "optionId": "s3t4u5",
+              "optionText": "Naudoti spaudžiamąjį tvarstį"
+            }
+          ],
+          "correctAnswer": "s3t4u5"
+        },
+        {
+          "id": "q3",
+          "question": "Koks metodas naudojamas kraujavimui sustabdyti, kai kraujavimas yra stiprus ir negalima jo sustabdyti kitais metodais?",
+          "options": [
+            { "optionId": "m9n0o2", "optionText": "Užspaudimas pirštais" },
+            { "optionId": "p1q2r4", "optionText": "Turniketas" },
+            { "optionId": "s3t4u6", "optionText": "Hemostatiniai tvarsčiai" }
+          ],
+          "correctAnswer": "p1q2r4"
+        },
+        {
+          "id": "q4",
+          "question": "Koks kraujavimas pavojingiausias?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q5",
+          "question": "Koks yra pirmas žingsnis sustabdant kapiliarinį kraujavimą?",
+          "options": [
+            { "optionId": "m9n0o3", "optionText": "Užsidėti turniketą" },
+            {
+              "optionId": "p1q2r5",
+              "optionText": "Uždėti spaudžiamąjį tvarstį"
+            },
+            {
+              "optionId": "s3t4u7",
+              "optionText": "Uždėti paprastą tvarstį ir stebėti, kad kraujavimas sustotų savaime"
+            }
+          ],
+          "correctAnswer": "s3t4u7"
+        },
+        {
+          "id": "q6",
+          "question": "Ką reikia daryti, jei išorinį kraujavimą sukelia aštrus daiktas, kuris yra įstrigęs žaizdoje?",
+          "options": [
+            {
+              "optionId": "m9n0o4",
+              "optionText": "Ištraukti daiktą ir stengtis sustabdyti kraujavimą"
+            },
+            {
+              "optionId": "p1q2r6",
+              "optionText": "Palikti daiktą žaizdoje ir užtikrinti, kad jis nejudėtų"
+            },
+            {
+              "optionId": "s3t4u8",
+              "optionText": "Uždėti turniketą tiesiai ant daikto"
+            }
+          ],
+          "correctAnswer": "p1q2r6"
+        },
+        {
+          "id": "q7",
+          "question": "Kuris iš šių kraujavimo tipų yra pavojingiausias dėl greito kraujo netekimo?",
+          "options": [
+            { "optionId": "m9n0o5", "optionText": "Kapiliarinis kraujavimas" },
+            { "optionId": "p1q2r7", "optionText": "Veninis kraujavimas" },
+            { "optionId": "s3t4u9", "optionText": "Arterinis kraujavimas" }
+          ],
+          "correctAnswer": "s3t4u9"
+        },
+        {
+          "id": "q8",
+          "question": "Koks yra teisingas veiksmas stabdant veninį kraujavimą?",
+          "options": [
+            { "optionId": "m9n0o6", "optionText": "Naudoti turniketą" },
+            {
+              "optionId": "p1q2r8",
+              "optionText": "Uždenkite žaizdą steriliu tvarsčiu ir spaudžiama ją 10 minučių"
+            },
+            {
+              "optionId": "s3t4u10",
+              "optionText": "Pakelti nukentėjusiojo galūnę virš širdies lygio"
+            }
+          ],
+          "correctAnswer": "p1q2r8"
+        },
+        {
+          "id": "q9",
+          "question": "Kada reikia naudoti hemostatinius tvarsčius?",
+          "options": [
+            {
+              "optionId": "m9n0o7",
+              "optionText": "Kai kraujavimas yra silpnas ir sustoja savaime"
+            },
+            {
+              "optionId": "p1q2r9",
+              "optionText": "Kai kraujavimas iš galūnės negali būti sustabdytas įprastais metodais"
+            },
+            {
+              "optionId": "s3t4u11",
+              "optionText": "Kai kraujavimas yra veninis"
+            }
+          ],
+          "correctAnswer": "p1q2r9"
+        },
+        {
+          "id": "q10",
+          "question": "Kaip galima sumažinti vidinio kraujavimo riziką?",
+          "options": [
+            {
+              "optionId": "m9n0o8",
+              "optionText": "Išvalyti žaizdą ir uždėti tvarsčius"
+            },
+            {
+              "optionId": "p1q2r10",
+              "optionText": "Skubiai kreiptis į gydytoją ir stebėti nukentėjusiojo būklę"
+            },
+            {
+              "optionId": "s3t4u12",
+              "optionText": "Naudoti spaudžiamąjį tvarstį"
+            }
+          ],
+          "correctAnswer": "p1q2r10"
+        },
+        {
+          "id": "q11",
+          "question": "Jeigu pastebėjote masyvų kraujavimą, ką svarbu dėvėti?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q12",
+          "question": "Kaip svarbu yra naudoti pirštines suteikiant pirmąją pagalbą kraujavimo metu?",
+          "options": [
+            {
+              "optionId": "m9n0o9",
+              "optionText": "Tai nėra labai svarbu, jei žaizda nėra labai gilūs"
+            },
+            {
+              "optionId": "p1q2r11",
+              "optionText": "Tai padeda apsaugoti nuo infekcijos ir nešvarumų"
+            },
+            {
+              "optionId": "s3t4u13",
+              "optionText": "Pirštinės nėra būtinos, nes kraujavimas dažnai sustoja savaime"
+            }
+          ],
+          "correctAnswer": "p1q2r11"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Nukentėjusiojo parengimas transportuoti. Pažeistos kūno dalies, esant lūžiui ar išnirimui, imobilizavimas, traumuotų, sužalotų asmenų nešimas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kokie yra nukentėjusiojo skubaus perkėlimo būdai, jei pagalbos teikėjas yra vienas?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q2",
+          "question": "Kuris iš šių metodų naudojamas greitam nukentėjusiojo perkėlimui iš pavojingos vietos?",
+          "options": [
+            { "optionId": "a1b2c4", "optionText": "Rankų nešimas" },
+            { "optionId": "d3e4f4", "optionText": "Greitas griebimo metodas" },
+            { "optionId": "g5h6i4", "optionText": "Kėdės metodas" }
+          ],
+          "correctAnswer": "d3e4f4"
+        },
+        {
+          "id": "q3",
+          "question": "Kaip reikia paruošti nukentėjusįjį transportavimui, jei jis guli ant žemės?",
+          "options": [
+            {
+              "optionId": "j7k8l4",
+              "optionText": "Padėkite antklodę po juo, kad apsaugotumėte nuo šalto paviršiaus"
+            },
+            {
+              "optionId": "m9n0o4",
+              "optionText": "Pritvirtinkite jį prie šiltų paviršių"
+            },
+            {
+              "optionId": "p1q2r4",
+              "optionText": "Leiskite jam ilsėtis iki greitosios pagalbos atvykimo"
+            }
+          ],
+          "correctAnswer": "j7k8l4"
+        },
+        {
+          "id": "q4",
+          "question": "Kaip reikia imobilizuoti lūžusį kaulą?",
+          "options": [
+            {
+              "optionId": "s3t4u4",
+              "optionText": "Naudokite bet kokius prieinamus daiktus, kad imobilizuotumėte pažeistą vietą"
+            },
+            {
+              "optionId": "v5w6x4",
+              "optionText": "Panaudokite tik tvarsčius ir apvyniokite pažeistą vietą"
+            },
+            {
+              "optionId": "y7z8a4",
+              "optionText": "Pritvirtinkite tik pažeistą sąnarį, nes kaulas nebus pažeistas"
+            }
+          ],
+          "correctAnswer": "s3t4u4"
+        },
+        {
+          "id": "q5",
+          "question": "Kaip imobilizuoti nukentėjusįjį, jei įtariama stuburo trauma?",
+          "options": [
+            {
+              "optionId": "b9c0d4",
+              "optionText": "Keisti jo padėtį, kad išlaikytumėte komfortą"
+            },
+            {
+              "optionId": "e1f2g4",
+              "optionText": "Pritvirtinti jį prie sveikos kūno dalies"
+            },
+            {
+              "optionId": "h3i4j4",
+              "optionText": "Keisti jo padėtį tik jei būtina gyvybei išgelbėti"
+            }
+          ],
+          "correctAnswer": "h3i4j4"
+        },
+        {
+          "id": "q6",
+          "question": "Ką reikia padaryti, jei įtariate, kad nukentėjusysis turi kaklo slankstelių pažeidimą?",
+          "options": [
+            {
+              "optionId": "k5l6m4",
+              "optionText": "Pakeisti jo padėtį, kad būtų patogiau"
+            },
+            {
+              "optionId": "n7o8p4",
+              "optionText": "Imobilizuoti kaklą ir galvą, nekeičiant jo padėties"
+            },
+            {
+              "optionId": "q9r0s4",
+              "optionText": "Naudoti šaltą kompresą kaklo srityje"
+            }
+          ],
+          "correctAnswer": "n7o8p4"
+        },
+        {
+          "id": "q7",
+          "question": "Ką reikia padaryti, jei įtariate, kad nukentėjusysis turi atvirą lūžį?",
+          "options": [
+            {
+              "optionId": "t1u2v4",
+              "optionText": "Nedelsiant pataisyti lūžusį kaulą"
+            },
+            {
+              "optionId": "w3x4y4",
+              "optionText": "Sustabdyti kraujavimą ir uždėti sterilų tvarstį"
+            },
+            { "optionId": "z5a6b4", "optionText": "Naudoti šiltą kompresą" }
+          ],
+          "correctAnswer": "w3x4y4"
+        },
+        {
+          "id": "q8",
+          "question": "Koks yra pagrindinis tikslas, imobilizuojant sužeistą kūno dalį?",
+          "options": [
+            {
+              "optionId": "c7d8e4",
+              "optionText": "Sumažinti nukentėjusiojo skausmą"
+            },
+            {
+              "optionId": "f9g0h4",
+              "optionText": "Išvengti papildomų sužalojimų ir užtikrinti stabilumą"
+            },
+            {
+              "optionId": "i1j2k4",
+              "optionText": "Užtikrinti, kad nukentėjusysis galėtų judėti"
+            }
+          ],
+          "correctAnswer": "f9g0h4"
+        },
+        {
+          "id": "q9",
+          "question": "Kuris metodas naudojamas, kai nukentėjusysis turi tik nedidelius sužalojimus ir gali sėdėti?",
+          "options": [
+            { "optionId": "l3m4n4", "optionText": "Kėdės metodas" },
+            { "optionId": "o5p6q4", "optionText": "Greitas griebimo metodas" },
+            { "optionId": "r7s8t4", "optionText": "Keturių rankų metodas" }
+          ],
+          "correctAnswer": "l3m4n4"
+        },
+        {
+          "id": "q10",
+          "question": "Kaip turėtų būti naudojami neštuvai transportuojant nukentėjusįjį?",
+          "options": [
+            {
+              "optionId": "u9v0w4",
+              "optionText": "Kėlimo metu reikia naudoti tik kojų raumenis ir laikyti tiesią nugarą"
+            },
+            {
+              "optionId": "x1y2z4",
+              "optionText": "Neštuvus reikia laikyti pakreiptus, kad sumažintumėte skausmą"
+            },
+            {
+              "optionId": "a3b4c4",
+              "optionText": "Neštuvai turi būti laikomi žemiau nukentėjusiojo kūno"
+            }
+          ],
+          "correctAnswer": "u9v0w4"
+        },
+        {
+          "id": "q11",
+          "question": "Ką reikėtų daryti, jei neturite standartinių įtvarų?",
+          "options": [
+            {
+              "optionId": "d5e6f4",
+              "optionText": "Naudoti improvizuotas priemones, tokias kaip lentos, lazdos ar laikraščiai"
+            },
+            {
+              "optionId": "g7h8i4",
+              "optionText": "Nesirūpinti, nes sužeistasis pats gali laikyti galūnę"
+            },
+            {
+              "optionId": "j9k0l4",
+              "optionText": "Tikėtis, kad sužeistas asmuo greitai pasveiks"
+            }
+          ],
+          "correctAnswer": "d5e6f4"
+        },
+        {
+          "id": "q12",
+          "question": "Ką reikia padaryti, jei nukentėjusysis pradeda vemti transportavimo metu?",
+          "options": [
+            {
+              "optionId": "m9n0o4",
+              "optionText": "Pakeisti jo padėtį ir versti ant šono į stabilią padėtį"
+            },
+            {
+              "optionId": "p1q2r4",
+              "optionText": "Palikti jį gulėti ant nugaros"
+            },
+            {
+              "optionId": "s3t4u4",
+              "optionText": "Iškviesti greitąją pagalbą ir palaukti"
+            }
+          ],
+          "correctAnswer": "m9n0o4"
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "title": "Nukentėjusiojo parengimas transportuoti. Pažeistos kūno dalies, esant lūžiui ar išnirimui, imobilizavimas, traumuotų, sužalotų asmenų nešimas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kas yra anafilaksinis šokas? ",
+          "options": [
+            { "optionId": "m9n0o1", "optionText": "Širdies priepuolis" },
+            {
+              "optionId": "p1q2r1",
+              "optionText": "Alerginė reakcija, galinti kelti grėsmę gyvybei"
+            },
+            { "optionId": "s3t4u1", "optionText": "Elektros trauma" }
+          ],
+          "correctAnswer": "p1q2r1"
+        },
+        {
+          "id": "q2",
+          "question": "Kokius pirmosios pagalbos veiksmus turėtume atlikti, kai žmogus patiria elektros traumą? ",
+          "options": [
+            {
+              "optionId": "m9n0o2",
+              "optionText": "Užimti žmogaus vietą ir atlikti gaivinimą"
+            },
+            {
+              "optionId": "p1q2r2",
+              "optionText": "Nutraukti elektros srovės poveikį ir pradėti gaivinimą, jei reikia"
+            },
+            {
+              "optionId": "s3t4u2",
+              "optionText": "Pateikti žmogui šiltą gėrimą"
+            }
+          ],
+          "correctAnswer": "p1q2r2"
+        },
+        {
+          "id": "q3",
+          "question": "Koks yra pirmas žingsnis suteikiant pagalbą nukentėjusiam nuo terminio nudegimo? ",
+          "options": [
+            {
+              "optionId": "m9n0o3",
+              "optionText": "Uždenkite nudegimo vietą steriliu tvarsčiu"
+            },
+            {
+              "optionId": "p1q2r3",
+              "optionText": "Vėsinkite nudegimo vietą kambario temperatūros vandeniu"
+            },
+            {
+              "optionId": "s3t4u3",
+              "optionText": "Duokite nukentėjusiam gėrimų"
+            }
+          ],
+          "correctAnswer": "p1q2r3"
+        },
+        {
+          "id": "q4",
+          "question": "Kokius požymius gali rodyti saulės smūgį patyręs asmuo?",
+          "options": [
+            { "optionId": "m9n0o4", "optionText": "Karščiavimas ir vėmimas" },
+            {
+              "optionId": "p1q2r4",
+              "optionText": "Pykinimas, galvos skausmas ir sąmonės netekimas"
+            },
+            { "optionId": "s3t4u4", "optionText": "Kosulys ir dusulys" }
+          ],
+          "correctAnswer": "p1q2r4"
+        },
+        {
+          "id": "q5",
+          "question": "Ką turėtume daryti, jei žmogus patiria šilumos smūgį?",
+          "options": [
+            {
+              "optionId": "m9n0o5",
+              "optionText": "Skatinti jį vartoti šaltą vandenį ir laikyti šiltoje aplinkoje"
+            },
+            {
+              "optionId": "p1q2r5",
+              "optionText": "Vėsinti žmogų šaltu vandeniu ir skatinti gerti vandens"
+            },
+            {
+              "optionId": "s3t4u5",
+              "optionText": "Skatinti judėti ir atlikti lengvus pratimus"
+            }
+          ],
+          "correctAnswer": "p1q2r5"
+        },
+        {
+          "id": "q6",
+          "question": "Kiek laiko turime vėsinti odą po nudegimo?",
+          "options": [],
+          "correctAnswer": ""
+        },
+        {
+          "id": "q7",
+          "question": "Koks pirmas žingsnis, kai reikia suteikti pagalbą skendusiam asmeniui? ",
+          "options": [
+            { "optionId": "m9n0o6", "optionText": "Nesiartinti prie žmogaus" },
+            {
+              "optionId": "p1q2r6",
+              "optionText": "Patikrinti, ar skenduolis kvėpuoja"
+            },
+            {
+              "optionId": "s3t4u6",
+              "optionText": "Užtikrinti savo saugumą ir ištraukti žmogų"
+            }
+          ],
+          "correctAnswer": "s3t4u6"
+        },
+        {
+          "id": "q8",
+          "question": "Ką daryti, jei žmogus patyrė miokardo infarktą (širdies priepuolį)? ",
+          "options": [
+            {
+              "optionId": "m9n0o7",
+              "optionText": "Skambinti 112, raminti ir stebėti kvėpavimą"
+            },
+            {
+              "optionId": "p1q2r7",
+              "optionText": "Atlikti gaivinimą be perstojo"
+            },
+            {
+              "optionId": "s3t4u7",
+              "optionText": "Pateikti žmogui šiltus gėrimus"
+            }
+          ],
+          "correctAnswer": "m9n0o7"
+        },
+        {
+          "id": "q9",
+          "question": "Ką daryti, jei žmogus prarado sąmonę? ",
+          "options": [
+            {
+              "optionId": "m9n0o8",
+              "optionText": "Atlikti gaivinimą, jei jis nekvėpuoja"
+            },
+            {
+              "optionId": "p1q2r8",
+              "optionText": "Pateikti šiltus gėrimus ir stebėti"
+            },
+            {
+              "optionId": "s3t4u8",
+              "optionText": "Priversti žmogų judėti ir grįžti į normalią būseną"
+            }
+          ],
+          "correctAnswer": "m9n0o8"
+        },
+        {
+          "id": "q10",
+          "question": "Kokia yra pirmosios pagalbos teikimo taisyklė, jei žmogus patyrė žaibo smūgį? ",
+          "options": [
+            {
+              "optionId": "m9n0o9",
+              "optionText": "Nedelsiant suteikti gaivinimą ir stebėti kvėpavimą"
+            },
+            {
+              "optionId": "p1q2r9",
+              "optionText": "Pateikti žmogui daug šalto vandens"
+            },
+            {
+              "optionId": "s3t4u9",
+              "optionText": "Palikti žmogų ramybėje, kol atvyks greitoji pagalba"
+            }
+          ],
+          "correctAnswer": "m9n0o9"
+        },
+        {
+          "id": "q11",
+          "question": "Ką daryti, jei žmogus užspringo ir gali kalbėti ir kosėti?",
+          "options": [
+            {
+              "optionId": "m9n0o10",
+              "optionText": "Skatinti žmogų toliau kosėti ir stebėti jo būklę"
+            },
+            {
+              "optionId": "p1q2r10",
+              "optionText": "Nedelsiant atlikti Heimlicho manevrą"
+            },
+            {
+              "optionId": "s3t4u10",
+              "optionText": "Duoti žmogui geriamojo vandens"
+            }
+          ],
+          "correctAnswer": "m9n0o10"
+        },
+        {
+          "id": "q12",
+          "question": "Kaip reikia elgtis, jei žmogus patyrė cheminį nudegimą?",
+          "options": [
+            {
+              "optionId": "m9n0o11",
+              "optionText": "Nuplauti pažeistą vietą dideliu kiekiu vandens"
+            },
+            {
+              "optionId": "p1q2r11",
+              "optionText": "Uždenkite nudegimo vietą šiltu kompresu"
+            },
+            {
+              "optionId": "s3t4u11",
+              "optionText": "Pašalinti užterštus drabužius tik tada, kai asmuo prarado sąmonę"
+            }
+          ],
+          "correctAnswer": "m9n0o11"
+        }
+      ]
+    }
+  ]
+}

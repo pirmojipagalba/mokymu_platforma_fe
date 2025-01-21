@@ -1,0 +1,110 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0;
+
+  &__heading {
+    font-size: $sub-heading;
+    line-height: 1.5;
+    font-weight: bold;
+    color: $text;
+  }
+
+  &__content {
+    display: flex;
+    gap: 16px;
+    color: $text;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      gap: 24px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: $text;
+  }
+
+  &__list-item-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__list-item {
+    font-size: $paragraph;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid $border;
+    border-radius: 8px;
+    padding: 16px;
+    background: $background-secondary;
+    text-align: left;
+    width: 100%;
+    color: $text;
+
+    &:hover {
+      background: $background-elements;
+    }
+
+    &:disabled {
+      position: relative;
+      cursor: default;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(3px);
+        border-radius: 8px;
+      }
+
+      &:hover {
+        background: $background-secondary;
+      }
+    }
+  }
+
+  &__done {
+    height: 24px;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 360px;
+    max-height: 360px;
+    border-radius: 16px;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: lightgreen;
+    border-radius: 16px;
+  }
+
+  &__message {
+    color: $text;
+    font-size: $paragraph;
+  }
+}

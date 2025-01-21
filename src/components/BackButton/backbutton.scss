@@ -1,0 +1,28 @@
+@import '../../styles/typography';
+@import '../../styles/colors';
+
+.back-button {
+    color: $text;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid $border;
+    border-radius: 8px;
+    background-color: $background-secondary;
+    font-weight: 600;
+
+    &:hover {
+      background-color: $background;
+    }
+
+    &__arrow {
+      height:8px;
+      position: relative;
+      top: -1px;
+    }
+  }
+  

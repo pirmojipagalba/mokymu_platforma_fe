@@ -1,0 +1,97 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0;
+  padding-bottom: 60px;
+
+  .center {
+    text-align: center;
+  }
+
+  &__heading {
+    font-size: $content-heading;
+    line-height: 1.2;
+    font-weight: 700;
+    color: $text;
+    margin: 16px 0;
+
+    &--title {
+      font-size: $heading;
+      margin-top: 0;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: $text;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: circle;
+    padding-left: 24px;
+    font-size: $paragraph;
+    line-height: 1.5;
+    margin: 8px 0;
+
+    &.ordered {
+      list-style: decimal;
+    }
+
+    &.unordered {
+      list-style: disc;
+    }
+  }
+
+  &__sub-heading {
+    font-size: $sub-heading;
+    color: $text;
+    margin-top: 16px;
+  }
+
+  &__paragraph {
+    font-size: $paragraph;
+    line-height: 1.5;
+  }
+  
+
+  &__next {
+    color: $text;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid $border;
+    border-radius: 8px;
+    background-color: $background-secondary;
+    font-weight: 600;
+
+    &:disabled {
+      background-color: $light-gray !important;
+      color: gray !important;
+      cursor: default !important;
+      border: 1px solid $purple !important;
+
+      &:hover {
+        background-color:  $light-gray !important;
+        color: gray !important;
+      }
+      
+  }
+
+    &:hover {
+      background-color: $background;
+    }
+  }
+}
