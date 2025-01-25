@@ -25,6 +25,20 @@
     }
   }
 
+  &__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+    max-width: 500px;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;

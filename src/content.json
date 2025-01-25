@@ -1,6 +1,7 @@
 {
   "first_topic": {
     "title": "Įvykio vietos saugumo ir nukentėjusiojo būklės įvertinimas. Gyvybei pavojingos psichikos būsenos, jų atpažinimas, pirmoji pagalba ir medicinos pagalbos organizavimas. Psichologinės pagalbos principai",
+    "sectionId": "section1",
     "content": [
       {
         "type": "paragraph",
@@ -63,6 +64,11 @@
           "Ugnis: ar aplinkoje yra gaisro pavojus? Ar liepsnos artėja prie nukentėjusiojo?",
           "Elektros srovė: ar nukentėjusysis gali būti prisilietęs prie elektros srovės šaltinio, arba ar aplinkui yra laidų, kuriuose gali būti elektros?"
         ]
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img1.jpg"
       },
       {
         "type": "paragraph",
@@ -141,6 +147,11 @@
         ]
       },
       {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img2.jpg"
+      },
+      {
         "type": "paragraph",
         "text": "**Ką daryti, jei asmuo kvėpuoja?**"
       },
@@ -163,6 +174,11 @@
       {
         "type": "paragraph",
         "text": "Kai įvertinote situaciją ir įsitikinote, kad pagalbą galima suteikti saugiai, nedelsdami skambinkite pagalbos numeriu 112. Tai gali būti momentas, kai laikas gali būti lemiamas, todėl svarbu greitai ir tiksliai perduoti informaciją."
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img3.jpg"
       },
       {
         "type": "heading",
@@ -237,6 +253,11 @@
           "**Medicininė konsultacija:** jei nesate tikri, ar reikia skambinti greitosios pagalbos numeriu 112, galite skambinti į 113 ir pasikonsultuoti su medicinos specialistu. Jie įvertins jūsų būklę ir pasakys, ar reikia iškviesti greitąją pagalbą, ar galima gydytis namuose. Jei specialistai nusprendžia, kad reikia greitosios pagalbos, jie sujungs jus su 112 dispečeriu.",
           "**Asmenų transportavimas:** 113 numeris taip pat teikia **mokamą paslaugą** – tai **asmenų transportavimas iš gydymo įstaigos į nurodytą vietą**. Jei žmogus jau buvo gydomas ligoninėje ir reikia jį pervežti į kitą vietą (pvz., į namus), galite pasinaudoti šia paslauga. Į šią paslaugą įeina ir **asmenų užnešimas** į aukštesnį aukštą, jei reikalinga."
         ]
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img4.jpg"
       },
       {
         "type": "section-heading",
@@ -405,6 +426,7 @@
   },
   "second_topic": {
     "title": "Pradinis gaivinimas. Pradinis gaivinimas naudojant išorinį širdies defibriliatorių",
+    "sectionId": "section2",
     "content": [
       {
         "type": "paragraph",
@@ -440,6 +462,11 @@
         "text": [
           "**Kvėpavimas.**\n\nKvėpavimas yra vienas iš požymių, rodantis, ar žmogus yra gyvas ir ar jo organizmas gauna pakankamai deguonies. Normaliam suaugusio žmogaus kvėpavimo dažniui būdinga 12–20 kvėpavimų per minutę, ir kvėpavimas turi būti lygus bei ramus. Jei kvėpavimas yra duslus, paviršutiniškas arba jo visai nėra – tai rimtas signalas, kad reikia skubios pagalbos.\n\n**Kaip tikrinti?**\n\nStebėkite, ar kyla ir leidžiasi krūtinė, ar girdite kvėpavimo garsą. Jei kvėpavimas nenustatytas – tai rimtas gyvybės grėsmės požymis.",
           "**Pulsas.**\n\nKraujotaka rodo, kaip širdis ir kraujagyslės tiekia deguonį ir maistines medžiagas kūno audiniams. Normalus širdies ritmas suaugusiam žmogui yra nuo 60 iki 100 smūgių per minutę. Tačiau svarbu ne tik širdies ritmo dažnis, bet ir kraujospūdis. Per aukštas ar per žemas kraujospūdis gali rodyti, kad organizmas negauna pakankamai kraujo ir deguonies.\n\n**Kaip tikrinti?**\n\nGalite tikrinti pulsą ant riešo arba kaklo. Jei pulsas neaptinkamas arba kraujospūdis per žemas, tai gali rodyti, kad širdies veikla sutrikusi.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img1.png"
+          },
           "**Sąmonė.**\n\nSąmoningumo tikrinimas padeda įvertinti, ar žmogus sugeba reaguoti į aplinką ir sąmoningai atlikti veiksmus. Jei žmogus atsako į klausimus, gali judėti ir reaguoti į aplinką, tai rodo, kad jis yra sąmoningas. Jei jis nesugeba atsakyti į klausimus ar atlikti paprastų veiksmų, tai gali būti rimtas sąmonės praradimas, kuris kelia pavojų gyvybei.\n\n**Kaip tikrinti?**\n\nPatikrinkite, ar asmuo reaguoja į jūsų balsą, švelnius prisilietimus ar atlikite klausimus. Jei nesulaukiate atsako, asmuo gali būti nesąmoningas ir jam reikia skubios pagalbos.",
           "**Kūno temperatūra.**\n\nNormali kūno temperatūra suaugusiam žmogui yra apie 36,5–37,5°C. Bet kokia didelė temperatūros nukrypimas nuo šios normos (per aukšta ar per žema temperatūra) gali rodyti rimtas problemas, tokias kaip infekcija ar hipotermija.\n\n**Kaip tikrinti?**\n\nKūno temperatūrą galite patikrinti termometru, tačiau jeigu termometro nėra, atkreipkite dėmesį į odos temperatūrą ir bendrą žmogaus būklę. Jei jis jaučia šaltkrėtį arba karščiuoja, tai gali būti infekcijos požymiai."
         ]
@@ -479,6 +506,11 @@
       {
         "type": "paragraph",
         "text": "Jei nukentėjusysis nereaguoja į klausimus, atverkite kvėpavimo takus. Tai padarysite pakeldami smakrą ir švelniai atlošdami galvą atgal, kad kvėpavimo takai būtų aiškūs. Po to atidžiai stebėkite šiuos požymius:"
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img2.png"
       },
       {
         "type": "list",
@@ -677,9 +709,39 @@
         "text": [
           "**Paguldykite nukentėjusįjį ant nugaros ant kieto pagrindo**:\n\nlabai svarbu, kad nukentėjusysis gulėtų ant kieto paviršiaus, nes tai užtikrina, kad paspaudimai būtų efektyvūs. Apnuoginkite krūtinę, kad galėtumėte atlikti krūtinės ląstos paspaudimus, ir įvertinkite, ar nėra matomų sužeidimų, pavyzdžiui, kraujavimo ar lūžių, bei ar nėra svetimkūnių kvėpavimo takuose.",
           "**Krūtinės ląstos paspaudimai**:\n\n**Padėkite savo plaštakas ties krūtinkaulio viduriu**. Ant krūtinkaulio uždėkite abi rankas, viena ranka uždengia kitą. **Sunerkite pirštus**, kad rankos neslidinėtų.\n\n**Rankos turi būti tiesios ir užfiksuotos**, alkūnės nesulenktos. Užtikrinkite, kad paspaudimai būtų atlikti su viso kūno svoriu.\n\nPaspaudimų **gylis turi būti 5-6 cm**, o paspaudimų **dažnis – 100-120 per minutę**. Tai užtikrina, kad kraujas pasieks gyvybiškai svarbius organus, pvz., širdį ir smegenis.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img3.png"
+          },
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img4.png"
+          },
           "**Kvėpavimo takų atvėrimas ir įpūtimai**:\n\n**Atverkite kvėpavimo takus**: su viena ranka pakelkite nukentėjusiojo smakrą, kita ranka padėkite ant kaktos ir **atloškite galvą atgal**. Tai padės atverti kvėpavimo takus.\n\n**Įpūtimai**: uždenkite nukentėjusiojo burną savo burna ir atlikite **2 įpūtimus**. Kiekvienas įpūtimas turi trukti apie 1 sekundę ir įpūtimus turite daryti tiek, kiek šiuo metu turite oro. Jei naudojate gaivinimo kaukę, įpūskite per ją.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img5.png"
+          },
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img6.png"
+          },
           "**Automatinio išorinio širdies defibriliatoriaus (AED) naudojimas**:\n\nJei šalia yra **automatinis išorinis širdies defibriliatorius (AED)**, paprašykite, kad kas nors jį atneštų ir uždėtų ant nukentėjusiojo krūtinės.\n\n**Defibriliatorius** automatiškai analizuos širdies ritmą ir nuspręs, ar reikia atlikti širdies šoką. Jei reikia, defibriliatorius nurodys, kada atlikti defibriliaciją.\n\n**Svarbu**: kol defibriliatorius analizuoja ritmą ir atlieka šoką, **nepertraukite gaivinimo**, toliau atlikite krūtinės paspaudimus ir įpūtimus pagal pirmiau aprašytą tvarką.",
-          "**Tęskite gaivinimą**:\n\nTęskite gaivinimo veiksmus, kol atvyks greitoji pagalba arba kol nukentėjusysis pradės kvėpuoti."
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img7.png"
+          },
+          "**Tęskite gaivinimą**:\n\nTęskite gaivinimo veiksmus, kol atvyks greitoji pagalba arba kol nukentėjusysis pradės kvėpuoti.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img8.png"
+          }
         ]
       },
       {
@@ -722,8 +784,18 @@
         "text": "Pradinis gaivinimas, įskaitant AISD naudojimą, gali padidinti šansus išgelbėti žmogų ir padėti išlaikyti gyvybę iki profesionalios medicinos pagalbos atvykimo. Jūsų greitas ir ryžtingas veiksmas gali būti lemtingas!"
       },
       {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img9.png"
+      },
+      {
         "type": "heading",
         "text": "Stabilios šoninės padėties užėmimo veiksmai:"
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img10.png"
       },
       {
         "type": "list",
@@ -738,6 +810,11 @@
           "Atloškite galvą, kad kvėpavimo takai būtų atviri. Po skruostu pakišus delną, galva turi būti stabili. Galva turi būti pasukta žemyn, kad skysčiai lengviau ištekėtų iš burnos.",
           "Pakartotinai įvertinkite kvėpavimą."
         ]
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img11.png"
       },
       {
         "type": "paragraph",
@@ -806,6 +883,7 @@
   },
   "third_topic": {
     "title": "Kraujavimo stabdymas. Šautinės, durtinės ir plėštinės žaizdos. Tvarstymas",
+    "sectionId": "section3",
     "content": [
       {
         "type": "paragraph",
@@ -1001,6 +1079,11 @@
       {
         "type": "paragraph",
         "text": "Turniketas naudojamas tik esant stipriam arteriniam kraujavimui iš galūnių, kai kiti metodai nėra veiksmingi. Turniketas dedamas 5-7 cm aukščiau žaizdos, bet ne tiesiai ant jos ar ant sąnario. Užveržkite tol, kol kraujavimas visiškai sustos. Svarbu pažymėti uždėjimo laiką ir varžčio nenuimti iki atvykstant medicinos personalui​​​​​​​​."
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img1.png"
       },
       {
         "type": "paragraph",
@@ -1233,6 +1316,7 @@
   },
   "fourth_topic": {
     "title": "Nukentėjusiojo parengimas transportuoti, pažeistos kūno dalies imobilizavimas, traumuotų, sužalotų asmenų nešimas",
+    "sectionId": "section4",
     "content": [
       {
         "type": "paragraph",
@@ -1251,7 +1335,17 @@
         "list_type": "ordered",
         "text": [
           "**Greitas griebimo metodas**: tai naudojama norint greitai perkelti nukentėjusįjį iš pavojingos vietos. Nešėjas suima nukentėjusįjį per pažastis ar liemenį ir tempia jį į saugią vietą.",
-          "**Rankų nešimas**: jei nėra laiko ar galimybės naudoti neštuvus, galima naudoti rankinį nešimą. Du nešėjai gali naudoti 'kėdės rankenos' metodą, kai jie susikabina rankomis, suformuodami sėdynę nukentėjusiajam."
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img1.png"
+          },
+          "**Rankų nešimas**: jei nėra laiko ar galimybės naudoti neštuvus, galima naudoti rankinį nešimą. Du nešėjai gali naudoti 'kėdės rankenos' metodą, kai jie susikabina rankomis, suformuodami sėdynę nukentėjusiajam.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img2.png"
+          }
         ]
       },
       {
@@ -1386,10 +1480,20 @@
         "list_type": "ordered",
         "text": [
           "**Improvizuoti įtvarai**:\n\nJei neturite standartinių įtvarų, naudokite parankines priemones, tokias kaip lentutės, lazdos, standžiai susukti laikraščiai ar drabužiai. Svarbu, kad įtvaras būtų pakankamai tvirtas ir galėtų stabilizuoti sužeistą vietą​​.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img3.png"
+          },
           "**Imobilizacija sveikos kūno dalies pagalba**:\n\nJei neturite jokių imobilizavimo priemonių, sužalotą kūno dalį galima pritvirtinti prie sveikos. Pavyzdžiui, sužeistą ranką pririškite prie kūno, o koją - prie sveikos kojos​​.",
           "**Įtvaro tvirtinimas**:\n\nNaudokite tvirtas medžiagas, tokias kaip tvarsčiai, skarelės ar diržai, kad įtvaras būtų gerai pritvirtintas ir neslystų. Patikrinkite, kad tvarstis nebūtų per stipriai užveržtas, kad nesutrikdytų kraujotakos​​.",
           "**Nuolatinė priežiūra**:\n\nImobilizacijos metu ir po jos nuolat stebėkite nukentėjusiojo būklę, atkreipkite dėmesį į galūnės spalvą, temperatūrą ir jutimą. Jei pastebite kokių nors pablogėjimo požymių, nedelsdami kreipkitės į medicinos pagalbą​​."
         ]
+      },
+      {
+        "type": "img",
+        "img_orientation": "vertical",
+        "text": "img4.png"
       },
       {
         "type": "heading",
@@ -1448,6 +1552,11 @@
         "list_type": "ordered",
         "text": [
           "**Nešimas su buitinėmis priemonėmis**\n\n**Kėdės naudojimas**: jei yra tvirta kėdė, ji gali būti naudojama kaip neštuvai, ypatingai tinka vidaus sąlygomis. Kėdė su rankenomis užtikrina stabilumą ir lengvą pernešimą​​.\n\n**Laikinų įtvarų naudojimas**: naudokite lazdas, šaknis ar kitus tvirtus daiktus, kad sukurtumėte laikinus neštuvus​​.",
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "img4.png"
+          },
           "**Transportavimo su kietais pagrindais**\n\n**Guldykite ant kieto pagrindo**: naudokite kietą pagrindą ar neštuvus ir užtikrinkite, kad nukentėjusysis būtų pritvirtintas diržais ar kitomis fiksavimo priemonėmis​​."
         ]
       },
@@ -1472,6 +1581,7 @@
   },
   "fifth_topic": {
     "title": "Pirmosios pagalbos teikimas asmenims, patyrusiems įvairias būkles",
+    "sectionId": "section5",
     "content": [
       {
         "type": "paragraph",
@@ -1526,6 +1636,11 @@
       {
         "type": "paragraph",
         "text": "Elektros traumos gali turėti rimtų ir netikėtų pasekmių, todėl būtina veikti greitai ir atsakingai. Teisinga pirmoji pagalba gali išgelbėti gyvybę, tačiau svarbu nepamiršti ir savo saugumo – pirmiausia turite įsitikinti, kad aplinka yra saugi. Tik tada galėsite efektyviai padėti nukentėjusiajam, nes išsaugoti savo gyvybę ir saugumą taip pat yra esminis žingsnis, norint teikti pagalbą."
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img1.png"
       },
       {
         "type": "heading",
@@ -1589,6 +1704,11 @@
         ]
       },
       {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img2.png"
+      },
+      {
         "type": "heading",
         "text": "Cheminiai nudegimai"
       },
@@ -1641,6 +1761,11 @@
         ]
       },
       {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img3.png"
+      },
+      {
         "type": "heading",
         "text": "Sušalimas"
       },
@@ -1657,6 +1782,11 @@
         ]
       },
       {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img4.png"
+      },
+      {
         "type": "section-heading",
         "text": "Pirmoji pagalba skendusiems, bandžiusiems pasikarti, užspringusiems"
       },
@@ -1667,6 +1797,11 @@
       {
         "type": "paragraph",
         "text": "Skendimas yra gyvybei pavojinga situacija, reikalaujanti skubių veiksmų. Skendimas gali būti tylus (be aiškių kovos su vandeniu požymių) arba aktyvus."
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img5.png"
       },
       {
         "type": "heading",
@@ -1789,6 +1924,11 @@
         ]
       },
       {
+        "type": "img",
+        "img_orientation": "vertical",
+        "text": "img6.png"
+      },
+      {
         "type": "heading",
         "text": "Veiksmai:"
       },
@@ -1798,7 +1938,17 @@
         "text": [
           "Nedelsdami skambinkite 112 ir pradėkite gaivinimą (CPR).",
           "Atlikite 5 smūgius į nugarą:\n\n-Pasilenkite asmenį į priekį.\n\n-Stovėkite už asmens ir rankos pagrindu atlikite 5 tvirtus smūgius tarp menčių.",
+          {
+            "type": "img",
+            "img_orientation": "vertical",
+            "text": "img7.png"
+          },
           "Atlikite Heimlicho manevrą (pilvo paspaudimus):\n\n-Atsistokite už asmens ir apkabinkite jį per juosmenį.\n\n-Sudarykite kumštį ir padėkite jį po krūtinės ląsta, bet aukščiau bambos.\n\n-Kita ranka suimkite kumštį ir staigiai spauskite į viršų ir į vidų, atlikdami 5 greitus paspaudimus.",
+          {
+            "type": "img",
+            "img_orientation": "vertical",
+            "text": "img8.png"
+          },
           "Kartokite:\n\n-Kartokite 5 smūgius į nugarą ir 5 Heimlicho manevro paspaudimus, kol svetimkūnis bus pašalintas arba asmuo praras sąmonę",
           "Jei asmuo praranda sąmonę:\n\n-Švelniai paguldykite jį ant nugaros.\n\n-Pradėkite gaivinimą (CPR)."
         ]
@@ -1827,6 +1977,11 @@
           "Dusulys, prakaitavimas, pykinimas.",
           "Silpnumo, galvos svaigimo jausmas."
         ]
+      },
+      {
+        "type": "img",
+        "img_orientation": "horizontal",
+        "text": "img9.png"
       },
       {
         "type": "heading",

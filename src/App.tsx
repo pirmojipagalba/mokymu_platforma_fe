@@ -64,26 +64,31 @@ const App: React.FC = () => {
     {
       title: material.first_topic.title,
       content: material.first_topic.content,
+      sectionId: material.first_topic.sectionId,
       nextRoute: "/questionnaire1",
     },
     {
       title: material.second_topic.title,
       content: material.second_topic.content,
+      sectionId: material.second_topic.sectionId,
       nextRoute: "/questionnaire2",
     },
     {
       title: material.third_topic.title,
       content: material.third_topic.content,
+      sectionId: material.third_topic.sectionId,
       nextRoute: "/questionnaire3",
     },
     {
       title: material.fourth_topic.title,
       content: material.fourth_topic.content,
+      sectionId: material.fourth_topic.sectionId,
       nextRoute: "/questionnaire4",
     },
     {
       title: material.fifth_topic.title,
       content: material.fifth_topic.content,
+      sectionId: material.fifth_topic.sectionId,
       nextRoute: "/questionnaire5",
     },
   ];
