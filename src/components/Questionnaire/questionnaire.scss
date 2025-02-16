@@ -10,6 +10,11 @@
   background-color: $light-gray;
   box-shadow: 0 0 5px 0 $washed-purple;
 
+  @media screen and (max-width: 768px) {
+    padding: 16px;
+    gap: 24px;
+  }
+
   &__next {
     color: $text;
     border: none;
@@ -42,6 +47,11 @@
     display: flex;
     gap: 16px;
     padding-left: 16px;
+
+    @media screen and (max-width: 768px) {
+      padding-left: 8px;
+      gap: 8px;
+    }
   }
 
   &__submit {

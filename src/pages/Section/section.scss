@@ -19,9 +19,19 @@
     color: $text;
     margin: 16px 0;
 
+    @media screen and (max-width: 768px) {
+      font-size: $sub-heading;
+      margin: 8px 0;
+    }
+
     &--title {
       font-size: $heading;
       margin-top: 0;
+
+      @media screen and (max-width: 768px) {
+        font-size: $content-heading;
+        margin: 8px 0;
+      }
     }
   }
 
@@ -69,13 +79,18 @@
     font-size: $sub-heading;
     color: $text;
     margin-top: 16px;
+
+    @media screen and (max-width: 768px) {
+      font-size: $paragraph;
+      margin-top: 8px;
+    }
   }
 
   &__paragraph {
     font-size: $paragraph;
     line-height: 1.5;
+    display: grid;
   }
-  
 
   &__next {
     color: $text;
@@ -98,11 +113,10 @@
       border: 1px solid $purple !important;
 
       &:hover {
-        background-color:  $light-gray !important;
+        background-color: $light-gray !important;
         color: gray !important;
       }
-      
-  }
+    }
 
     &:hover {
       background-color: $background;

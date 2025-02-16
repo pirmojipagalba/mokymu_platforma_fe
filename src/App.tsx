@@ -108,28 +108,39 @@ const App: React.FC = () => {
     setCollectedAnswers(uniqueAnswers);
     console.log("Answers collected so far:", uniqueAnswers); // Log collected answers so far
 
-    try {
-      localStorage.setItem(`collectedAnswers_${selectedProduct}`, JSON.stringify(uniqueAnswers)); // Save collected answers to local storage
-    } catch (error) {
-      console.error("Error saving collected answers:", error);
-    }
+    await fetch('https://mokymuplatformabe-production.up.railway.app/api/hi', {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' }
+    });
+    // try {
+    //   localStorage.setItem(`collectedAnswers_${selectedProduct}`, JSON.stringify(uniqueAnswers)); // Save collected answers to local storage
+    // } catch (error) {
+    //   console.error("Error saving collected answers:", error);
+    // }
 
-    const completedSections = Number(localStorage.getItem(`completedSections_${selectedProduct}`) || 0);
-    if (completedSections < sectionContent.length) {
-      localStorage.setItem(`completedSections_${selectedProduct}`, String(completedSections + 1));
-      setCompletedSections(completedSections + 1);
-    }
+    // const completedSections = Number(localStorage.getItem(`completedSections_${selectedProduct}`) || 0);
+    // if (completedSections < sectionContent.length) {
+    //   localStorage.setItem(`completedSections_${selectedProduct}`, String(completedSections + 1));
+    //   setCompletedSections(completedSections + 1);
+    // }
 
-    if (completedSections + 1 >= sectionContent.length) {
-      console.log("Sending collected answers to the API..."); // Log before sending API request
+    // if (completedSections + 1 >= sectionContent.length) {
+    //   console.log("Sending collected answers to the API..."); // Log before sending API request
 
-      await sendAnswers({ user: { id: user?.sub || '', email: user?.email || '' }, answers: uniqueAnswers, selectedProduct });
-      try {
-        localStorage.removeItem(`collectedAnswers_${selectedProduct}`); // Clear local storage after sending answers
-      } catch (error) {
-        console.error("Error clearing collected answers:", error);
-      }
-    }
+    //   await sendAnswers({ user: { id: user?.sub || '', email: user?.email || '' }, answers: uniqueAnswers, selectedProduct });
+
+    //   await fetch('https://mokymai.firstaid.lt/api/send-email', {
+    //     method: 'POST',
+    //     headers: { 'Content-Type': 'application/json' },
+    //     body: JSON.stringify({ user, answers: uniqueAnswers, selectedProduct })
+    //   });
+
+    //   try {
+    //     localStorage.removeItem(`collectedAnswers_${selectedProduct}`); // Clear local storage after sending answers
+    //   } catch (error) {
+    //     console.error("Error clearing collected answers:", error);
+    //   }
+    // }
   };
 
   const sampleProducts = [
@@ -176,6 +187,7 @@ const App: React.FC = () => {
             />
           </Routes>
         </div>
+        <button onClick={() => handleAnswersCollected([])}>kek</button>
         <Footer />
       </div>
     </Router>

@@ -8,6 +8,7 @@ import "./header.scss";
 const Header: React.FC = () => {
   const { user, isAuthenticated } = useAuth0();
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 769);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -21,6 +22,17 @@ const Header: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 769);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const handleLogoClick = () => {
     navigate("/dashboard");
   };
@@ -30,8 +42,8 @@ const Header: React.FC = () => {
       <Container>
         <div className="header__container">
           <img
-            className="header__logo"
-            src="/assets/logo-blue.svg"
+            className={`header__logo ${isSmallScreen ? "header__logo--small" : ""}`}
+            src={isSmallScreen ? "/assets/icon_blue.svg" : "/assets/logo-blue.svg"}
             alt="logo"
             onClick={handleLogoClick}
           />

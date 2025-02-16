@@ -2,17 +2,20 @@
 @import "../../styles/colors";
 
 .questionnaire-page {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 24px 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0 60px;
 
-    &__heading {
-        font-size: $content-heading;
-        line-height: 1.5;
-        font-weight: bold;
-        color: $text;
-        margin-bottom: 16px;
+  &__heading {
+    font-size: $content-heading;
+    line-height: 1.5;
+    font-weight: bold;
+    color: $text;
+    margin-bottom: 16px;
+
+    @media screen and (max-width: 768px) {
+      font-size: $sub-heading;
     }
+  }
 }
-
