@@ -139,13 +139,6 @@ const App: React.FC = () => {
     }
   };
 
-  const test = async () => {
-    await fetch('https://mokymuplatformabe-production.up.railway.app/', {
-      method: 'GET',
-      headers: { 'Content-Type': 'application/json' },
-    });
-  }
-
   const sampleProducts = [
     { name: 'firstaid', title: 'Pirmosios pagalbos mokymai' },
     { name: 'hygiene', title: 'Higienos mokymai' },
@@ -191,7 +184,6 @@ const App: React.FC = () => {
           </Routes>
         </div>
         <Footer />
-        <button onClick={() => test()}>hii</button>
       </div>
     </Router>
   );
