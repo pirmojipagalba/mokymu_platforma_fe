@@ -51,7 +51,7 @@ const Header: React.FC = () => {
             {isAuthenticated && (
               <>
                 <span className="header__welcome-message">
-                  Sveiki, <span className="header__user-name">{user?.name}</span>!
+                  {isSmallScreen ? '' : 'Sveiki, '}<span className="header__user-name">{user?.name}</span>!
                 </span>
                 <LogoutButton />
               </>
