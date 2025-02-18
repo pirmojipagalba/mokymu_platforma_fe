@@ -13,10 +13,13 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   const navigate = useNavigate();
   const { selectedProduct } = useAppContext();
   const [enabledSections, setEnabledSections] = useState<number>(1);
-  const [allSectionsCompleted, setAllSectionsCompleted] = useState<boolean>(false);
+  const [allSectionsCompleted, setAllSectionsCompleted] =
+    useState<boolean>(false);
 
   useEffect(() => {
-    const completedSections = localStorage.getItem(`completedSections_${selectedProduct}`);
+    const completedSections = localStorage.getItem(
+      `completedSections_${selectedProduct}`
+    );
     if (completedSections) {
       setEnabledSections(Number(completedSections) + 1);
     } else {
@@ -26,15 +29,28 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
 
   const handleSectionClick = (sectionIndex: number) => {
     if (sectionIndex <= enabledSections) {
-      localStorage.setItem(`currentSection_${selectedProduct}`, String(sectionIndex));
+      localStorage.setItem(
+        `currentSection_${selectedProduct}`,
+        String(sectionIndex)
+      );
       navigate(`/section${sectionIndex}`);
     }
+  };
+
+  const handleRestartClick = () => {
+    localStorage.removeItem(`completedSections_${selectedProduct}`);
+    localStorage.removeItem(`collectedAnswers_${selectedProduct}`);
+    setEnabledSections(1);
+    setAllSectionsCompleted(false);
+    navigate("/dashboard");
   };
 
   useEffect(() => {
     if (enabledSections > sections.length) {
       setAllSectionsCompleted(true);
-      const collectedAnswers = JSON.parse(localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]");
+      const collectedAnswers = JSON.parse(
+        localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]"
+      );
       if (collectedAnswers.length > 0) {
         console.log("Sending collected answers to the API..."); // Log before sending API request
         sendAnswers(collectedAnswers).then(() => {
@@ -48,12 +64,14 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
     <Container>
       <div className={"dashboard"}>
         {allSectionsCompleted && (
-          <div className="dashboard__message-container">
-            <p className="dashboard__message">
-              Testas atliktas. Su jumis susisieks <strong>Firstaid.lt</strong>{" "}
-              konsultantė(-as) testo rezultatams aptarti.
-            </p>
-          </div>
+          <>
+            <div className="dashboard__message-container">
+              <p className="dashboard__message">
+                Testas atliktas. Su jumis susisieks <strong>Firstaid.lt</strong>{" "}
+                konsultantė(-as) testo rezultatams aptarti.
+              </p>
+            </div>
+          </>
         )}
         <h2 className={"dashboard__heading"}>Pasirinkite temą</h2>
         <div className={"dashboard__content"}>
@@ -83,6 +101,14 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
             alt="woman doing cpr"
           />
         </div>
+        {allSectionsCompleted && (
+          <button
+            onClick={handleRestartClick}
+            className="dashboard__restart-button"
+          >
+            Spręsti dar kartą
+          </button>
+        )}
       </div>
     </Container>
   );
