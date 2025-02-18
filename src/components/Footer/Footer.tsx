@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
                 info@firstaid.lt
               </a>
             </div>
-            <div className="footer__social">
+            <div className="footer__images">
               <a className="footer__link" target="_blank" href="https://www.facebook.com/firstaidlt">
                 <img
-                  className="footer__social-icon"
+                  className="footer__images-icon"
                   src="/assets/fb.svg"
                   alt="facebook"
                 />
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
 
               <a className="footer__link" target="_blank" href="https://www.instagram.com/firstaid.lt/">
                 <img
-                  className="footer__social-icon"
+                  className="footer__images-icon"
                   src="/assets/ig.svg"
                   alt="instagram"
                 />
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
 
               <a className="footer__link" target="_blank" href="https://www.linkedin.com/company/first-aid-lt/">
                 <img
-                  className="footer__social-icon"
+                  className="footer__images-icon"
                   src="/assets/linkedin.svg"
                   alt="linkedin"
                 />
