@@ -16,6 +16,8 @@ interface QuestionnaireProps {
     correctAnswer: string | null;
   }[];
   onAnswersCollected: (answers: { id: string; question: string; answer: string; optionText: string }[]) => void;
+  setCorrectAnswersCount: React.Dispatch<React.SetStateAction<number | null>>;
+  correctAnswersCount: number | null;
 }
 
 interface SelectedAnswer {
@@ -23,7 +25,7 @@ interface SelectedAnswer {
   answer: string;
 }
 
-const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersCollected }) => {
+const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersCollected, setCorrectAnswersCount, correctAnswersCount }) => {
   const [selectedAnswers, setSelectedAnswers] = useState<{
     [key: string]: SelectedAnswer;
   }>({});
@@ -78,6 +80,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
         answer: string;
         optionText: string;
       }[] = [];
+      let correctCount = 0;
 
       randomQuestions.forEach((question) => {
         const selectedOption = question.options?.find(
@@ -95,6 +98,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
           newIncorrectAnswersMap[question.id] = true;
         } else {
           newIncorrectAnswersMap[question.id] = false;
+          correctCount++;
           if (selectedOption) {
             collectedAnswers.push({
               id: question.id,
@@ -114,6 +118,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
       });
 
       setIncorrectAnswersMap(newIncorrectAnswersMap);
+      setCorrectAnswersCount(correctCount);
       console.log("Collected Answers:", collectedAnswers); // Log collected answers
 
       // Check if there are any incorrect answers
@@ -127,12 +132,11 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
         localStorage.setItem(`collectedAnswers_${selectedProduct}`, JSON.stringify(updatedAnswers));
 
         onAnswersCollected(updatedAnswers); // Pass all collected answers
-        navigate("/thankyoupage");
       } else {
         setHasFailed(true);
       }
     },
-    [selectedAnswers, navigate, randomQuestions, onAnswersCollected, selectedProduct]
+    [selectedAnswers, randomQuestions, onAnswersCollected, selectedProduct, setCorrectAnswersCount]
   );
 
   return (
@@ -146,6 +150,8 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
           onAnswerChange={handleAnswerChange}
           incorrect={incorrectAnswersMap[question.id]}
           disabled={isSubmitted}
+          correctAnswer={question.correctAnswer}
+          selectedAnswer={selectedAnswers[question.id]?.answer || null}
         />
       ))}
 
@@ -167,6 +173,15 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
             disabled={isSubmitted}
           >
             Pateikti atsakymus
+          </button>
+        )}
+        {correctAnswersCount === randomQuestions.length && (
+          <button
+            className="questionnaire__dashboard-button"
+            type="button"
+            onClick={() => navigate("/dashboard")}
+          >
+            Atgal į temų sąrašą
           </button>
         )}
         {hasFailed && sectionIndex !== null && (

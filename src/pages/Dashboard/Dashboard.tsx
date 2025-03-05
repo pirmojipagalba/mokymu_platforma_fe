@@ -61,7 +61,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   }, [enabledSections, sections.length, selectedProduct]);
 
   return (
-    <Container>
+    <Container type="wide">
       <div className={"dashboard"}>
         {allSectionsCompleted && (
           <>

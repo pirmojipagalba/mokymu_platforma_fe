@@ -2,6 +2,11 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 24px;
-  width: -webkit-fill-available;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 716px;
+  box-sizing: border-box;
+
+  &.wide {
+    max-width: 1160px;
+  }
 }

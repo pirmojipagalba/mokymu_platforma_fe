@@ -62,30 +62,35 @@ const App: React.FC = () => {
 
   const sectionContent = [
     {
+      topic_image: material.first_topic.topic_image,
       title: material.first_topic.title,
       content: material.first_topic.content,
       sectionId: material.first_topic.sectionId,
       nextRoute: "/questionnaire1",
     },
     {
+      topic_image: material.second_topic.topic_image,
       title: material.second_topic.title,
       content: material.second_topic.content,
       sectionId: material.second_topic.sectionId,
       nextRoute: "/questionnaire2",
     },
     {
+      topic_image: material.third_topic.topic_image,
       title: material.third_topic.title,
       content: material.third_topic.content,
       sectionId: material.third_topic.sectionId,
       nextRoute: "/questionnaire3",
     },
     {
+      topic_image: material.fourth_topic.topic_image,
       title: material.fourth_topic.title,
       content: material.fourth_topic.content,
       sectionId: material.fourth_topic.sectionId,
       nextRoute: "/questionnaire4",
     },
     {
+      topic_image: material.fifth_topic.topic_image,
       title: material.fifth_topic.title,
       content: material.fifth_topic.content,
       sectionId: material.fifth_topic.sectionId,

@@ -1,40 +1,71 @@
-import React, { useEffect, useRef } from 'react';
-import DOMPurify from 'dompurify';
-import './question.scss';
+import React, { useEffect, useRef } from "react";
+import DOMPurify from "dompurify";
+import "./question.scss";
+
+interface Option {
+  optionId: string;
+  optionText: string;
+}
 
 interface QuestionProps {
   id: string;
   question: string;
-  options: {
-    optionId: string;
-    optionText: string;
-  }[] | null;
+  options: Option[] | null;
   onAnswerChange: (questionId: string, answer: string) => void;
   incorrect?: boolean;
   disabled?: boolean;
+  correctAnswer: string | null;
+  selectedAnswer: string | null;
 }
 
-const Question: React.FC<QuestionProps> = ({ id, question, options, onAnswerChange, incorrect, disabled }) => {
+const Question: React.FC<QuestionProps> = ({
+  id,
+  question,
+  options,
+  onAnswerChange,
+  incorrect,
+  disabled,
+  correctAnswer,
+  selectedAnswer,
+}) => {
   const questionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (questionRef.current) {
-      questionRef.current.scrollIntoView({ behavior: 'smooth' });
+      questionRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const sanitizedValue = DOMPurify.sanitize(event.target.value);
-    onAnswerChange(id, sanitizedValue); 
+    onAnswerChange(id, sanitizedValue);
   };
 
   return (
-    <div ref={questionRef} className={`question ${incorrect ? 'question__incorrect' : ''}`}>
+    <div
+      ref={questionRef}
+      className={`question ${incorrect ? "question__incorrect" : ""}`}
+    >
       <h2 className={"question__heading"}>{question}</h2>
       {options && options.length > 0 ? (
         options.map((option) => (
-          <div key={option.optionId} className="question__option">
-            <label className={`question__custom-radio ${disabled && 'question__custom-radio--disabled'}`}>
+          <div
+            key={option.optionId}
+            className={`question__option ${
+              disabled && selectedAnswer === option.optionId
+                ? option.optionId === correctAnswer
+                  ? "correct"
+                  : "incorrect"
+                : ""
+            }`}
+          >
+            <label
+              className={`question__custom-radio ${
+                disabled ? "question__custom-radio--disabled submitted" : ""
+              }`}
+            >
               <input
                 type="radio"
                 name={id}
@@ -43,7 +74,17 @@ const Question: React.FC<QuestionProps> = ({ id, question, options, onAnswerChan
                 required
                 disabled={disabled}
               />
-              <span className={`question__custom-radio-checkmark ${disabled && 'question__custom-radio-checkmark--disabled'}`}></span>
+              <span
+                className={`question__custom-radio-checkmark ${
+                  disabled && "question__custom-radio-checkmark--disabled"
+                } ${
+                  disabled && selectedAnswer === option.optionId
+                    ? option.optionId === correctAnswer
+                      ? "correct"
+                      : "incorrect"
+                    : ""
+                }`}
+              ></span>
               {option.optionText}
             </label>
           </div>
@@ -54,7 +95,9 @@ const Question: React.FC<QuestionProps> = ({ id, question, options, onAnswerChan
           onChange={handleChange}
           required
           disabled={disabled}
-          className='question__text-answer'
+          className={`question__text-answer ${
+            disabled && !incorrect ? "correct" : ""
+          } ${disabled && incorrect ? "incorrect" : ""}`}
         />
       )}
     </div>

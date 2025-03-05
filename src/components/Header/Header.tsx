@@ -39,7 +39,7 @@ const Header: React.FC = () => {
 
   return (
     <header className={`header ${isScrolled ? "header--scrolled" : ""}`}>
-      <Container>
+      <Container type="wide">
         <div className="header__container">
           <img
             className={`header__logo ${isSmallScreen ? "header__logo--small" : ""}`}

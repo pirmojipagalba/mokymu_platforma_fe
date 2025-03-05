@@ -8,14 +8,33 @@
   padding: 24px 0 60px;
 
   &__heading {
-    font-size: $content-heading;
-    line-height: 1.5;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
     font-weight: bold;
     color: $text;
     margin-bottom: 16px;
 
     @media screen and (max-width: 768px) {
-      font-size: $sub-heading;
+    }
+  }
+
+  &__correct-answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: $purple;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+
+    &-count {
+      font-size: 21px;
+      line-height: 44px;
+      font-weight: 400;
+      text-align: center;
     }
   }
 }
