@@ -383,14 +383,28 @@
             "text": [
               "**Pradėkite gaivinti**:\n\nJei nukentėjęs asmuo nesąmoningas ir nekvėpuoja, nedelsdami pradėkite gaivinimo veiksmus. Tai apima širdies masažą ir dirbtinį kvėpavimą (jei esate tam pasirengęs). Neskubėkite – kiekviena sekundė gali būti svarbi, tačiau jei nesate tikri dėl veiksmų, pagalbos telefonu gausite nurodymus iš dispečerio."
             ]
-          },
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "page_content": [
           {
-            "type": "divider",
-            "class": "section__divider--gap-bottom"
+            "type": "floating-heading",
+            "text": "Psichologinės pagalbos principai"
           },
           {
             "type": "heading",
-            "class": "section__sub-heading--align-left section__sub-heading--small",
+            "text": "Psichologinės kliūtys"
+          },
+          {
+            "type": "img",
+            "img_orientation": "horizontal",
+            "text": "imgcall.png"
+          },
+          {
+            "type": "heading",
+            "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
             "text": "Įveikite emocines kliūtis ir psichologinį stresą:"
           },
 
@@ -429,26 +443,7 @@
           },
           {
             "type": "paragraph",
-            "class": "margin-xxl",
             "text": "Jeigu pacientas nesąmoningas ir nekvėpuoja – atliekame pradinius gavinimo veiksmus."
-          }
-        ]
-      },
-      {
-        "page": 4,
-        "page_content": [
-          {
-            "type": "floating-heading",
-            "text": "Psichologinės pagalbos principai"
-          },
-          {
-            "type": "heading",
-            "text": "Psichologinės kliūtys"
-          },
-          {
-            "type": "img",
-            "img_orientation": "horizontal",
-            "text": "imgcall.png"
           },
           {
             "type": "paragraph",
@@ -476,9 +471,9 @@
             "type": "list",
             "list_type": "ordered",
             "text": [
-              "naudokite algoritmą P–P–P, kad išliktumėte susikaupę;",
-              "jei yra žmonių aplinkui, paprašykite jų pagalbos;",
-              "jei esate vienintelis galintis padėti, įkvėpkite kelis kartus, nusiraminkite ir imkitės veiksmų pagal P–P–P algoritmą."
+              "Naudokite algoritmą P–P–P, kad išliktumėte susikaupę;",
+              "Jei yra žmonių aplinkui, paprašykite jų pagalbos;",
+              "Jei esate vienintelis galintis padėti, įkvėpkite kelis kartus, nusiraminkite ir imkitės veiksmų pagal P–P–P algoritmą."
             ]
           },
           {

@@ -58,6 +58,8 @@ const Question: React.FC<QuestionProps> = ({
                 ? option.optionId === correctAnswer
                   ? "correct"
                   : "incorrect"
+                : disabled && option.optionId === correctAnswer
+                ? "correct"
                 : ""
             }`}
           >
@@ -82,6 +84,8 @@ const Question: React.FC<QuestionProps> = ({
                     ? option.optionId === correctAnswer
                       ? "correct"
                       : "incorrect"
+                    : disabled && option.optionId === correctAnswer
+                    ? "correct"
                     : ""
                 }`}
               ></span>
