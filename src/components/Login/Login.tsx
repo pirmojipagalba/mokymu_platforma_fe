@@ -7,7 +7,7 @@ const Login: React.FC = () => {
   const { loginWithRedirect } = useAuth0();
 
   return (
-    <Container>
+    <Container type="wide">
       <div className="login">
         <h2 className="login__heading">
           Sveiki atvykę į "Firstaid.lt" testų platformą. Prisijunkite norėdami

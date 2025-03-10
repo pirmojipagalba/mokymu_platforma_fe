@@ -242,7 +242,7 @@
         },
         {
           "id": "q6",
-          "question": "Kokiu atveju reikia naudoti automatinį išorinį širdies defibriliatorių (AED)?",
+          "question": "Kokiu atveju reikia naudoti automatinį išorinį širdies defibriliatorių (AID)?",
           "options": [
             {
               "optionId": "m9n0o4",
@@ -261,7 +261,7 @@
         },
         {
           "id": "q7",
-          "question": "Ką reikia daryti, jei AED nurodo neduoti elektrošoko?",
+          "question": "Ką reikia daryti, jei AID nurodo neduoti elektrošoko?",
           "options": [],
           "correctAnswer": ""
         },
@@ -277,7 +277,7 @@
               "optionId": "p1q2r5",
               "optionText": "Kad paspaudimai būtų efektyvūs ir tinkamai išstumtų kraują"
             },
-            { "optionId": "s3t4u5", "optionText": "Kad AED geriau veiktų" }
+            { "optionId": "s3t4u5", "optionText": "Kad AID geriau veiktų" }
           ],
           "correctAnswer": "p1q2r5"
         },
@@ -335,7 +335,7 @@
         },
         {
           "id": "q12",
-          "question": "Koks yra teisingas AED naudojimo veiksmas?",
+          "question": "Koks yra teisingas AID naudojimo veiksmas?",
           "options": [
             {
               "optionId": "m9n0o9",
@@ -513,7 +513,7 @@
         },
         {
           "id": "q12",
-          "question": "Kaip svarbu yra naudoti pirštines suteikiant pirmąją pagalbą kraujavimo metu?",
+          "question": "Kodėl svarbu yra naudoti pirštines suteikiant pirmąją pagalbą kraujavimo metu?",
           "options": [
             {
               "optionId": "m9n0o9",
@@ -810,7 +810,7 @@
             },
             {
               "optionId": "p1q2r5",
-              "optionText": "Vėsinti žmogų šaltu vandeniu ir skatinti gerti vandens"
+              "optionText": "Vėsinti žmogų kambario temperatūros vandeniu ir skatinti gerti vandens"
             },
             {
               "optionId": "s3t4u5",

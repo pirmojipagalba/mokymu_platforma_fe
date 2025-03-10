@@ -44,7 +44,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
 
 const ProductPage: React.FC<{ products: Product[] }> = ({ products }) => {
   return (
-    <Container>
+    <Container type="wide">
       <div className="product-page">
         <h2 className="product-page__heading">Pasirinkite savo mokymus</h2>
         <div className="product-page__products">
