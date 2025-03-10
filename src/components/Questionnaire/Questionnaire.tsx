@@ -119,7 +119,6 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
 
       setIncorrectAnswersMap(newIncorrectAnswersMap);
       setCorrectAnswersCount(correctCount);
-      console.log("Collected Answers:", collectedAnswers); // Log collected answers
 
       // Check if there are any incorrect answers
       const hasIncorrectAnswers = Object.values(newIncorrectAnswersMap).some(

@@ -111,8 +111,6 @@ const App: React.FC = () => {
     );
 
     setCollectedAnswers(uniqueAnswers);
-    console.log("Answers collected so far:", uniqueAnswers); // Log collected answers so far
-
     try {
       localStorage.setItem(`collectedAnswers_${selectedProduct}`, JSON.stringify(uniqueAnswers)); // Save collected answers to local storage
     } catch (error) {
@@ -126,8 +124,6 @@ const App: React.FC = () => {
     }
 
     if (completedSections + 1 >= sectionContent.length) {
-      console.log("Sending collected answers to the API..."); // Log before sending API request
-
       await sendAnswers({ user: { id: user?.sub || '', email: user?.email || '' }, answers: uniqueAnswers, selectedProduct });
 
       await fetch('https://mokymuplatformabe-production.up.railway.app/api/send-email', {

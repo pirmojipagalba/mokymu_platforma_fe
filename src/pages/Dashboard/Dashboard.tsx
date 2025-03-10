@@ -52,7 +52,6 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
         localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]"
       );
       if (collectedAnswers.length > 0) {
-        console.log("Sending collected answers to the API..."); // Log before sending API request
         sendAnswers(collectedAnswers).then(() => {
           localStorage.removeItem(`collectedAnswers_${selectedProduct}`); // Clear local storage after sending answers
         });

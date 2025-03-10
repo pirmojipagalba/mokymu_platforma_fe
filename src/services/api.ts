@@ -20,14 +20,11 @@ interface SendAnswersPayload {
 }
 
 export const sendAnswers = async (payload: SendAnswersPayload) => {
-  console.log('Sending answers to the API:', payload.answers); // Log the answers being sent
 
   const db = getFirestore(app);
-  console.log('Firestore initialized:', db); // Log Firestore initialization
 
   const collectionName = payload.selectedProduct === 'hygiene' ? 'userHygieneAnswers' : 'userAnswers';
   const answersCollection = collection(db, collectionName);
-  console.log('Answers collection reference:', answersCollection); // Log collection reference
 
   try {
     const docRef = await addDoc(answersCollection, {

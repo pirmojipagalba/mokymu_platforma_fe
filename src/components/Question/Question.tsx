@@ -97,6 +97,7 @@ const Question: React.FC<QuestionProps> = ({
         <textarea
           name={id}
           onChange={handleChange}
+          minLength={4}
           required
           disabled={disabled}
           className={`question__text-answer ${
