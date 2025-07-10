@@ -147,15 +147,15 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Sprogstamosios medžiagos ir preparatai – medžiagos, galinčios be atmosferos deguonies egzotermiškai reaguoti, greitai išskirdamos dujas, galinčios sprogti ar greitai užsidegti.",
-              "Ūmaus poveikio medžiagos – sukelia staigią mirtį, apsinuodijimą ar ligą net po trumpo poveikio.",
-              "Lėtinio poveikio medžiagos – sukelia sveikatos sutrikimus, atsirandančius per ilgesnį laikotarpį po ilgalaikio arba pakartotinio poveikio.",
-              "Oksiduojančios medžiagos – sąveikaudamos su kitomis medžiagomis sukelia itin stiprią egzoterminę reakciją.",
-              "Labai degios, degios ir ypač degios medžiagos – skiriasi užsidegimo temperatūra ir reakcija su oru, vandeniu ar degiomis medžiagomis.",
-              "Labai toksiškos, toksiškos ir kenksmingos medžiagos – nuo itin mažų iki vidutinių kiekių gali sukelti ūmius ar lėtinius sveikatos sutrikimus ar mirtį.",
-              "Ardančios (ėsdinančios), dirginančios, jautrinančios (alergizuojančios) medžiagos – gali sukelti odos, gleivinių, kvėpavimo takų pažeidimus, uždegimus ar alergines reakcijas.",
-              "Kancerogeninės, mutageninės ir reprodukcijai toksiškos medžiagos – ilgalaikio poveikio metu gali sukelti vėžį, genetinius pokyčius ar vaisingumo problemas.",
-              "Aplinkai pavojingos medžiagos – patekusios į aplinką gali tiesiogiai ar uždelstai pakenkti gyvūnijai, augmenijai, vandens ekosistemoms ar dirvožemiui."
+                "Sprogstamosios medžiagos ir preparatai – medžiagos, galinčios be atmosferos deguonies egzotermiškai reaguoti, greitai išskirdamos dujas, galinčios sprogti ar greitai užsidegti.",
+                "Ūmaus poveikio medžiagos – sukelia staigią mirtį, apsinuodijimą ar ligą net po trumpo poveikio.",
+                "Lėtinio poveikio medžiagos – sukelia sveikatos sutrikimus, atsirandančius per ilgesnį laikotarpį po ilgalaikio arba pakartotinio poveikio.",
+                "Oksiduojančios medžiagos – sąveikaudamos su kitomis medžiagomis sukelia itin stiprią egzoterminę reakciją.",
+                "Labai degios, degios ir ypač degios medžiagos – skiriasi užsidegimo temperatūra ir reakcija su oru, vandeniu ar degiomis medžiagomis.",
+                "Labai toksiškos, toksiškos ir kenksmingos medžiagos – nuo itin mažų iki vidutinių kiekių gali sukelti ūmius ar lėtinius sveikatos sutrikimus ar mirtį.",
+                "Ardančios (ėsdinančios), dirginančios, jautrinančios (alergizuojančios) medžiagos – gali sukelti odos, gleivinių, kvėpavimo takų pažeidimus, uždegimus ar alergines reakcijas.",
+                "Kancerogeninės, mutageninės ir reprodukcijai toksiškos medžiagos – ilgalaikio poveikio metu gali sukelti vėžį, genetinius pokyčius ar vaisingumo problemas.",
+                "Aplinkai pavojingos medžiagos – patekusios į aplinką gali tiesiogiai ar uždelstai pakenkti gyvūnijai, augmenijai, vandens ekosistemoms ar dirvožemiui."
               ]
             },
             {
@@ -168,11 +168,11 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Įkvėpimas – pavojingiausias, nes per plaučius medžiagos patenka tiesiai į kraujotaką.",
-              "Per odą – ypač jei pažeista arba jei medžiaga riebaluose tirpi.",
-              "Per virškinimo traktą – dažniausiai atsitiktinai užteršus rankas, maistą, gėrimus.",
-              "Per akis – kontaktas su lakiosiomis ar skystomis medžiagomis.",
-              "Per injekcijas – pavojus medicininiuose ar laboratoriniuose darbuose."
+                "Įkvėpimas – pavojingiausias, nes per plaučius medžiagos patenka tiesiai į kraujotaką.",
+                "Per odą – ypač jei pažeista arba jei medžiaga riebaluose tirpi.",
+                "Per virškinimo traktą – dažniausiai atsitiktinai užteršus rankas, maistą, gėrimus.",
+                "Per akis – kontaktas su lakiosiomis ar skystomis medžiagomis.",
+                "Per injekcijas – pavojus medicininiuose ar laboratoriniuose darbuose."
               ]
             },
             {
@@ -185,11 +185,11 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Kraujyje",
-              "Plaučiuose",
-              "Riebaliniame audinyje",
-              "Kauluose",
-              "Organuose (kepenys, inkstai, blužnis)"
+                "Kraujyje",
+                "Plaučiuose",
+                "Riebaliniame audinyje",
+                "Kauluose",
+                "Organuose (kepenys, inkstai, blužnis)"
               ]
             },
             {
@@ -202,11 +202,11 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Per šlapimą",
-              "Per išmatas",
-              "Per kvėpavimą",
-              "Per prakaitą",
-              "Per pieną (nėštumo ar žindymo metu)"
+                "Per šlapimą",
+                "Per išmatas",
+                "Per kvėpavimą",
+                "Per prakaitą",
+                "Per pieną (nėštumo ar žindymo metu)"
               ]
             },
             {
@@ -219,10 +219,10 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Kiekio",
-              "Poveikio trukmės",
-              "Patekimo kelio",
-              "Fizinių ir cheminių savybių"
+                "Kiekio",
+                "Poveikio trukmės",
+                "Patekimo kelio",
+                "Fizinių ir cheminių savybių"
               ]
             },
             {
@@ -233,9 +233,9 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Pavojingumo simboliai",
-              "Poveikio pobūdį apibūdinantys frazių kodai (H-frasės)",
-              "Atsargumo frazių kodai (P-frasės)"
+                "Pavojingumo simboliai",
+                "Poveikio pobūdį apibūdinantys frazių kodai (H-frasės)",
+                "Atsargumo frazių kodai (P-frasės)"
               ]
             },
             {
@@ -248,10 +248,10 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Užteršti vandens telkinius, sukeliant žuvų, augalų žūtį.",
-              "Užteršti dirvožemį, pakenkiant derlingumui, mikroorganizmų balansui.",
-              "Kauptis augaluose ir gyvūnuose, patekti į maisto grandinę.",
-              "Sukelti oro taršą, ypač degimo ar cheminės reakcijos metu."
+                "Užteršti vandens telkinius, sukeliant žuvų, augalų žūtį.",
+                "Užteršti dirvožemį, pakenkiant derlingumui, mikroorganizmų balansui.",
+                "Kauptis augaluose ir gyvūnuose, patekti į maisto grandinę.",
+                "Sukelti oro taršą, ypač degimo ar cheminės reakcijos metu."
               ]
             },
             {
@@ -264,784 +264,137 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Naudoti asmenines apsaugos priemones (pirštines, respiratorius, akinius, drabužius)",
-              "Vengti kontakto su oda ir kvėpavimo takais",
-              "Darbo vietoje naudoti vėdinimo sistemas",
-              "Laikyti chemines medžiagas sandariai uždarytas, aiškiai paženklintas",
-              "Laikytis cheminių medžiagų saugojimo ir darbo su jomis taisyklių",
-              "Reguliariai vykdyti darbuotojų sveikatos patikras",
-              "Teikti darbuotojams higienos ir saugos mokymus"
+                "Naudoti asmenines apsaugos priemones (pirštines, respiratorius, akinius, drabužius)",
+                "Vengti kontakto su oda ir kvėpavimo takais",
+                "Darbo vietoje naudoti vėdinimo sistemas",
+                "Laikyti chemines medžiagas sandariai uždarytas, aiškiai paženklintas",
+                "Laikytis cheminių medžiagų saugojimo ir darbo su jomis taisyklių",
+                "Reguliariai vykdyti darbuotojų sveikatos patikras",
+                "Teikti darbuotojams higienos ir saugos mokymus"
               ]
             },
             {
               "type": "pictogram-table",
-              "class":"margin-xxl"
-            }
-          ]
-        },
-        {
-          "page": 2,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Per maistą plintančių užkrečiamųjų ligų profilaktika"
-            },
-            {
-              "type": "heading",
-              "text": "Bakterijų augimas: Laiko įtaka"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Bakterijos maiste dauginasi labai greitai, kai sudarytos tinkamos sąlygos.**"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Pavyzdys:**"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "0 min. – 1 bakterija",
-                "20 min. – 2",
-                "40 min. – 4",
-                "1 val. – 8",
-                "1 val. 20 min. – 16",
-                "10 val. – daugiau nei 1 milijonas"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Svarbu:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "class": "margin-xxl",
-              "text": [
-                "Bakterijos dauginasi, kai sąlygos palankios (tinkama temperatūra, drėgmė, maisto medžiagos)",
-                "Jos dauginsis tol, kol sąlygos leis"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Rizikos veiksniai – virusai "
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Virusai dauginasi tik gyvų ląstelių viduje",
-                "Maiste nesidaugina, tačiau gali išlikti",
-                "Išgyvena kaitinant ir atšaldant, todėl gali būti perduodami per maistą"
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Perdavimas:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Nuo asmens kitam asmeniui",
-                "Nuo žmogaus maistui",
-                "Nuo žmogaus maisto paviršiui"
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "**Svarbu**: Bloga asmens higiena ženkliai padidina virusų plitimo riziką."
-            },
-            {
-              "type": "heading",
-              "text": "Temperatūrų kontrolės įranga "
-            },
-            {
-              "type": "paragraph",
-              "text": "Kasdien stebėti ir fiksuoti temperatūrų rodmenis:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Šaldikliai**: –17,0 °C iki –23,0 °C",
-                "**Šaldytuvai**: +2,2 °C iki +4,0 °C",
-                "**Pieno tankai**: +2,2 °C iki +4,0 °C",
-                "**Maisto šildytuvai**: ne žemesnė kaip 63 °C"
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Atkreipti dėmesį, kad durų atidarymas ir uždarymas veikia vidaus temperatūrą"
-            },
-            {
-              "type": "paragraph",
-              "text": "Jei įranga neveikia tinkamai – privaloma ją nedelsiant sutaisyti"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Per maistą plintančios užkrečiamosios ligos"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Lietuvoje vis dar fiksuojami apsinuodijimo maistu protrūkiai, dažniausiai dėl viešojo maitinimo įmonių kaltės.",
-                "Nukentėjusiems asmenims dažniausiai diagnozuojamos ūmios bakterinės žarnyno infekcijos.",
-                "Patikrinimų metu nustatyta nemažai pažeidimų, galinčių kelti pavojų maisto saugai:",
-                [
-                  "Kryžminės taršos rizika",
-                  "Higienos reikalavimų nesilaikymas ruošiant maistą",
-                  "Netinkama žaliavų laikymo temperatūra ir sąlygos"
-                ],
-                "Svarbu žinoti, kad apsinuodijimo maistu rizika egzistuoja ne tik maitinimo įmonėse, bet ir ruošiant maistą namų sąlygomis."
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Su maistu ir per aplinką plintančios infekcinės ligos (plintančios fekaliniu–oraliniu būdu)"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Cholera** (A00)",
-                "**Vidurių šiltinė ir paratifai** (A01)",
-                "**Ūmių žarnyno infekcinių ligų grupė** (ŪŽIL)",
-                "**Salmoneliozės** (A02)",
-                "**Šigeliozės** (A03)",
-                "**Kitos patikslintos bakterinės žarnyno infekcijos** (A04 (A04.0–A04.8))",
-                "**Nepatikslintos bakterinės žarnyno infekcijos** (A04.9, A09)",
-                "**Virusinės žarnyno infekcijos** (A08)",
-                "**Kitos maisto toksinės infekcijos** (A05) (išskyrus botulizmą – A05.1)"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Per maistą plintančių ligų simptomai"
-            },
-            {
-              "type": "paragraph",
-              "text": "Simptomai gali pasireikšti **greitai – per 30 minučių** arba išsivystyti **lėtai – per kelias dienas ar net savaites**."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Dažniausi požymiai:**."
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Pykinimas",
-                "Vėmimas",
-                "Viduriavimas",
-                "Spastiniai (traukulius primenantys) pilvo skausmai",
-                "Apetito praradimas",
-                "Nuovargis",
-                "Karščiavimas"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Kaip išvengti per vandenį plintančių užkrečiamųjų ligų:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Jei naudojate šulinio vandenį gerti, gaminti maistą ar valytis dantis:",
-                [
-                  "Stebėkite vandens spalvą, skonį ir kvapą; jei pastebėsite pakitimus, nenaudokite tokio vandens.",
-                  "Naudokite tik virintą vandenį arba pirkite fasuotą geriamąjį vandenį."
-                ],
-                "Dažniausiai vandentiekio vanduo potvynių metu išlieka neužterštas ir saugus vartoti.",
-                [
-                  "Jei vanduo tampa nesaugus, apie tai praneša atsakingos institucijos."
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Per maistą plintančių užkrečiamųjų ligų prevencija"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "LAIKYKITĖS ŠVAROS"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "Laikykitės maisto gaminimo ir asmeninės higienos reikalavimų.",
-                "Plaukite rankas:",
-                [
-                  "Prieš maisto ruošimą,",
-                  "Po kontakto su žalia mėsa,",
-                  "Pasinaudojus tualetu,",
-                  "Prieš valgį."
-                ],
-                "Po maisto gaminimo išplaukite ir dezinfekuokite visus virtuvės paviršius, įrankius ir indus."
-              ]
-            },
-
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "ATSKIRKITE ŽALIAVĄ NUO PARUOŠTO MAISTO"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "Rinkitės tik saugias ir kokybiškas žaliavas.",
-                "Atskirai laikykite žalią mėsą, paukštieną, žuvį nuo jau paruošto maisto ar tų produktų, kurie nebus termiškai apdorojami.",
-                "Naudokite atskiras lenteles ir peilius žaliai mėsai, paukštienai, žuviai apdoroti  arba gerai nuplaukite juos po naudojimo."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "TERMIŠKAI GERAI APDOROKITE MAISTĄ"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Kruopščiai išvirkite arba iškepkite gyvūninį maistą: mėsą, paukštieną, žuvį, kiaušinius.",
-                "Užtikrinkite, kad patiekalai būtų pašildyti iki ne žemesnės kaip 70 °C temperatūros.",
-                "Gerai paruoštos mėsos ar paukštienos sultys turi būti skaidrios, o ne rausvos."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "TINKAMAI LAIKYKITE MAISTĄ"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Žaliavas ir paruoštus patiekalus laikykite tinkamoje temperatūroje, atskirai vienus nuo kitų.",
-                "Nepalikite paruošto maisto kambario temperatūroje ilgiau nei 2 valandas.",
-                "Nedelsdami atvėsinkite nesuvartotą ar greitai gendantį maistą.",
-                "Karštus patiekalus laikykite ne žemesnėje kaip 60 °C temperatūroje iki patiekimo.",
-                "Venkite ilgai laikyti maistą, net šaldytuve."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "RINKITĖS ŠVIEŽIĄ IR NESUGEDUSĮ MAISTĄ"
-            },
-            {
-              "type": "list",
-              "class": "margin-xxl",
-              "list_type": "unordered",
-              "text": [
-                "Maistui gaminti naudokite švarų geriamąjį vandenį.",
-                "Nevartokite nepasterizuoto arba nevirinto pieno ir jo produktų.",
-                "Kruopščiai plaukite daržoves ir vaisius, ypač jei vartojate juos neapdorotus šiluma."
-              ]
+              "class": "margin-xxl"
             }
           ]
         }
       ]
     },
-    
     {
-      "title": "Nuodingųjų medžiagų grupės, jų savybės, poveikis, priklausomai nuo jų rūšies, fizinių ir cheminių savybių, patekimo, kaupimosi, išsiskyrimo iš organizmo būdų. Bendrosios žinios apie nuodingųjų medžiagų toksiškumą, poveikį žmogaus sveikatai ir aplinkai",
-      "sectionId": "section2",
+      "title": "Ūmaus ir lėtinio apsinuodijimo nuodingosiomis medžiagomis požymiai. Profesinės rizikos veiksniai, jų poveikis žmogaus sveikatai, medicinos pagalbos organizavimas. Profilaktinių sveikatos tikrinimų reikšmė lėtinių apsinuodijimų ir profesinių ligų profilaktikai.",
+      "sectionId": "section3",
       "content": [
         {
           "page": 1,
           "page_content": [
             {
               "type": "heading",
-              "text": "Nuodingųjų medžiagų grupės, jų savybės, poveikis, priklausomai nuo jų rūšies, fizinių ir cheminių savybių, patekimo, kaupimosi, išsiskyrimo iš organizmo būdų. Bendrosios žinios apie nuodingųjų medžiagų toksiškumą, poveikį žmogaus sveikatai ir aplinkai"
+              "text": "Ūmaus ir lėtinio apsinuodijimo nuodingosiomis medžiagomis požymiai. Profesinės rizikos veiksniai, jų poveikis žmogaus sveikatai, medicinos pagalbos organizavimas. Profilaktinių sveikatos tikrinimų reikšmė lėtinių apsinuodijimų ir profesinių ligų profilaktikai."
             },
             {
               "type": "paragraph",
-              "text": "Nuodingosios (toksiškos) medžiagos – tai cheminės medžiagos arba jų mišiniai, kurie tam tikru kiekiu patekę į organizmą sukelia biologinius pažeidimus ar net mirtį. Toksiškumas priklauso nuo daugelio veiksnių: nuo cheminės medžiagos savybių, jos fizinės būklės (dujinė, skysta, kieta), poveikio trukmės, patekimo kelio ir žmogaus jautrumo. Vienas pagrindinių toksikologijos principų – „bet kokia medžiaga gali tapti nuodu“, kai viršijama individualiai pavojinga dozė."
+              "text": "Apsinuodijimai skirstomi į ūmius ir lėtinius. **Ūmūs apsinuodijimai** įvyksta staiga – dažniausiai tai nelaimingi atsitikimai, gaisrai, avarijos, apsinuodijimas buityje. Ūmi ekspozicija gali trukti nuo kelių sekundžių iki paros ar kelių parų, o jos metu nuodas daro intensyvų poveikį. Tipiniai simptomai: pykinimas, vėmimas, sąmonės netekimas, dusulys, traukuliai, širdies ritmo sutrikimai. Pavyzdžiui, apsinuodijus anglies monoksidu (CO), žmogus gali netekti sąmonės per kelias minutes."
             },
             {
               "type": "paragraph",
-              "text": "Pavojingų medžiagų poveikis žmogaus organizmui priklauso nuo jų fizinių ir cheminių savybių, tokios kaip lakumas, degumas, gebėjimas kauptis organizme ar sukelti genetinius pakitimus. Kai kurios medžiagos kaupiasi specifiniuose organuose – pvz., švinas ar gyvsidabris kaupiami kepenyse, inkstuose, smegenyse, o jų poveikis gali išlikti metų metus."
+              "text": "**Lėtiniai apsinuodijimai** dažniausiai susiję su profesine veikla – dirbant su cheminėmis medžiagomis, kurios veikia lėtai, bet nuolat. Jie pasireiškia po savaičių, mėnesių ar net metų. Simptomai iš pradžių būna nežymūs: galvos skausmas, nuovargis, nemiga, vėliau gali pasireikšti atminties sutrikimai, depresija, nervų sistemos pažeidimai. Kai kuriais atvejais išsivysto profesinės ligos – hepatitas, nefropatija, dermatitai ar net onkologinės ligos."
             },
             {
               "type": "paragraph",
-              "text": "Pagal savybes pavojingos cheminės medžiagos skirstomos į kelias grupes:"
+              "text": "Apsinuodijimą gali sustiprinti kiti veiksniai – asmens sveikatos būklė, amžius, lėtinės ligos, mityba. Ypač jautrūs: vaikai, senyvo amžiaus žmonės, nėščiosios, žmonės su priklausomybėmis. Tokiais atvejais net mažesnės nuodų dozės sukelia didesnį pavojų."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Profesinės rizikos veiksniai apima**:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Sprogstamosios: jos reaguoja net be išorinio deguonies, gali sukelti sprogimą ar smarkią cheminę reakciją, išskirdamos didelius kiekius dujų.",
-                "Oksiduojančios: su kitomis (ypač degiomis) medžiagomis sukelia labai energingas reakcijas.",
-                "Degiosios: skysčiai ar dujos, galinčios savaime užsidegti, reaguoti su vandeniu ar oru, išskirti degias dujas.",
-                "Labai toksiškos / toksiškos: sukelia ūmų arba lėtinį sveikatos pakenkimą net mažomis dozėmis.",
-                "Kenksmingos: sukelia mažiau pavojingą, bet vis tiek nepageidautiną poveikį sveikatai.",
-                "Dirginančios / ėsdinančios: sukelia odos, akių, kvėpavimo takų pažeidimus, uždegimą.",
-                "Jautrinančios (alergizuojančios): gali sukelti padidėjusio jautrumo reakcijas – bėrimus, slogą, kvėpavimo sunkumus.",
-                "Kancerogeninės: ilgalaikio poveikio metu sukelia vėžinius susirgimus.",
-                "Mutageninės: sukelia genetinius pakitimus, mutacijas.",
-                "Reprodukcijai toksiškos: sukelia vaisingumo sutrikimus, vaisiaus apsigimimus.",
-                "Aplinkai pavojingos: veikia vandens ekosistemas, bioakumuliuojasi, trikdo gyvūnų ir augalų gyvybines funkcijas."
+                "**Cheminius** (dažniausi – tirpikliai, pesticidai, rūgštys, šarmai)",
+                "**Fizinius** (triukšmas, temperatūra, vibracija)",
+                "**Biologinius** (bakterijos, pelėsiai)",
+                "**Ergonominius** (nepatogi darbo poza, monotoniški judesiai)",
+                "**Psichosocialinius** (stresas, per didelis darbo krūvis)"
               ]
             },
             {
               "type": "paragraph",
-              "text": "Šios medžiagos gali patekti į organizmą keliais būdais: per virškinamąjį traktą, kvėpavimo takus, per odą, ar net per injekcinius mikrotraumas (įsidūrimus). Kuo greitesnis įsiskverbimas ir kuo pavojingesnė medžiaga, tuo rimtesnis poveikis. Kai kurios medžiagos labai greitai patenka į kraują, kitos – lėtai kaupiasi ir yra nepašalinamos, o su laiku sukelia negrįžtamus pokyčius. Pašalinimas iš organizmo vyksta per šlapimą, prakaitą, iškvepiamą orą ar išmatas. Tačiau dalis cheminių junginių išlieka audiniuose (pvz., gyvsidabris, švinas), sukeldami vadinamąjį lėtinį toksiškumą."
-            },
-            {
-              "type": "heading",
-              "text": "Rizikos veiksniai:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Cheminiai veiksniai",
-                "Fizikiniai veiksniai",
-                "Biologiniai veiksniai",
-                "Ergonominiai veiksniai",
-                "Psichosocialiniai ar fiziniai veiksniai"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Kas tai yra pavojingas cheminis veiksnys?"
+              "text": "Šių veiksnių poveikiui įvertinti būtini **profilaktiniai sveikatos tikrinimai**. Jie atliekami prieš įsidarbinant ir periodiškai darbo metu. Jų tikslas – nustatyti, ar darbuotojas gali dirbti konkrečiomis rizikos sąlygomis, ar nėra atsiradusių ankstyvų sveikatos pakitimų, kurie rodo pavojų. Tokie patikrinimai padeda užkirsti kelią profesinėms ligoms, o darbdaviams – įvertinti, ar taikomos apsaugos priemonės yra veiksmingos."
             },
             {
               "type": "paragraph",
-              "text": "Tai bet koks cheminis veiksnys, atitinkantis pavojingų cheminių medžiagų ir preparatų klasifikavimo kriterijus, nustatytus Pavojingų cheminių medžiagų ir preparatų klasifikavimo ir ženklinimo tvarkoje."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Kenksminga cheminė medžiaga laikoma tokia**, kuri dėl savo fizinių, cheminių ar toksikologinių savybių, naudojimo būdo arba buvimo darbo aplinkoje gali kelti pavojų darbuotojų sveikatai ar sukelti mirtį, ūmius ar lėtinius sveikatos sutrikimus."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Pavojingos cheminės medžiagos ir preparatai: "
-            },
-            {
-              "type": "paragraph",
-              "text": "Tokios cheminės medžiagos ir preparatai, kurių bent viena savybė gali būti priskiriama vienai iš šių kategorijų: "
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Sprogstamosios medžiagos ir preparatai – medžiagos, galinčios be atmosferos deguonies egzotermiškai reaguoti, greitai išskirdamos dujas, galinčios sprogti ar greitai užsidegti.",
-              "Ūmaus poveikio medžiagos – sukelia staigią mirtį, apsinuodijimą ar ligą net po trumpo poveikio.",
-              "Lėtinio poveikio medžiagos – sukelia sveikatos sutrikimus, atsirandančius per ilgesnį laikotarpį po ilgalaikio arba pakartotinio poveikio.",
-              "Oksiduojančios medžiagos – sąveikaudamos su kitomis medžiagomis sukelia itin stiprią egzoterminę reakciją.",
-              "Labai degios, degios ir ypač degios medžiagos – skiriasi užsidegimo temperatūra ir reakcija su oru, vandeniu ar degiomis medžiagomis.",
-              "Labai toksiškos, toksiškos ir kenksmingos medžiagos – nuo itin mažų iki vidutinių kiekių gali sukelti ūmius ar lėtinius sveikatos sutrikimus ar mirtį.",
-              "Ardančios (ėsdinančios), dirginančios, jautrinančios (alergizuojančios) medžiagos – gali sukelti odos, gleivinių, kvėpavimo takų pažeidimus, uždegimus ar alergines reakcijas.",
-              "Kancerogeninės, mutageninės ir reprodukcijai toksiškos medžiagos – ilgalaikio poveikio metu gali sukelti vėžį, genetinius pokyčius ar vaisingumo problemas.",
-              "Aplinkai pavojingos medžiagos – patekusios į aplinką gali tiesiogiai ar uždelstai pakenkti gyvūnijai, augmenijai, vandens ekosistemoms ar dirvožemiui."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Cheminių medžiagų patekimo į žmogaus organizmą keliai:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Įkvėpimas – pavojingiausias, nes per plaučius medžiagos patenka tiesiai į kraujotaką.",
-              "Per odą – ypač jei pažeista arba jei medžiaga riebaluose tirpi.",
-              "Per virškinimo traktą – dažniausiai atsitiktinai užteršus rankas, maistą, gėrimus.",
-              "Per akis – kontaktas su lakiosiomis ar skystomis medžiagomis.",
-              "Per injekcijas – pavojus medicininiuose ar laboratoriniuose darbuose."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Patekusi į organizmą medžiaga gali kauptis:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Kraujyje",
-              "Plaučiuose",
-              "Riebaliniame audinyje",
-              "Kauluose",
-              "Organuose (kepenys, inkstai, blužnis)"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Iš organizmo medžiagos šalinamos:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Per šlapimą",
-              "Per išmatas",
-              "Per kvėpavimą",
-              "Per prakaitą",
-              "Per pieną (nėštumo ar žindymo metu)"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Toksiškumo laipsnis priklauso nuo medžiagos:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Kiekio",
-              "Poveikio trukmės",
-              "Patekimo kelio",
-              "Fizinių ir cheminių savybių"
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Lietuvoje cheminių medžiagų pavojingumas reglamentuojamas pagal Europos Sąjungos REACH ir CLP reglamentus bei Lietuvos Respublikos teisės aktus. Ant kiekvienos pavojingos medžiagos pakuotės privalo būti:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Pavojingumo simboliai",
-              "Poveikio pobūdį apibūdinantys frazių kodai (H-frasės)",
-              "Atsargumo frazių kodai (P-frasės)"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Nuodingosios medžiagos gali sukelti ilgalaikius arba negrįžtamus padarinius aplinkai:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Užteršti vandens telkinius, sukeliant žuvų, augalų žūtį.",
-              "Užteršti dirvožemį, pakenkiant derlingumui, mikroorganizmų balansui.",
-              "Kauptis augaluose ir gyvūnuose, patekti į maisto grandinę.",
-              "Sukelti oro taršą, ypač degimo ar cheminės reakcijos metu."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Siekiant išvengti apsinuodijimų:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-              "Naudoti asmenines apsaugos priemones (pirštines, respiratorius, akinius, drabužius)",
-              "Vengti kontakto su oda ir kvėpavimo takais",
-              "Darbo vietoje naudoti vėdinimo sistemas",
-              "Laikyti chemines medžiagas sandariai uždarytas, aiškiai paženklintas",
-              "Laikytis cheminių medžiagų saugojimo ir darbo su jomis taisyklių",
-              "Reguliariai vykdyti darbuotojų sveikatos patikras",
-              "Teikti darbuotojams higienos ir saugos mokymus"
-              ]
-            },
-            {
-              "type": "pictogram-table",
-              "class":"margin-xxl"
+              "class": "margin-xxl",
+              "text": "Pagal Lietuvos teisės aktus, profilaktinius sveikatos tikrinimus organizuoja profesinės sveikatos priežiūros ir asmens sveikatos priežiūros įstaigos, vadovaudamosi sveikatos apsaugos ministro įsakymu Nr. V-1072."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title": "Saugaus darbo su nuodingosiomis medžiagomis įgūdžių formavimas. Inžinerinės, techninės, technologinės priemonės, saugančios nuo apsinuodijimo nuodingosiomis medžiagomis bei jų patekimo į aplinką rizikos ",
+      "sectionId": "section3",
+      "content": [
         {
-          "page": 2,
+          "page": 1,
           "page_content": [
             {
-              "type": "floating-heading",
-              "text": "Per maistą plintančių užkrečiamųjų ligų profilaktika"
+              "type": "heading",
+              "text": "Saugaus darbo su nuodingosiomis medžiagomis įgūdžių formavimas. Inžinerinės, techninės, technologinės priemonės, saugančios nuo apsinuodijimo nuodingosiomis medžiagomis bei jų patekimo į aplinką rizikos "
+            },
+            {
+              "type": "paragraph",
+              "text": "Saugaus darbo su nuodingomis medžiagomis pagrindas – išmanymas ir tinkamų priemonių naudojimas. Darbuotojai turi būti išmokyti atpažinti rizikas, žinoti, kaip apsisaugoti, kaip elgtis nelaimės atveju."
             },
             {
               "type": "heading",
-              "text": "Bakterijų augimas: Laiko įtaka"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Bakterijos maiste dauginasi labai greitai, kai sudarytos tinkamos sąlygos.**"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Pavyzdys:**"
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Pagrindiniai principai:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "0 min. – 1 bakterija",
-                "20 min. – 2",
-                "40 min. – 4",
-                "1 val. – 8",
-                "1 val. 20 min. – 16",
-                "10 val. – daugiau nei 1 milijonas"
+                "Su nuodingomis medžiagomis dirbti galima tik specialiai tam pritaikytose patalpose.",
+                "Visos medžiagos turi būti laikomos pažymėtose pakuotėse, su saugos duomenų lapais.",
+                "Turi būti užtikrintas geras vėdinimas, dažnai naudojamos traukomosios spintos, filtravimo įrenginiai.",
+                "Privaloma naudoti asmenines apsaugos priemones (AAP): respiratorius, pirštines, apsauginius akinius, kombinezonus, apsauginius batus. AAP turi būti sertifikuotos ir tinkamos konkrečiai rizikai."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Svarbu:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "class": "margin-xxl",
-              "text": [
-                "Bakterijos dauginasi, kai sąlygos palankios (tinkama temperatūra, drėgmė, maisto medžiagos)",
-                "Jos dauginsis tol, kol sąlygos leis"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Rizikos veiksniai – virusai "
+              "text": "Darbdavys privalo:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Virusai dauginasi tik gyvų ląstelių viduje",
-                "Maiste nesidaugina, tačiau gali išlikti",
-                "Išgyvena kaitinant ir atšaldant, todėl gali būti perduodami per maistą"
+                "Nemokamai aprūpinti darbuotojus AAP.",
+                "Organizuoti darbuotojų mokymus ir instruktažus.",
+                "Parengti evakuacijos planus ir avarinių situacijų veiksmų schemas.",
+                "Užtikrinti, kad darbo vietos paviršiai būtų nesugeriančios medžiagos (jei dirbama su skysčiais, gyvsidabriu).",
+                "Užtikrinti, kad naudojamos medžiagos būtų identifikuotos, saugomos tinkamomis sąlygomis, o jų likučiai šalinami pagal nustatytas taisykles."
               ]
             },
             {
               "type": "paragraph",
-              "text": "Perdavimas:"
+              "text": "Esant avarinei situacijai (pvz., išsiliejus cheminei medžiagai ar patekus į akis, burną), labai svarbu žinoti pirmosios pagalbos veiksmus. Tokios situacijos reikalauja greitos reakcijos, todėl kiekvienoje įmonėje turi būti:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Nuo asmens kitam asmeniui",
-                "Nuo žmogaus maistui",
-                "Nuo žmogaus maisto paviršiui"
+                "Pirmosios pagalbos vaistinėlė (pagal SAM įsakymą Nr. V-450),",
+                "Aiškiai pažymėtos evakuacijos schemos,",
+                "Saugos duomenų lapai, prieinami kiekvienam darbuotojui,",
+                "Ryšys su Apsinuodijimų informacijos biuru, kuris gali konsultuoti sudėtingais atvejais."
               ]
             },
             {
               "type": "paragraph",
-              "text": "**Svarbu**: Bloga asmens higiena ženkliai padidina virusų plitimo riziką."
-            },
-            {
-              "type": "heading",
-              "text": "Temperatūrų kontrolės įranga "
-            },
-            {
-              "type": "paragraph",
-              "text": "Kasdien stebėti ir fiksuoti temperatūrų rodmenis:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Šaldikliai**: –17,0 °C iki –23,0 °C",
-                "**Šaldytuvai**: +2,2 °C iki +4,0 °C",
-                "**Pieno tankai**: +2,2 °C iki +4,0 °C",
-                "**Maisto šildytuvai**: ne žemesnė kaip 63 °C"
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Atkreipti dėmesį, kad durų atidarymas ir uždarymas veikia vidaus temperatūrą"
-            },
-            {
-              "type": "paragraph",
-              "text": "Jei įranga neveikia tinkamai – privaloma ją nedelsiant sutaisyti"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Per maistą plintančios užkrečiamosios ligos"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Lietuvoje vis dar fiksuojami apsinuodijimo maistu protrūkiai, dažniausiai dėl viešojo maitinimo įmonių kaltės.",
-                "Nukentėjusiems asmenims dažniausiai diagnozuojamos ūmios bakterinės žarnyno infekcijos.",
-                "Patikrinimų metu nustatyta nemažai pažeidimų, galinčių kelti pavojų maisto saugai:",
-                [
-                  "Kryžminės taršos rizika",
-                  "Higienos reikalavimų nesilaikymas ruošiant maistą",
-                  "Netinkama žaliavų laikymo temperatūra ir sąlygos"
-                ],
-                "Svarbu žinoti, kad apsinuodijimo maistu rizika egzistuoja ne tik maitinimo įmonėse, bet ir ruošiant maistą namų sąlygomis."
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Su maistu ir per aplinką plintančios infekcinės ligos (plintančios fekaliniu–oraliniu būdu)"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Cholera** (A00)",
-                "**Vidurių šiltinė ir paratifai** (A01)",
-                "**Ūmių žarnyno infekcinių ligų grupė** (ŪŽIL)",
-                "**Salmoneliozės** (A02)",
-                "**Šigeliozės** (A03)",
-                "**Kitos patikslintos bakterinės žarnyno infekcijos** (A04 (A04.0–A04.8))",
-                "**Nepatikslintos bakterinės žarnyno infekcijos** (A04.9, A09)",
-                "**Virusinės žarnyno infekcijos** (A08)",
-                "**Kitos maisto toksinės infekcijos** (A05) (išskyrus botulizmą – A05.1)"
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Per maistą plintančių ligų simptomai"
-            },
-            {
-              "type": "paragraph",
-              "text": "Simptomai gali pasireikšti **greitai – per 30 minučių** arba išsivystyti **lėtai – per kelias dienas ar net savaites**."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Dažniausi požymiai:**."
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Pykinimas",
-                "Vėmimas",
-                "Viduriavimas",
-                "Spastiniai (traukulius primenantys) pilvo skausmai",
-                "Apetito praradimas",
-                "Nuovargis",
-                "Karščiavimas"
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Kaip išvengti per vandenį plintančių užkrečiamųjų ligų:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Jei naudojate šulinio vandenį gerti, gaminti maistą ar valytis dantis:",
-                [
-                  "Stebėkite vandens spalvą, skonį ir kvapą; jei pastebėsite pakitimus, nenaudokite tokio vandens.",
-                  "Naudokite tik virintą vandenį arba pirkite fasuotą geriamąjį vandenį."
-                ],
-                "Dažniausiai vandentiekio vanduo potvynių metu išlieka neužterštas ir saugus vartoti.",
-                [
-                  "Jei vanduo tampa nesaugus, apie tai praneša atsakingos institucijos."
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Per maistą plintančių užkrečiamųjų ligų prevencija"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "LAIKYKITĖS ŠVAROS"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "Laikykitės maisto gaminimo ir asmeninės higienos reikalavimų.",
-                "Plaukite rankas:",
-                [
-                  "Prieš maisto ruošimą,",
-                  "Po kontakto su žalia mėsa,",
-                  "Pasinaudojus tualetu,",
-                  "Prieš valgį."
-                ],
-                "Po maisto gaminimo išplaukite ir dezinfekuokite visus virtuvės paviršius, įrankius ir indus."
-              ]
-            },
-
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "ATSKIRKITE ŽALIAVĄ NUO PARUOŠTO MAISTO"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "Rinkitės tik saugias ir kokybiškas žaliavas.",
-                "Atskirai laikykite žalią mėsą, paukštieną, žuvį nuo jau paruošto maisto ar tų produktų, kurie nebus termiškai apdorojami.",
-                "Naudokite atskiras lenteles ir peilius žaliai mėsai, paukštienai, žuviai apdoroti  arba gerai nuplaukite juos po naudojimo."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "TERMIŠKAI GERAI APDOROKITE MAISTĄ"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Kruopščiai išvirkite arba iškepkite gyvūninį maistą: mėsą, paukštieną, žuvį, kiaušinius.",
-                "Užtikrinkite, kad patiekalai būtų pašildyti iki ne žemesnės kaip 70 °C temperatūros.",
-                "Gerai paruoštos mėsos ar paukštienos sultys turi būti skaidrios, o ne rausvos."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "TINKAMAI LAIKYKITE MAISTĄ"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Žaliavas ir paruoštus patiekalus laikykite tinkamoje temperatūroje, atskirai vienus nuo kitų.",
-                "Nepalikite paruošto maisto kambario temperatūroje ilgiau nei 2 valandas.",
-                "Nedelsdami atvėsinkite nesuvartotą ar greitai gendantį maistą.",
-                "Karštus patiekalus laikykite ne žemesnėje kaip 60 °C temperatūroje iki patiekimo.",
-                "Venkite ilgai laikyti maistą, net šaldytuve."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "RINKITĖS ŠVIEŽIĄ IR NESUGEDUSĮ MAISTĄ"
-            },
-            {
-              "type": "list",
-              "class": "margin-xxl",
-              "list_type": "unordered",
-              "text": [
-                "Maistui gaminti naudokite švarų geriamąjį vandenį.",
-                "Nevartokite nepasterizuoto arba nevirinto pieno ir jo produktų.",
-                "Kruopščiai plaukite daržoves ir vaisius, ypač jei vartojate juos neapdorotus šiluma."
-              ]
+              "text": "Tokie elementai kaip atsargų kontrolė, medžiagų ženklinimas, techninių saugiklių naudojimas (srovės išjungikliai, gaisrinės signalizacijos, nuotėkio detektoriai) ir darbuotojų kompetencija yra pagrindas siekiant užtikrinti, kad pavojus būtų ne tik atpažintas, bet ir kontroliuojamas."
             }
           ]
         }
