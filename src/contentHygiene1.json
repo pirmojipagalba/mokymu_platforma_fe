@@ -1,0 +1,441 @@
+{
+  "topics": [
+    {
+      "title": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus",
+      "sectionId": "section1",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "main-heading",
+              "text": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos SA ministro įsakymas DĖL LIETUVOS HIGIENOS NORMOS HN 79:2010 „VAIKŲ POILSIO STOVYKLA. BENDRIEJI SVEIKATOS SAUGOS REIKALAVIMAI“ patvirtinimo 2010 m. rugsėjo 7 d. Nr. V-765"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l",
+              "text": [
+                "Ši higienos norma nustato pagrindinius vaikų poilsio stovyklų (toliau – stovykla) sveikatos saugos reikalavimus.",
+                "Ši higienos norma taikoma stovykloms, kuriose teikiamos apgyvendinimo paslaugos.",
+                "Šios higienos normos reikalavimai privalomi asmenims, organizuojantiems stovyklas, projektuojantiems, statantiems, įrengiantiems, rekonstruojantiems, naudojantiems stovyklų statinius ir (ar) patalpas, stovyklų vadovams ir darbuotojams, kontrolę vykdančioms institucijoms."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Vartojamos sąvokos:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Greitai gendantis maisto produktas** – tai šviežias, atvėsintas, šaldytas arba sušaldytas maisto produktas, kuriam laikyti ir gabenti reikalinga tam tikra temperatūra, kurioje jis išlieka saugus ir atitinka teisės aktų reikalavimus;"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pritaikytas maitinimas** – tai toks maitinimas, kuris užtikrina individualų vaiko maistinių medžiagų ir energijos poreikį, nulemtą tam tikro sveikatos sutrikimo (alergija tam tikriems maisto produktams, virškinimo sistemos ligos ar remisinės jų būklės ir kt.), parinkus toleruojamus maisto produktus, jų gamybos būdą, konsistenciją ir valgymo režimą, ir yra rekomenduojamas gydytojo;"
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "**Stovykla** – asmenų teikiamos vaikams poilsio su apgyvendinimu paslaugos, siekiant užtikrinti turiningo laisvalaikio, saviraiškos poreikius. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai",
+      "sectionId": "section2",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maudymosi vietos:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jeigu stovykloje organizuojamas vaikų maudymasis maudymosi vietose, kurios nėra teisės aktų nustatyta tvarka įteisinti paplūdimiai, jos turi atitikti šiuos reikalavimus: "
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l margin-xxl",
+              "text": [
+                "maudymosi vietų vaikams ribos turi būti pažymėtos;",
+                "gylis maudymosi vietose turi būti ne didesnis kaip 0,7 metro ikimokyklinio amžiaus vaikams ir vaikams, nemokantiems plaukti, bei ne didesnis kaip 1,3 metro mokyklinio amžiaus mokantiems plaukti vaikams;",
+                "maudymosi vietose priėjimas prie vandens turi būti neslidus, neklampus;",
+                "maudymosi vietose neturi būti šalto gruntinio vandens versmių, verpetų, didelių bangų; vandens telkinio dugnas neturi būti akmenuotas, klampus, duobėtas, užterštas; vandens paviršius neturi būti apaugęs dumbliais;",
+                "prieš stovyklos atidarymą turi būti atliekami maudymosi vietos vandens mikrobiologiniai tyrimai; vandenyje turi būti ne daugiau kaip 100 žarninių enterokokų (Intestinal Enterococci) kolonijas sudarančių vienetų 100 ml ir ne daugiau kaip 1 000 žarninių lazdelių (Escherichia coli) kolonijas sudarančių vienetų 100 ml vandens; tyrimai turi būti atliekami akredituotose (atestuotose) laboratorijose, tyrimų protokolai saugomi stovykloje, vadovo nustatytoje vietoje."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sklypas / Teritorija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l margin-xxl",
+              "text": [
+                "Visi stovyklos sklype / teritorijoje esantys įrenginiai turi būti patikimai sutvirtinti, tvarkingi.",
+                "Stovyklos sklype / teritorijoje esantys vandens telkiniai, nenaudojami vaikams maudytis, turi būti aptverti.",
+                "Ūkinėms reikmėms skirtoje aikštelėje turi būti talpos buitinėms atliekoms su sandariai uždaromais dangčiais.",
+                "Žaidimų ir poilsio aikštelėse turi būti sudaryta galimybė apsaugoti vaikus nuo tiesioginių saulės spindulių ir kritulių.",
+                "Pagrindiniai įvažiavimai į stovyklos sklypą / teritoriją, pėsčiųjų takai tamsiuoju paros metu turi būti apšviesti."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Patalpos ir jų įrengimas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l margin-xxl",
+              "text": [
+                "Triukšmas stovyklos gyvenamuosiuose kambariuose (miegamuosiuose) turi atitikti visuomeninės paskirties pastatų miegamiesiems kambariams nustatytus leidžiamus triukšmo ribinius dydžius.",
+                "Gyvenamieji kambariai (miegamieji), tualetai, prausyklos, dušai įrengiami atskirai mergaitėms ir berniukams.",
+                "Gyvenamajame kambaryje (miegamajame) įrengiama ne daugiau kaip 10 vietų vaikams iki 10 metų ir ne daugiau kaip 5 vietos vyresniems vaikams. Vienai vietai skiriama ne mažiau kaip 3 m² ploto.",
+                "Jei vaikams miegoti naudojamos dviaukštės lovos, draudžiama vaikams iki 10 metų miegoti antrame dviaukštės lovos aukšte.",
+                "Gyvenamuosiuose kambariuose (miegamuosiuose) kiekvienam vaikui turi būti numatyti baldai ar vieta juose asmeniniams daiktams, drabužiams laikyti.",
+                "Vaikų maitinimas organizuojamas valgyklose ar kitose vaikus maitinti pritaikytose patalpose ar vietose, sudarant sąlygas kiekvienam vaikui pavalgyti prie stalo."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Sanitarinių įrenginių skaičius turi būti ne mažesnis kaip:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l margin-xxl",
+              "text": [
+                "1 unitazas penkiolikai mergaičių;",
+                "1 unitazas ir 1 pisuaras dvidešimčiai berniukų;",
+                "1 praustuvė aštuoniems vaikams;",
+                "1 dušas dvidešimčiai vaikų."
+              ]
+            },
+            {
+              "type": "sanitization-table",
+              "class": "margin-xxl"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Patalpų įrengimas"
+            },
+            {
+              "type": "heading",
+              "text": "Vandens tiekimas, vėdinimas ir apšvietimas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l margin-xxl",
+              "text": [
+                "Geriamojo vandens kokybė turi atitikti teisės akto reikalavimus.",
+                "Karštas ir šaltas vanduo turi būti nuolat tiekiamas į dušus, prausyklas, valgyklą ar kitą vaikus maitinti pritaikytą patalpą ar vietą ir – jeigu stovykloje įrengtos – skalbimo patalpą (zoną), sveikatos priežiūros patalpas.",
+                "Oro kokybė gyvenamuosiuose kambariuose (miegamuosiuose) ir kitose vaikų poilsio ir (ar) ugdymo veiklai skirtose stovyklos patalpose turi atitikti teisės akto reikalavimus.",
+                "Mikroklimatas gyvenamuosiuose kambariuose (miegamuosiuose) ir kitose vaikų poilsio ir (ar) ugdymo veiklai skirtose stovyklos patalpose turi atitikti nustatytus reikalavimus: oro temperatūra turi būti 18–28 °C; santykinė oro drėgmė turi būti 35–65 %; oro judėjimo greitis turi būti ne didesnis kaip 0,25 m/s.",
+                "Turi būti užtikrintas gyvenamųjų kambarių (miegamųjų) ir kitų vaikų poilsio ir (ar) ugdymo veiklai skirtų stovyklos patalpų natūralus vėdinimas.",
+                "Gyvenamuosiuose kambariuose (miegamuosiuose) ir kitose vaikų poilsio ir (ar) ugdymo veiklai skirtose stovyklos patalpose turi būti natūralus apšvietimas. Tik dirbtinis apšvietimas leidžiamas sandėliuose, buitinėse patalpose, ūkiniuose pastatuose, dušuose ir tualetuose. Mažiausia gyvenamųjų kambarių (miegamųjų) ir kitų vaikų poilsio ir (ar) ugdymo veiklai skirtų stovyklos patalpų dirbtinė apšvieta turi būti 150 lx, koridorių, dušų, tualetų – 50 lx."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": " Teritorijos, patalpų, įrenginių priežiūra",
+      "sectionId": "section3",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Teritorijos, patalpų, įrenginių priežiūra"
+            },
+            {
+              "type": "tool-table"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dienos režimo ir maitinimo organizavimas",
+      "sectionId": "section4",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Dienos režimo ir maitinimo organizavimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maitinimo organizavimas:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaikų maitinimą stovyklose gali organizuoti tik maisto tvarkymo subjektai, kuriems teisės aktų nustatyta tvarka suteikta teisė verstis maisto tvarkymu."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maitinimo dažnumas ir intervalai:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaikai stovykloje turi būti maitinami ne rečiau kaip 4 kartus per dieną, kas 3,5–4 valandas."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maitinimo valgiaraščiai:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaikų maitinimas stovykloje turi būti organizuojamas pagal: stovyklos vadovo patvirtintus, su teritorine visuomenės sveikatos priežiūros įstaiga suderintus vaikų maitinimo valgiaraščius."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Valgiaraščiai sudaromi atsižvelgiant į:**"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l",
+              "text": [
+                "rekomenduojamas paros energijos ir maistinių medžiagų normas vaikams,",
+                "vaikų fiziologinius ypatumus,",
+                "sveikos mitybos principus."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto ruošimas ir patiekalų asortimentas turi užtikrinti patiekalų įvairovę."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pritaikytas maitinimas:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Esant poreikiui, turi būti organizuojamas individualiai pritaikytas vaikų maitinimas."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Neleistini vaikų maitinimo produktai:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaikams maitinti stovykloje draudžiama tiekti šiuos produktus:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l",
+              "text": [
+                "subproduktus (inkstus, kepenis, smegenis, plaučius);",
+                "grybus;",
+                "konditerijos gaminius su kremu;",
+                "energinius gėrimus;",
+                "bulvių traškučius ir kitus riebaluose virtus gaminius;",
+                "nepramoninės gamybos konservuotus gaminius;",
+                "žlėgtainius, šaltieną;",
+                "genetiškai modifikuotą maistą ar produktus, kurių sudėtyje yra genetiškai modifikuotų sudedamųjų dalių."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Geriamojo vandens prieinamumas:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Stovykloje vaikams turi būti sudaryta galimybė bet kuriuo metu atsigerti geriamojo vandens."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maisto laikymas gyvenamosiose patalpose:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gyvenamuosiuose kambariuose (miegamuosiuose) draudžiama laikyti greitai gendančius maisto produktus."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maitinimas žygių metu:**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Žygio metu vaikai turi būti aprūpinti:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-left-l",
+              "text": ["pakankamu maisto kiekiu,", "geriamuoju vandeniu."]
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Draudžiama į žygį imti greitai gendančius maisto produktus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ugdymo proceso higiena",
+      "sectionId": "section5",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Ugdymo proceso higiena"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaikų dienos režimas stovykloje organizuojamas pagal stovyklos vadovo patvirtintą programą ir turi atitikti vaikų amžių ir sveikatos būklę."
+            },
+            {
+              "type": "paragraph",
+              "text": "Į stovyklą priimami tik vaikai, turintys Vaiko sveikatos pažymėjimą (forma Nr. 027-1/a), išduotą ne anksčiau kaip prieš metus, ar jo kopiją."
+            },
+            {
+              "type": "paragraph",
+              "text": "Stovykloje turi būti įmonės pirmosios pagalbos rinkinys, lengvai pasiekiamas stovyklos darbuotojams visą stovyklos darbo laiką. Rinkinio sudėtis turi atitikti teisės akto reikalavimus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jei per 1 ar 2 dienas 2 ar daugiau vaikų pasireiškia panašūs į užkrečiamosios ligos simptomai (pvz., vėmimas ar viduriavimas su arba be karščiavimo), stovyklos vadovas apie tai telefonu nedelsdamas informuoja teritorinę visuomenės sveikatos priežiūros įstaigą."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Atskiros vėdinimo sistemos turi būti virtuvėje, tualeto ir vonios (dušo) patalpose, skalbykloje (jei yra įrengta)."
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Vandens tiekimo ir nuotekų šalinimo reikalavimai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Geriamojo vandens kokybė turi atitikti teisės akto reikalavimus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Karštas ir šaltas vanduo turi būti nuolat tiekiamas virtuvės patalpose, praustuvėse prie valgyklos (jei yra įrengta), tualetuose, vonios (dušo) patalpose, skalbimo patalpoje (vietoje), skalbykloje (jei yra įrengta)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaikų tualetuose, vonios (dušo) patalpose karšto vandens temperatūra iš čiaupo turi būti ne žemesnė kaip 37 °C ir ne aukštesnė kaip 42 °C."
+            },
+            {
+              "type": "paragraph",
+              "text": "Karšto vandens ruošimas ir tiekimas turi atitikti teisės akto reikalavimus. Dėl legioneliozių prevencijos socialinės globos namų karšto vandens sistemoje temperatūra kas 3 mėn. turi būti profilaktiškai pakeliama iki 66 °C ir išlaikoma 25 min. Temperatūra pakeliama, kai socialinės globos namuose nėra vaikų. Profilaktikos darbai registruojami atitinkamame žurnale (data, darbus vykdžiusio asmens vardas ir pavardė, parašas)."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Vaikų socialinės globos įstaigose, šeimynose turi būti įrengti centralizuoti ar individualūs nuotekų šalinimo įrenginiai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai)",
+      "sectionId": "section6",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai)"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--small section__sub-heading--underline",
+              "text": "LIETUVOS RESPUBLIKOS VAIKŲ PROFILAKTINIŲ SKIEPIJIMŲ KALENDORIUS"
+            },
+            {
+              "type": "img",
+              "img_orientation": "horizontal",
+              "text": "skiepu_kalendorius.jpg"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--small section__sub-heading--align-left section__sub-heading--underline",
+              "text": "Sutrumpinimai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "***BCG*** – tuberkuliozės vakcina",
+                "***HepB*** – hepatito B vakcina",
+                "***DTaP*** – kokliušo (neląstelinio), difterijos, stabligės vakcina",
+                "***Hib*** – B tipo Haemophilus influenzae infekcijos vakcina",
+                "***Tdap*** – kokliušo (neląstelinio), difterijos, stabligės (suaugusiųjų) vakcina",
+                "***IPV*** – inaktyvuota poliomielito vakcina",
+                "***PCV*** – pneumokokinės infekcijos (polisacharidinė konjuguota) vakcina",
+                "***MMR*** – tymų, epideminio parotito, raudonukės vakcina",
+                "***HPV*** – žmogaus papilomos viruso infekcijos vakcina",
+                "***RV*** – rotavirusinės infekcijos vakcina",
+                "***MenB*** – B tipo meningokokinės infekcijos vakcina"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "***HepB**** pirma dozė turi būti įskiepijama naujagimiui per 24 val. po gimimo. ***PCV***** ir MenB** gali būti skiepijama kartu (vieno vizito metu) su MMR** vakcina."
+            },
+            {
+              "type": "paragraph",
+              "text": "***HPV****** skiepijimo schemą sudaro dvi HPV dozės (tarp pirmos ir antros HPV dozių turi būti ne trumpesnis kaip 6 mėn. laikotarpis). Visi vaikai nemokamai skiepijami dviem vakcinos dozėmis. Taikant kitą skiepijimo schemą, kai reikalingos daugiau nei dvi vakcinos dozės, du skiepijimai atliekami nemokamai, kiti skiepijimai atliekami savo lėšomis."
+            },
+            {
+              "type": "paragraph",
+              "text": "***RV******* trečioji dozė skiepijama, jei skiepijama penkiavalente RV ir trijų dozių schema, nurodyta vaistinio preparato charakteristikų santraukoje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prieš kiekvieną vaiko skiepijimą tėvus ar teisėtus globėjus būtina informuoti apie vakcinų skyrimą, galimas nepageidaujamas reakcijas į skiepą. Dėl informacijos gavimo bei sutikimo skiepyti jie turi pasirašyti Sutikimo dėl sveikatos priežiūros paslaugų teikimo formoje."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Jei vaikas laiku nepaskiepijamas, jam sudaromas individualus skiepijimų kalendorius pagal indikacijas, nurodytas vaistinių preparatų charakteristikų santraukose."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

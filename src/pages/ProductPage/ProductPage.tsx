@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useAppContext } from "../../context/AppContext";
 import "./ProductPage.scss";
 import Container from "../../components/Container/Container";
 
@@ -11,26 +10,13 @@ interface Product {
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   const navigate = useNavigate();
-  const { setMaterial, setQuestionnaireMaterial, setSelectedProduct } =
-    useAppContext();
 
   const handleClick = () => {
-    if (product.name === "hygiene") {
-      setMaterial(require("../../contentHygiene.json"));
-      setQuestionnaireMaterial(require("../../questionsHygiene.json"));
-    } else if (product.name === "firstaid") {
-      setMaterial(require("../../content.json"));
-      setQuestionnaireMaterial(require("../../questions.json"));
-    }
-    setSelectedProduct(product.name);
-    navigate("/dashboard");
+    navigate(`/${product.name}/dashboard`);
   };
-  //TODO: make the image dynamic
+
   return (
-    <div
-      className={`product-card ${product.name === "hygiene" ? "disabled" : ""}`}
-      onClick={product.name !== "hygiene" ? handleClick : undefined}
-    >
+    <div className={`product-card`} onClick={handleClick}>
       <img
         src={`/assets/${
           product.name === "firstaid" ? "cpr2.png" : "hygiene.jpg"

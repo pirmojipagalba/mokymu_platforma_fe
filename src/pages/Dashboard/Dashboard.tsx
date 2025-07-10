@@ -33,7 +33,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
         `currentSection_${selectedProduct}`,
         String(sectionIndex)
       );
-      navigate(`/section${sectionIndex}`);
+      navigate(`/${selectedProduct}/section${sectionIndex}`);
     }
   };
 
@@ -42,7 +42,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
     localStorage.removeItem(`collectedAnswers_${selectedProduct}`);
     setEnabledSections(1);
     setAllSectionsCompleted(false);
-    navigate("/dashboard");
+    navigate(`/${selectedProduct}/dashboard`);
   };
 
   useEffect(() => {
@@ -62,6 +62,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   return (
     <Container type="wide">
       <div className={"dashboard"}>
+        <button onClick={() => navigate('/product')}>back to products</button>
         {allSectionsCompleted && (
           <>
             <div className="dashboard__message-container">

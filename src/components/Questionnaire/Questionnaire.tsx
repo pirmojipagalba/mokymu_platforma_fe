@@ -178,7 +178,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
           <button
             className="questionnaire__dashboard-button"
             type="button"
-            onClick={() => navigate("/dashboard")}
+            onClick={() => navigate(`/${selectedProduct}/dashboard`)}
           >
             Atgal į temų sąrašą
           </button>
@@ -187,7 +187,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
           <button
             className="questionnaire__try-again"
             type="button"
-            onClick={() => navigate(`/section${sectionIndex}`)}
+            onClick={() => navigate(`/${selectedProduct}/section${sectionIndex}`)}
           >
             Bandyti dar kartą
           </button>

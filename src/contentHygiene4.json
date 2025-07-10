@@ -1,0 +1,914 @@
+{
+  "topics": [
+    {
+      "title": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus",
+      "sectionId": "section1",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "main-heading",
+              "text": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos SA ministro įsakymas DĖL LIETUVOS HIGIENOS NORMOS HN 21:2017 „MOKYKLA, VYKDANTI BENDROJO UGDYMO PROGRAMAS. BENDRIEJI SVEIKATOS SAUGOS REIKALAVIMAI“ patvirtinimo 2011 m. rugpjūčio 10 d. Nr. V-773"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Ši higienos norma nustato pagrindinius mokyklų, vykdančių bendrojo ugdymo programas (toliau – mokykla), įrengimo ir jose vykdomo ugdymo proceso organizavimo sveikatos saugos reikalavimus. Ši higienos norma netaikoma profesinio mokymo įstaigoms."
+            },
+            {
+              "type": "paragraph",
+              "text": "2. Šios higienos normos reikalavimai privalomi asmenims, projektuojantiems, statantiems, rekonstruojantiems, remontuojantiems, įrengiantiems, eksploatuojantiems mokyklų statinius ir (ar) patalpas, mokyklų savininko (dalininko) teises ir pareigas įgyvendinančioms institucijoms, mokyklų savininkams (dalininkams), mokyklų vadovams, pagal kompetenciją kontrolę vykdančioms institucijoms."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sąvokos:"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Mokymo klasė** – mokyklos patalpa, skirta ugdymo programai vykdyti."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Mokymo kabinetas** – ugdymo programai vykdyti skirta mokyklos patalpa su įrenginiais praktikos ir tiriamiesiems darbams."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokykla gali vykdyti veiklą tik gavusi teisės akto nustatyta tvarka leidimą – higienos pasą."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jeigu mokykloje organizuojamas ikimokyklinis ir (ar) priešmokyklinis ugdymas, vaikų ugdymo sąlygos turi atitikti teisės akto reikalavimus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos darbo laiku lengvai pasiekiamoje vietoje ir, jei mokykloje įrengta, sporto salėje, mokymo kabinete, kuriame atliekami praktikos darbai su konstrukcinėmis medžiagomis, mokymo kabinete, kuriame atliekami praktikos darbai, susiję su elektronika, mokymo kabinete, kuriame atliekami praktikos darbai, susiję su maisto tvarkymu, mokymo kabinete, kuriame atliekami praktikos darbai, susiję su tekstile **turi būti įmonės pirmosios pagalbos rinkinys, kurio sudėtis ir apimtis turi atitikti teisės akto reikalavimus.**"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "Reikalavimai darbuotojams"
+            },
+            {
+              "type": "list",
+              "list_type": "ordered",
+              "class": "margin-xxl",
+              "text": [
+                "Švietimo teikėjai nustatyta tvarka turi būti pasitikrinę sveikatą.",
+                "Asmens medicininė knygelė (sveikatos pasas) (forma Nr. F048/a) ar jos kopija turi būti laikomi švietimo teikėjo nustatytoje vietoje.",
+                "Privalo gauti Sveikatos žinių ir įgūdžių atestavimo pažymėjimus.",
+                "Sveikatos žinių ir įgūdžių pažymėjimai turi būti laikomi švietimo teikėjo nustatytoje vietoje."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai",
+      "sectionId": "section2",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Teritorija"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos sklypo dydis turi būti nustatomas atsižvelgiant į planuojamą mokinių skaičių. Minimali neužstatyta sklypo dalis (kvadratiniais metrais), skirta mokinių poilsiui (pvz., želdiniams, takams, poilsio aikštelėms), apskaičiuojama taip: planuojamas mokinių skaičius padauginamas iš 3 ir pridedama 800. Į šį plotą neįskaičiuojamos sporto aikštelės, nurodytos higienos normos 15 ir 16 punktuose."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos sklype turi būti įrengtos vietos dviračiams laikyti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos, kuri priklauso pradinės mokyklos tipui, sklype turi būti įrengta ne mažesnė kaip 450 kv. m universali sporto aikštelė fizinio ugdymo pamokoms organizuoti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Progimnazijos, pagrindinės mokyklos tipo ir gimnazijos tipo mokyklos, kurioje vykdomos pradinio, pagrindinio ir vidurinio ugdymo programos, sklype turi būti įrengta:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "jei planuojamas mokinių skaičius iki 500, – universali aikštelė (-ės), kurios (-ių) plotas ne mažesnis kaip 1 000 kv. m, ne trumpesnis kaip 100 m bėgimo takas;",
+                "jei planuojamas mokinių skaičius 501–1000, – universali aikštelė (-ės), kurios (-ių) plotas ne mažesnis kaip 2000 kv. m, ne trumpesnis kaip 100 m bėgimo takas;",
+                "jei planuojamas mokinių skaičius daugiau kaip 1000, – ne mažesnė kaip 2000 kv. m futbolo aikštelė, ne mažesnė kaip 450 kv. m universali aikštelė, ne trumpesnis kaip 100 m bėgimo takas;",
+                "jei planuojama ugdyti iki 100 mokinių tik pagal pradinio ir pagrindinio ugdymo programą, – universali aikštelė (-ės), kurios (-ių) plotas ne mažesnis kaip 800 kv. m, ne trumpesnis kaip 100 m bėgimo takas."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Gimnazijos tipo mokyklos, kurioje vykdoma pagrindinio ugdymo programos antroji dalis ir vidurinio ugdymo programa, sklype turi būti įrengta ne mažesnė kaip 3000 kv. m. futbolo aikštelė, ne mažesnė kaip 450 kv. m. universali aikštelė, ne trumpesnis kaip 100 m bėgimo takas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Futbolo aikštelė, universali aikštelė, bėgimo takas turi būti padengti neslidžia saugia danga. Fizinio ugdymo pamokoms naudojami įrenginiai turi būti patikimai sutvirtinti, techniškai tvarkingi, išdėstyti saugiu atstumu, nekelti pavojaus mokinių sveikatai ir gyvybei."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ūkinėms reikmėms skirtoje aikštelėje turi būti talpos buitinėms atliekoms su sandariai uždaromais dangčiais."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Tamsiu paros metu mokyklos darbo laiku visi mokiniams skirti įėjimai į mokyklos pastatą turi būti apšviesti."
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Patalpos"
+            },
+            {
+              "type": "paragraph",
+              "text": "Triukšmas ir vibracija ugdymo proceso metu mokymo patalpose turi neviršyti teisės aktuose nustatytų ribinių dydžių."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokymo klasės ir mokymo kabinetai, kuriuose vyksta pamokos, reikalaujančios susikaupti ir sutelkti dėmesį, turi būti izoliuotos nuo patalpų, kuriose vyksta fizinio ugdymo pamokos, muzikos, technologijų pamokos, taip pat nuo patalpų, iš kurių sklinda kvapai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kiekvienam mokiniui mokymo klasėje turi būti skirta ne mažiau kaip 1,7 kv. m patalpos ploto, o elektronikos, tekstilės mokymo kabinetuose, gamtos mokslų (biologijos, chemijos, fizikos ar bendrajame gamtos mokslų) mokymo kabinete, kuriame atliekami tiriamieji darbai (toliau – gamtos mokslų kabinetas), – 2,4 kv. m, konstrukcinių medžiagų dirbtuvėse, mokomojoje virtuvėje – 3 kv. m."
+            },
+            {
+              "type": "paragraph",
+              "text": "Draudžiama mokymo klasėse ir mokymo kabinetuose įrengti drabužines."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokymo klasėse ir mokymo kabinetuose stalai ir kėdės turi atitikti mokinių ūgį, kad sėdinčių mokinių laikysena būtų taisyklinga (sėdint ant kėdės mokinio kojos per klubo ir kelio sąnarius turi būti sulenktos 90º kampu, visa pėda turi remtis į grindis; stalo aukštis turi būti toks, kad mokiniui dilbį padėjus ant stalo ranka per alkūnės sąnarį būtų sulenkta 90º kampu)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Stalai mokymo klasėje ir mokymo kabinete statomi atsižvelgiant į pamokos organizavimo formą. Atstumai tarp stalų turi būti tokie, kad mokiniai galėtų laisvai ir saugiai judėti tarp jų (pasiekti jiems skirtas mokymosi vietas, palikti jas, turėtų pakankamai erdvės kūno padėčiai keisti)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sutrikusios klausos mokinio stalas turi būti vienvietis ir stovėti priešais mokytojo stalą, kad mokinys galėtų matyti mokytojo veidą, kai šis kalba. Specialioje klasėje sutrikusios klausos mokiniai turi sėdėti prie vienviečių stalų, kurie sustatomi puslankiu prieš mokytojo stalą. Aklasis mokinys turi sėdėti prie vienviečio stalo, pritaikyto vadovėliams Brailio raštu pasidėti ir rašymo priemonėms laikyti."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokykloje esančių stacionarių kompiuterizuotų vietų įrengimo reikalavimai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "kompiuterių spinduliuojamo elektromagnetinio lauko lygiai turi atitikti teisės akto reikalavimus;",
+                "atstumas nuo monitoriaus ekrano iki mokinio akių turi būti ne mažesnis kaip 40 cm;",
+                "stacionari kompiuterizuota vieta turi būti suprojektuota ir įrengta taip, kad mokinys galėtų laisvai prie jos prieiti, turėtų pakankamai erdvės judėti bei kūno padėčiai keisti;",
+                "stalas ir jo paviršius turi būti toks, kad būtų galima patogiai išdėstyti monitorių, klaviatūrą ir kitus būtinus įrenginius, stalo paviršius turi būti matinis;",
+                "draudžiama prie vieno monitoriaus dirbti (atlikti duomenų įvedimo, tvarkymo operacijas) daugiau kaip vienam mokiniui. Šio higienos normos papunkčio nuostatos netaikomos, kai atliekamos trumpalaikės grupinės užduotys;",
+                "atstumas tarp monitoriaus su katodinių spindulių kineskopu užpakalinio paviršiaus ir kito monitoriaus ekrano turi būti ne mažesnis kaip 2 m, tarp monitoriaus ekranų šoninių paviršių – ne mažesnis kaip 1,2 m."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Cheminių medžiagų ir mišinių naudojimas mokykloje"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos patalpose ir sklype draudžiama naudoti chemines medžiagas ir mišinius, atitinkančius teisės akte nustatytus klasifikavimo kriterijus ir pagal juos priskiriamus 1, 2 ir 3 kategorijos ūmiai toksiškoms, 1A ir 1B kategorijos kancerogeninėms, 1A ir 1B kategorijos mutageninėms, 1A ir 1B kategorijos toksiškai veikiančioms reprodukciją, 1 kategorijos specifiškai toksiškoms konkrečiam organui po vienkartinio poveikio, 1 kategorijos specifiškai toksiškoms konkrečiam organui po kartotinio poveikio cheminėms medžiagoms ir mišiniams."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gamtos mokslų kabinetuose, kuriuose atliekami tiriamieji darbai su cheminėmis medžiagomis ir mišiniais, turi būti:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "visų juose laikomų cheminių medžiagų ir mišinių sąrašas ir jų saugos duomenų lapai;",
+                "cheminės medžiagos ir mišiniai laikomi teisės akto nustatyta tvarka paženklintose talpose mokiniams neprieinamose vietose;",
+                "užtikrinta nuolatinė ir efektyvi oro kaita;"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Cheminės medžiagos ir mišiniai naudojami ugdymo proceso metu tik prižiūrint mokytojui ar kitam mokyklos vadovo nustatyta tvarka paskirtam mokyklos darbuotojui. Mokiniai, atliekantys tiriamuosius darbus su cheminėmis medžiagomis ir mišiniais, turi dėvėti asmenines apsaugos priemones. Asmeninės apsaugos priemonės parenkamos atsižvelgiant į saugos duomenų lapuose pateiktą informaciją. Mokiniams skirtos asmeninės apsaugos priemonės turi būti paženklintos CE ženklu ir atitikti teisės akte nustatytus saugos ir sveikatos reikalavimus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jeigu gamtos mokslų kabinete numatyta vykdyti tiriamuosius darbus su cheminėmis medžiagomis ir mišiniais, kuriuos atliekant išsiskiria pavojingos dujos ar garai, turi būti įrengta traukos spinta. Traukos spintoje turi būti išlaikytas gamintojo rekomenduojamas oro srauto įtekėjimo greitis. Jei gamintojo instrukcijos nėra, per 50 cm pravertą traukos spintos slankiojamojo lango angą vidutinis oro srauto įtekėjimo greitis turi būti ne mažesnis kaip 0,5 m/s."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "Konstrukcinių medžiagų dirbtuvės ir mokomoji virtuvė"
+            },
+            {
+              "type": "paragraph",
+              "text": "Konstrukcinių medžiagų dirbtuvės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "darbastaliai turi būti sustatyti taip, kad mokinys galėtų laisvai prie jų prieiti, turėtų pakankamai erdvės judėti ir saugiai atlikti technologines operacijas;",
+                "turi būti įrengtos spintelės, stovai arba lentynos įrankiams laikyti;",
+                "prie kiekvieno darbastalio turi būti įrengta vieta atsisėsti;",
+                "prie metalo apdirbimo darbastalių turi būti įrengti apsauginiai tinkleliai, jei ant jų atliekamų technologinių operacijų metu gali atskilti apdorojamos medžiagos skeveldros;",
+                "grindų danga turi būti nelaidi elektros srovei arba prie elektrinių įrengimų (pvz., staklių) turi būti elektros srovei nelaidūs kilimėliai;",
+                "turi būti įrengta plautuvė;",
+                "prie plautuvės turi būti asmens higienos priemonių (skysto muilo, uždara vienkartinių rankšluosčių dėtuvė ir vienkartinių rankšluosčių ar rankų džiovintuvas)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Konstrukcinių medžiagų dirbtuvės įrengiamos naudojant triukšmą mažinančias priemones."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokomojoje virtuvėje turi būti:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "šaldytuvas;",
+                "viryklė;",
+                "spintelė ar lentynos maistui ir indams bei įrankiams laikyti;",
+                "stalas, maisto produktams apdoroti ir maistui ruošti, kurio paviršius turi būti iš korozijai atsparių medžiagų, lygus, lengvai valomas ir, jei būtina, – gali būti dezinfekuojamas;",
+                "indai ir įrankiai;",
+                "plautuvė;",
+                "šiukšlių dėžė;",
+                "prie plautuvės turi būti asmens higienos priemonių (skysto muilo, uždara vienkartinių rankšluosčių dėtuvė ir vienkartinių rankšluosčių ar rankų džiovintuvas)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Konstrukcinių medžiagų dirbtuvėse, mokomojoje virtuvėje:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "mokiniai turi dirbti vilkėdami tinkamo dydžio darbine apranga (individualus chalatas, prijuostė ar pan.);",
+                "jei įrengiamos pakabinamos spintelės ar lentynos, jos turi būti mokiniams pasiekiamame aukštyje."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokykloje, atsižvelgiant į planuojamą fizinio ugdymo pamokose vienu metu dalyvausiančių mokinių skaičių, turi būti įrengiama viena arba daugiau sporto salių. Minimalus bendras sporto salių plotas (kvadratiniais metrais) apskaičiuojamas padauginus planuojamą fizinio ugdymo pamokose vienu metu dalyvausiančių mokinių skaičių iš šios Higienos normos 38 punkte numatyto ploto. Sporto salei įrengti negali būti skiriama mažesnė kaip 70 kv. m patalpa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklose, kuriose vykdomos pagrindinio ir vidurinio ugdymo programos, atskirai moterims ir vyrams turi būti įrengti:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "persirengimo kambariai;",
+                "dušai (jei dušo patalpoje įrengtos kelios dušo galvutės, jos turi būti atskirtos pertvaromis);",
+                "prie persirengimo kambarių – tualetai."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Organizuojant fizinio ugdymo pamokas pradinių klasių mokiniams turi būti sudaryta galimybė persirengti atskirai berniukams ir mergaitėms. Persirengimo kambariai turi tiesiogiai jungtis su dušų patalpomis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Persirengimo kambariuose kiekvienam pamokoje dalyvaujančiam mokiniui turi būti įrengtos kabyklos arba spintelės drabužiams."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fizinio ugdymo pamokos metu vienam mokiniui sporto salėje turi būti skirtas ne mažesnis kaip 8,5 kv. m plotas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sporto salėje turi būti tik fizinio ugdymo pamokoms reikalinga įranga ir inventorius. Neturi būti pašalinių daiktų ar sugadintos įrangos, galinčios kelti pavojų mokinių sveikatai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sporto salėje radiatoriai turi būti apsaugoti nuo galimo susidūrimo, įrengiant saugos priemones. Sporto salėje, kurioje naudojamos pagalbinės priemonės (inventorius), galinčios kliudyti langą ar šviestuvą (pvz., kamuoliai ir pan.), langai ir šviestuvai turi būti apsaugoti nuo dužimo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kiekviename mokyklos aukšte turi būti įrengti tualetai, atskirai moterims ir vyrams. Tualetų išorinės durys neturi būti priešais mokymo klasių ir mokymo kabinetų duris."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tualetuose kabinos turi būti įrengtos su rakinamomis ar užkabinamomis durimis. Tualeto patalpoje turi būti praustuvas ir asmens higienos priemonių (tualetinio popieriaus, skysto muilo, uždara vienkartinių rankšluosčių dėtuvė ir vienkartinių rankšluosčių ar rankų džiovintuvas, šiukšlių dėžė)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sanitarinių įrenginių skaičius skaičiuojamas pagal planuojamą mokinių skaičių ir turi būti ne mažesnis kaip:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "1 praustuvas trisdešimčiai mokinių.",
+                "1 unitazas dvidešimčiai mokinių (trisdešimčiai vyrų gali būti įrengiamas 1 unitazas ir 1 pisuaras).",
+                "1 dušo ragelis penkiems mokiniams persirengimo kambaryje."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Visi sanitariniai įrenginiai turi būti veikiantys ir techniškai tvarkingi."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos patalpų grindų danga turi būti neslidi, lygi (nekelti kritimo rizikos užkliuvus), lengvai valoma drėgnu būdu ir atspari valymo priemonėms. Tualetų ir dušų sienos ir grindys turi būti padengtos drėgmei ir dezinfekcinėms medžiagoms atsparia danga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Grindų aukščio pokyčiai turi būti pažymėti įspėjamaisiais ženklais arba kontrastinga spalva."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Mokykloje, skirtoje regos sutrikimų turintiems mokiniams, laiptų, turėklų, grindų dangos, durų spalva turi būti kontrastinga sienų spalvai."
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Apšvietimas"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Natūralus apšvietimas:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tiesioginis natūralus apšvietimas turi būti mokymo klasėse, mokymo kabinetuose, išskyrus specialios paskirties mokymo kabinetus, kuriuose dėl naudojamų technologijų natūralaus apšvietimo negalima įrengti, sporto salėse, koridoriuose, skirtuose mokinių poilsiui tarp pamokų."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokymo klasėse ir mokymo kabinetuose natūralios apšvietos koeficientas turi būti ne mažesnis kaip 1,5 proc. toliausiai nuo lango nutolusiame taške."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokymo klasėse ir mokymo kabinetuose, apšviečiamuose tiesioginiais saulės spinduliais, turi būti įrengtos užuolaidos, žaliuzės ar kitos apsaugos nuo saulės priemonės."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Dirbtinio apšvietimo reikalavimai:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bendras dirbtinis apšvietimas turi būti įrengtas visose mokyklos patalpose. Mokyklos patalpų dirbtinės apšvietos mažiausios ribinės vertės pateiktos šios higienos normos lentelėje."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Patalpų dirbtinės apšvietos mažiausios ribinės vertės:**"
+            },
+            {
+              "type": "luminosity-table"
+            },
+            {
+              "type": "paragraph",
+              "text": "Dirbtiniam apšvietimui turi būti naudojami šviestuvai, vienodai išsklaidantys šviesą."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prie staklių ir siuvimo mašinų turi būti numatytas ir vietinis dirbtinis apšvietimas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bendram dirbtiniam apšvietimui mokyklos patalpose turi būti naudojamos lempos, kurių bendrasis spalvų atgavos rodiklis ne mažesnis kaip 80."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Mokymo klasėse, kuriose mokosi silpnaregiai mokiniai, bendro dirbtinio apšvietimo sistemos apšvieta turi būti ne mažesnė kaip 500 lx, o esant gydytojo rekomendacijai, turi būti papildomai įrengtas vietinis dirbtinis apšvietimas."
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Šildymas. Vėdinimas. Oro kondicionavimas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos pastate ir (ar) patalpose turi būti suprojektuotos ir įrengtos tokios mikroklimato bei oro kokybės parametrus palaikančios ir reguliuojančios šildymo, vėdinimo ir (ar) oro kondicionavimo sistemos, kad jose būtų galima palaikyti šios higienos normos nustatytus mikroklimato bei teisės akto nustatytus oro kokybės parametrus."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Mokyklos patalpų mikroklimato reikalavimai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Mokymo klasėse, mokymo kabinetuose, aktų salėje oro temperatūra turi būti ne žemesnė kaip 18 °C ir šaltuoju metų laikotarpiu ne aukštesnė kaip 22 °C, o šiltuoju metų laikotarpiu ne aukštesnė kaip 26 °C.",
+                "Sporto salėje oro temperatūra turi būti ne žemesnė kaip 15 °C ir šaltuoju metų laikotarpiu ne aukštesnė kaip 17 °C, o šiltuoju metų laikotarpiu ne aukštesnė kaip 24 °C.",
+                "Persirengimo kambariuose, dušuose oro temperatūra turi būti ne žemesnė kaip 20 °C.",
+                "Nevykstant pamokoms oro temperatūra šildymo sezono metu mokyklos patalpose turi būti ne žemesnė kaip 15 °C.",
+                "Santykinė oro drėgmė šaltuoju metų laikotarpiu mokyklos patalpose turi būti 35–60 proc., šiltuoju metų laikotarpiu – 35–65 proc..",
+                "Oro judėjimo greitis šaltuoju metų laikotarpiu mokyklos patalpose turi būti ne didesnis kaip 0,15 m/s, šiltuoju – ne didesnis kaip 0,25 m/s.",
+                "Mokyklos patalpose temperatūrų skirtumas 1,1 m ir 0,1 m aukštyje nuo grindų turi būti ne didesnis kaip 3 °C."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokymo klasėse ir mokymo kabinetuose turi būti užtikrinta natūralaus vėdinimo per atidaromus langus galimybė. Mokymo klasės ir mokymo kabinetai, kuriuose neįrengta mechaninio vėdinimo sistema, turi būti išvėdinami po kiekvienos pamokos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Konstrukcinių medžiagų dirbtuvėse prie staklių ir mechanizmų, kuriais dirbant išsiskiria šiluma ir dulkės, mokomosiose virtuvėse prie viryklių turi būti numatyta vietinė ištraukiamoji ventiliacija."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Mokymo klasėse ir mokymo kabinetuose vidutinė anglies dvideginio (CO2) koncentracija, išmatuota laikotarpiu nuo pamokų pradžios iki pamokų pabaigos, neturi viršyti 2745 mg/m3 (1500 ppm). Vienkartinė didžiausia leidžiama anglies dvideginio (CO2) koncentracija šių patalpų ore yra 9000 mg/m3 (5000 ppm)."
+            }
+          ]
+        },
+        {
+          "page": 5,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Vandens tiekimo ir nuotekų šalinimo reikalavimai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tiekiamas šaltas ir karštas vanduo turi atitikti teisės akte nustatytus saugos ir kokybės reikalavimus."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Šaltas vanduo turi būti tiekiamas į:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "gamtos mokslų kabinetus, kuriuose atliekami tiriamieji darbai su cheminėmis medžiagomis ir mišiniais;",
+                "konstrukcinių medžiagų dirbtuves;",
+                "dailės kabinetus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Karštas ir šaltas vanduo turi būti tiekiamas į:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "maisto tvarkymo patalpas;",
+                "mokomąją virtuvę;",
+                "prausyklą prie valgyklos;",
+                "dušus;",
+                "tualetus;",
+                "sveikatos kabinetą."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Teritorijos, patalpų, įrenginių priežiūra",
+      "sectionId": "section3",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "3. Teritorijos, patalpų, įrenginių priežiūra"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Mokyklos patalpos, įrenginiai ir kitas inventorius turi būti švarūs. ",
+                "Ant patalpų sienų, lubų neturi būti matomų pelėsių. ",
+                "Esant susirgimų, aplinkos kenksmingumas privalomai šalinamas teisės akto nustatyta tvarka. ",
+                "Mokykloje kenkėjų kontrolė turi būti vykdoma teisės akto nustatyta tvarka. ",
+                "Valymo ir dezinfekcijos priemonės turi būti naudojamos pagal paskirtį ir gamintojų nurodytas naudojimo instrukcijas. Tualeto, dušo patalpų ir įrangos paviršių dezinfekcijai naudojami teisės akto nustatyta tvarka autorizuoti biocidiniai produktai. Dušo patalpų grindys, dušo patalpose esantys kilimėliai (jeigu yra) valomi ir dezinfekuojami fungicidiniu (grybelio sukėlėjus naikinančiu) poveikiu pasižyminčiomis priemonėmis. ",
+                "Tualeto valymo inventorius turi būti paženklintas ir laikomas atskirai nuo kitų patalpų valymo inventoriaus. ",
+                "Valymo priemonės ir biocidiniai produktai turi būti laikomi saugiai, tam skirtoje vietoje. Mokomosiose virtuvėse valymo priemonės ir biocidiniai produktai laikomi spintelėje, atskirai nuo maisto produktų, indų ir įrankių. Draudžiama skirti mokiniams naudoti valymo priemones ir biocidinius produktus, skirtus profesionaliesiems naudotojams. ",
+                "Draudžiama atlikti profilaktinį aplinkos kenksmingumo pašalinimą (dezinfekciją, dezinsekciją, deratizaciją) ar remonto darbus mokiniams esant patalpoje. Mokyklos patalpos, kuriose atliekami remonto darbai, turi būti izoliuotos nuo kitų patalpų."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dienos režimo ir maitinimo organizavimas",
+      "sectionId": "section4",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Dienos režimo ir maitinimo organizavimas"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Dienos režimo organizavimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Per dieną 1 klasėje negali būti daugiau kaip 5 pamokos, 2–4 klasėse – 6 pamokos, 5–10 klasėse, gimnazijos I–IV klasėse – 7 pamokos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pamokos trukmė 1 klasėje gali būti ne ilgesnė kaip 35 min., kitose klasėse – 45 min. Jeigu ugdymo procesas yra organizuojamas kitokia mokymosi forma (projekto, didaktinio žaidimo, kūrybinio darbo ar kt.), nepertraukiamas mokymosi laikas gali būti koreguojamas, tačiau nepertraukiamo mokymosi trukmė neturi būti ilgesnė kaip 90 min."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertraukos skiriamos mokiniams pailsėti, pavalgyti, jų fiziniam aktyvumui. Pertraukų trukmė turi būti ne trumpesnė kaip 10 min. Būtina viena ilgoji 30 min. pertrauka arba dvi pertraukos po 20 min., skirtos pietums."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pamokos pirmoje pamainoje turi būti pradedamos ne anksčiau kaip 8 val. ir ne vėliau kaip 9 val."
+            },
+            {
+              "type": "paragraph",
+              "text": "Antroje pamainoje pamokas galima pradėti atsižvelgiant į mokyklos galimybes, bet jas būtina baigti ne vėliau kaip 19 val."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklai dirbant dviem pamainomis, 1–4, 10 klasių, gimnazijos II–IV klasių mokiniai turi mokytis pirmoje pamainoje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fizinio ugdymo pamokos lauke gali būti organizuojamos esant ne žemesnei kaip minus 12 °C oro temperatūrai arba, jei vėjo greitis didesnis kaip 2 m/sek, – žemesnei kaip minus 8 °C oro temperatūrai (mokiniams vilkint tinkamą sportinę aprangą ir avint tinkamą avalynę). Oro užterštumui kietosiomis dalelėmis viršijus teisės akto leistiną lygį, taip pat oro temperatūrai lauke esant 30 oC ar aukštesnei fizinio ugdymo pamokos negali vykti lauke."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos vadovas turi užtikrinti, kad mokiniai ugdymo procese dalyvautų tik teisės akto nustatyta tvarka pasitikrinę sveikatą."
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Dienos režimo ir maitinimo organizavimas"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maitinimo organizavimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokykloje turi būti sudarytos sąlygos maitinimui organizuoti. Maitinimas organizuojamas teisės akto nustatyta tvarka."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kasdien privaloma organizuoti pietus, kurių metu turi būti sudarytos sąlygos vaikams pavalgyti šilto maisto. Pietūs organizuojami ne anksčiau kaip po 2,5 val. ir ne vėliau kaip praėjus 4 val. nuo pamokų pradžios. Vaikų aptarnavimui pietų metu pagerinti rekomenduojama pailginti pertraukas arba pertraukas organizuoti skirtingu metu skirtingoms klasėms. Vaikai, gyvenantys mokyklų bendrabučiuose, turi būti maitinami ne rečiau kaip kas 3,5–4 val."
+            },
+            {
+              "type": "paragraph",
+              "text": "Visi pietų metu patiekiami patiekalai turi būti nurodyti valgiaraštyje. Rekomenduojama sudaryti galimybę pasirinkti iš kelių karštųjų pietų patiekalų ir kelių garnyrų. Rekomenduojama sudaryti sąlygas vaikams patiems įsidėti maisto. Vaikams taip pat turi būti sudaryta galimybė atsinešti, laikyti ir maitintis iš namų tą dieną atneštu maistu. Už atnešto maisto saugą ir kokybę atsako vaiko atstovai pagal įstatymą."
+            },
+            {
+              "type": "paragraph",
+              "text": "Valgiaraščiai turi būti sudaromi atsižvelgiant į mokykloje besimokančių vaikų amžių. Skiriamos dvi amžiaus grupės (6–10 metų ir 11 metų bei vyresnio amžiaus vaikai). Nesant galimybės sudaryti valgiaraščius abiem amžiaus grupėms, sudaromas vienas valgiaraštis pagal 11 metų ir vyresnio amžiaus vaikų maistinių medžiagų fiziologinius poreikius, išskyrus pradinio ugdymo programas įgyvendinančias įstaigas. Esant poreikiui, vietoje 11 metų ir vyresnio amžiaus vaikų valgiaraščio gali būti sudaromi valgiaraščiai 11‒14 metų ir 15–18 metų vaikams."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pasirinkti pietų metu turi būti patiekiami karštieji patiekalai: tausojantis patiekalas ir patiekalas, pagamintas tik iš augalinės kilmės maisto produktų (išskyrus mokyklas, į kurias maistas pristatomas termosuose). Valgiaraščiuose šie patiekalai ar patiekalas (jei tausojantis patiekalas yra pagamintas tik iš augalinės kilmės maisto produktų) pažymimi žodžiu „Tausojantis“ ir (ar) „Augalinis“. Jei pietų metu tiekiamas tik vienas karštasis pietų patiekalas, ne mažiau kaip pusė į pietų valgiaraščius (15 dienų) įtrauktų karštųjų pietų patiekalų turi būti tausojantys ir (ar) patiekalai, pagaminti tik iš augalinės kilmės maisto produktų."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Mokykloje, be pietų, taip pat gali būti:**"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "kiti vaikų maitinimai, nurodyti Tvarkos aprašo 17 punkte. Jei organizuojami kiti vaikų maitinimai, turi būti sudarytas visų tiekiamų maitinimų valgiaraštis;",
+                "šalti užkandžiai (patiekiamų šaltų užkandžių sąrašas suderinamas raštišku vaikų atstovų pagal įstatymą pritarimu (kiekvienų mokslo metų pirmą mėnesį)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Vaikams, pateikusiems gydytojo raštiškus nurodymus (Forma Nr. E027-1), turi būti organizuojamas pritaikytas maitinimas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ugdymo proceso higiena",
+      "sectionId": "section5",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Ugdymo proceso higiena"
+            },
+            {
+              "type": "paragraph",
+              "text": "*Bendrojo ugdymo proceso higiena apima priemones, skirtas užtikrinti sveiką ir saugią mokymosi aplinką:*"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Fizinė aplinka – tinkamas apšvietimas, vėdinimas, ergonomika (stalo ir kėdžių patogumas).",
+                "Mokymosi organizacija – subalansuotas pamokų laikas ir pertraukos, įvairios veiklos formos.",
+                "Psichologinė aplinka – emocinė mokinių gerovė, streso mažinimas, saugi atmosfera.",
+                "Mokinių sveikata – sveika mityba, fizinis aktyvumas, asmeninė higiena.",
+                "Sanitarija ir higiena – švarūs tualetai, rankų plovimo įpročiai.",
+                "Socialinė aplinka – pagarba, bendradarbiavimas ir konfliktų sprendimas."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Visa tai padeda užtikrinti efektyvų ir sveiką ugdymo procesą."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vaikų sveikatos priežiūra",
+      "sectionId": "section6",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Vaikų sveikatos priežiūra"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--small section__sub-heading--underline",
+              "text": "Sveikatos priežiūros organizavimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos sklypas ir patalpos, jose esantys įrenginiai turi būti įrengti ir prižiūrimi taip, kad juos naudojant būtų išvengta nelaimingų atsitikimų (paslydimo, kritimo, susidūrimo, nudegimo, nutrenkimo, sužalojimo elektros srove, sprogimo ir pan.)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mokyklos, kurioje vykdomas 7(6)–10 metų mokinių mokymas pagal pradinio ugdymo programą, ir mokyklos, skirtos mokiniams, dėl įgimtų ar įgytų sutrikimų turintiems didelių ar labai didelių specialiųjų ugdymosi poreikių, mokytis pagal pritaikytas ugdymo programas (regos sutrikimą turintiems mokiniams, intelekto sutrikimą turintiems mokiniams, elgesio ir emocijų sutrikimų turintiems mokiniams), sklype ir patalpose:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "draudžiama sodinti ir auginti šios higienos normos priede nurodytus nuodinguosius augalus;",
+              "šios higienos normos priede nenurodyti augalai, galintys kelti pavojų mokinių sveikatai (apsinuodijimo, susižalojimo), gali būti auginami tik mokiniams nepasiekiamose vietose."
+              ]
+            },
+
+            {
+              "type": "paragraph",
+              "text": "***NUODINGŲJŲ AUGALŲ SĄRAŠAS***"
+            },
+            {
+              "type": "poisonous-plants-table",
+              "class": "margin-xxl"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Vaikų sveikatos priežiūra"
+            },
+            {
+              "type": "heading",
+              "text": "Profilaktinis vaikų sveikatos tikrinimas"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--small section__sub-heading--underline",
+              "text": "Vaiko amžiaus tarpsniai"
+            },
+            {
+              "type": "list",
+              "list_type": "ordered",
+              "text": [
+                "naujagimis – nuo gimimo iki 28 dienų amžiaus;",
+                "kūdikis – nuo gimimo iki 1 metų amžiaus;",
+                "ankstyvojo amžiaus vaikas – nuo 1 iki 4 metų amžiaus;",
+                "viduriniojo amžiaus vaikas – nuo 4 iki 10 metų amžiaus;",
+                "paauglys – nuo 10 iki 18 metų amžiaus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "1 kartą per metus:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kiekvieno apsilankymo metu įvertinti paciento sveikatos būklę, fizinę būklę, lytinį brendimą, augimą, nubrėžiant asmenines ūgio ir svorio bei svorio priklausomybės nuo ūgio kitimo kreives pagal lytį; įvertinti KMI, AKS, mitybos įpročius, fizinį aktyvumą, atramos judamąjį aparatą, psichikos būklę, regėjimo aštrumą, klausos aštrumą, įsitraukimą į rizikingą sveikatai elgseną (pvz., patyčios, smurtas), lytinio aktyvumo bei lytinės elgsenos saugumą bei, atsižvelgiant į amžiaus ypatumus, informuoti pacientą, jo tėvus ar kitus atstovus pagal įstatymą apie sveikos gyvensenos ugdymą, rekomenduoti profilaktines priemones, mokyti sveikos gyvensenos principų, pagal paciento poreikius teikti sveikatos informavimo ir konsultavimo paslaugas toliau išvardytais klausimais:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "asmens higienos;",
+              "racionalios mitybos;",
+              "miego ir budrumo režimo;",
+              "burnos sveikatos;",
+              "fizinio aktyvumo (rekomenduotina ne mažiau kaip 1 val. kasdien) lauke ir sveiko gyvenimo būdo;",
+              "regėjimo sutrikimų, sukeliamų darbo su videoterminalais, profilaktikos, taisyklingos laikysenos sėdint prie kompiuterio, darbo ir poilsio režimo;",
+              "traumų, prievartos, uždusimo, paskendimo, apsinuodijimų, nudegimų ir kitų nelaimingų atsitikimų, saugaus elgesio kelyje ir kitoje aplinkoje profilaktiką, imunoprofilaktiką;",
+              "žalingų sveikatai įpročių (alkoholio, nikotino ir narkotinių medžiagų vartojimo);",
+              "atsparumo rizikingai sveikatai elgsenai;",
+              "lytinės elgsenos saugumo;",
+              "sveikatos priežiūros pagalbos neįgalaus vaiko šeimai."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "1 kartą per 2 metus:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "bendrą kraujo tyrimą, jei yra šie rizikos veiksniai: neracionali mityba (ypač – vegetarams), gausios menstruacijos, pacientas sportuoja, gyvena blogomis socialinėmis sąlygomis, augimo spurto metu ir jei paauglys netenka kūno masės;",
+              "kapiliarinės glikemijos tyrimą, jei yra šie klinikiniai simptomai: poliurija, polidipsija, svorio kritimas, nuovargis; nuo 10 metų arba prasidėjus lytiniam brendimui, kai KMI viršija 85 procentilę ir yra rizikos veiksnių, tokių kaip cukrinis diabetas ir (ar) širdies kraujagyslių ligos šeimoje, atsparumo insulinui požymių (juodoji akantozė, dislipidemija, hipertenzija, policistinių kiaušidžių sindromas);",
+              "visiems, kurių KMI viršija 95 procentilę pagal amžių ir lytį;",
+              "bendrą šlapimo tyrimą."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "1 kartą per metus:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "atlikti dantų ėduonies diagnostiką, krūminių dantų silantavimą – priklausomai nuo dantų dygimo laiko, jei reikia, pagydyti ar skirti gydymo laiką / siųsti gydyti;",
+              "įvertinti nuolatinių dantų sąkandį, nustatyti, ar nėra sąkandžio anomalijų, jei reikia, pagydyti ar siųsti konsultacijos / gydyti."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "1 kartą per metus:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "atlikti dantų ėduonies profilaktiką;",
+              "įvertinti burnos higienos būklę ir pamokyti burnos higienos ir racionalios mitybos pagrindų, informuoti apie deimantų ant dantų, auskarų liežuvyje žalą."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "1 kartą per metus:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+              "kiekvieno apsilankymo metu pamatuoti paciento AKS, ūgį bei svorį ir šiuos duomenis įrašyti į asmeninę svorio priklausomybės nuo ūgio kitimo diagramą pagal lytį, apskaičiuoti KMI;",
+              "pagal amžiaus ir lyties ypatumus padėti pacientui susiformuoti racionalios mitybos, fizinio aktyvumo, sveiko gyvenimo būdo nuostatas;",
+              "informuoti apie sveiką gyvenimo būdą, ligų ir žalingų sveikatai įpročių profilaktiką, imunoprofilaktiką, lytinės elgsenos saugumą."
+              ]
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Vaikų sveikatos priežiūra"
+            },
+            {
+              "type": "heading",
+              "text": "Užkrečiamųjų ligų profilaktika, skiepai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--small section__sub-heading--underline",
+              "text": "LIETUVOS RESPUBLIKOS VAIKŲ PROFILAKTINIŲ SKIEPIJIMŲ KALENDORIUS"
+            },
+            {
+              "type": "img",
+              "img_orientation": "horizontal",
+              "text": "skiepu_kalendorius.jpg"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--small section__sub-heading--align-left section__sub-heading--underline",
+              "text": "Sutrumpinimai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "***BCG*** – tuberkuliozės vakcina",
+                "***HepB*** – hepatito B vakcina",
+                "***DTaP*** – kokliušo (neląstelinio), difterijos, stabligės vakcina",
+                "***Hib*** – B tipo Haemophilus influenzae infekcijos vakcina",
+                "***Tdap*** – kokliušo (neląstelinio), difterijos, stabligės (suaugusiųjų) vakcina",
+                "***IPV*** – inaktyvuota poliomielito vakcina",
+                "***PCV*** – pneumokokinės infekcijos (polisacharidinė konjuguota) vakcina",
+                "***MMR*** – tymų, epideminio parotito, raudonukės vakcina",
+                "***HPV*** – žmogaus papilomos viruso infekcijos vakcina",
+                "***RV*** – rotavirusinės infekcijos vakcina",
+                "***MenB*** – B tipo meningokokinės infekcijos vakcina"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "***HepB**** pirma dozė turi būti įskiepijama naujagimiui per 24 val. po gimimo. ***PCV***** ir MenB** gali būti skiepijama kartu (vieno vizito metu) su MMR** vakcina."
+            },
+            {
+              "type": "paragraph",
+              "text": "***HPV****** skiepijimo schemą sudaro dvi HPV dozės (tarp pirmos ir antros HPV dozių turi būti ne trumpesnis kaip 6 mėn. laikotarpis). Visi vaikai nemokamai skiepijami dviem vakcinos dozėmis. Taikant kitą skiepijimo schemą, kai reikalingos daugiau nei dvi vakcinos dozės, du skiepijimai atliekami nemokamai, kiti skiepijimai atliekami savo lėšomis."
+            },
+            {
+              "type": "paragraph",
+              "text": "***RV******* trečioji dozė skiepijama, jei skiepijama penkiavalente RV ir trijų dozių schema, nurodyta vaistinio preparato charakteristikų santraukoje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prieš kiekvieną vaiko skiepijimą tėvus ar teisėtus globėjus būtina informuoti apie vakcinų skyrimą, galimas nepageidaujamas reakcijas į skiepą. Dėl informacijos gavimo bei sutikimo skiepyti jie turi pasirašyti Sutikimo dėl sveikatos priežiūros paslaugų teikimo formoje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jei vaikas laiku nepaskiepijamas, jam sudaromas individualus skiepijimų kalendorius pagal indikacijas, nurodytas vaistinių preparatų charakteristikų santraukose."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

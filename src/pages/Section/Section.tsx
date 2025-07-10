@@ -5,6 +5,27 @@ import Container from "../../components/Container/Container";
 import Table from "../../components/Table/Table";
 import { useAppContext } from "../../context/AppContext";
 import "./section.scss";
+import PremisesTable from "../../components/PremisesTable/PremisesTable";
+import IntervalTable from "../../components/IntervalTable/IntervalTable";
+import TemperatureTable from "../../components/TemperatureTable/TemperatureTable";
+import PlantTable from "../../components/PlantTable/PlantTable";
+import SanitizationTable from "../../components/SanitizationTable/SanitizationTable";
+import ToolTable from "../../components/ToolTable/ToolTable";
+import LightingTable from "../../components/LightingTable/LightingTable";
+import TemperatureTablePremises from "../../components/TemperatureTablePremises/TemperatureTablePremises";
+import MaitenanceTable from "../../components/MaitenanceTable/MaitenanceTable";
+import AnimalTable from "../../components/AnimalTable/AnimalTable";
+import RequirementsTable from "../../components/RequirementsTable/RequirementsTable";
+import FeedingTable from "../../components/FeedingTable/FeedingTable";
+import PoisonousPlantsTable from "../../components/PoisonousPlantsTable/PoisonousPlantsTable";
+import LuminosityTable from "../../components/LuminosityTable/LuminosityTable";
+import LegendTable from "../../components/LegendTable/LegendTable";
+import MicrobialTable from "../../components/MicrobialTable/MicrobialTable";
+import MicrobialSizeTable from "../../components/MicrobialSizeTable/MicrobialSizeTable";
+import HandTable from "../../components/HandTable/HandTable";
+import AntisepticTable from "../../components/AntisepticTable/AntisepticTable";
+import ChirurgicalHandTable from "../../components/ChirurgicalHandTable/ChirurgicalHandTable";
+import IllnessTable from "../../components/IllnessTable/IllnessTable";
 
 interface PageContent {
   type: string;
@@ -117,16 +138,16 @@ const Section: React.FC<SectionProps> = ({
     const path = window.location.pathname;
     if (path.startsWith("/questionnaire")) {
       const sectionNumber = path.replace("/questionnaire", "");
-      navigate(`/section${sectionNumber}`);
+      navigate(`/${selectedProduct}/section${sectionNumber}`);
     } else if (path.startsWith("/section")) {
-      navigate("/dashboard");
+      navigate(`/${selectedProduct}/dashboard`);
     } else {
       navigate(-1);
     }
   };
 
   const handleComplete = () => {
-    navigate(nextRoute);
+    navigate(`/${selectedProduct}${nextRoute}`);
   };
 
   const currentPageContent =
@@ -155,19 +176,53 @@ const Section: React.FC<SectionProps> = ({
                   }`}
                 >
                   {Array.isArray(item.text) &&
-                    item.text.map((textItem, textIndex) => (
-                      <li
-                        className={`section__list-item ${item.list_item_class && item.list_item_class}`}
-                        key={textIndex}
-                      >
-                        <ReactMarkdown
-                          className={"section__paragraph"}
-                          components={{ div: "span", p: "span" }}
+                    item.text.map((textItem: string | any, textIndex) =>
+                      typeof textItem === "object" &&
+                      textItem.type === "img" ? (
+                        <div
+                          key={textIndex}
+                          className={`section__image-container ${
+                            item.class && item.class
+                          }`}
                         >
-                          {textItem}
-                        </ReactMarkdown>
-                      </li>
-                    ))}
+                          <img
+                            src={`/assets/${selectedProduct}/${sectionId}/${textItem.text}`}
+                            alt="#"
+                            className="section__image"
+                          />
+                        </div>
+                      ) : Array.isArray(textItem) ? (
+                        <ul className="section__list unordered" key={textIndex}>
+                          {textItem.map((nestedItem, nestedIndex) => (
+                            <li
+                              className="section__list-item"
+                              key={nestedIndex}
+                            >
+                              <ReactMarkdown
+                                className={"section__paragraph"}
+                                components={{ div: "span", p: "span" }}
+                              >
+                                {nestedItem}
+                              </ReactMarkdown>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <li
+                          className={`section__list-item ${
+                            item.list_item_class && item.list_item_class
+                          }`}
+                          key={textIndex}
+                        >
+                          <ReactMarkdown
+                            className={"section__paragraph"}
+                            components={{ div: "span", p: "span" }}
+                          >
+                            {textItem}
+                          </ReactMarkdown>
+                        </li>
+                      )
+                    )}
                 </ul>
               ) : item.type === "heading" ? (
                 <h2
@@ -203,6 +258,48 @@ const Section: React.FC<SectionProps> = ({
                 </h2>
               ) : item.type === "table" ? (
                 <Table />
+              ) : item.type === "premises-table" ? (
+                <PremisesTable />
+              ) : item.type === "plant-table" ? (
+                <PlantTable />
+              ) : item.type === "poisonous-plants-table" ? (
+                <PoisonousPlantsTable />
+              ) : item.type === "interval-table" ? (
+                <IntervalTable />
+              ) : item.type === "tool-table" ? (
+                <ToolTable />
+              ) : item.type === "lighting-table" ? (
+                <LightingTable />
+              ) : item.type === "luminosity-table" ? (
+                <LuminosityTable />
+              ) : item.type === "feeding-table" ? (
+                <FeedingTable />
+              ) : item.type === "temperature-table" ? (
+                <TemperatureTable />
+              ) : item.type === "temperature-table-premises" ? (
+                <TemperatureTablePremises />
+              ) : item.type === "maitenance-table" ? (
+                <MaitenanceTable />
+              ) : item.type === "microbial-table" ? (
+                <MicrobialTable />
+              ) : item.type === "microbial-size-table" ? (
+                <MicrobialSizeTable />
+              ) : item.type === "legend-table" ? (
+                <LegendTable />
+              ) : item.type === "animal-table" ? (
+                <AnimalTable />
+              ) : item.type === "antiseptic-table" ? (
+                <AntisepticTable />
+              ) : item.type === "sanitization-table" ? (
+                <SanitizationTable />
+              ) : item.type === "hand-table" ? (
+                <HandTable />
+              ) : item.type === "chirurgical-hand-table" ? (
+                <ChirurgicalHandTable />
+              ) : item.type === "illness-table" ? (
+                <IllnessTable />
+              ) : item.type === "requirements-table" ? (
+                <RequirementsTable />
               ) : item.type === "img" ? (
                 <div
                   className={`section__image-container ${
@@ -210,7 +307,7 @@ const Section: React.FC<SectionProps> = ({
                   }`}
                 >
                   <img
-                    src={`/assets/${sectionId}/${item.text}`}
+                    src={`/assets/${selectedProduct}/${sectionId}/${item.text}`}
                     alt="#"
                     className="section__image"
                   />

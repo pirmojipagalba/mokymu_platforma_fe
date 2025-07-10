@@ -4,6 +4,7 @@ import {
   Route,
   Routes,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useFetchProtectedData } from "./hooks/useFetchProtectedData";
@@ -39,7 +40,23 @@ interface QuestionnairePageProps {
   questions: Question[];
 }
 
-const App: React.FC = () => {
+// Component to handle URL changes and update context
+const RouteObserver = () => {
+  const location = useLocation();
+  const { setSelectedProduct } = useAppContext();
+
+  useEffect(() => {
+    const path = location.pathname;
+    const pathSegments = path.split('/');
+    if (pathSegments.length > 1 && ['firstaid', 'hygiene1', 'hygiene2', 'hygiene3', 'hygiene4', 'hygieneh3', 'hygienehb'].includes(pathSegments[1])) {
+      setSelectedProduct(pathSegments[1]);
+    }
+  }, [location.pathname, setSelectedProduct]);
+
+  return null;
+};
+
+const AppContent: React.FC = () => {
   const { isAuthenticated, isLoading, user } = useAuth0();
   const [collectedAnswers, setCollectedAnswers] = useState<
     { id: string; question: string; answer: string; optionText: string }[]
@@ -60,45 +77,15 @@ const App: React.FC = () => {
     return <Loading />;
   }
 
-  const sectionContent = [
-    {
-      topic_image: material.first_topic.topic_image,
-      title: material.first_topic.title,
-      content: material.first_topic.content,
-      sectionId: material.first_topic.sectionId,
-      nextRoute: "/questionnaire1",
-    },
-    {
-      topic_image: material.second_topic.topic_image,
-      title: material.second_topic.title,
-      content: material.second_topic.content,
-      sectionId: material.second_topic.sectionId,
-      nextRoute: "/questionnaire2",
-    },
-    {
-      topic_image: material.third_topic.topic_image,
-      title: material.third_topic.title,
-      content: material.third_topic.content,
-      sectionId: material.third_topic.sectionId,
-      nextRoute: "/questionnaire3",
-    },
-    {
-      topic_image: material.fourth_topic.topic_image,
-      title: material.fourth_topic.title,
-      content: material.fourth_topic.content,
-      sectionId: material.fourth_topic.sectionId,
-      nextRoute: "/questionnaire4",
-    },
-    {
-      topic_image: material.fifth_topic.topic_image,
-      title: material.fifth_topic.title,
-      content: material.fifth_topic.content,
-      sectionId: material.fifth_topic.sectionId,
-      nextRoute: "/questionnaire5",
-    },
-  ];
+  const sectionContent = material.topics.map((item: { topic_image: string; title: string; content: string; sectionId: string }) => ({
+    topic_image: item.topic_image,
+    title: item.title,
+    content: item.content,
+    sectionId: item.sectionId,
+    nextRoute: "/questionnaire1",
+  }));
 
-  const sections = sectionContent.map((section, index) => ({
+  const sections = sectionContent.map((section: any, index: any) => ({
     ...section,
   }));
 
@@ -142,49 +129,63 @@ const App: React.FC = () => {
 
   const sampleProducts = [
     { name: 'firstaid', title: 'Pirmosios pagalbos mokymai' },
-    { name: 'hygiene', title: 'Higienos mokymai' },
+    { name: 'hygiene1', title: 'Higienos mokymai 1' },
+    { name: 'hygiene2', title: 'Higienos mokymai 2' },
+    { name: 'hygiene3', title: 'Higienos mokymai 3' },
+    { name: 'hygiene4', title: 'Higienos mokymai 4' },
+    { name: 'hygieneh3', title: 'Higienos mokymai H3' },
+    { name: 'hygienehb', title: 'Higienos mokymai HB' },
   ];
 
   return (
+    <>
+      <RouteObserver />
+      <Header />
+      <BackToTop />
+      <div className="content">
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/callback" element={<Callback />} />
+          <Route
+            path="/profile"
+            element={isAuthenticated ? <Profile /> : <Navigate to="/login" />}
+          />
+          <Route
+            path={`/${selectedProduct}/dashboard`}
+            element={isAuthenticated ? <Dashboard sections={sections.map((section: { title: string }) => section.title)} /> : <Navigate to="/login" />}
+          />
+          <Route path={`/${selectedProduct}/thankyoupage`} element={<ThankYouPage />} />
+          {sections.map((section: any, index: any) => (
+            <Route
+              key={section.title}
+              path={`/${selectedProduct}/section${index + 1}`}
+              element={<Section {...section} />}
+            />
+          ))}
+          {questionnaire_material.content.map((questionnaire: QuestionnairePageProps, index: number) => (
+            <Route
+              key={questionnaire.title}
+              path={`/${selectedProduct}/questionnaire${index + 1}`}
+              element={<QuestionnairePage {...questionnaire} onAnswersCollected={handleAnswersCollected} />}
+            />
+          ))}
+          <Route path="/product" element={<ProductPage products={sampleProducts} />} />
+          <Route
+            path="/"
+            element={isAuthenticated ? <ProductPage products={sampleProducts} /> : <Navigate to="/login" />}
+          />
+        </Routes>
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+const App: React.FC = () => {
+  return (
     <Router>
       <div className="app-container">
-        <Header />
-        <BackToTop />
-        <div className="content">
-          <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/callback" element={<Callback />} />
-            <Route
-              path="/profile"
-              element={isAuthenticated ? <Profile /> : <Navigate to="/login" />}
-            />
-            <Route
-              path="/dashboard"
-              element={isAuthenticated ? <Dashboard sections={sections.map(section => section.title)} /> : <Navigate to="/login" />}
-            />
-            <Route path="/thankyoupage" element={<ThankYouPage />} />
-            {sections.map((section, index) => (
-              <Route
-                key={section.title}
-                path={`/section${index + 1}`}
-                element={<Section {...section} />}
-              />
-            ))}
-            {questionnaire_material.content.map((questionnaire: QuestionnairePageProps, index: number) => (
-              <Route
-                key={questionnaire.title}
-                path={`/questionnaire${index + 1}`}
-                element={<QuestionnairePage {...questionnaire} onAnswersCollected={handleAnswersCollected} />}
-              />
-            ))}
-            <Route path="/product" element={<ProductPage products={sampleProducts} />} />
-            <Route
-              path="/"
-              element={isAuthenticated ? <ProductPage products={sampleProducts} /> : <Navigate to="/login" />}
-            />
-          </Routes>
-        </div>
-        <Footer />
+        <AppContent />
       </div>
     </Router>
   );

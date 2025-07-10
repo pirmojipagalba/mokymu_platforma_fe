@@ -1,0 +1,33 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.requirements-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  margin-bottom: 40px;
+
+  tr {
+    height: 40px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+}

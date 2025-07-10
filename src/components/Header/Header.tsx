@@ -3,6 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
 import LogoutButton from "../Logout/Logout";
 import Container from "../Container/Container";
+import { useAppContext } from "../../context/AppContext";
 import "./header.scss";
 
 const Header: React.FC = () => {
@@ -10,6 +11,7 @@ const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 769);
   const navigate = useNavigate();
+  const { selectedProduct } = useAppContext();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,7 +36,7 @@ const Header: React.FC = () => {
   }, []);
 
   const handleLogoClick = () => {
-    navigate("/dashboard");
+    navigate(`/${selectedProduct}/dashboard`);
   };
 
   return (

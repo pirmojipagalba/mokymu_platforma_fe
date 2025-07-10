@@ -1,0 +1,41 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.hand-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-bottom: 40px;
+
+    tr {
+        height: 40px;
+    }
+  
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    ol {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      list-style-type: decimal;
+      padding-left: 24px;
+    }
+
+    td {
+      padding: 24px 8px;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  }
+  
