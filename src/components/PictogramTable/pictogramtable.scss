@@ -1,0 +1,52 @@
+@import "../../styles/typography";
+@import "../../styles/colors";
+
+.pictogram-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-bottom: 40px;
+
+    tr {
+        height: 40px;
+    }
+  
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      vertical-align: middle;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+    }
+
+    img {
+      max-width: 100px;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 8px;
+    }
+
+    h4 {
+      margin-bottom: 16px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      list-style-type: disc;
+      padding-left: 24px;
+    }
+  }
+  

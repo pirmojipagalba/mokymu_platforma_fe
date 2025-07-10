@@ -27,6 +27,7 @@ import AntisepticTable from "../../components/AntisepticTable/AntisepticTable";
 import ChirurgicalHandTable from "../../components/ChirurgicalHandTable/ChirurgicalHandTable";
 import IllnessTable from "../../components/IllnessTable/IllnessTable";
 import MeaningsTable from "../../components/MeaningsTable/MeaningsTable";
+import PictogramTable from "../../components/PictogramTable/PictogramTable";
 
 interface PageContent {
   type: string;
@@ -315,6 +316,8 @@ const Section: React.FC<SectionProps> = ({
                 <ChirurgicalHandTable />
               ) : item.type === "illness-table" ? (
                 <IllnessTable />
+              )  : item.type === "pictogram-table" ? (
+                <PictogramTable />
               ) : item.type === "meanings-table" ? (
                 <MeaningsTable />
               ) : item.type === "requirements-table" ? (
