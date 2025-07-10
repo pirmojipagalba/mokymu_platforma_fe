@@ -42,6 +42,30 @@
     text-align: center;
   }
 
+  &__anchor {
+    display: block;
+    color: $deep-purple;
+    font-size: $paragraph;
+    line-height: 2.1;
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+      color: $tinted-purple;
+    }
+
+    &--small {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    
+    // For anchors within lists
+    .section__list & {
+      margin-bottom: 12px;
+    }
+  }
+
   &__heading {
     font-size: $content-heading;
     line-height: 1.2;
@@ -109,6 +133,11 @@
 
     &:last-child {
       margin-bottom: 0;
+    }
+
+    &--no-bullet {
+      list-style: none;
+      margin-left: -16px;  // Compensate for the padding-left in the parent ul
     }
 
     .section__paragraph {

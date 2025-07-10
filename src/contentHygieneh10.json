@@ -1,63 +1,173 @@
 {
   "topics": [
     {
-      "title": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės ",
+      "title": "Maisto saugos principai",
       "sectionId": "section1",
       "content": [
         {
           "page": 1,
           "page_content": [
             {
-              "type": "main-heading",
-              "text": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės "
+              "type": "heading",
+              "text": "Maisto saugos principai"
             },
             {
-              "type": "paragraph",
-              "text": "**Higieninė rankų antiseptika** – rankų odos įtrynimas antiseptikais, siekiant panaikinti laikinuosius ir sumažinti nuolatinius odos, gleivinės ir kitų audinių mikroorganizmus."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Aseptika** – gyvų žmogaus audinių ir sterilių medžiagų apsaugos priemonės nuo aplinkos."
+              "type": "heading",
+              "text": "Teisės aktai, nusakantys reikalavimus maisto tvarkymui ar su maistu besiliečiantiems gaminiams ir medžiagoms"
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Grožio paslaugas teikiantiems asmenims reikalavimai:"
+              "text": "Lietuvos Respublikos maisto įstatymas"
             },
             {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Asmenys, teikiantys grožio paslaugas, privalo plauti rankas prieš pradėdami ir baigę teikti grožio paslaugą, prieš užsimaudami ir nusimovę pirštines.",
-                "Rankos turi būti plaunamos skystu muilu, nuplaunamos tekančiu vandeniu ir nusausinamos vienkartiniu rankšluosčiu arba rankų džiovintuvu.",
-                "Rankas būtina dezinfekuoti prieš teikiant A kategorijos paslaugas, dirbant steriliais instrumentais.",
-                "Rankos, užterštos paslaugos vartotojo krauju ar kitais kūno skysčiais, dezinfekuojamos odos dezinfekcijai skirta priemone ir plaunamos tekančiu vandeniu ir skystu muilu.",
-                "Asmenys, teikiantys grožio paslaugas, savo rankų odos įbrėžimus, įpjovimus ar žaizdeles privalo užklijuoti neperšlampamais pleistrais ir, esant reikalui, mūvėti pirštines.",
-                "Jeigu grožio paslaugos teikimo metu pažeista kliento oda, turi būti nuvaloma sterilios vatos ar marlės gabalėliu, suvilgytu odos dezinfekcijai skirta priemone.",
-                "Asmenys, teikiantys grožio paslaugas, teikdami A kategorijos paslaugas, privalo mūvėti vienkartines pirštines ir jas keisti po kiekvieno paslaugos vartotojo.",
-                "Asmenys, teikdami grožio paslaugas, valydami, dezinfekuodami instrumentus, paviršius ir naudodami cheminės dezinfekcijos priemones, tvarkydami užterštus kliento krauju ar kitais kūno skysčiais daiktus turi dėvėti asmenines apsaugos priemones, kurias nurodo valiklio ar dezinfekcijos priemonės gamintojas, mūvėti gumines pirštines."
-              ]
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.98953/asr"
+            },
+            {
+              "type": "paragraph",
+              "text": "Reglamentuoja maisto patiekimo į rinką bei jo tvarkymo reikalavimus, organizacijų kompetenciją užtikrinant maisto saugą, taip pat maisto tvarkymo subjektų pareigas ir atsakomybę. Įstatymo tikslas – užtikrinti, kad rinkai būtų tiekiamas saugus maistas bei su juo besiliečiantys gaminiai ir medžiagos, atitinkantys teisės aktų ir tarptautinius reikalavimus, skatinama ekologiškų produktų gamyba, sveikesnė mityba bei gerinama visuomenės sveikata. "
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Sveikatos priežiūros įstaigų darbuotojų rankų higienos reikalavimai:"
+              "text": "Higienos norma HN 15:2005 „Maisto higiena“"
             },
             {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Sieniniai skysto muilo ir rankų antiseptiko dozatoriai.",
-                "Vienkartinių rankšluosčių dėtuvė ir vienkartiniai rankšluosčiai.",
-                "Atvira ar pedalinė šiukšliadėžė su vienkartiniu plastikiniu įklotu.",
-                "Naudojant pakartotinai, skysto muilo ir antiseptiko dozatorius ir jo dalys bei daugkartinio naudojimo indas prieš kiekvieną užpildymą turi būti išvalyti ir dezinfekuoti."
-              ]
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.261668/asr"
             },
             {
               "type": "paragraph",
+              "text": "Nustato bendruosius ir specialiuosius reikalavimus maisto tvarkymui bei mažmeninei prekybai maistu."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Higienos norma HN 16:2011 „Medžiagų ir gaminių, skirtų liestis su maistu, specialieji sveikatos saugos reikalavimai“"
+            },
+            {
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.398339/asr"
+            },
+            {
+              "type": "paragraph",
+              "text": "Apibrėžia sveikatos saugos reikalavimus medžiagoms ir gaminiams, skirtiems liestis su maistu, bei jų tyrimo metodikas."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "ES Reglamentas (EB) Nr. 1935/2004"
+            },
+            {
+              "type": "anchor",
+              "text": "https://eur-lex.europa.eu/legal-content/LT/TXT/?uri=CELEX%3A32004R1935"
+            },
+            {
+              "type": "paragraph",
+              "text": "Reglamentuoja su maistu besiliečiančių medžiagų ir gaminių saugą visoje ES, nustatydamas bendruosius saugos ir inertiškumo principus."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Higienos norma HN 119:2002 „Maisto produktų ženklinimas“"
+            },
+            {
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.204888/asr"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nustato bendruosius reikalavimus maisto produktų ženklinimui, maistingumo deklaravimui bei partijų žymėjimui. Taikoma visiems maisto produktams viešojo maitinimo įstaigose, išskyrus mineralinį vandenį."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Higienos norma HN 26:2006 „Maisto produktų mikrobiologiniai kriterijai“"
+            },
+            {
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.272707"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nustato mikrobiologinius kriterijus maisto produktų tvarkymui, taikomus maisto gamintojams, taikant RVASVT (rizikos veiksnių analizės ir svarbiųjų valdymo taškų) sistemą."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Gyvūnų, augintinių laikymo viešojo maitinimo įmonėse tvarkos aprašas"
+            },
+            {
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/7a1341b0dd6311e3a0be833418c290fb/asr"
+            },
+            {
+              "type": "paragraph",
+              "text": "Reglamentuoja, kokia tvarka gyvūnai ir augintiniai gali būti laikomi viešojo maitinimo įmonių patalpose."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Atliekų tvarkymo taisyklės"
+            },
+            {
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.84302/asr"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nustato atliekų rūšiavimo, laikino laikymo, surinkimo, pervežimo, apdorojimo ir apskaitos reikalavimus, taip pat pavojingų, biologinių ir kitų specifinių atliekų tvarkymo tvarką."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Vaikų maitinimo organizavimo tvarkos aprašas"
+            },
+            {
+              "type": "anchor",
+              "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.411986/asr"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nustato vaikų maitinimo reikalavimus ikimokyklinio, priešmokyklinio, bendrojo ugdymo įstaigose, vaikų poilsio stovyklose ir socialinėse įstaigose."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kiti aktualūs teisės aktai: "
+            },
+            {
+              "type": "list",
+              "list_type": "ordered",
               "class": "margin-xxl",
-              "text": "Darbo metu visų darbuotojų, liečiančių pacientus, medicinos priemones, prietaisus, rankų oda turi būti sveika, nagai sveiki ir tik natūralūs, trumpai nukirpti, nelakuoti, rankų papuošalai bei laikrodžiai nuimami. Nedidelės rankų žaizdelės užklijuojamos pleistru ir turi būti dirbama tik su medicininėmis pirštinėmis."
+              "text": [
+                "***Geriamojo vandens įstatymas***:",
+                {
+                  "type": "anchor",
+                  "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.145521/asr"
+                },
+                "***Produktų saugos įstatymas***:",
+                {
+                  "type": "anchor",
+                  "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/9ede9140eca711e89d4ad92e8434e309"
+                },
+                "***Veterinarijos įstatymas***:",
+                {
+                  "type": "anchor",
+                  "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.2385/asr"
+                },
+                "***Higienos norma HN 24:2017 „Geriamojo vandens saugos ir kokybės reikalavimai“***:",
+                {
+                  "type": "anchor",
+                  "text": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.216309/asr"
+                },
+                "***Lietuvos Respublikos Vyriausybės 1999-05-07 nutarimas Nr. 544*** dėl darbų, kuriuose galima dirbti tik pasitikrinus sveikatą:",
+                {
+                  "type": "anchor",
+                  "text": "https://www.e-tar.lt/portal/legalAct.html?documentId=TAR.68B71786102D"
+                }
+              ]
             }
           ]
         },
@@ -66,126 +176,14 @@
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės"
+              "text": "Teisės aktai, nusakantys reikalavimus maisto tvarkymui ar su maistu besiliečiantiems gaminiams ir medžiagoms"
             },
             {
               "type": "heading",
-              "text": "Per rankas ir jomis liečiamus paviršius plintančios infekcinės ligos"
+              "text": "Vartojamos sąvokos"
             },
             {
-              "type": "paragraph",
-              "text": "Per rankas ir jomis liečiamus paviršius plintančios infekcinės ligos gali lengvai plisti per kontaktą su užterštais objektais arba tiesiogiai per rankų sąlytį."
-            },
-            {
-              "type": "paragraph",
-              "text": "Tokios ligos gali būti bakterinės, virusinės ar parazitinės. Štai keletas dažniausiai per rankas plintančių infekcijų:"
-            },
-            {
-              "type": "paragraph",
-              "text": "**1. Peršalimo virusai (rhinovirusai)**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Šie virusai dažnai plinta per rankas ir liečiamus paviršius, pvz., durų rankenas, telefonus, klaviatūras. Užsikrėtęs asmuo gali paskleisti virusą, kai kosėja, čiaudi arba liečia veidą, o vėliau paliečia kitus paviršius.  "
-            },
-            {
-              "type": "paragraph",
-              "text": " Plitimas: Tiesioginis kontaktas su užterštais paviršiais arba rankomis.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "**2. Gripai (influenza)**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Gripo virusai taip pat gali plisti per rankų kontaktą su užkrėstais paviršiais, ypač šaltuoju metų laiku, kai žmonės daugiau laiko praleidžia uždarose patalpose."
-            },
-            {
-              "type": "paragraph",
-              "text": "Plitimas: Per orą (lašai), bet taip pat ir per rankas, palietus užkrėstus paviršius."
-            },
-            {
-              "type": "paragraph",
-              "text": "**3. COVID-19 (SARS-CoV-2 virusas)**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Virusas gali plisti ne tik oru (lašai, aerozoliai), bet ir per užkrėstus paviršius. Rankomis, palietus paviršius, ant kurių yra virusas, ir vėliau palietus veidą, galima užsikrėsti."
-            },
-            {
-              "type": "paragraph",
-              "text": "Plitimas: Per užkrėstus paviršius ir rankų kontaktą su akimis, nosimi, burna."
-            },
-            {
-              "type": "paragraph",
-              "text": "**4. Rotavirusinė ir norovirusinė infekcija**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Šie virusai sukelia gastroenteritą (virškinamojo trakto uždegimą) ir gali lengvai plisti per rankas, ypač vietose, kur prastai laikomasi higienos, pvz., vaikų priežiūros įstaigose."
-            },
-            {
-              "type": "paragraph",
-              "text": "Plitimas: Per užterštus paviršius ir netinkamą rankų plovimą."
-            },
-            {
-              "type": "paragraph",
-              "text": "**5. Stafilokokinės infekcijos (Staphylococcus aureus)**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Ši bakterija dažnai randama ant odos ir gali plisti per rankų kontaktą su paviršiais arba kitų žmonių oda, ypač jei ant odos yra žaizdos."
-            },
-            {
-              "type": "paragraph",
-              "text": "Plitimas: Per rankų kontaktą su užkrėstais paviršiais ar kitų žmonių oda."
-            },
-            {
-              "type": "paragraph",
-              "text": "**6. Salmoneliozė**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Salmonelės gali plisti per rankas, jei žmonės nesilaiko higienos po sąlyčio su užterštais maisto produktais ar paviršiais (pvz., virtuvėje)."
-            },
-            {
-              "type": "paragraph",
-              "text": "Plitimas: Rankomis liečiant užkrėstus maisto produktus ar paviršius, o vėliau burną."
-            },
-            {
-              "type": "paragraph",
-              "text": "**7. Parazitinės ligos (pvz., spalinės)**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Apibūdinimas: Spalinės gali plisti per rankas, kai užsikrėtęs asmuo pasikaso užpakalinę dalį ir paliečia įvairius paviršius. Kiti gali užsikrėsti, palietę tuos pačius paviršius."
-            },
-            {
-              "type": "paragraph",
-              "text": "Plitimas: Per užterštus paviršius arba rankų sąlytį."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Kaip sumažinti užsikrėtimo riziką:**"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "Reguliariai plauti rankas su muilu ir vandeniu (ypač prieš valgį, po tualeto naudojimo, po kontakto su užkrėstais paviršiais).",
-                "Naudoti rankų dezinfekavimo priemones, ypač viešose vietose.",
-                "Švariai valyti paviršius, ypač tuos, kuriuos liečia daug žmonių (pvz., durų rankenas, stalviršius).",
-                "Vengti liesti veidą, ypač akis, nosį, burną, jei rankos nėra švarios."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Darbuotojai turi laikytis darbo su naudotais aštriais instrumentais ir krauju bei kūno skysčiais saugos reikalavimų.  FDraudžiama pirštinėmis apmautomis rankomis liesti savo akis, nosį, gleivines. Patekus ant odos paciento kraujo (ar) kūno skysčio, ar susižeidus (įsidūrus, įsipjovus) aštriais naudotais instrumentais, oda nedelsiant plaunama tekančiu vandeniu ir muilu. Akių, nosies, burnos gleivinės, patekus ant jų paciento kraujo(ar) kūno skysčių, plaunamos vandeniu. "
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Apie įvykusį darbuotojo ekspozicijos incidentą sveikatos priežiūros įstaigoje pranešama nustatyta tvarka, incidentas registruojamas, atliekamas medicininis darbuotojo ekspozicijos vertinimas, sveikatos stebėjimas ir, jei reikia, atliekama poekspozicinė profilaktika. "
+              "type": "meanings-table"
             }
           ]
         },

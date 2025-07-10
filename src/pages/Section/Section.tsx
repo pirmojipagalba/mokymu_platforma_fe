@@ -34,6 +34,8 @@ interface PageContent {
   list_type?: string;
   img_orientation?: string;
   list_item_class?: string;
+  url?: string;
+  label?: string;
 }
 
 interface SectionProps {
@@ -191,6 +193,18 @@ const Section: React.FC<SectionProps> = ({
                             className="section__image"
                           />
                         </div>
+                      )                      : typeof textItem === "object" &&
+                      textItem.type === "anchor" ? (
+                        <div key={textIndex}>
+                          <a
+                            href={textItem.url || textItem.text}
+                            className={`section__anchor ${textItem.class && textItem.class}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {textItem.label || textItem.text}
+                          </a>
+                        </div>
                       ) : Array.isArray(textItem) ? (
                         <ul className="section__list unordered" key={textIndex}>
                           {textItem.map((nestedItem, nestedIndex) => (
@@ -300,6 +314,15 @@ const Section: React.FC<SectionProps> = ({
                 <IllnessTable />
               ) : item.type === "requirements-table" ? (
                 <RequirementsTable />
+              ) : item.type === "anchor" ? (
+                <a
+                  href={item.text as string}
+                  className={`section__anchor ${item.class && item.class}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.text}
+                </a>
               ) : item.type === "img" ? (
                 <div
                   className={`section__image-container ${

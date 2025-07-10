@@ -24,7 +24,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
   const getInitialProduct = (): string => {
     const path = window.location.pathname;
     const productFromPath = path.split("/")[1];
-    if (["firstaid", "hygiene1", "hygiene2", "hygiene3", "hygiene4", "hygieneh3", 'hygienehb'].includes(productFromPath)) {
+    if (["firstaid", "hygiene1", "hygiene2", "hygiene3", "hygiene4", "hygieneh3", 'hygienehb', 'hygieneh10'].includes(productFromPath)) {
       return productFromPath;
     }
     return "";
@@ -60,6 +60,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
       setQuestionnaireMaterial(require("../questionsHygiene.json"));
     } else if (selectedProduct === "hygienehb") {
       setMaterial(require("../contentHygienehb.json"));
+      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+    } else if (selectedProduct === "hygieneh10") {
+      setMaterial(require("../contentHygieneh10.json"));
       setQuestionnaireMaterial(require("../questionsHygiene.json"));
     }
   }, [selectedProduct]);
