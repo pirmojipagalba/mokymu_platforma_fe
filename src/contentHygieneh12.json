@@ -378,6 +378,11 @@
               "type": "heading",
               "text": "Reikalavimai skalbyklų darbuotojams. Asmeninės apsaugos priemonės, jų reikšmė profesinių ir kitų ligų profilaktikai"
             },
+                        {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Reikalavimai skalbyklų darbuotojams: "
+            },
             {
               "type": "list",
               "list_type": "unordered",
@@ -463,6 +468,7 @@
             },
             {
               "type": "paragraph",
+              "class": "margin-xxl",
               "text": "**Asmeninės apsaugos priemonės skalbyklų darbuotojams yra svarbi profesinių ligų ir kitų sveikatos problemų prevencijos dalis**. Jos užtikrina darbuotojų saugą ir sveikatą, apsaugo nuo kenksmingų cheminių medžiagų poveikio, alerginių ir kvėpavimo takų ligų. Tinkamas AAP naudojimas, priežiūra ir sveikatos patikrinimai yra būtini gerai darbo aplinkai užtikrinti. Darbdavio ir darbuotojo bendradarbiavimas šioje srityje yra efektyvios rizikos prevencijos pagrindas."
             }
           ]
