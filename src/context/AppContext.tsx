@@ -70,6 +70,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
     } else if (selectedProduct === "hygieneh15") {
       setMaterial(require("../contentHygieneh15.json"));
       setQuestionnaireMaterial(require("../questionsHygiene.json"));
+    } else if (selectedProduct === "hygieneh12") {
+      setMaterial(require("../contentHygieneh12.json"));
+      setQuestionnaireMaterial(require("../questionsHygiene.json"));
     }
   }, [selectedProduct]);
 

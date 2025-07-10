@@ -1,0 +1,473 @@
+{
+  "topics": [
+    {
+      "title": "Teisės aktai, reglamentuojantys skalbyklų paslaugų visuomenės sveikatos saugos reikalavimus ",
+      "sectionId": "section1",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "main-heading",
+              "text": "Teisės aktai, reglamentuojantys skalbyklų paslaugų visuomenės sveikatos saugos reikalavimus"
+            },
+            {
+              "type": "paragraph",
+              "text": "2012 m. gegužės 22 d. Europos Parlamento ir Tarybos reglamentas (ES) Nr. 528/2012 dėl biocidinių produktų tiekimo rinkai ir jų naudojimo (OL 2012 L 167, p. 1);"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos sveikatos apsaugos ministro 2002 m. rugpjūčio 14 d. įsakymas Nr. 421 „Dėl Biocidinių produktų autorizacijos taisyklių patvirtinimo“;"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos sveikatos apsaugos ministro 2003 m. liepos 23 d. įsakymas Nr. V-455 „Dėl Lietuvos higienos normos HN 24:2003 „Geriamojo vandens saugos ir kokybės reikalavimai“ patvirtinimo“;"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos sveikatos apsaugos ministro 2008 m. sausio 28 d. įsakymas Nr. V-69 „Dėl Privalomųjų pirmosios pagalbos, higienos įgūdžių, alkoholio ir narkotikų žalos žmogaus sveikatai mokymų ir atestavimo tvarkos aprašo ir Asmenų, kuriems privalomas sveikatos ir / ar pirmosios pagalbos mokymas, profesijų ir veiklos sričių sąrašo, mokymo programų kodų ir mokymo periodiškumo patvirtinimo“;"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos sveikatos apsaugos ministro 2010 m. liepos 13 d. įsakymas Nr. V-632 „Dėl Leidimų-higienos pasų išdavimo taisyklių patvirtinimo“;"
+            },
+            {
+              "type": "paragraph",
+              "text": "Lietuvos Respublikos higienos norma HN 130:2012 „Skalbyklų paslaugų sveikatos saugos reikalavimai“."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Lietuvos Respublikos socialinės apsaugos ir darbo ministro 2007 m. lapkričio 26 d. Nr. A1-331 įsakymas „Dėl darbuotojų aprūpinimo asmeninėmis apsaugos priemonėmis nuostatų patvirtinimo“."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bendrieji skalbyklų įrengimo ir priežiūros reikalavimai. Patalpų, įrenginių, inventoriaus priežiūra",
+      "sectionId": "section2",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Bendrieji skalbyklų įrengimo ir priežiūros reikalavimai. Patalpų, įrenginių, inventoriaus priežiūra"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sąvokos ir jų apibrėžtys"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "**Dezinfekcija** – daugelio arba visų mikroorganizmų sunaikinimas aplinkoje, išskyrus kai kurias bakterijų sporas, naudojant fizines ir chemines priemones;",
+                "**Dvipusė skalbyklė** – įrenginys (skalbyklė), esantis tarp nešvariosios ir švariosios skalbyklos dalių, į kurį nešvarūs skalbiniai įkraunami nešvariojoje pusėje, o iškraunami – švariojoje;",
+                "**Nešvarioji skalbyklos dalis** – skalbyklos dalis, kurioje tvarkomi nešvarūs skalbiniai (priimami, laikomi, kraunami į skalbykles);",
+                "**Rankų antiseptika** – rankų odos įtrynimas antiseptikos priemone siekiant naikinti laikinuosius odos mikroorganizmus ir sumažinti nuolatinių mikroorganizmų kiekį;",
+                "**Savitarnos skalbykla** – skalbykla, kurioje įrenginiais naudojasi patys vartotojai;",
+                "**Skalbykla** – patalpų kompleksas, skirtas nešvarių skalbinių paruošimui pakartotiniam naudojimui (priėmimas, skalbimas, džiovinimas, lyginimas, lankstymas, pakavimas, laikymas, išdavimas);",
+                "**Sveikatos priežiūros įstaigų skalbiniai** – skalbiniai, naudojami pacientams tirti, gydyti, slaugyti sveikatos priežiūros įstaigoje, taip pat mikrobiologijos, parazitologijos, virusologijos laboratorijų skalbiniai ir šių įstaigų personalo darbo drabužiai;",
+                "**Šiluminė skalbinių dezinfekcija** – procesas, kai skalbiniai dezinfekuojami skalbiant ne žemesnėje kaip 71°C temperatūroje vandeniu ne trumpiau kaip 25 minutes;",
+                "**Šiluminė-cheminė skalbinių dezinfekcija** – procesas, kai skalbiniai skalbiami pagal gamintojo patvirtintą technologinį aprašymą, naudojant nustatytas skalbimo ir dezinfekcijos priemones, esant ne žemesnei kaip 30°C vandens temperatūrai, ne trumpiau kaip 10 minučių;",
+                "**Švarioji skalbyklos dalis** – skalbyklos dalis, kurioje tvarkomi švarūs skalbiniai (išimami iš skalbyklių, džiovinami, lyginami, pakuojami, laikomi ir išduodami užsakovui);",
+                "**Valymas** – teršalų pašalinimas nuo paviršių naudojant vandenį ir valymo priemones."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbyklos patalpos ir įrenginiai turi būti suorganizuoti taip, kad skalbinių srautai (priėmimo, laikymo, skalbimo, džiovinimo, lyginimo, pakavimo, išdavimo metu) tarp švarios ir nešvarios skalbyklos dalių nesusikirstų."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bendrieji skalbyklų įrengimo ir priežiūros reikalavimai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Švarūs ir nešvarūs skalbiniai turi būti tvarkomi taip, kad būtų užkirstas kelias švarių skalbinių kryžminei (antrinei) taršai.",
+                "Skalbyklos grindys, sienos ir įrenginiai, kur laikomi ar transportuojami skalbiniai, turi būti padengti lygia, drėgmei, valymo ir dezinfekcijos priemonėms atsparia danga.",
+                "Skalbimo, balinimo, minkštinimo ir standinimo priemonės turi būti naudojamos pagal gamintojo nurodymus, o naudojimo instrukcijos (lietuvių kalba) turi būti prieinamos paslaugų teikimo vietoje.",
+                "Patalpų, įrangos ir skalbinių dezinfekcijai bei darbuotojų rankų antiseptikai turi būti teisės aktų nustatyta tvarka autorizuoti biocidiniai produktai, naudojami pagal gamintojo paskirtį ir instrukcijas. Naudojimo instrukcijos (lietuvių kalba) turi būti saugomos paslaugų teikimo vietoje.",
+                "Skalbyklos patalpos, įrenginiai ir inventorius turi būti švarūs. Jei užteršti krauju, kūno skysčiais ar ekskretais, jie turi būti valomi ir dezinfekuojami pagal skalbyklos vadovo patvirtintą tvarkos aprašą. Šiame apraše turi būti nurodytos valymo / dezinfekcijos detalės, priemonės, periodiškumas, atvejai bei atsakingas asmuo. Valymo ir dezinfekcijos darbai turi būti dokumentuojami.",
+                "Tualetui, nešvariajai ir švariajai skalbyklos dalims valyti ir dezinfekuoti turi būti naudojamas atskiras, skirtingai pažymėtas inventorius, laikomas atskirai, kad būtų išvengta kryžminės taršos.",
+                "Skalbyklos darbuotojai rankas privalo plauti arba dezinfekuoti rankų antiseptikos priemone prieš pradėdami darbą švariojoje skalbyklos dalyje, baigę darbą nešvariojoje dalyje, po nešvarių skalbinių tvarkymo ir prieš tvarkant švarius skalbinius. Užterštas krauju ar kitais kūno skysčiais rankas pirmiausia reikia plauti, o paskui dezinfekuoti antiseptikos priemone.",
+                "Darbuotojų darbo ir asmeniniai drabužiai bei daiktai turi būti laikomi atskirai.",
+                "Tiekiamas vanduo turi atitikti geriamojo vandens kokybės reikalavimus."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skalbyklų specialieji reikalavimai",
+      "sectionId": "section3",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Skalbyklų specialieji reikalavimai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Savitarnos skalbykla privalo atitikti šio skyriaus nustatytus reikalavimus, tiekiamas vanduo turi atitikti geriamojo vandens kokybės normas, o skalbyklos patalpose neturi būti nariuotakojų ar graužikų."
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbyklos patalpos, įrenginiai ir inventorius turi būti laikomi švarūs. Jų valymas vykdomas pagal skalbyklos vadovo patvirtintą patalpų, įrenginių ir inventoriaus valymo tvarkos aprašą. Šiame apraše turi būti tiksliai nurodytas valymo objektas (patalpos, įrenginiai, inventorius), naudojamos valymo priemonės, periodiškumas bei asmuo, atsakingas už valymo darbus. Visi valymo veiksmai privalo būti fiksuojami."
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbykloje turi būti prieinamos valymo priemonės, skirtos įrenginiams ir inventoriui valyti, kurias galėtų naudoti skalbyklos paslaugų vartotojai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Aiškiai matomoje vietoje skalbykloje turi būti iškabintos naudojimosi įrenginiais taisyklės, valymo priemonių naudojimo instrukcijos, taip pat skalbti skirtų priemonių (jei tokias teikia paslaugų teikėjas) naudojimo nurodymai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Technologinio proceso (nešvarių skalbinių priėmimas, švarių ir nešvarių skalbinių laikymas, skalbimas, džiovinimas, lyginimas, pakavimas, švarių skalbinių išdavimas) visuomenės sveikatos saugos reikalavimai",
+      "sectionId": "section4",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Technologinio proceso (nešvarių skalbinių priėmimas, švarių ir nešvarių skalbinių laikymas, skalbimas, džiovinimas, lyginimas, pakavimas, švarių skalbinių išdavimas) visuomenės sveikatos saugos reikalavimai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbykla, kurioje skalbiami sveikatos priežiūros įstaigų skalbiniai, privalo atitikti bendruosius skalbyklų įrengimo ir priežiūros reikalavimus bei šio skyriaus specifinius reikalavimus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbykloje turi būti įrengti du atskiri įėjimai: vienas nešvariems skalbiniams priimti, kitas – švariems skalbiniams išduoti. Šie įėjimai turi būti naudojami tik pagal paskirtį."
+            },
+            {
+              "type": "paragraph",
+              "text": "Švarioji ir nešvarioji skalbyklos dalys privalo būti atskirtos sandaria pertvara, siekiančia lubas ir sienas, taip, kad darbuotojai galėtų pereiti iš vienos dalies į kitą tik per pertvaroje esančias duris. Jeigu nešvarūs ir švarūs skalbiniai transportuojami tais pačiais vežimėliais ar įrenginiais, jų transportavimas turi vykti per atskirą valymo ir dezinfekcijos patalpą."
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbykloje privalo būti įrengtos šios patalpos ar zonos:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Nešvarių skalbinių priėmimo;",
+                "Nešvarių skalbinių laikymo arba priėmimo ir laikymo, kur atskirtos priėmimo ir laikymo zonos;",
+                "Skalbimo, džiovinimo, lyginimo, lankstymo ir pakavimo, su atskirtomis zonomis kiekvienai funkcijai;",
+                "Švarių skalbinių išdavimo;",
+                "Švarių skalbinių laikymo arba laikymo ir išdavimo, kur atskirtos laikymo ir išdavimo zonos;",
+                "Vežimėlių (įrenginių) skalbiniams transportuoti valymo ir dezinfekcijos (jei vežimėliai naudojami ir švariems, ir nešvariems skalbiniams);",
+                "Personalo patalpa;",
+                "Pagalbinė patalpa (nebūtina, jei kitose patalpose yra pakankamai vietos skalbimo, valymo, dezinfekcijos priemonėms bei inventoriui laikyti)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pertvaroje tarp švariosios ir nešvariosios skalbyklos dalių turi būti durys, per kurias darbuotojai gali pereiti iš vienos dalies į kitą. Nešvariojoje skalbyklos dalyje prie durų turi būti įrengta praustuvė su rankų higienos priemonėmis (skystu muilu, rankų antiseptiku, dozatoriais, popieriniais rankšluosčiais), taip pat pakaba darbo drabužiams. Švariojoje skalbyklos dalyje taip pat turi būti praustuvė su rankų higienos priemonėmis ir pakaba darbo drabužiams."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jei vežimėliai švariems ir nešvariems skalbiniams yra vienodi, jie privalo būti valomi ir dezinfekuojami atskirame valymo patalpos skyriuje prieš perkeliant į švariąją skalbyklos dalį. Jei nėra tokios patalpos, turi būti naudojami atskiri, aiškiai pažymėti vežimėliai švariems ir nešvariems skalbiniams, naudojami tik atitinkamose skalbyklos dalyse."
+            },
+            {
+              "type": "paragraph",
+              "text": "Personalo patalpoje turi būti įrengta persirengimo zona, atskiros spintos arba spintos su pertvaromis darbo drabužiams ir asmeniniams daiktams, praustuvė bei rankų higienos priemonės."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nešvarūs skalbiniai priimami ir laikomi specialiose nešvarių skalbinių patalpose ar zonose, laikomi pakelti virš grindų lentynose, spintose ar vežimėliuose."
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbimas vykdomas tik dvipusėse skalbyklėse, naudojant šiluminę arba šiluminę-cheminę dezinfekciją, pagal gamintojo ir tiekėjo parengtus technologinius aprašymus. Priemonės turi būti suderintos tarpusavyje ir dozuojamos automatine dozavimo įranga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalavimas privalo užtikrinti, kad skalbiniai būtų visiškai išskalauti nuo skalbimo ir dezinfekcijos priemonių likučių; blogai išskalauti skalbiniai turi būti skalaujami pakartotinai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Įrangos gedimai ir techninė priežiūra turi būti registruojami žurnale su visais svarbiais duomenimis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Švarūs skalbiniai laikomi švariojoje skalbyklos dalyje, specialiose laikymo arba laikymo ir išdavimo patalpose, pakelti virš grindų ir laikomi uždarose spintose, lentynose ar tekstiliniais gaubtais uždengtuose įrenginiuose."
+            },
+            {
+              "type": "paragraph",
+              "text": "Darbuotojai švariojoje ir nešvariojoje skalbyklos dalyje turi dėvėti specialiai pažymėtus arba skirtingų spalvų darbo drabužius."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jeigu skalbykloje skalbiami ir kitų įmonių skalbiniai, nešvarūs sveikatos priežiūros įstaigų skalbiniai privalo būti priimami, laikomi ir skalbiami atskirai."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Jei teikiamos ir skalbimo, ir cheminio valymo paslaugos, šių procesų srautai turi būti organizuojami taip, kad jų metu nesusikirstų skalbinių ir gaminių priėmimas, laikymas, apdorojimas ir išdavimas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skalbimo būdai ir technologijos, skalbimo ir dezinfekcijos priemonių reikalavimai, jų galimas poveikis sveikatai",
+      "sectionId": "section5",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Skalbimo būdai ir technologijos, skalbimo ir dezinfekcijos priemonių reikalavimai, jų galimas poveikis sveikatai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Biocidai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Biocidai (lot. „žudantys gyvybę“) – tai cheminės arba biologinės medžiagos, skirtos kontroliuoti kenksmingus organizmus. Kenksmingais organizmais laikomi tie, kurie daro žalą žmonėms, jų veiklai ar gaminamiems produktams, taip pat gyvūnams ir aplinkai. Tarp jų yra įvairūs virusai, bakterijos, pelėsiai, vabzdžiai, graužikai, paukščiai ir net plėšrūnai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Biocidiniai produktai naudojami naikinti organizmus, kurie kelia grėsmę žmonių sveikatai ar žalą natūralioms bei dirbtinėms medžiagoms. Visgi dėl savo savybių šie produktai gali kelti riziką žmonių ir gyvūnų sveikatai bei aplinkai. Todėl svarbu naudoti biocidus tvariai, siekiant sumažinti galimą neigiamą jų poveikį. Vartotojai raginami biocidinius produktus naudoti tik pagal gamintojo nurodymus, tinkamai ir laiku. Renkantis biocidus, prioritetas turėtų būti skiriamas mažesnę riziką keliantiems produktams, nepamirštant teisės aktų reikalavimų dėl paslaugų saugos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pagal Reglamentą 528/2012 svarbu, kad biocidai būtų veiksmingi prieš kenksmingus organizmus, nesukeltų jų atsparumo ir nesukeltų nereikalingų kančių stuburiniams gyvūnams. Taip pat jie neturi neigiamai veikti žmonių, gyvūnų sveikatos ar aplinkos. Profesionalūs vartotojai biocidus turi naudoti tik esant būtinybei, tinkamoje vietoje ir tik reikiamu kiekiu, laikantis saugos reikalavimų. Be to, būtina taikyti papildomas priemones kenksmingų organizmų kontrolei, o biocidinius produktus naudoti tik pagal higienos normų ir faktinių aplinkybių reikalavimus. Biocidai, galintys sukelti skausmą ar kančias gyvūnams, turi būti naudojami tik kaip paskutinė priemonė. Profesionalai taip pat skatinami imtis priemonių, mažinančių biocidų keliamą riziką žmonių ir gyvūnų sveikatai bei aplinkai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Biocidiniai produktai yra suskirstyti į 22 tipus, kurie priskiriami keturioms pagrindinėms kategorijoms:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "**Dezinfekantai** (neįskaitant paprastų valymo priemonių be biocidinio poveikio).",
+                "**Asmens higiena** – biocidai, skirti žmogaus odai dezinfekuoti.",
+                "**Dezinfekantai ir algicidai be tiesioginio kontakto su žmonėmis ar gyvūnais** – paviršiams, įrangai, baseinams, oro kondicionieriams dezinfekuoti ir kt.",
+                "**Veterinarinė higiena** – produktai gyvūnams prižiūrėti ir dezinfekuoti.",
+                "**Maisto ir pašarų sritis** – dezinfekcija įrangos, talpų, paviršių, susijusių su maistu ar pašarais.",
+                "**Geriamasis vanduo** – vandens dezinfekcija žmonėms ir gyvūnams."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pagrindiniai biocidinių produktų vartotojų įsipareigojimai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Naudoti tik autorizuotus biocidus pagal Reglamentą 528/2012.",
+                "Laikytis autorizacijos sąlygų ir produkto etiketės nurodymų.",
+                "Naudoti biocidus saugiai, vadovaujantis saugos duomenų lapais (SDL).",
+                "Naudoti tik esant būtinybei ir pagal higienos normų reikalavimus.",
+                "Biocidinių produktų gamintojai privalo pateikti visą reikiamą informaciją apie produktą, jo naudojimą ir saugos priemones. Platintojai turi užtikrinti, kad rinkoje būtų tik autorizuoti biocidai, turintys lietuvišką etiketę, naudojimo instrukciją, saugos duomenų lapą ir galiojantį autorizacijos liudijimą."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbo su biocidais taisyklės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Laikyti sandariai uždarytus specialioje patalpoje.",
+                "Nelaikyti kartu su maistu.",
+                "Naudoti tik pagal paskirtį, griežtai laikantis instrukcijų.",
+                "Naudoti taupiai, vengti tiesioginio kontakto su oda ir kvapo.",
+                "Dirbti su apsauginėmis pirštinėmis.",
+                "Nenaudoti skirtingų valymo priemonių vienu metu."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skalbinių surinkimo, rūšiavimo, laikymo ir gabenimo į skalbyklą visuomenės sveikatos saugos reikalavimai",
+      "sectionId": "section6",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Skalbinių surinkimo, rūšiavimo, laikymo ir gabenimo į skalbyklą visuomenės sveikatos saugos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Reikalavimai skalbykloms, kurios neskalbia sveikatos priežiūros įstaigų skalbinių"
+            },
+            {
+              "type": "paragraph",
+              "text": "Skalbyklos, kuriose neskalbiami sveikatos priežiūros įstaigų skalbiniai, turi atitikti bendruosius higienos normų reikalavimus dėl įrengimo ir priežiūros, taip pat šio skyriaus nustatytus papildomus reikalavimus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tokiose skalbyklose privalo būti įrengtos šios patalpos arba zonos:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "skalbinių priėmimo ir išdavimo patalpa;",
+                "nešvarių skalbinių laikymo patalpa;",
+                "skalbimo, džiovinimo, lyginimo, lankstymo ir pakavimo patalpos arba vienoje patalpoje išskirtos atskiros šių procesų zonos;",
+                "švarių skalbinių laikymo patalpa;",
+                "personalo patalpa;",
+                "pagalbinė patalpa, kurios gali ir nebūti, jeigu kitos patalpos (išskyrus skalbimo, džiovinimo, lyginimo, lankstymo, pakavimo ir švarių skalbinių laikymo patalpas / zonas) suteikia pakankamai vietos priemonėms ir inventoriui laikyti."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Personalo patalpoje turi būti erdvė persirengti, atskiros spintos arba spintos su pertvaromis darbo drabužiams ir asmeniniams daiktams laikyti, taip pat praustuvė ir rankų higienos priemonės – skystas muilas, rankų antiseptikai, dozatoriai muilui ir popieriniams rankšluosčiams bei popieriniai rankšluosčiai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Švarūs skalbiniai turi būti laikomi supakuoti švarių skalbinių laikymo patalpoje arba tokioje zonoje, kur skirta, priėmimo ir išdavimo patalpoje, pakeltuose nuo grindų įrenginiuose (lentynose, spintose, vežimėliuose ir pan.)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nešvarūs skalbiniai laikomi nešvarių skalbinių laikymo patalpoje arba atskiroje nešvarių skalbinių laikymo zonoje, taip pat pakeltuose nuo grindų įrenginiuose."
+            },
+            {
+              "type": "paragraph",
+              "text": "Švariems ir nešvariems skalbiniams transportuoti turi būti naudojami atskiri, aiškiai skirtingai pažymėti vežimėliai ar kiti transportavimo įrenginiai. Švarūs vežimėliai naudojami tik švarioje skalbyklos dalyje, o nešvarūs – tik nešvarioje."
+            },
+            {
+              "type": "paragraph",
+              "text": "Vieta, kur susiliečia švarioji ir nešvarioji skalbyklos dalys, turi būti aprūpinta praustuve ir rankų higienos priemonėmis – skystu muilu, muilo dozatoriumi, popierinių rankšluosčių įrenginiu arba antiseptikos priemonių dozatoriumi. Taip pat čia turi būti pakabos darbo drabužiams, skirtiems dirbti su nešvariais skalbiniais ir atskiros pakabos drabužiams, skirtiems dirbti su švariais skalbiniais."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reikalavimai skalbyklų darbuotojams. Asmeninės apsaugos priemonės, jų reikšmė profesinių ir kitų ligų profilaktikai",
+      "sectionId": "section6",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Reikalavimai skalbyklų darbuotojams. Asmeninės apsaugos priemonės, jų reikšmė profesinių ir kitų ligų profilaktikai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Skalbyklų darbuotojai, atliekantys skalbimo darbus, privalo būti išklausę privalomuosius higienos įgūdžių mokymus ir turėti sveikatos žinių ir įgūdžių atestavimo pažymėjimus, kurie turi būti saugomi darbo vietoje.",
+                "Darbuotojai, dirbantys su cheminėmis medžiagomis, pavyzdžiui, su sintetinių skalbimo priemonių gamyba (sulfanolu, alkilamidais, natrio sulfatu, parafininių angliavandenilių chlorinimu ir kt.), privalo kas 2 metus atlikti profilaktinę sveikatos apžiūrą pas bendrosios praktikos gydytoją ir otorinolaringologą.",
+                "Privalomi tyrimai apima bendrą kraujo tyrimą ir plaučių rentgenogramą esant indikacijoms.",
+                "Kontraindikacijos darbui su šiomis medžiagomis: alerginės ligos, atrofiniai viršutinių kvėpavimo takų pakitimai, lėtinės plaučių ligos."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Asmeninės apsaugos priemonės (AAP) ir jų reikšmė"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "AAP skirtos apsaugoti darbuotoją nuo profesinės rizikos veiksnių ir pavojų, kurie gali pakenkti jo saugai ir sveikatai.",
+                "AAP naudojamos tik tada, kai rizikos negalima pašalinti ar pakankamai sumažinti kitomis priemonėmis (kolektyvinėmis apsaugos priemonėmis, darbo organizavimu ir pan.).",
+                "AAP turi atitikti ES reglamento 2016/425 reikalavimus, būti ergonomiškos, pritaikytos darbo sąlygoms ir individualiai darbuotojo sveikatos būklei.",
+                "Naudojant AAP, būtina užtikrinti, kad jos nesukeltų papildomų sveikatos ar higienos problemų, ypač jei tas pačias priemones naudoja keli darbuotojai."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbdavio pareigos"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Nemokamai aprūpinti darbuotojus reikalingomis AAP pagal teisės aktų ir įmonės nuostatus.",
+                "Užtikrinti, kad AAP būtų saugios, tinkamos naudoti ir atitiktų reikalavimus.",
+                "Rengti darbuotojų mokymus apie AAP paskirtį, taisyklingą naudojimą ir priežiūrą.",
+                "Užtikrinti, kad AAP būtų tinkamai prižiūrimos, valomos, dezinfekuojamos ir kečiamos, jei susidėvi ar sugenda.",
+                "Vykdyti rizikos įvertinimą, parenkant AAP pagal nustatytus profesinės rizikos veiksnius.",
+                "Rengti ir suderinti su darbuotojų atstovais AAP išdavimo ir priėmimo tvarką.",
+                "Užtikrinti, kad darbo vietose, kur reikalaujama, būtų naudojamos atitinkamos AAP.",
+                "Nemokamai aprūpinti praktikantus (moksleivius ir studentus) asmeninėmis apsaugos priemonėmis."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbuotojo pareigos"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Naudoti AAP viso darbo proceso metu, kai tai reikalaujama.",
+                "Rūpestingai prižiūrėti AAP, laikytis jų naudojimo instrukcijų.",
+                "Laiku pranešti apie AAP susidėvėjimą ar netinkamumą.",
+                "Po darbo grąžinti AAP į tam skirtą vietą.",
+                "Atsakyti už AAP sugadinimą ar praradimą dėl savo kaltės pagal Darbo kodeksą."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Asmeninių apsaugos priemonių išdavimas, laikymas ir priežiūra"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "AAP yra darbdavio nuosavybė ir turi būti grąžinamos, kai darbuotojas išeina iš darbo ar keičia pareigas.",
+                "Dėvėtos AAP galima duoti kitiems darbuotojams tik po kruopštaus išskalbimo, išvalymo ir dezinfekcijos.",
+                "AAP turi būti laikomos pagal gamintojo instrukcijas, atskirame, tam skirtoje patalpoje.",
+                "Negalima darbuotojams išduoti neišskalbtų, nedezinfekuotų ar netinkamų naudoti AAP.",
+                "AAP priežiūra, įskaitant valymą, skalbimą ir dezinfekciją, turi būti atliekama darbdavio lėšomis pagal gamintojo rekomendacijas.",
+                "Už užterštų ar užkrėstų infekcine liga AAP dezinfekciją ar sunaikinimą atsako darbdavys.",
+                "Darbo avalynei privalo būti sudarytos tinkamos priežiūros sąlygos (valymo vietos, priemonės)."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Apibendrinimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Asmeninės apsaugos priemonės skalbyklų darbuotojams yra svarbi profesinių ligų ir kitų sveikatos problemų prevencijos dalis**. Jos užtikrina darbuotojų saugą ir sveikatą, apsaugo nuo kenksmingų cheminių medžiagų poveikio, alerginių ir kvėpavimo takų ligų. Tinkamas AAP naudojimas, priežiūra ir sveikatos patikrinimai yra būtini gerai darbo aplinkai užtikrinti. Darbdavio ir darbuotojo bendradarbiavimas šioje srityje yra efektyvios rizikos prevencijos pagrindas."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
