@@ -26,6 +26,7 @@ import HandTable from "../../components/HandTable/HandTable";
 import AntisepticTable from "../../components/AntisepticTable/AntisepticTable";
 import ChirurgicalHandTable from "../../components/ChirurgicalHandTable/ChirurgicalHandTable";
 import IllnessTable from "../../components/IllnessTable/IllnessTable";
+import MeaningsTable from "../../components/MeaningsTable/MeaningsTable";
 
 interface PageContent {
   type: string;
@@ -193,12 +194,14 @@ const Section: React.FC<SectionProps> = ({
                             className="section__image"
                           />
                         </div>
-                      )                      : typeof textItem === "object" &&
-                      textItem.type === "anchor" ? (
+                      ) : typeof textItem === "object" &&
+                        textItem.type === "anchor" ? (
                         <div key={textIndex}>
                           <a
                             href={textItem.url || textItem.text}
-                            className={`section__anchor ${textItem.class && textItem.class}`}
+                            className={`section__anchor ${
+                              textItem.class && textItem.class
+                            }`}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -312,6 +315,8 @@ const Section: React.FC<SectionProps> = ({
                 <ChirurgicalHandTable />
               ) : item.type === "illness-table" ? (
                 <IllnessTable />
+              ) : item.type === "meanings-table" ? (
+                <MeaningsTable />
               ) : item.type === "requirements-table" ? (
                 <RequirementsTable />
               ) : item.type === "anchor" ? (

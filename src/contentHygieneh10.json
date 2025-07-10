@@ -176,14 +176,15 @@
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Teisės aktai, nusakantys reikalavimus maisto tvarkymui ar su maistu besiliečiantiems gaminiams ir medžiagoms"
+              "text": "Maisto saugos principai"
             },
             {
               "type": "heading",
               "text": "Vartojamos sąvokos"
             },
             {
-              "type": "meanings-table"
+              "type": "meanings-table",
+              "class": "margin-xxl"
             }
           ]
         },
@@ -192,48 +193,173 @@
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės"
+              "text": "Maisto saugos principai"
             },
             {
               "type": "heading",
-              "text": "Rankų plovimo taisyklės"
+              "text": "Maisto sauga. Maisto taršas"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kodėl svarbu užtikrinti maisto saugą dirbant su maistu?"
             },
             {
               "type": "paragraph",
-              "text": "**Rankas plauti būtina:**"
+              "text": "Užterštas ar netinkamai tvarkytas maistas gali sukelti įvairias ligas, apsinuodijimus bei lemti finansinius nuostolius įmonei. Sugedęs maistas tampa pavojingas sveikatai, netinkamas vartoti ir gali turėti rimtų pasekmių tiek vartotojams, tiek verslui."
+            },
+            {
+              "type": "paragraph",
+              "text": "Siekiant užtikrinti maisto saugą, būtina laikytis aukštų higienos ir saugos standartų, užtikrinant prevencines priemones bei veiksmingą kontrolę visuose maisto tiekimo grandinės etapuose – nuo gamybos iki vartotojo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Svarbu žinoti, kad pagrindinė atsakomybė už maisto saugą tenka patiems maisto tvarkymo subjektams. Tuo tarpu vartotojai, pirkdami produktus, tikisi, jog jų mėgstami maisto gaminiai bus ne tik skanūs, bet ir saugūs bei švieži."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Svarbiausi maisto kokybės kontrolės parametrai"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "prieš pradedant darbą;",
-                "kai rankos vizualiai nešvarios ar užterštos paciento krauju ir (ar) kitais kūno skysčiais, ekskretais;",
-                "prieš duodant ligoniui paskirtus neįpakuotus vaistus (tabletes), maisto produktus, gėrimus;",
-                "nusimovus paciento krauju ir (ar) kitais kūno skysčiais, ekskretais užterštas pirštines ar pirštines su talku;",
-                "pasinaudojus tualetu."
+                "**Juslinė kokybė**: išvaizda, skonis, aromatas, tekstūra, patvarumas ir kt.",
+                "**Mitybinė vertė**, įskaitant sveikatai įtakos turinčius aspektus: maisto alergenus ir teiginius apie naudą sveikatai (pvz.: „daug skaidulinių medžiagų“, „sumažina cholesterolio kiekį“, „be GMO“).",
+                "**Sudėtis ir ženklinimas**, įskaitant priedus, kokybės ir etinius reikalavimus (pvz.: ekologinė informacija).",
+                "**Teršalai**, įskaitant aplinkos teršalus, veterinarinius vaistus, žemės ūkio chemikalus, mikotoksinus ir kt.",
+                "**Pašalinių objektų aptikimas**, pvz.: akmenų, stiklo, metalų.",
+                "**Mikrobiologinė sauga**: listerijos, salmonelės, kampilobakterijos, koliforminės bakterijos, jersinijos.",
+                "**Vartojimo trukmė**: mikrobiologinių, juslinių, cheminių aspektų, sterilumo įvertinimas.",
+                "**Gamybos higiena**, valymas, užterštumas.",
+                "**RVASVT atsekamumas**, autentiškumo nustatymas."
               ]
             },
             {
+              "type": "img",
+              "text": "img0.png"
+            },
+            {
               "type": "paragraph",
-              "text": "**Rankų plovimo instrukcija:**"
+              "text": "Maistas turi būti:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "sudrėkinti rankas vandeniu;",
-                "užpilti plaunančios, dezinfekuojančios medžiagos;",
-                "trinti delną į delną;",
-                "trinti tarpupirščius ir vidines delnų puses;",
-                "trinti tarpupirščius ir išorines delnų puses;",
-                "trinti nykščius sukamaisiais judesiais;",
-                "trinti sulenktus pirštus sukamaisiais judesiais kitos rankos delne;",
-                "trinti suglaustus pirštus sukamaisiais judesiais kitos rankos delne;",
-                "visiškai nusausinti rankas popieriniu rankšluosčiu;",
-                "užsukti vandens čiaupą tuo pačiu popieriniu rankšluosčiu."
+                "tinkamos spalvos,",
+                "geros tekstūros,",
+                "kvapnus,",
+                "skanus."
               ]
             },
-            { "type": "hand-table", "class": "margin-xxl" }
+            {
+              "type": "paragraph",
+              "text": "Maiste neturėtų būti:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": ["plaukų ar kitų nevalgomų priedų."]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kodėl maistas gali būti užterštas?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maistas tampa nesaugus dėl įvairių priežasčių, tokių kaip:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Netinkama temperatūros kontrolė.",
+                "Kryžminis užterštumas, kai švarūs produktai kontaktuoja su užterštais.",
+                "Nešvarios arba nepakankamai nuplautos rankos.",
+                "Prastai prižiūrėta, nešvari įranga.",
+                "Nesilaikoma nustatytų darbo tvarkos ir procedūrų.",
+                "Netinkamas produktų sandėliavimas.",
+                "Naudojamos užterštos ar netinkamos medžiagos.",
+                "Nepastebimi galimi pavojai arba pernelyg pasitikima, jog problemų nebus.",
+                "Darbuotojų žinių ar apmokymo stoka."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kaip užtikrinti maisto saugą?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kiekviena įmonė, užsiimanti maisto tvarkymu, privalo užtikrinti, kad jos gaminami produktai būtų ne tik kokybiški ir atitiktų kainos bei kokybės santykį, bet ir būtų saugūs vartotojui."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kaip to pasiekti?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Svarbiausia – laikytis dviejų pagrindinių principų:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "**Prevencija** – užkertant kelią galimiems pavojams.",
+                "**Kontrolė** – nuolat stebint ir valdant procesus."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Šie principai taikomi nepriklausomai nuo produkcijos vertės – ar tai būtų brangesnis, ar pigesnis gaminys – nes visų svarbiausia yra vartotojo saugumas."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Prevencija apima**:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Reguliarų ir kruopštų patalpų bei įrangos valymą.",
+                "Tinkamą įrenginių priežiūrą.",
+                "Griežtą personalo higienos laikymąsi.",
+                "Kenkėjų kontrolės priemones."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kontrolė turi būti vykdoma visuose maisto tvarkymo etapuose**:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Prekių priėmimo metu.",
+                "Gamybos procese.",
+                "Produktų sandėliavimo laikotarpiu.",
+                "Parduodant vartotojui."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Tai reiškia, kad būtina**:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Atsakingai rinktis tiekėjus.",
+                "Užtikrinti, kad žaliavos būtų kokybiškos.",
+                "Naudoti tinkamą, švarią ir saugią įrangą.",
+                "Nuolat sekti ir fiksuoti temperatūras.",
+                "Laikytis taisyklių dėl saugaus ir tinkamo produktų laikymo."
+              ]
+            }
           ]
         },
         {
@@ -241,101 +367,279 @@
           "page_content": [
             {
               "type": "heading",
-              "text": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės"
+              "text": "Maisto saugos principai"
             },
             {
               "type": "heading",
-              "text": "Rankų plovikliai ir dezinfektantai "
+              "text": "Saugūs maisto tvarkymo principai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto saugumas bėgant laikui"
             },
             {
               "type": "paragraph",
-              "text": "**Higieninė rankų antiseptika privaloma:**"
+              "text": "Maistas nėra visada stabilus – laikui bėgant jame gali pradėti daugintis bakterijos, pakisti skonis, kvapas, spalva, tekstūra ir išvaizda, todėl jis tampa netinkamas vartoti ir gali kelti pavojų sveikatai."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto gedimo požymiai"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "prieš ir po tiesioginio kontakto (sąlyčio) su pacientu;",
-                "prieš pradedant darbą skyriuose, kuriuose yra ypač didelė infekcijos įgijimo rizika pacientui ir personalui (pvz., operacinės, intensyvios terapijos ir reanimacijos, nudegimų, transplantacijos, neišnešiotų naujagimių, onkohematologijos skyriai, izoliavimo palatos);",
-                "prieš atliekant invazines procedūras, prieš užsimaunant pirštines;",
-                "po sąlyčio su užterštais daiktais, skysčiais ar paviršiais."
+                "Pakitęs skonis",
+                "Nemalonus kvapas",
+                "Pasikeitusi išvaizda",
+                "Kitokia tekstūra",
+                "Spalvos pakitimai"
               ]
             },
             {
               "type": "paragraph",
-              "text": "**Higieninė rankų antiseptika atliekama**"
+              "text": "Todėl, tvarkant maistą, ypač svarbu griežtai laikytis asmens higienos taisyklių."
             },
             {
-              "type": "paragraph",
-              "text": "Prieš higieninę rankų antiseptiką rankos, jei jos nešvarios, plaunamos tokia tvarka:"
-            },
-            {
-              "type": "antiseptic-table"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Chirurginę rankų antiseptiką būtina atlikti:**"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "prieš operacijas ir kitas chirurgines invazines procedūras.",
-                "Prieš pirmąją dienos operaciją, jei reikia, nagai ir panagės valomi su minkštu vienkartiniu šepetėliu arba krapštuku, naudojant skystą muilą.",
-                "Chirurginės rankų antiseptikos trukmė priklauso nuo pasirinkto antiseptiko vadovaujantis gamintojo instrukcijomis."
-              ]
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto tvarkymo rekomendacijos"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Prie plautuvių turi būti iškabinti piešiniai ar schemos, kaip reikia plauti rankas.",
-                "Taip pat skystas muilas ir dezinfekcinio skysčio dozatorius.",
-                "Darbuotojai turi laikytis higienos taisyklių, nemūvėti žiedų, papuošalų, laikrodžių ir kitų daiktų.",
-                "Rankos ir nagai turi būti švarūs, nelakuoti, trumpai kirpti."
+                "Maisto tvarkymo laiką būtina kuo labiau sutrumpinti, ypač kai dirbama su daug baltymų turinčiais produktais.",
+                "Naudokite tik tiek produktų, kiek reikia vienam kartui.",
+                "Neleiskite maistui stovėti kambario temperatūroje ilgiau nei būtina.",
+                "Naudokite švarius įrankius, švarią įrangą.",
+                "Visada laikykitės tinkamos rankų higienos."
               ]
             },
-            { "type": "chirurgical-hand-table", "class": "margin-xxl" }
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Terminis apdorojimas "
+            },
+            {
+              "type": "paragraph",
+              "text": "Tinkama temperatūros kontrolė būtina, norint apsisaugoti nuo maistu plintančių infekcijų. Maistas turi būti verdamas ar kepamas tokiomis sąlygomis, kad būtų sunaikintos pavojingos bakterijos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Svarbu nuolat tikrinti gaminių temperatūrą, imti mėginius ir užtikrinti, kad produkto viduje temperatūra pasiektų bent 75 °C, o jei technologija leidžia tik 70 °C – ją būtina palaikyti keletą minučių."
+            },
+            {
+              "type": "paragraph",
+              "text": "Įdarus ir pagrindinius patiekalus būtina termiškai apdoroti atskirai, kad būtų išvengta kryžminio užteršimo."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sušaldytų pusgaminių atšildymas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Pusgaminiai turi būti atšildomi šaldytuve, mikrobangų krosnelėje arba specialioje įrangoje.",
+                "Kambario temperatūroje atšildyti nerekomenduojama, kad nesusidarytų palankios sąlygos mikroorganizmų dauginimuisi.",
+                "Atšildytą produkciją būtina sunaudoti per 24 valandas, o prieš patiekimą visada termiškai apdoroti.",
+                "Pakartotinai užšaldyti atšildytus produktus griežtai draudžiama."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Termiškai neapdorotų patiekalų laikymo sąlygos"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Šaltus, termiškai neapdorotus patiekalus galima laikyti ne aukštesnėje nei +6 °C temperatūroje ir ne ilgiau kaip 24 valandas.",
+                "Jei patiekalai laikomi kambario temperatūroje, jie turi būti suvartoti per 4 valandas, o šiltesniais mėnesiais (gegužę–rugsėjį) – tik šaldymo įrenginiuose.",
+                "Didelės rizikos maisto produktai turi būti laikomi trumpiau, jei kyla grėsmė jų kokybei ar saugumui."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Karštų patiekalų laikymo ir pateikimo taisyklės"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Karšti patiekalai turi būti laikomi šilumą palaikančiuose įrenginiuose, kurių temperatūra ne mažesnė kaip +68 °C, ir suvartojami tą pačią dieną.",
+                "Atvėsinti iki nustatytos temperatūros jie turi būti per 4 valandas, o vėliau laikomi šaldytuve ne aukštesnėje kaip +4 °C temperatūroje, bet ne ilgiau kaip 24 valandas.",
+                "Po pakartotinio pašildymo tokio maisto vartojimo laikas – ne daugiau kaip 1 valanda.",
+                "Dar karšto maisto šaldytuve laikyti negalima, nes tai pakelia bendrą šaldytuvo temperatūrą."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Šaltų patiekalų laikymo ir pateikimo taisyklės"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Šaltų patiekalų temperatūra neturi viršyti +8 °C.",
+                "Kambario temperatūroje šaltą maistą leidžiama laikyti iki 4 valandų, o karštą – iki 2 valandų.",
+                "Nuo gegužės iki rugsėjo – tik šaldytuvuose ar šaldymo įrenginiuose."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto pašildymas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Pašildant maistą būtina sunaikinti visas bakterijas, kurios galėjo atsirasti laikymo metu.",
+                "Minimalus pašildymo temperatūros reikalavimas – 75 °C, kurią reikia patikrinti termometru.",
+                "Pašildyti maistą leidžiama tik vieną kartą. Nesuvartotą pašildytą maistą būtina utilizuoti."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "***Griežtai draudžiama***:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Maišyti šviežiai pagamintą maistą su likučiais ar ankstesnėmis partijomis.",
+                "Viešojo maitinimo įstaigose gaminti varškę, sūrių masę, raugintus pieno produktus ar konservus (mėsos, grybų, daržovių, padažų ir kt.)."
+              ]
+            }
           ]
         },
         {
           "page": 5,
           "page_content": [
             {
-              "type": "heading",
-              "text": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės"
+              "type": "floating-heading",
+              "text": "Maisto saugos principai"
             },
             {
               "type": "heading",
-              "text": "Vienkartinių pirštinių ir kitų asmeninių apsaugos priemonių naudojimas  "
+              "text": " Kryžminė maisto tarša. Maisto alergija"
             },
+
             {
-              "type": "paragraph",
-              "text": "**Darbuotojai pagal pobūdį turi būti aprūpinami šiomis asmeninės apsaugos priemonėmis:**"
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kryžminė tarša skirstoma:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "apsauginiais drabužiais (chalatais, kostiumais, prijuostėmis) ir pirštinėmis;",
-                "galvos dangalais (medicinine kepuraite, gobtuvu);",
-                "akių ir veido apsauginėmis priemonėmis (akiniais, medicininėmis kaukėmis, veido skydeliais);",
-                "kvėpavimo takų apsauginėmis priemonėmis (daleles filtruojančiais respiratoriais);",
-                "apsaugine avalyne."
+                "Mikrobiologinė – tai tarša, kurios metu ant paruoštų maisto produktų bakterijos, virusai ir pelėsis patenka nuo žaliavų, aplinkos daiktų ar kitų taršos šaltinių arba nuo žaliavos žaliavai. Mikrobiologinė kryžminė tarša yra dažniausia apsinuodijimo maistu priežastis.",
+                "Cheminė tarša – jos metu į maistą patenka cheminių medžiagų (ploviklių ir pan.).",
+                "Fizinė tarša – jos metu į maistą patenka fizinių dalelių (stiklo, akmenukų ir pan.).",
+                "Alerginė – tai tarša, kurios metu į maistą patenka alergenų, galinčių sukelti alergines reakcijas."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kryžminė tarša ir kaip jos išvengti"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kryžminė tarša įvyksta, kai kenksmingos bakterijos ar kitos pavojingos medžiagos iš vieno objekto, produkto ar paviršiaus persikelia į kitą. Pagrindiniai kryžminės taršos šaltiniai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Žalias, termiškai neapdorotas maistas (mėsa, žuvis, daržovės, vaisiai), kuris gali turėti bakterijų ir, kontaktuodamas su kitais produktais, juos užteršti.",
+                "Kenkėjai – vabzdžiai, graužikai, naminiai gyvūnai ir paukščiai, galintys pernešti bakterijas.",
+                "Nešvari aplinka – nesutvarkytos, nešvarios maisto ruošimo vietos gali tapti bakterijų židiniu.",
+                "Maistą tvarkantys asmenys – bakterijos gali būti ant odos, plaukų, rankų, burnos ar nosies srityje, taip pat virškinamajame trakte.",
+                "Tvarkomas termiškai apdorotas maistas – jei neplaunamos rankos ar naudojamas nešvarus inventorius.",
+                "Maisto ruošimo įrankiai – peiliai, pjaustymo lentelės, smulkintuvai naudojami tiek žaliam, tiek jau paruoštam maistui.",
+                "Maisto ruošimo paviršiai – jei jie nenaudojami atskirai žaliems ir apdorotiems produktams.",
+                "Pašluostės – jomis valomi skirtingi paviršiai be tinkamo dezinfekavimo."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kaip sumažinti kryžminės taršos riziką?"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Užtikrinkite, kad apdorojamas maistas nesiliestų su jau paruoštais produktais.",
+                "Maisto ruošimo inventoriaus turi būti pakankamai, kad galėtumėte naudoti atskirus įrankius skirtingoms žaliavoms ir patiekalams.",
+                "Laikykite skirtingus produktus atskirai: atskirose lentynose, uždarose talpyklose.",
+                "Aiškiai atskirkite produktų ir žaliavų judėjimo srautus nuo pagamintų patiekalų.",
+                "Kruopščiai plaukite ir sausinkite rankas, įrankius, lenteles, paviršius prieš ir po darbo su žalia mėsa ar kitomis žaliavomis, ypač ruošiant maistą, kuris bus vartojamas be papildomo terminio apdorojimo.",
+                "Naudokite atskirą inventorių (pvz., skirtingų spalvų lenteles ir peilius) žaliam ir paruoštam vartoti maistui.",
+                "Žalią mėsą, paukštieną ar žuvį laikykite šaldytuvo apačioje, o vartoti paruoštą maistą – viršuje.",
+                "Paruoštą maistą apsaugokite nuo skysčių nutekėjimo (pvz., nuo žalios mėsos ar kondensato).",
+                "Idealu turėti atskirus šaldytuvus žaliam ir paruoštam maistui."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto alergija"
+            },
+            {
+              "type": "paragraph",
+              "text": "Alergija – tai perdėta organizmo imuninės sistemos reakcija į tam tikras medžiagas, vadinamas alergenais. Ją gali sukelti ne tik pats produktas, bet ir įvairūs priedai: dažikliai, konservantai, tirštikliai, prieskoniai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alergenai – tai maisto produktai ar jų sudėtyje esančios medžiagos, galinčios sukelti alergines reakcijas. Nors nėra tikslių duomenų, kiek žmonių yra alergiški, žinoma, kad net mažos alergenų pėdsakų dozės gali būti pavojingos, ypač vaikams."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Dažniausi alergenai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Pienas",
+                "Kiaušiniai",
+                "Žemės ir kiti riešutai",
+                "Žuvys ir vėžiagyviai",
+                "Soja",
+                "Kviečiai",
+                "Sezamo sėklos",
+                "Lubinai"
               ]
             },
             {
               "type": "paragraph",
-              "text": "**Asmeninės apsaugos priemonės turi būti laikomos darbo vietoje.**"
+              "text": "Šios medžiagos sudaro apie 90 proc. visų maisto alergijų."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Jūsų pareiga:"
             },
             {
               "type": "list",
               "list_type": "unordered",
-              "class": "margin-xxl",
               "text": [
-                "Turi būti įrengtos atskiros spintos arba spintos su pertvaromis darbuotojų apsauginiams drabužiams bei avalynei ir asmeniniams drabužiams bei avalynei ir daiktams laikyti.",
-                "Darbuotojų apsauginiai drabužiai, avalynė, rankų, veido, kvėpavimo takų apsauginės priemonės gali būti vienkartinės arba daugkartinio naudojimo.",
-                "Daugkartinio naudojimo asmeninės apsauginės priemonės valomos ir dezinfekuojamos pagal gamintojų instrukcijas. Daugkartinė apsauginė avalynė turi būti neperšlampama, tinkama valyti ir dezinfekuoti."
+                "Užtikrinti, kad ant pakuočių būtų aiškiai nurodyta visa informacija apie alergenus ir sudėtines dalis.",
+                "Jei yra bent menkiausia tikimybė, kad produktas gali turėti alergenų – būtina įspėti vartotoją.",
+                "Maisto produktus, kuriuose yra alergenų, laikyti atskirai nuo kitų produktų.",
+                "Siekiant išvengti kryžminės taršos alergenais – naudoti atskirą, aiškiai paženklintą inventorių (indus, įrankius, pjaustymo lenteles) skirtingiems produktams."
               ]
             }
           ]
@@ -343,7 +647,7 @@
       ]
     },
     {
-      "title": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija",
+      "title": "Maistu plintančios infekcinės ligos. Jų prevencija.",
       "sectionId": "section2",
       "content": [
         {
@@ -351,38 +655,201 @@
           "page_content": [
             {
               "type": "heading",
-              "text": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija"
+              "text": "Maistu plintančios infekcinės ligos. Jų prevencija."
+            },
+            {
+              "type": "heading",
+              "text": "Mikroorganizmai, mikroorganizmų dauginimasis."
             },
             {
               "type": "paragraph",
-              "text": "Infekcinės ligos – tai užkrečiamosios ligos, kuriomis susergama jų sukėlėjams (bakterijoms, virusams, grybeliams, pirmuonims) patekus į organizmą ir jame toliau dauginantis."
+              "text": "**Mikroorganizmai — kas tai?** "
             },
             {
               "type": "paragraph",
-              "text": "Žmonės jais užsikrėsti gali įvairiais būdais: per orą, kuriuo kvėpuoja, per vandenį, kurį geria, ar per maistą, kurį valgo."
+              "text": "Mikroorganizmai (iš graikų kalbos mikros – mažas) yra itin smulkūs gyvi organizmai, kuriuos galima pamatyti tik per mikroskopą. Tai dažniausiai vienaląsčiai organizmai: "
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "bakterijos, ",
+                "grybeliai, ",
+                "mikroskopiniai pirmuonys. "
+              ]
             },
             {
               "type": "paragraph",
-              "text": "Į žmogaus organizmą mikroorganizmų gali patekti per sąlytį su kitais žmonėmis, gyvūnais, augalais ar net nematomais nešvarumais, esančiais ant daiktų, kuriuos žmogus liečia."
+              "text": "Nors jie yra nematomi, neužuodžiami, neturi skonio, mikroorganizmai gali patekti į maistą visai to nežinant. "
             },
             {
               "type": "paragraph",
-              "text": "Taip pat jų gali patekti su krauju, limfa ar kitais organizmo skysčiais. Pavyzdžiui, meningokokinės infekcijos sukėlėjas patenka į žmogaus organizmą su ikvepiamu oru, maliarija užsikrečiama įkandus užkrėstam uodui, hepatitas A plinta suvalgius užkrėsto maisto per nešvarias rankas ir t. t."
+              "text": "Jie gyvena visur – ore, vandenyje, dirvoje, ant augalų, gyvūnų, žmogaus odos. Pavyzdžiui, ant žmogaus rankų gali būti nuo 40 tūkstančių iki 4,5 milijono mikroorganizmų! "
             },
             {
               "type": "paragraph",
-              "text": "**Bakterinės infekcijos**: difterija, kokliušas, stabligė, skarlatina, žaizdų infekcijos;"
+              "text": "Ne visi mikroorganizmai yra kenksmingi. Dalis jų labai svarbūs gaminant įvairius produktus, tokius kaip sūris, jogurtas, alus, duona ar actas. Tačiau kai kurie mikroorganizmai gali sukelti ligas ir apsinuodijimus maistu. "
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bakterijos"
             },
             {
               "type": "paragraph",
-              "text": "**Virusinės infekcijos**: tymai, raudonukė, hepatitas A, B ir C, pasiutligė, gripas;"
+              "text": "Bakterijos – tai vienaląsčiai organizmai, neturintys branduolio. Jos dauginasi dalindamosi pusiau, todėl esant palankioms sąlygoms jų skaičius gali padvigubėti kas 10–20 minučių. "
             },
             {
               "type": "paragraph",
-              "text": "**Grybelinės infekcijos**: pėdų grybelis."
+              "text": "**Dauguma bakterijų dauginasi, kai:** "
             },
             {
-              "type": "illness-table"
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "yra maisto, ",
+                "pakankamai drėgmės, ",
+                "tinkama temperatūra, ",
+                "užtikrinamas deguonies kiekis (nors kai kurios išgyvena ir be jo), ",
+                "praeina pakankamas laikas. "
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Pavojingos bakterijos į žmogaus organizmą dažniausiai patenka per:** "
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "nešvarias rankas, ",
+                "blogai apdorotą ar laikytą maistą, ",
+                "nesilaikant higienos ruošiant patiekalus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Veiksniai, lemiantys bakterijų dauginimąsi:"
+            },
+            {
+              "type": "list",
+              "list_type": "ordered",
+              "text": [
+                "**Maistas**",
+                [
+                  "Tam, kad galėtų daugintis, bakterijoms reikalingas maistas.",
+                  "Baltyminiai produktai (mėsa, žuvis, pienas, kiaušiniai) – ypač mėgstama terpė patogeninėms bakterijoms.",
+                  "Konservantai ir druska apsunkina bakterijų augimą."
+                ],
+                "**Drėgmė**",
+                [
+                  "Be vandens bakterijos negali daugintis.",
+                  "Produktų viduje esanti drėgmė (pvz., vištienos šlaunelės centre ar pyrago viduje) sudaro puikias sąlygas bakterijoms.",
+                  "Tačiau sūrus vanduo ar drėgmės stoka (pvz., miltuose ar sūdytame maiste) stabdo bakterijų dauginimąsi.",
+                  "**Pavyzdžiai**:\n\n✅ Žalias viščiukas – puikios sąlygos bakterijoms.\n\n❌ Sūdyta žalia mėsa – nepalanki terpė."
+                ],
+                "**Temperatūra**",
+                [
+                  "Bakterijoms daugintis reikia tam tikros temperatūros.",
+                  "Kuo ji artimesnė optimalioms sąlygoms (dažniausiai +5 °C – +60 °C), tuo greičiau bakterijos dauginasi."
+                ],
+                "**Deguonis**",
+                [
+                  "Dauguma bakterijų dauginasi tik esant deguoniui.",
+                  "Tačiau yra bakterijų, kurios auga ir be jo, pavyzdžiui, Clostridium botulinum.",
+                  "Ši bakterija gali daugintis konservuose ar vakuume laikomuose produktuose."
+                ],
+                "**Laikas**",
+                [
+                  "Kuo ilgiau bakterijos turi sąlygas daugintis (esant maistui, drėgmei, tinkamai temperatūrai), tuo jų daugiau prisidaugina."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Didelės ir mažos rizikos produktai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Didelės rizikos produktai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Virta ar termiškai apdorota mėsa, vištiena, žuvis",
+                "Jūros produktai",
+                "Kiaušiniai (virti, žali, patiekalai su jais)",
+                "Virti ryžiai",
+                "Pieno produktai",
+                "Salotos"
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Mažos rizikos produktai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Duona",
+                "Sausainiai",
+                "Traškučiai",
+                "Sūdyti riešutai",
+                "Marinuotos daržovės",
+                "Džiovintas maistas",
+                "Alkoholiniai gėrimai"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Kaip temperatūra veikia bakterijų augimą?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bakterijoms daugintis reikalinga tam tikra temperatūra."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Žemesnėje negu 5 °C temperatūroje patogeninės bakterijos arba negali daugintis, arba jų dauginimasis labai sulėtėja, tačiau jos nežūsta ir esant palankiomis sąlygomis vėl pradeda daugintis.",
+                "Prie 37 °C temperatūros patogeninės bakterijos auga geriausiai.",
+                "Apie 63 °C laipsnius temperatūros bakterijų veisimasis mažėja ir jos žūsta pakaitinus maistą iki 70 °C temperatūros ir palaikius 2 min., arba pakaitinus iki 75 °C ir palaikius 30 sekundžių.",
+                "75 °C yra kritinė temperatūra bakterijoms išgyventi.",
+                "Iki 82 °C temperatūros įkaitinus maistą įvyksta dezinfekcija, žūsta praktiškai visos bakterijos.",
+                "Prie 110 °C–132 °C temperatūros – vyksta maisto konservavimas ar sterilizavimas, ar UAT (ultra aukšta temperatūra). UAT sterilizavimas efektyvus tuo, kad žudo bakterijas, nekeisdama maistinių savybių ir skonio."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Pavojingiausia zona: 5 °C–63 °C"
+            },
+            {
+              "type": "paragraph",
+              "text": "Temperatūra nuo 5 °C iki 63 °C yra pati tinkamiausia bakterijoms gyventi ir daugintis. Dėl to ši temperatūra vadinama pavojinga zona. Todėl patartina vengti maistą laikyti šioje temperatūroje, reikėtų arba laikyti karštą maistą, arba jį atšaldyti ir laikyti mažesnėje nei 5 °C. Bakterijos, dažniausia sukeliančios apsinuodijimą maistu, greičiausiai dauginasi esant 10 °C–65 °C. Tai: Salmonella, E. coli, Listeria monocytogenes, Campylobacter ir kt."
+            },
+            {
+              "type": "heading",
+              "text": "Kaip laikas veikia bakterijų augimą?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tam, kad bakterijos galėtų augti ir daugintis labai svarbu ne tik prieš tai išvardyti veiksniai, tačiau ir laikas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tinkamas maistas, drėgmė, temperatūra ir laikas yra pagrindiniai veiksniai, sąlygojantys bakterijos dauginimosi tempą."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Esant tinkamomis sąlygomis jų kiekis padvigubėja kas dešimt – dvidešimt minučių."
             }
           ]
         },
@@ -391,117 +858,86 @@
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija"
+              "text": "Maistu plintančios infekcinės ligos. Jų prevencija"
             },
             {
               "type": "heading",
-              "text": "Pagrindinės bakterijų, virusų, grybelių savybės (dydis, struktūra, atsparumas aplinkos poveikiui – žemai temperatūrai, aukštai temperatūrai, ultravioletiniams spinduliams, biocidams) "
+              "text": "Bakterijų sporos ir jų toksinai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bakterijų sporos"
             },
             {
               "type": "paragraph",
-              "text": "Bakterijos, virusai ir grybai yra mikroorganizmai, turintys skirtingas biologines ir ekologines savybes, todėl jų dydis, struktūra ir atsparumas aplinkos veiksniams skiriasi. Štai pagrindinės jų savybės:  "
+              "text": "Kai kurios bakterijos, patekusios į joms nepalankią aplinką, gali sudaryti sporas. Spora – tai tarsi bakterijos apsauginė forma, kuri leidžia jai išgyventi ekstremalias sąlygas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "karštį,",
+                "išdžiūvimą,",
+                "chemikalų ar radiacijos poveikį."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Sporos – tai bakterijų ramybės būsena, kurios metu jos tarsi „užmiega“ ir gali išlikti gyvybingos daugelį metų. Kai aplinka vėl tampa palanki, spora pradeda brinkti, naudoja vidines maisto atsargas, sprogsta jos sienelė ir vėl atsinaujina aktyvi bakterijos ląstelė."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sporas sunaikinti sudėtinga – jos atsparios daugeliui įprastų maisto gaminimo būdų. Pavyzdžiui: Bacillus cereus sporos gali išlikti gyvos net virtų ryžių likučiuose ir pradėti daugintis, kai tik sąlygos joms tampa tinkamos. Todėl labai svarbu greitai atvėsinti paruoštą maistą ir laikyti šaltai."
+            },
+            {
+              "type": "paragraph",
+              "text": "Efektyviausias sporų naikinimo būdas – ilgas apdorojimas itin aukšta temperatūra, pavyzdžiui, sterilizacija."
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Bakterijos."
+              "text": "Bakterijų gaminami toksinai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kai kurios bakterijos gali gaminti nuodingas medžiagas – toksinus, kurie užteršia maistą. Toksinai gali būti:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Egzotoksinai – išskiriami į aplinką, kol bakterija auga maiste (pvz., Bacillus cereus, Staphylococcus aureus). Jie pavojingi tuo, kad gali išlikti maiste net po terminio apdorojimo.",
+                "Endotoksinai – susidaro bakterijos viduje, o į aplinką patenka, kai bakterija žūsta."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Kai kurie toksinai yra itin atsparūs karščiui, todėl maisto apdorojimas ne visada garantuoja jų sunaikinimą."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kaip naikinami mikroorganizmai?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Yra du pagrindiniai būdai naikinti mikroorganizmus:"
             },
             {
               "type": "list",
               "list_type": "ordered",
               "text": [
-                "**Dydis:** bakterijos paprastai yra nuo 0,2 iki 10 mikrometrų (µm) dydžio. Dažniausiai jos yra mažesnės nei eukariotinės ląstelės.",
-                "**Struktūra:**",
-                [
-                  "Ląstelės tipas: bakterijos yra prokariotiniai organizmai, neturintys branduolio.",
-                  "Sienelė: turi ląstelių sienelę, kurią sudaro peptidoglikanas (skiriasi pagal Gram teigiamas ir Gram neigiamas bakterijas).",
-                  "DNR: DNR yra žiedo formos chromosoma, laisvai esanti citoplazmoje.",
-                  "Plazmidės: daugelis bakterijų turi plazmides – mažus, papildomus DNR fragmentus, kurie gali suteikti atsparumą antibiotikams."
-                ],
-                "**Atsparumas aplinkos poveikiui:**",
-                [
-                  "Žema temperatūra: bakterijos gali išlikti gyvybingos esant žemai temperatūrai, nors kai kurių jų aktyvumas sumažėja. Kai kurios formuoja sporas, kurios atsparios šalčiui.",
-                  "Aukšta temperatūra: daugelis bakterijų žūsta esant aukštesnei nei 70–100°C temperatūrai, tačiau termofilinės bakterijos gali išgyventi esant aukštai temperatūrai (iki 80°C ir daugiau).",
-                  "UV spinduliai: ultravioletiniai spinduliai gali pažeisti bakterijų DNR ir sunaikinti jas, tačiau kai kurios bakterijos gali turėti apsaugos mechanizmus nuo UV spindulių.",
-                  "Biocidai: biocidai, pvz., alkoholis, chloras, formaldehidas, veiksmingai naikina bakterijas, tačiau kai kurios bakterijos gali išvystyti atsparumą tam tikriems chemikalams."
-                ]
+                "Cheminis metodas – paviršių, įrankių, inventoriaus, besiliečiančių su maistu, dezinfekcija ar sterilizacija.",
+                "Karštis – efektyviai naikina bakterijas, kai produktas viduje pasiekia ne žemesnę kaip 72 °C temperatūrą (arba 70 °C laikoma kelias minutes)."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Virusai."
+              "text": "Kaip temperatūra veikia bakterijas? "
             },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "**Dydis:** virusai yra labai maži, dažniausiai nuo 20 iki 300 nanometrų (nm). Dydis priklauso nuo viruso tipo – didžiausi yra poxvirusai, mažiausi – parvovirusai.",
-                "**Struktūra:**",
-                [
-                  "Genetinė medžiaga: virusai turi DNR arba RNR (bet ne abu).",
-                  "Kapsidė: viruso genetinę medžiagą apsaugo baltyminis apvalkalas – kapsidė.",
-                  "Envelopė (kai kuriems virusams): kai kurie virusai turi lipidinį apvalkalą (envelopę), kuris apsupa kapsidę.",
-                  "Virusai neturi ląstelinės struktūros ir negali savarankiškai gyventi – jiems reikia šeimininko ląstelės reprodukcijai."
-                ],
-                "**Atsparumas aplinkos poveikiui:**",
-                [
-                  "Žema temperatūra: virusai dažnai gali išlikti aktyvūs labai žemose temperatūrose, ypač jei yra užšaldyti (-70°C ir žemesnė temperatūra). Dauguma jų atlaiko žemą temperatūrą daug geriau nei aukštą.",
-                  "Aukšta temperatūra: daugelis virusų žūsta aukštesnėje nei 60°C temperatūroje, tačiau kai kurie gali išgyventi trumpą laiką esant aukštai temperatūrai.",
-                  "UV spinduliai: UV spinduliai efektyviai naikina virusus, nes gali pažeisti jų genetinę medžiagą.",
-                  "Biocidai: alkoholis ir chloro pagrindu pagaminti biocidai naikina daugumą virusų, ypač tuos, kurie turi lipidinį apvalkalą. Virusai be apvalkalo (pvz., enterovirusai) gali būti atsparesni kai kuriems biocidams."
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Grybai."
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "**Dydis:**",
-                [
-                  "Grybai yra daugialąsčiai arba vienaląsčiai organizmai. Vienaląsčiai grybai, tokie kaip mielės, yra nuo 3 iki 40 mikrometrų dydžio, o daugialąsčiai grybai (pelėsiai) sudaro hyfas (ilgus siūlus), kurie gali būti kelių mikrometrų skersmens."
-                ],
-                "**Struktūra:**",
-                [
-                  "Ląstelių tipas: grybai yra eukariotai, jų ląstelės turi branduolį.",
-                  "Ląstelių sienelė: grybai turi chitino sudarytą ląstelių sienelę.",
-                  "Hifai ir sporos: dauguma grybų auga hifais ir dauginasi sporomis, kurios gali plisti per orą ar kitus būdus."
-                ],
-                "**Atsparumas aplinkos poveikiui:**",
-                [
-                  "Žema temperatūra: grybai gali išgyventi esant žemoms temperatūroms, bet jų augimas dažniausiai lėtėja. Kai kurie gali išlikti gyvybingi netgi užšaldžius juos.",
-                  "Aukšta temperatūra: grybai paprastai žūsta esant aukštesnei nei 60°C temperatūrai, nors kai kurie termofiliniai grybai gali toleruoti šilumą.",
-                  "UV spinduliai: grybai yra jautrūs UV spinduliams, nors storos sporos gali suteikti tam tikrą apsaugą.",
-                  "Biocidai: grybai paprastai yra jautrūs biocidams, tačiau pelėsiai ir mielės gali būti atsparesni tam tikroms cheminėms medžiagoms, ypač jei jie yra apsaugoti sporomis."
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Santrauka:"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "class": "margin-xxl",
-              "text": [
-                "**Dydis:** virusai yra mažiausi (20–300 nm), bakterijos – vidutinės (0,2–10 µm), grybai – didžiausi (nuo kelių mikrometrų iki kelių centimetrų dydžio hyfai).",
-                "**Struktūra:** virusai neturi ląstelinės struktūros, bakterijos yra prokariotiniai organizmai, o grybai – eukariotiniai.",
-                "**Atsparumas:**",
-                [
-                  "Žemai temperatūrai: Visi trys mikroorganizmų tipai gali toleruoti žemą temperatūrą, nors jų aktyvumas gali sumažėti.",
-                  "Aukštai temperatūrai: Virusai ir bakterijos paprastai yra jautrūs aukštai temperatūrai, nors kai kurie organizmai (pvz., termofilai) gali ją toleruoti.",
-                  "UV spinduliai: UV spinduliai efektyviai naikina daugumą mikroorganizmų.",
-                  "Biocidai: Bakterijos, virusai ir grybai yra jautrūs biocidams, tačiau gali pasireikšti atsparumas kai kuriems chemikalams."
-                ]
-              ]
-            }
+            { "type": "img", "text": "img1.png", "class": "margin-xxl" }
           ]
         },
         {
@@ -509,651 +945,62 @@
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija"
+              "text": "Maistu plintančios infekcinės ligos. Jų prevencija"
             },
             {
               "type": "heading",
-              "text": "Sporos. Jų savybės ir atsparumas aplinkos poveikiui"
+              "text": "Maistu plintančios infekcijos"
             },
             {
               "type": "paragraph",
-              "text": "**Sporos** – tai vienaląstės reprodukcinės struktūros, kurios daugiausia skirtos išlikti nepalankiomis aplinkos sąlygomis. Jos susiformuoja tam tikruose organizmuose, tokiuose kaip bakterijos, grybai, dumbliai ir kai kurie augalai (pvz., paparčiai, samanos). Skirtingai nei dauguma kitų ląstelių, sporos yra labai atsparios išorės veiksniams, tokiems kaip karštis, šaltis, chemikalai, UV spinduliai ir drėgmės stygius.  "
+              "text": "Maistu plintančios infekcijos apima įvairias ligas, kurias žmogus gali susirgti valgydamas užkrėstą maistą arba gerdamas užterštą vandenį ar gėrimus. Literatūroje aprašyta daugiau nei 250 tokių ligų."
             },
             {
               "type": "paragraph",
-              "text": "**Sporos** – tai vienaląstės reprodukcinės struktūros, kurios daugiausia skirtos išlikti nepalankiomis aplinkos sąlygomis. Jos susiformuoja tam tikruose organizmuose, tokiuose kaip bakterijos, grybai, dumbliai ir kai kurie augalai (pvz., paparčiai, samanos). Skirtingai nei dauguma kitų ląstelių, sporos yra labai atsparios išorės veiksniams, tokiems kaip karštis, šaltis, chemikalai, UV spinduliai ir drėgmės stygius.  "
-            },
-            {
-              "type": "heading",
-              "text": "Pagrindinės sporos savybės:"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "**Atsparumas aplinkos poveikiui:**",
-                [
-                  "**Šilumos atsparumas:** kai kurios sporos, ypač bakterijų sporos, gali išgyventi esant labai aukštoms temperatūroms, kurios sunaikintų daugumą kitų organizmų. Pavyzdžiui, Bacillus ir Clostridium bakterijų sporos gali išlikti gyvybingos net po verdymo.",
-                  "**Cheminis atsparumas:** sporų sienelės yra atsparios daugeliui cheminių medžiagų, įskaitant antiseptikus ir dezinfekavimo priemones.",
-                  "**Drėgmės stygius:** sporų struktūros leidžia joms išlikti ilgą laiką net ir labai sausomis sąlygomis. Jos gali išlikti gyvybingos metų metus be vandens, o vėliau, patekusios į palankias sąlygas, vėl atsinaujinti.",
-                  "**Radiacijos atsparumas:** dėl stiprių sienelių ir specialių apsaugos mechanizmų sporos gali išgyventi stiprios radiacijos poveikį, pavyzdžiui, ultravioletinių (UV) spindulių."
-                ],
-                "**Morfologija:**",
-                [
-                  "**Tvirta sienelė:** sporų išorė yra padengta stora ir kieta sienele, kuri apsaugo nuo mechaninių pažeidimų, dehidratacijos ir kitų kenksmingų veiksnių.",
-                  "**Mažas metabolinis aktyvumas:** sporose beveik nėra medžiagų apykaitos procesų, todėl jos gali išlikti neaktyvios ilgą laiką, kol aplinkos sąlygos taps palankios."
-                ],
-                "**Sporų formavimasis (sporizacija):**",
-                [
-                  "Sporų formavimasis yra prisitaikymo prie nepalankių sąlygų mechanizmas. Organizmai pradeda formuoti sporas, kai susiduria su nepakankamu maisto šaltiniu, drėgmės trūkumu ar kitais iššūkiais.",
-                  "Bakterijos, tokios kaip Bacillus ir Clostridium, sudaro vidines sporas, vadinamas endosporomis, kurios yra ypači atsparios aplinkos poveikiui."
-                ],
-                "**Sporų aktyvacija (germinacija):**",
-                [
-                  "Kai sąlygos tampa palankios, sporos „atsibunda“, pradeda sugerti vandenį ir maistines medžiagas bei grįžta į aktyvų gyvenimą. Tai vadinama **germinacija**. Šis procesas leidžia joms vėl pradėti augti ir daugintis."
-                ]
-              ]
+              "text": "Šias infekcijas sukelia maisto produktuose esantys mikroorganizmai arba kitos kenksmingos medžiagos, kurios patenka į žmogaus organizmą kartu su maistu ar vandeniu. Ligos simptomai priklauso nuo konkretaus sukėlėjo, kuris pateko į organizmą."
             },
             {
               "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "**Atsparumas aplinkos poveikiui** daro sporas labai svarbiomis ne tik ekologiniu, bet ir medicininiu požiūriu. Pavyzdžiui, sporos gali pernešti įvairias bakterines infekcijas, tokias kaip stabligė, botulizmas ar juodligė, nes jų atsparumas leidžia išgyventi aplinkoje ir aktyvuotis žmogaus organizme.  "
-            }
-          ]
-        },
-        {
-          "page": 4,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija"
-            },
-            {
-              "type": "heading",
-              "text": " Dezinfekcija: proceso esmė ir taikymo galimybės. Sterilizacija: proceso esmė ir taikymo galimybės"
-            },
-            {
-              "type": "paragraph",
-              "text": "Dezinfekcija, arba nukenksminimas daugelio arba visų mikroorganizmų, išskyrus kai kurias bakterijų sporas, sunaikinimas aplinkoje fizinėmis ir cheminėmis medžiagomis."
-            },
-            {
-              "type": "paragraph",
-              "text": "Dezinfekcijos valomasis tirpalas – (valymo dezinfekavimo priemonė), tai valymo priemonė su cheminės dezinfekcijos medžiagos priedais, skirta valyti ir dezinfekuoti vienos procedūros metu."
+              "text": "Ligos sunkumas priklauso nuo sukėlėjų kiekio, žmogaus imuninės sistemos būklės ir amžiaus. Dažniausiai pasitaikantys simptomai yra pykinimas, vėmimas, pilvo skausmai, gausus viduriavimas ir karščiavimas."
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "DEZINFEKCIJOS RŪŠYS"
+              "text": "Inkubacinis periodas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Laikotarpis nuo užkrėsto maisto suvalgymo iki pirmųjų ligos požymių vadinamas inkubaciniu periodu. Jis gali skirtis priklausomai nuo žmogaus fiziologijos ir užkrato tipo. Pavyzdžiui, jei maistas užkrėstas stafilokokais, simptomai gali pasireikšti per 1–2 valandas, o jei E. coli 0157 – per 2–3 dienas. Listeria monocytogenes atveju ligos požymiai gali pasirodyti net po kelių savaičių ar mėnesių. Dėl to žmonės dažnai mano, kad apsinuodijo vėliausiai suvalgytu maistu, nors taip nebūtinai yra."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Pažeidžiamos grupės"
+            },
+            {
+              "type": "paragraph",
+              "text": "Yra tam tikrų žmonių grupių, kurios yra ypač jautrios maistu plintančioms infekcijoms, ir šios ligos jiems gali sukelti rimtų komplikacijų ar net pavojų gyvybei. Į šias grupes įeina:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Profilaktinė dezinfekcija, kad žmonės neužsikrėstų laikinai naudodamiesi bendrais daiktais (pvz., sporto klubo įrenginiai, kilimėliai, žirklės, šukos ir kt.).",
-                "Židininė dezinfekcija, kuri skirstoma į einamąją ir baigiamąją. Židininė dezinfekcija atliekama, kai išsiaiškinamas infekcinės ligos židinys arba patogeninių sukėlėjų nešiotojai.",
-                "Einamosios dezinfekcijos tikslas nukenksminti ligonio aplinką (patalpą, indus ir daiktus, kuriais jis naudojosi).",
-                "Baigiamosios dezinfekcijos tikslas – visiškai likviduoti infekcijos židinį ir užkratą, kuomet ligonis pasveiksta."
+                "Vaikai,",
+                "Vyresnio amžiaus žmonės,",
+                "Ligoniai,",
+                "Asmenys, sergantys lėtinėmis ligomis,",
+                "Tie, kurių imuninė sistema nusilpusi,",
+                "Nėščios moterys."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "DEZINFEKCIJOS BŪDAI"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Fizikiniai būdai – tai paprasti dezinfekcijos būdai (ultravioletiniai spinduliai; šiukšlės, nešvarumai, užkrečiamų ligonių nevertingų drabužių sudeginimas; virinimas; karštų lygintuvų lyginimas).",
-                "Cheminės dezinfekcijos priemonės, kurios užmuša mikrobines ląsteles."
-              ]
+              "text": "Infekcijos plitimas"
             },
             {
               "type": "paragraph",
-              "text": "Dezinfekcijai, dezinsekcijai (vabzdžių naikinimas) ir deratizacijai (graužikų naikinimas) turi būti naudojami registruoti biocidai teisės akto nustatyta tvarka."
-            },
-            {
-              "type": "paragraph",
-              "text": "Darbuotojai, atliekantys dezinfekciją, dezinsekciją ir deratizaciją, privalo biocidus naudoti pagal registracijos liudijime nurodytas specialiąsias autorizacijos sąlygas, naudojimo instrukcijas ir etiketėse bei saugos duomenų lapuose pateiktą informaciją."
-            },
-            {
-              "type": "paragraph",
-              "text": "Paviršių, įrangos, įrankių, rankų dezinfekcijai turi būti naudojamos dezinfekcinių savybių turinčios teisės aktų nustatyta tvarka leistos naudoti priemonės."
-            },
-            {
-              "type": "paragraph",
-              "text": "Dezinfekcijos priemonės turi būti naudojamos pagal dezinfekcijos priemonės gamintojo nurodytą paskirtį ir naudojimo instrukcijas."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Naudojimo instrukcijos turi būti laikomos paslaugų teikimo vietoje.**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Dezinfekcijos, dezinsekcijos ir deratizacijos darbai turi būti atliekami laikantis metodinių rekomendacijų ir biocido gamintojo instrukcijų."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Biocidų laikymo reikalavimai"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Draudžiama biocidų paruošimo, fasavimo ir laikymo patalpas įrengti gyvenamuosiuose pastatuose (patalpose), gyvenamųjų namų rūsiuose.",
-                "Pakuotė (tara), kurioje laikomi biocidai, neturi liestis su patalpos grindimis ir sienomis.",
-                "Draudžiama palikti išpiltus ar išbarstytus biocidus jų paruošimo, transportavimo ir laikymo vietose.",
-                "Biocidų paruošimo, fasavimo ir laikymo patalpoje turi būti biocidų saugos duomenų lapuose nurodytų jų nukenksminimui pašalinti naudotinų priemonių.",
-                "Biocidų kenksmingumas pašalinamas pagal gamintojo saugos duomenų lape nurodytus reikalavimus."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Pagrindiniai dezinfekcijos, dezinsekcijos ir deratizacijos reikalavimai"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Rodenticidus su jauko dėžutėmis išdėsto deratizaciją atliekantys dezinfekuotojai pagal nustatytus graužikų buvimo pėdsakus (graužikų ekskrementai, apgraužti maisto produktai ir kt.).",
-                "Apie išdėliotus preparatus ir jų vietas įspėjamas objekto atstovas.",
-                "Atlikus dezinfekcijos, dezinsekcijos, deratizacijos darbus, objektas tvarkomas pagal biocido naudojimo instrukcijoje pateiktą informaciją."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-
-              "text": "Pagrindiniai saugaus darbo reikalavimai"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Dezinfekciją, dezinfekciją ir deratizaciją atliekantys asmenys turi vilkėti darbo drabužius, naudoti asmenines apsaugos priemones.",
-                "Tara, indai, ir kitos talpyklos, kuriuose laikomi, gabenami ar ruošiami biocidai, turi būti paženklinti (užrašais, spalvomis ir pan.) ir naudojami pagal paskirtį.",
-                "Darbuotojai, atliekantys dezinfekcijos, dezinsekcijos ar deratizacijos darbus, turi būti pasirašytinai supažindinti su naudojamų biocidų saugos duomenų lapuose pateikta informacija."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Sterilizacija."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Sterilizatorius** – mikroorganizmų ir jų sporų sunaikinimas fizinėmis ir cheminėmis priemonėmis. "
-            },
-            {
-              "type": "img",
-              "text": "img0.jpg"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Kas tai yra sterilus instrumentas?**"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Sterilus instrumentas** – instrumentas be gyvybingų mikroorganizmų ir jų sporų."
-            },
-            {
-              "type": "paragraph",
-              "text": "Valant ir dezinfekuojant instrumentus turi būti laikomasi valiklių, dezinfekcijos priemonių gamintojų nurodytų dozavimo, dezinfekcijos (mirkymo) trukmės ir naudojimo instrukcijų, kurios turi būti laikomos paslaugų teikimo vietoje."
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Instrumentai, kurių negalima tinkamai dezinfekuoti ar sterilizuoti, turi būti vienkartiniai.",
-                "Instrumentai valomi ir dezinfekuojami instrumentų valymo, dezinfekcijos ir sterilizacijos patalpoje (zonoje).",
-                "Instrumentai valomi ir dezinfekuojami rankomis arba mechanizuotai.",
-                "Mechanizuotai instrumentai valomi ultragarso aparate pagal aparato gamintojo rekomendacijas, naudojant gamintojo rekomenduojamus instrumentų valiklius."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "A kategorijos paslaugoms teikti:"
-            },
-            {
-              "type": "paragraph",
-              "text": "Turi būti naudojami sterilūs vienkartiniai ar sterilūs daugkartiniai instrumentai."
-            },
-            {
-              "type": "paragraph",
-              "text": "Pirmiausia atliekama instrumentų dezinfekcija. Instrumentai merkiami į dezinfekcinį tirpalą iškart po instrumentų panaudojimo."
-            },
-            {
-              "type": "paragraph",
-              "text": "Mirkymas atliekamas sandariai uždengtame inde dezinfekciniame tirpale, laikantis dezinfekcinės priemonės gamintojo naudojimo instrukcijoje nurodytos mirkymo trukmės ir koncentracijos."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Dezinfekcijos priemonės turi veikti bakterijas, virusus, tuberkuliozės bakterijas, grybelius.** Instrumentai turi būti visiškai apsemti. Instrumentų valymas minkštu šepetėliu arba šluoste. Šepetėliai arba šluostės, kuriais valomi instrumentai, plaunami dezinfekcijos tirpalu, skalaujami karštu vandeniu, džiovinami."
-            },
-            {
-              "type": "paragraph",
-              "text": "Sterilizavimas atliekamas pasirenkant instrumentų sterilizacijos būdą ir sterilizuojant instrumentus turi būti vadovaujamasi instrumentų gamintojų pateiktomis instrumentų sterilizacijos instrukcijomis, sterilizatoriaus gamintojo pateiktomis sterilizatoriaus naudojimo instrukcijomis, laikantis sterilizatoriaus gamintojo nurodyto sterilizacijos režimo, sterilizacijos trukmės, slėgio, temperatūros reikalavimų."
-            },
-            {
-              "type": "paragraph",
-              "text": "Sterilizatorių darbo efektyvumo kontrolei naudojami indikatoriai, kur turi būti patikrinama, ar pasikeitusi indikatoriaus spalva atitinka gamintojo nurodytą spalvą (etaloną)."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Daviniai registruojami žurnale.**"
-            },
-            {
-              "type": "paragraph",
-              "text": "Sterilizuotų gaminių pakuotės turi būti laikomos sausose, švariose patalpose, tam skirtose uždarose vietose."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "B kategorijos paslaugoms teikti:"
-            },
-            {
-              "type": "paragraph",
-              "text": "Turi būti naudojami vienkartiniai arba tinkamai išvalyti ir dezinfekuoti daugkartiniai instrumentai. **Pirmiausia atliekamas instrumentų valymas**. Valant rankomis, instrumentai valomi minkštu šepetėliu arba šluoste. Šepetėliai arba šluostės, kuriais valomi instrumentai, plaunami dezinfekcijos tirpalu, skalaujami karštu vandeniu, džiovinami."
-            },
-            {
-              "type": "paragraph",
-              "text": "Išvalyti instrumentai turi būti dezinfekuojami dezinfekcinės priemonės gamintojo nurodytu būdu. Jei pasirenkamas mirkymo būdas, išvalyti instrumentai merkiami į sandariai uždengiamą indą su dezinfekcijos tirpalu. Lankstiniai instrumentai turi būti išardomi, išskleidžiami. **Ant instrumentų dezinfekcijai skirto indo su paruoštu dezinfekcijos tirpalu turi būti užrašytas tirpalo pavadinimas, koncentracija, pagaminimo data**."
-            },
-            {
-              "type": "paragraph",
-              "text": "Dezinfekcijos priemonės turi veikti bakterijas, virusus, tuberkuliozės bakterijas, grybelius. Išskalauti instrumentai sudedami ant vienkartinių drėgmę sugeriančių popierinių servetėlių ir paliekami išdžiūti. Instrumentai, kurių negalima mirkyti, pvz., plaukų džiovintuvai, elektriniai prietaisai arba kiti stambūs daiktai, valomi šluostant vienkartine popierine servetėle, sudrėkinta instrumentų valiklio tirpalu."
-            },
-            {
-              "type": "paragraph",
-              "text": "Lankstiniai instrumentai turi būti išardomi, išskleidžiami. Ant instrumentų dezinfekcijai skirto indo su paruoštu dezinfekcijos tirpalu turi būti užrašytas tirpalo pavadinimas, koncentracija, pagaminimo data."
-            },
-            {
-              "type": "paragraph",
-              "text": "Dezinfekcijos priemonės turi veikti bakterijas, virusus, tuberkuliozės bakterijas, grybelius."
-            },
-            {
-              "type": "paragraph",
-              "text": "Išskalauti instrumentai sudedami ant vienkartinių drėgmę sugeriančių popierinių servetėlių ir paliekami išdžiūti. Instrumentai, kurių negalima mirkyti, pvz., plaukų džiovintuvai, elektriniai prietaisai arba kiti stambūs daiktai, valomi šluostant vienkartine popierine servetėle, sudrėkinta instrumentų valiklio tirpalu."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Atsparūs aukštos temperatūros (121 °C arba 134 °C) karščiui ir drėgmei ypač pavojingi ir pavojingi medicinos prietaisai sterilizuojami garo sterilizatoriuose**."
-            },
-            {
-              "type": "paragraph",
-              "text": "Neatsparūs aukštos temperatūros karščiui ir drėgmei ypač pavojingi ir pavojingi medicinos prietaisai ir gaminiai sterilizuojami žemos temperatūros vandens garų ir formaldehido mišiniu arba etileno oksido dujomis, arba vandenilio peroksido dujų plazma."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Karšto oro sterilizatoriuose (160 °C arba 180 °C) sterilizuojami neatsparūs greitam kaitinimui garais gaminiai**."
-            },
-            {
-              "type": "paragraph",
-              "text": "Šis sterilizacijos būdas taikomas laboratorijose metaliniams, stikliniams indams ir kitoms priemonėms, neturinčioms tiesioginio sąlyčio su pacientu, sterilizuoti."
-            },
-            {
-              "type": "paragraph",
-              "text": "Sterilizacijos procesų efektyvumas tikrinamas naudojant fizikinį, cheminį metodus ir priemones."
-            },
-            {
-              "type": "paragraph",
-              "text": "Biologinis metodas ir biologinės priemonės (biologiniai indikatoriai) papildomai gali būti naudojami nuolatinei sterilizatorių kontrolei tada, kai sterilizuotas krovinys (įkrova) bus atiduotas naudoti, gavus biologinių indikatorių tyrimo rezultatus."
-            },
-            {
-              "type": "paragraph",
-              "text": "Vienkartiniai sterilūs ir sterilizuoti daugkartiniai instrumentai, naudojami teikiant A kategorijos grožio paslaugas, išpakuojami klientui matant."
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "**Draudžiama pakartotinai naudoti vienkartinius instrumentus, nedezinfekuotus B kategorijos paslaugoms teikti naudotus daugkartinius instrumentus ir nesterilius A kategorijos paslaugoms teikti naudotus daugkartinius instrumentus**."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai",
-      "sectionId": "section3",
-      "content": [
-        {
-          "page": 1,
-          "page_content": [
-            {
-              "type": "heading",
-              "text": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Infekcinės ligos** – tai užkrečiamosios ligos, kuriomis susergama jų sukėlėjams (bakterijoms, virusams, grybeliams, pirmuonims) patekus į organizmą ir jame toliau dauginantis."
-            },
-            {
-              "type": "paragraph",
-              "text": "Žmonės jais užsikrėsti gali įvairiais būdais: per orą, kuriuo kvėpuoja, per vandenį, kurį geria, ar per maistą, kurį valgo."
-            },
-            {
-              "type": "paragraph",
-              "text": "Į žmogaus organizmą mikroorganizmų gali patekti per sąlytį su kitais žmonėmis, gyvūnais, augalais ar net nematomais nešvarumais, esančiais ant daiktų, kuriuos žmogus liečia."
-            },
-            {
-              "type": "paragraph",
-              "text": "Taip pat jų gali patekti su krauju, limfa ar kitais organizmo skysčiais. Pavyzdžiui, meningokokinės infekcijos sukėlėjas patenka į žmogaus organizmą su įkvepiamu oru, maliarija užsikrečiama įkandus užkrėstam uodui, hepatitas A plinta suvalgius užkrėsto maisto per nešvarias rankas ir t. t."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Infekcinės ligos klasifikuojamos pagal užkrato perdavimo mechanizmą ir jų lokalizaciją organizme**:"
-            },
-            {
-              "type": "paragraph",
-              "text": "Žmogaus ir gyvūnų infekcinės (užkrečiamosios) ligos nuo kitų ligų skiriasi tuo, kad jas sukelia gyvi organizmai – bakterijos, virusai, patogeniniai grybeliai, pirmuonys, daugialąsčiai parazitai."
-            },
-            {
-              "type": "paragraph",
-              "text": "Jie vadinami patogeniniais (ligą sukeliančiais). Patogeniniai mikrobai veikia specifiškai, sukeldami tik jiems būdingas ligas."
-            },
-            {
-              "type": "paragraph",
-              "text": "Jų patogeniškumas sukelti ligą priklauso nuo daugelio kintamų ypatybių."
-            },
-            {
-              "type": "paragraph",
-              "text": "Dėl išskiriamų fermentų ir toksinų mikrobas sugeba įsibrauti i organizmą ir nugalėti jo natūralius barjerus, plisti audiniuose, gintis nuo leukocitų."
-            },
-            {
-              "type": "paragraph",
-              "text": "Ar žmogus susirgs priklauso nuo mikrobo savybių: toksiškumo, virulentiškumo ir dozės. Kai į organizmą patenka daug mikrobų, sutrumpėja inkubacinis (**besimptominis**) periodas ir ligos eiga būna sunkesnė."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Infekcinės ligos skirstomos į keturias dideles grupes:**"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Žarnyno užkrečiamosios (infekcinės) ligos"
-            },
-            {
-              "type": "paragraph",
-              "text": "Joms būdinga tai, kad sukėlėjai lokalizuojasi, dauginasi žarnyne ir iš čia patenka į kraują bei kitus vidaus organus."
-            },
-            {
-              "type": "paragraph",
-              "text": "Šioms ligoms būdingas fekalinis – oralinis (per išmatas) perdavimo kelias."
-            },
-            {
-              "type": "paragraph",
-              "text": "Sukėlėjas iš organizmo į aplinką patenka su žarnyno turiniu. Tiesiogiai ar netiesiogiai (per nešvarias rankas, per muses) gali būti užterštas bet kuris aplinkos objektas (vanduo, maisto produktai, namų apyvokos daiktai)."
-            },
-            {
-              "type": "paragraph",
-              "text": "Į žmogaus organizmą sukėlėjas patenka tik per burną."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Kvėpavimo takų arba lašinės infekcinės ligos"
-            },
-            {
-              "type": "paragraph",
-              "text": "Sukėlėjas perduodamas oro lašeliniu arba oro–dulkių keliu. Šiai grupei priskiriama šios bakterinės ir virusinės infekcinės ligos: gripas, paragripas, vidurių šiltinė, tymai, difterija, skarlatina, raupai, raudonukė, TBC, meningokokinė infekcija ir kt."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Kraujo arba transmisinės infekcinės ligos"
-            },
-            {
-              "type": "paragraph",
-              "text": "Infekciją perduoda įkąsdami kraują siurbiantys pernešėjai (uodai, erkės, blusos, utėlės, moskitai ir kt.)."
-            },
-            {
-              "type": "paragraph",
-              "text": "Šiai grupei priskiriama šios bakterinės ir virusinės infekcinės ligos: dėmėtoji ir grįžtamoji šiltinės, maliarija, maras, tuliaremija, erkinis encefalitas ir kt."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Kūno dangų infekcinės ligos"
-            },
-            {
-              "type": "paragraph",
-              "text": "Daugumos šios grupės ligų sukėlėjai perduodami per drabužius, galvos apdangalus, patalynę, rankšluosčius, indus, šlepetes, per užterštas žmogaus rankas. Jai priskiriami: niežai, juodligė, pasiutligė, stabligė, odos grybeliniai susirgimai, venerinės ligos ir kt."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Infekcinėms ligoms būdinga:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "gyvi sukėlėjai;",
-                "plitimas pagal tam tikrus epidemiologijos dėsnius;",
-                "specifinis perdavimo mechanizmas;",
-                "cikliška eiga;",
-                "imunitetas."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Epidemiologija:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "sukėlėjai įsiskverbia į žmogaus organizmą, dauginasi jame ir sukelia ligą, po to patenka į aplinką ir užkrečia kitus;",
-                "infekcinės ligos gali plisti iš vieno žmogaus ar gyvulio į kitą;",
-                "masinis ligos plitimas vadinamas epidemija."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "**Epidemija** – staigus ir neįprastai didelis užkrečiamųjų ligų išplitimas viename ar keliuose administraciniuose vienetuose."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Kad infekcija plistų, būtinos trys grandys, sudarančios nepertraukiamą grandinę:**"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "class": "margin-xxl",
-              "text": [
-                "infekcijos šaltinis, išskiriantis sukėlėjus į aplinką;",
-                "sukėlėjo buvimas tam tikrą laiką aplinkoje;",
-                "sukėlėjo įsiskverbimas į kito biologinio šeimininko organizmą."
-              ]
-            }
-          ]
-        },
-        {
-          "page": 2,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai"
-            },
-            {
-              "type": "heading",
-              "text": "Mikroorganizmai. Jų nauda ir žala žmogaus sveikatai"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Mikroorganizmai** – tai labai maži organizmai, kurių daugelio negalima pamatyti plika akimi, pavyzdžiui, bakterijos, virusai, grybai ir protistai. Jie gyvena įvairiose aplinkose, įskaitant žmogaus kūną. Mikroorganizmai yra svarbi dalis gamtos ekosistemų ir gali daryti tiek teigiamą, tiek neigiamą poveikį žmogaus sveikatai.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "**Mikroorganizmai** – tai labai maži organizmai, kurių daugelio negalima pamatyti plika akimi, pavyzdžiui, bakterijos, virusai, grybai ir protistai. Jie gyvena įvairiose aplinkose, įskaitant žmogaus kūną. Mikroorganizmai yra svarbi dalis gamtos ekosistemų ir gali daryti tiek teigiamą, tiek neigiamą poveikį žmogaus sveikatai.  "
-            },
-            {
-              "type": "heading",
-              "text": "Mikroorganizmų nauda ir žala žmogaus sveikatai"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Mikroorganizmų nauda žmogaus sveikatai:"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "**Virškinimo sistema ir mikrobioma:** žmogaus žarnyne gyvena milijardai naudingų bakterijų, kurios sudaro žarnyno mikrobiomą. Jos padeda skaidyti maistą, gaminti vitaminus (pavyzdžiui, B ir K grupės vitaminus) ir stiprina imuninę sistemą. Žarnyno mikrobioma palaiko sveiką virškinimą ir gali padėti išvengti įvairių ligų, tokių kaip nutukimas, diabetas ir uždegiminės žarnyno ligos.",
-                "**Imuninė sistema:** naudingos bakterijos veikia kaip natūralūs „treniruočių“ partneriai imuninei sistemai. Dėl mikroorganizmų įtakos imuninė sistema mokosi atpažinti ir kovoti su pavojingais patogenais. Kai kurios bakterijos taip pat slopina kenksmingų mikroorganizmų dauginimąsi.",
-                "**Fermentacija ir maisto gamyba:** daugelis mikroorganizmų dalyvauja fermentacijos procese, kuris naudojamas gaminant įvairius produktus, pavyzdžiui, jogurtą, kefyrą, raugintus kopūstus, sūrį ir duoną. Fermentuoti produktai ne tik pagerina skonį, bet ir gali būti naudingi sveikatai, nes juose yra probiotikų – gyvų mikroorganizmų, kurie padeda palaikyti sveiką žarnyno mikroflorą.",
-                "**Antibiotikai ir vaistai:** daugelis antibiotikų buvo atrasti iš mikroorganizmų, pavyzdžiui, penicilinas – iš pelėsio. Antibiotikai padeda kovoti su bakterinėmis infekcijomis ir išgelbėjo milijonus gyvybių. Be to, kai kurie mikroorganizmai naudojami kuriant naujus vaistus ir biotechnologijos produktus."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Mikroorganizmų žala žmogaus sveikatai:"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "**Infekcinės ligos:** kai kurie mikroorganizmai, tokie kaip virusai, bakterijos ir parazitai, sukelia infekcijas ir ligas. Virusai gali sukelti gripą, koronavirusą ar ŽIV, o bakterijos – plaučių uždegimą, meningitą ar odos infekcijas. Kenksmingi mikroorganizmai gali plisti per orą, vandenį, maistą ar tiesioginį kontaktą su užsikrėtusiu asmeniu.",
-                "**Antibiotikams atsparios bakterijos:** dėl dažno ir neteisingo antibiotikų vartojimo kai kurios bakterijos tampa atsparios antibiotikams. Tai lemia vadinamąsias „superbakterijas“, kurios sukelia sunkiai gydomas infekcijas. Dėl šios problemos visame pasaulyje padidėjo hospitalizacijos, ligos ir mirties atvejų skaičius.",
-                "**Mikrobų sukeliami apsinuodijimai maistu:** kenksmingos bakterijos, tokios kaip Salmonella ar Escherichia coli, gali užteršti maistą ir sukelti apsinuodijimą maistu. Simptomai dažnai apima pykinimą, vėmimą, viduriavimą ir pilvo skausmą.",
-                "**Alergijos ir autoimuninės ligos:** tam tikri mikroorganizmai gali sukelti alergines reakcijas arba skatinti autoimunines ligas, kai imuninė sistema puola savo organizmo audinius. Pavyzdžiui, kai kurie pelėsiai gali sukelti alergines reakcijas arba kvėpavimo takų ligas."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Mikroorganizmai turi tiek teigiamą, tiek neigiamą poveikį žmogaus sveikatai. Naudingi mikroorganizmai yra būtini virškinimui, imuninei sistemai ir įvairiems biologiniams procesams, tačiau kenksmingi mikroorganizmai gali sukelti pavojingas infekcijas ir ligas. Balansas tarp šių mikroorganizmų yra svarbus sveikatai, todėl rūpinimasis higiena, subalansuota mityba ir tinkamas vaistų vartojimas gali padėti išlaikyti sveiką mikroorganizmų santykį organizme.  "
-            }
-          ]
-        },
-        {
-          "page": 3,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai"
-            },
-            {
-              "type": "heading",
-              "text": "Patogeniniai mikroorganizmai, jų toksiškumas. Etiologija (sukėlėjų savybės), išgyvenimo ir dauginimosi sąlygos "
-            },
-            {
-              "type": "paragraph",
-              "text": "Patogeniniai mikroorganizmai yra mikroskopinės gyvybės formos, galinčios sukelti ligas. Jie gali būti bakterijos, virusai, grybai, parazitai ar pirmuonys. Šie mikroorganizmai sukelia įvairias infekcijas žmogaus, gyvūnų ar augalų organizmuose. Jų toksiškumas, etiologija, išgyvenimo ir dauginimosi sąlygos yra svarbūs veiksniai, lemiantys jų gebėjimą sukelti ligas.  "
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "1. Toksiškumas (patogeniškumas)."
-            },
-            {
-              "type": "paragraph",
-              "text": "Patogeniniai mikroorganizmai gali pakenkti organizmui per įvairius mechanizmus, išskirdami toksinus arba tiesiogiai pažeisdami ląsteles:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Egzotoksinai** – bakterijų išskiriami baltymai, kurie gali būti itin stiprūs nuodai, veikiantys tam tikras kūno sistemas. Pvz., Clostridium botulinum gamina botulino toksiną, kuris sukelia botulizmą.",
-                "**Endotoksinai** – ląstelių sienelėje esančios medžiagos, pvz., lipopolisacharidai, kurie išsiskiria bakterijai žūstant ir sukelia uždegiminius atsakus, kaip, pavyzdžiui, kai kurias sepsio formas."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Be toksinų, mikroorganizmai gali pažeisti organizmus kitais mechanizmais:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Invazija į ląsteles ir audinius, sunaikinant jas iš vidaus, pvz., virusų atveju.",
-                "Imuninės sistemos slopinimas arba per didelis aktyvinimas, kuris gali sukelti autoimunines reakcijas."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "2. Etiologija (sukėlėjų savybės)."
-            },
-            {
-              "type": "paragraph",
-              "text": "Patogeninių mikroorganizmų savybės, lemiančios jų gebėjimą sukelti ligas, vadinamos virulentiškumo veiksniais. Tai gali būti:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Prisijungimo prie šeimininko ląstelių mechanizmai** – dauguma patogenų turi specialius baltymus ar struktūras (pvz., pilius, adhezinus), kurie leidžia jiems prisitvirtinti prie ląstelių paviršiaus.",
-                "**Gebėjimas išvengti imuninės sistemos** – kai kurie mikroorganizmai turi kapsules arba išskiria fermentus, kurie apsaugo juos nuo imuninės sistemos fagocitozės. Pavyzdžiui, Streptococcus pneumoniae turi kapsulę, kuri apsaugo ją nuo makrofagų.",
-                "**Toksinų gamyba** – kai kurie mikroorganizmai gamina chemines medžiagas, kurios tiesiogiai pažeidžia ląsteles arba sukelia uždegiminius atsakus."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "3. Išgyvenimo ir dauginimosi sąlygos."
-            },
-            {
-              "type": "paragraph",
-              "text": "Patogeniniams mikroorganizmams būtina tinkama aplinka išgyventi ir daugintis:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Temperatūra** – dauguma patogeninių bakterijų ir virusų geriausiai dauginasi žmogaus kūno temperatūroje (apie 37°C). Tačiau kai kurie mikroorganizmai, pvz., Listeria monocytogenes, gali daugintis ir šaltose sąlygose (pvz., šaldytuve).",
-                "**pH** – daugelis mikroorganizmų yra jautrūs rūgštinėms ar šarminėms sąlygoms. Pvz., skrandžio rūgštis (mažas pH) veikia kaip natūralus barjeras prieš daugelį patogenų.",
-                "**Deguonis** – kai kuriems mikroorganizmams deguonis yra būtinas (aerobiniai organizmai), pvz., Mycobacterium tuberculosis, tuo tarpu kitiems jis yra nuodingas, todėl jie klesti anaerobinėje aplinkoje (anaerobiniai organizmai), pvz., Clostridium rūšys.",
-                "**Drėgmė** – patogenai, ypač bakterijos, dažnai geriau dauginasi drėgnoje aplinkoje. Džiovinimas ir dehidratacija gali sunaikinti arba sustabdyti jų augimą.",
-                "**Mityba** – mikroorganizmai turi gauti tam tikrų maistinių medžiagų iš aplinkos ar šeimininko organizmo.",
-                "**Apsaugos mechanizmai** – kai kurie mikroorganizmai gali sudaryti sporas, kurios yra atsparios džiovinimui, karščiui ir kitoms nepalankioms sąlygoms."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "4. Pagrindiniai patogenų tipai ir jų savybės."
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Bakterijos:** Pavyzdžiui, Escherichia coli, Staphylococcus aureus. Dauginasi dalijimosi būdu ir gali formuoti kolonijas bei išskirti toksinus.",
-                "**Virusai:** Pavyzdžiui, gripas, ŽIV, SARS-CoV-2. Dauginasi tik šeimininko ląstelėse, įsiveržia į jas ir perprogramuoja gaminti naujas viruso daleles.",
-                "**Grybai:** Pavyzdžiui, Candida albicans. Gali sukelti odos, gleivinių ir vidaus organų infekcijas, auga drėgnose ir šiltose sąlygose.",
-                "**Parazitai:** Pavyzdžiui, maliarijos sukėlėjas Plasmodium. Reikalauja šeimininko kūno išteklių išgyvenimui ir dauginimuisi."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Patogeniniai mikroorganizmai turi įvairias savybes, leidžiančias jiems sukelti infekcijas ir ligas. Jų toksiškumas ir virulentiškumo veiksniai (pvz., gebėjimas išskirti toksinus, prisijungti prie ląstelių, išvengti imuninės sistemos) yra svarbūs jų patogeniškumo aspektai. Tinkamos išgyvenimo ir dauginimosi sąlygos, tokios kaip temperatūra, deguonies prieinamumas, pH lygis ir drėgmė, taip pat labai svarbios šių mikroorganizmų sėkmei."
-            }
-          ]
-        },
-        {
-          "page": 4,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai"
-            },
-            {
-              "type": "heading",
-              "text": " Infekcijos šaltinis. Imlus organizmas "
-            },
-            {
-              "type": "paragraph",
-              "text": "Infekcijos šaltinis ir imlus organizmas yra svarbios sąvokos infekcinių ligų epidemiologijoje."
+              "text": "Dažniausiai ligos sukėlėjus platina viduriuojantys asmenys, todėl fekalinio-oralinio plitimo kelias yra itin aktyvus. Virusus gali skleisti ir besimptomiškai sergantys žmonės, kurie nesilaiko higienos taisyklių, todėl tampa nešiotojais ir netyčia platina infekciją."
             },
             {
               "type": "heading",
@@ -1162,312 +1009,12 @@
             },
             {
               "type": "paragraph",
-              "text": "Tai yra bet koks gyvas ar negyvas objektas, iš kurio patogeniniai mikroorganizmai (bakterijos, virusai, grybeliai ar parazitai) gali patekti į naują šeimininką ir sukelti infekciją. Infekcijos šaltiniai gali būti:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Sergantis žmogus**: Užsikrėtęs žmogus gali perduoti ligą tiesioginio kontakto, oro lašelių, per kraują ar kitais būdais.",
-                "**Nešiotojas**: Asmuo, kuris yra infekuotas patogenais, bet pats neserga, gali būti infekcijos šaltinis kitiems.",
-                "**Gyvūnai**: Daug ligų yra zoonozės, t. y., perduodamos iš gyvūnų žmonėms. Pavyzdžiui, pasiutligė, gripas ar Laimo liga.",
-                "**Aplinka**: Vanduo, dirvožemis ar maistas gali tapti infekcijos šaltiniais, jei juose yra patogenų (pvz., legioneliozė iš vandens, botulizmas iš užteršto maisto)."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Imlus organizmas"
-            },
-            {
-              "type": "paragraph",
-              "text": "Imlus organizmas yra tas, kuris gali užsikrėsti, nes neturi specifinio imuniteto prieš konkretų patogeną. Imlumas priklauso nuo:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Imuninės sistemos būklės**: žmonės su nusilpusia imunine sistema (pvz., sergantieji AIDS, gaunantys imunosupresinius vaistus) yra labiau imlūs infekcijoms.",
-                "**Vakcinacijos**: asmenys, kurie nėra vakcinuoti nuo tam tikrų ligų, yra labiau linkę užsikrėsti.",
-                "**Amžiaus**: kūdikiai, maži vaikai, pagyvenę žmonės yra jautresni dėl silpnesnės imuninės sistemos.",
-                "**Genetinių veiksnių**: kai kurie žmonės gali būti genetiškai imlesni tam tikroms infekcijoms."
-              ]
+              "text": "Pagrindinė maistu plintančių ligų priežastis – netinkamai plaunamos rankos. Sukėlėjai gali patekti ant rankų liečiant užterštus paviršius, įrankius ar daiktus. Palietus burną ar maistą, mikroorganizmai per rankas patenka į maistą ir taip sukelia infekciją."
             },
             {
               "type": "paragraph",
               "class": "margin-xxl",
-              "text": "Infekcijos plitimo ciklas paprastai apima infekcijos šaltinį, perdavimo būdą ir imlų organizmą. Pertraukdami vieną iš šių grandžių (pvz., izoliuodami infekcijos šaltinį arba stiprindami imlų organizmą skiepais), galime sustabdyti infekcijos plitimą."
-            }
-          ]
-        },
-        {
-          "page": 5,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai"
-            },
-            {
-              "type": "heading",
-              "text": "Infekcijos perdavimo keliai. Inkubacinis periodas "
-            },
-            {
-              "type": "paragraph",
-              "text": "Infekcijos perdavimo keliai ir inkubacinis periodas yra esminiai aspektai, padedantys suprasti, kaip plinta infekcinės ligos ir kaip jos vystosi organizme.  "
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Infekcijos perdavimo keliai:"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "**Oro lašelinis kelias (respiracinis)**: infekcija perduodama kvėpavimo takų sekretais, kai užsikrėtęs asmuo kosėja, čiaudi ar net kalba. Pavyzdžiui, gripas, COVID-19, tuberkuliozė perduodamos tokiu būdu.",
-                "**Kontaktinis kelias**:",
-                [
-                  "**Tiesioginis kontaktas**: infekcija perduodama tiesiogiai liečiant užsikrėtusį asmenį ar jo kūno skysčius (oda, kraujas, seilės, išskyros). Pavyzdžiui, herpes virusas, kai kurios odos ligos.",
-                  "**Netiesioginis kontaktas**: infekcija perduodama per užkrėstus daiktus, paviršius (rankšluosčius, durų rankenas, medicininius įrankius). Toks perdavimas dažnai siejamas su bakterinėmis ar virusinėmis infekcijomis."
-                ],
-                "**Fekalinis – oralinis kelias**: (per maistą ir vandenį): infekcija perduodama per užterštą maistą, vandenį ar rankas, pavyzdžiui, dizenterija, salmoneliozė, hepatitas A.",
-                "**Transmisinis**: infekcija perduodama per vabzdžius ar kitus gyvūnus, kurie veikia kaip infekcijos nešiotojai (pvz., maliarija per uodus, Laimo liga per erkės)."
-              ]
-            },
-
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Inkubacinis periodas"
-            },
-            {
-              "type": "paragraph",
-              "text": "**Inkubacinis periodas** – tai laikas nuo infekcijos patekimo į organizmą iki pirmųjų ligos simptomų pasireiškimo. Šis periodas gali skirtis priklausomai nuo patogeno tipo, infekcijos dozės ir organizmo imuninės reakcijos."
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "**Virusinės ligos**: inkubacinis periodas paprastai trunka nuo kelių dienų iki kelių savaičių, pavyzdžiui:",
-                [
-                  "Gripas: 1–4 dienos",
-                  "COVID-19: 2–14 dienų (vidutiniškai apie 5 dienos)",
-                  "Hepatitas B: 30–180 dienų"
-                ],
-                "**Bakterinės ligos**: inkubacinis periodas taip pat gali būti labai įvairus, pavyzdžiui:",
-                [
-                  "Salmoneliozė: 6–72 valandos",
-                  "Tuberkuliozė: keli mėnesiai ar net metai"
-                ],
-                "**Parazitinės ligos**: inkubacinis periodas gali trukti nuo kelių savaičių iki mėnesių, priklausomai nuo parazito."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Supratimas apie perdavimo kelius ir inkubacinį periodą padeda veiksmingiau kontroliuoti infekcijas bei imtis prevencinių priemonių."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai ",
-      "sectionId": "section4",
-      "content": [
-        {
-          "page": 1,
-          "page_content": [
-            {
-              "type": "heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
-            },
-            {
-              "type": "paragraph",
-              "text": "**Užkrečiamųjų ligų profilaktika** – organizacinės, techninės, ekonominės, taip pat epidemiologijos bei kitos priemonės ir tokių priemonių programos, sudarančias galimybę mažinti ar (ir) likviduoti sergamumą užkrečiamosiomis ligomis, taip pat tų ligų išplitimo.  "
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Infekcijos perdavimo kelių kontrolė (asmens ir darbo aplinkos higienos reikalavimai) "
-            },
-            {
-              "type": "paragraph",
-              "text": "Šalyje yra išleistas „Lietuvos Respublikos žmonių užkrečiamų ligų profilaktikos ir kontrolės įstatymas“ (1996 m. rugsėjo 25 d. Nr. 1-1553), kuris yra papildytas (2001 m. gruodžio 13 d. Nr.IX-649).  "
-            },
-            {
-              "type": "paragraph",
-              "text": "Pagal minėtą įstatymą, kiekvienas pilietis, susirgęs užkrečiama liga, turi būti privalomai užregistruotas, izoliuotas ir gydomas.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "Užkrečiama liga – tai tokios ligos, kuriomis galima užsikrėsti nuo sergančio žmogaus, nuo užkrėstų daiktų, nuo užkrėsto maisto ar vandens, nuo užsikrėtusių vabzdžių ar gyvūnų.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "Tai reglamentuoja Lietuvos Respublikos Sveikatos apsaugos ministro įsakymas Nr. 673, išleistas 2002 m. gruodžio 24 d. „Dėl privalomojo epidemiologinio registravimo, privalomojo informacijos apie epidemiologinio registravimo objektus turinio ir informacijos privalomojo perdavimo tvarkos patvirtinimo“. Pilnas įsakymas yra paskelbtas Lietuvos Valstybės žiniose Nr. 12 (2003 m. sausio 31 d.).  "
-            },
-            {
-              "type": "paragraph",
-              "text": "Kovojant su infekcinėmis ligomis, svarbiausia kryptingai naudoti priešepidemines priemones, kurios veiktų visas epideminio proceso grandis.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "Tai atliekama izoliuojant infekcijos šaltinį (anksti išaiškinti sergančiuosius ir diagnozuoti ligą), likviduojant perdavimo mechanizmą, užkertant kelius, kuriais plinta infekcijos sukėlėjai, ir paveikiant žmonių organizmą, kad jis būtų neimlus infekcinėms ligoms.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "Taikyti imunoprofilaktiką.  "
-            },
-            {
-              "type": "paragraph",
-              "text": "80 proc. užkrečiamųjų ligų plinta per rankas, todėl svarbu laikytis asmens ir darbo higienos.  "
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "class": "margin-xxl",
-              "text": [
-                "Saugiai tvarkyti maistą.",
-                "Naudoti švarų geriamąjį vandenį, formuoti higieninius įgūdžius.",
-                "Susirgus ūmiomis kvėpavimo infekcijomis ir gripu, nevartoti antibiotikų.",
-                "Naikinti infekcijas perduodančius vabzdžius, graužikus.",
-                "Taikyti profilaktines medicinines apžiūras."
-              ]
-            }
-          ]
-        },
-        {
-          "page": 2,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
-            },
-            {
-              "type": "heading",
-              "text": "Infekcijos šaltinio izoliavimas "
-            },
-            {
-              "type": "paragraph",
-              "text": "**Infekcijos šaltiniu gali būti**:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "sergantys žmonės;",
-                "sergantys gyvūnai (naminiai, laukiniai);",
-                "besimptomiai užkrato nešiotojai."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "**Užkrato nešiojimas** – procesas, kai į organizmą patekę sukėlėjai nesukelia išoriškai pasireiškiančios ligos, tačiau toks asmuo užkratą gali platinti sveikiesiems. Užkrato nešiotojai dažnai net patys nežino, kad platina ligą."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Užkrato nešiojimas** – procesas, kai į organizmą patekę sukėlėjai nesukelia išoriškai pasireiškiančios ligos, tačiau toks asmuo užkratą gali platinti sveikiesiems."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Skiriami keturi infekcijos perdavimo tipai:"
-            },
-            {
-              "type": "list",
-              "list_type": "ordered",
-              "text": [
-                "Prisitaikę parazituoti žmogaus organizme, sukėlėjai supančioje aplinkoje ar negyvame organizme išsilaiko ribotą laiką.",
-                "Kai kurie sukėlėjai palankiomis sąlygomis (drėgmė, optimali temperatūra) išsilaiko gana ilgai.",
-                "Ypač ilgai aplinkoje gyvybingi išlieka sporas sudarantys mikrobai (su tam tikru atspariu aplinkos poveikiams apvalkalu, pvz., stabligės sporos žemėje gali išgyventi iki 70 metų).",
-                "Infekcinių ligų sukėlėjų prisitaikymas prie aplinkos sąlygų, temperatūrų kaitos, virulentiškumo genų paveldėjimas ir mutacijos, atsparumas antimikrobinėms medžiagoms lemia užkrečiamųjų ligų atgimimą, plitimą ir naujų sukėlėjų atsiradimą."
-              ]
-            },
-            {
-              "type": "paragraph",
-              "text": "Tiek neinfekcinių, tiek infekcinių ligų plitimui svarbią reikšmę turi žmonių gyvensenos veiksniai: rizikinga seksualinė elgsena, narkotikų bei alkoholio vartojimas, kuomet susiklosto palankios sąlygos plisti lytiniu keliu perduodamoms infekcijoms – virusiniu B hepatitu, žmogaus imunodeficito viruso (ŽIV) ir kt."
-            },
-            {
-              "type": "paragraph",
-              "text": "Gripo virusas ypatingas, kasmet vyksta gripo viruso mutacijos, o kas 10–40 metų gripo virusas gali pakeisti savo genetinę informaciją. Pvz., jeigu šiltakraujų gyvūnų organizme susitinka įvairių tipų gripo virusai (žmogaus, kiaulės ar paukščių gripo virusai), iš jų gali susikurti nauja gripo viruso atmaina."
-            },
-            {
-              "type": "paragraph",
-              "text": "Susiformavus naujai gripo atmainai, jis gali būti itin patogeniškas ir labai greitai išplisti tarp žmonių, sukeldamas epidemijas ir / ar pandemijas. Todėl labai svarbu kasmet pasiskiepyti nuo gripo."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Užkrečiamosios ligos židinys** – užkrečiamąja liga sergantis asmuo arba šio asmens ar sukėlėjo nešiotojo buvimo vieta ir jos aplinka, kurioje užkrečiamųjų ligų sukėlėjai gali plisti, taip pat vietovė, kurioje užkrečiamųjų ligų sukėlėjai egzistuoja, nesvarbu, ar joje būna žmogus."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Izoliavimas:"
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Asmens, sergančio užkrečiamąja liga, įtariamo, kad serga, turėjusio sąlytį, ar sukėlėjo nešiotojo atskyrimas nuo aplinkinių norint išvengti užkrečiamosios ligos plitimo.  "
-            }
-          ]
-        },
-        {
-          "page": 3,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
-            },
-            {
-              "type": "heading",
-              "text": "Natūralus įgytas imunitetas "
-            },
-            {
-              "type": "paragraph",
-              "text": "**Imunitetas** – visuma sistemų ir mechanizmų, padedančių organizmui išsaugoti savo genetinį vientisumą ir unikalumą."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Imunitetas** – tai ne tik atsparumas infekcinėms ligoms, bet ir gebėjimas kovoti su onkologinių procesų atsiradimu."
-            },
-            {
-              "type": "paragraph",
-              "text": "Sveikas organizmas nuo mikroorganizmų ir svetimų makromolekulių ginasi įvairiais būdais."
-            },
-            {
-              "type": "paragraph",
-              "text": "Imuninę sistemą sudaro ląstelės (T limfocitai, makrofagai, eozinofilai) ir organai (limfmazgiai, blužnis, kaulų čiulpai). Skiriamas įgimtas ir įgytas imunitetas."
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Įgimtas imunitetas."
-            },
-            {
-              "type": "paragraph",
-              "text": "Jis paveldimas, todėl kartais vadinamas genetiniu."
-            },
-            {
-              "type": "paragraph",
-              "text": "Įgimti imuniteto mechanizmai nespecifiškai saugo organizmą nuo mikrobų poveikio. Tai yra fizikinės atsparumo užtvaros: oda, gleivinės, biologiškai aktyvios medžiagos, pvz. ašaros, seilės, prakaitas, žarnyno fermentai."
-            },
-            {
-              "type": "paragraph",
-              "text": "Šiai sistemai priklauso ir fagocitai (neutrofilai, makrofagai), natūralieji žudikai, eozinofilai ir biologiškai aktyvios medžiagos."
-            },
-            {
-              "type": "paragraph",
-              "text": "Tokio imuniteto pavyzdys gali būti žmogaus neimlumas gyvūnų ar augalų ligų sukėlėjams (pvz., šunų arba galvijų marui)."
-            },
-            {
-              "type": "paragraph",
-              "text": "Kaip ir daugelis gyvūnų neimlūs žmogaus infekcinių ligų sukėlėjams."
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Įgimtas imunitetas susiformavo per ilgą makroorganizmų ir mikroorganizmų tarpusavio sąveikos evoliucijos laikotarpį."
+              "text": "Jei maisto gamybos ar ruošimo higiena nėra tinkamai užtikrinama, ypač viešojo maitinimo įstaigose ar gamybos cechuose, tai sudaro palankias sąlygas ligų sukėlėjams patekti į jau paruoštus produktus. Pavyzdžiui, naudojant bendrą inventorių, įrangą, indus ar bendrus šaldytuvus, o taip pat nesilaikant asmens higienos taisyklių po žaliavų apdorojimo, patogenai, tokie kaip salmonelės, gali pradėti daugintis, jei produktai laikomi šiltoje temperatūroje (virš 20 °C) bent valandą ar ilgiau."
             }
           ]
         },
@@ -1476,295 +1023,1408 @@
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
+              "text": "Maistu plintančios infekcinės ligos. Jų prevencija"
             },
             {
               "type": "heading",
-              "text": "Dirbtinis įgytas imunitetas  "
+              "text": "Maistu plintančios infekcijos"
             },
             {
               "type": "paragraph",
-              "text": "**Įgytas imunitetas.**"
+              "text": "Maistu plintančias ligas sukelia bakterijos ir virusai."
             },
             {
-              "type": "paragraph",
-              "text": "Susidaro po sąlyčio su infekcijos veiksniu (antigenu) ir jo apimtis ilgai lieka organizme. Jis turi būdingą specifiškumą, t. y. kitų infekcinių ligų sukėlėjams, kuriems yra jautrus. Imunitetas įgyjamas dviem būdais:"
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bakterijos, sukeliančios maisto kilmės infekcijas:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "persirgus tam tikra infekcine liga (natūralus – poinfekcinis);",
-                "imunizuojant (vakcinuojant) nuo tos ligos (dirbtinis – povakcininis)."
+                "Listeria monocytogenes",
+                "Salmonella",
+                "Clostridium difficile",
+                "Campylobacter",
+                "Escherichia coli (E. coli)",
+                "Staphylococcus aureus",
+                "Bacillus cereus",
+                "Shigella",
+                "Clostridium botulinum"
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Virusai, sukeliantys maisto kilmės infekcijas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": ["Rotavirusai", "Norovirusai", "Hepatito A virusas"]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Listeriozė"
+            },
+            {
+              "type": "paragraph",
+              "text": "Listeriozė yra užkrečiama liga, kurią sukelia Listeria monocytogenes bakterija. Ji kelia didelį pavojų žmonėms, ypač nėščioms moterims, naujagimiams bei asmenims su nusilpusia imunine sistema. Bakterijos gali paveikti įvairius organus, todėl simptomai būna labai įvairūs."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: vidutiniškai 21 diena, bet gali tęstis iki 70 dienų.",
+                "Simptomai: karščiavimas, raumenų skausmai, gerklės uždegimas, akių paraudimas, limfmazgių patinimas, vėmimas, viduriavimas. Jei pažeidžiama nervų sistema – galvos skausmai, sprando sustingimas, pusiausvyros sutrikimai, traukuliai.",
+                "Nėštumo metu listeriozė gali sukelti persileidimą ar naujagimio mirtį.",
+                "Užkrėtimo šaltiniai: gyvūninės kilmės maistas, ypač nepakankamai termiškai apdoroti produktai, nepasterizuotas pienas, minkštas sūris, paštetai, neplautos daržovės."
               ]
             },
             {
               "type": "paragraph",
-              "text": "Toks imunitetas yra aktyvus, nes telkiasi organizmo gynybinės jėgos: pasigamina specifinių antikūnų. Įgytas natūralus ar dirbtinis imunitetas būna ne tik aktyvus, bet ir pasyvus. Jis susidaro, kai į organizmą patenka jau pasigaminusių antikūnų arba ląstelinių elementų iš kito imunizuoto organizmo."
+              "text": "Prevencija:"
             },
             {
-              "type": "paragraph",
-              "text": "Tokį pasyvų natūralų imunitetą turi naujagimiai. Jis įgyjamas iš motinos embrioniniu periodu (antikūnai į vaisių patenka iš motinos kraujo per placentą). Be to, jis gali būti perduodamas naujagimiui per motinos pieną."
-            },
-            {
-              "type": "paragraph",
-              "text": "Įgytas pasyvus dirbtinis imunitetas susidaro kai profilaktiškai suleidžiama imunizuoto žmogaus ar gyvulio kraujo su jau ten esančiais antikūnais."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Įgytas imunitetas genetiškai nepaveldimas**. Jis gali būti nukreiptas prieš įvairius mikroorganizmus – antimikrobinis (antibakterinis, antivirusinnis, antiparazitinis), prieš mikrobų arba kitokios kilmės toksinus – antitoksininis)."
-            },
-            {
-              "type": "paragraph",
-              "class": "margin-xxl",
-              "text": "Arba prieš įvairias kitas antigenines medžiagas – priešnavikinis, transplantacinis ir kt."
-            }
-          ]
-        },
-        {
-          "page": 5,
-          "page_content": [
-            {
-              "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Nevartoti pasibaigusio galiojimo maisto.",
+                "Kruopščiai valyti ir dezinfekuoti šaldymo įrangą.",
+                "Vengti nepakankamai termiškai apdoroto gyvūninio maisto.",
+                "Nėščios moterys turėtų vengti rizikingų maisto produktų."
+              ]
             },
             {
               "type": "heading",
-              "text": "Skiepai. Skiepų kalendorius "
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Salmoneliozė"
             },
             {
               "type": "paragraph",
-              "text": "**Skiepai** – biologinių preparatų ir medicinos priemonių naudojimas siekiant padidinti žmonių atsparumą užkrečiamosiomis ligomis."
+              "text": "Salmoneliozė yra viena dažniausių maisto infekcijų, kurią sukelia Salmonella bakterijos. Liga sukelia žarnyno uždegimą, pasireiškiantį viduriavimu, karščiavimu, pilvo skausmu."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 2–5 dienos.",
+                "Simptomai: viduriavimas, pilvo skausmas, karščiavimas, galvos skausmas, kartais kraujas išmatose.",
+                "Užkrėtimo šaltiniai: nešvarus vanduo, žalia paukštiena, rankų bei įrankių užteršimas."
+              ]
             },
             {
               "type": "paragraph",
-              "text": "Skiepijamais siekiama dviejų pagrindinių tikslų: **apsaugoti asmenį nuo susirgimo infekcine liga ir kontroliuoti infekcinių ligų plitimą visuomenėje**."
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Kruopščiai plauti rankas.",
+                "Vengti kryžminio užteršimo.",
+                "Tinkamai išvirti arba iškepti maistą."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kampilobakteriozė"
             },
             {
               "type": "paragraph",
-              "text": "Paskiepijus asmenį, jį galima apsaugoti nuo susirgimo viena ar kita infekcine liga, tačiau pavienių asmenų ar rizikos grupių asmenų skiepijimai dažniausiai neturi didesnės reikšmės infekcinių ligų plitimui visuomenėje."
+              "text": "Campylobacter bakterijos sukelia maisto plintančią infekciją, kuri dažnai pasireiškia viduriavimu su krauju, pilvo skausmu."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 2–5 dienos.",
+                "Simptomai: viduriavimas, pilvo ir galvos skausmai, pykinimas, kartais vėmimas.",
+                "Šaltiniai: šiltakraujai gyvūnai, paukščiai, nepakankamai termiškai apdorota mėsa, pienas."
+              ]
             },
             {
               "type": "paragraph",
-              "text": "Infekcines ligas kontroliuoti vakcinomis galima tik realizuojant plataus masto imunoprofilaktikos programas."
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Laikyti mėsą šaldytuve.",
+                "Kruopščiai plauti daržoves ir vaisius.",
+                "Pasterizuoti pieną.",
+                "Vengti kryžminio užteršimo.",
+                "Laikyti griežtą rankų higieną."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Ešerichiozė (E. coli)"
             },
             {
               "type": "paragraph",
-              "text": "Pirmieji skiepai nuo raupų Edwardo Jennerio pasiūlyta vakcina Lietuvoje atlikta praėjus vos keleriems metams po pirmųjų E. Jennerio skiepijimų."
+              "text": "Escherichia coli bakterijos sukelia viduriavimą, kuris kartais būna su krauju, ir pilvo skausmus. Gali išsivystyti rimtos komplikacijos."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 1–14 dienų, dažniausiai 3–4 dienos.",
+                "Simptomai: viduriavimas, pilvo skausmas, pykinimas, galimas hemolizinis ureminis sindromas.",
+                "Šaltiniai: žalia mėsa, nepasterizuotas pienas, nešvarios rankos ir virtuvės įrankiai."
+              ]
             },
             {
               "type": "paragraph",
-              "text": "Vilniuje 1808 metais įkurtas vienas pirmųjų Europoje Vakcinacijos institutas."
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Atidžiai atskirti žalią ir paruoštą maistą.",
+                "Kruopščiai gaminti maltą mėsą.",
+                "Pasterizuoti pieną ir sulčių produktus.",
+                "Kruopščiai plauti vaisius ir daržoves.",
+                "Griežtai laikytis rankų higienos."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Stafilokokinė infekcija"
             },
             {
               "type": "paragraph",
-              "text": "1987-aisiais atidaryta Pastero stotis, kuri tuo metu buvo viena pažangiausių kovos su pasiutlige įstaigų regione."
+              "text": "Sukelia Staphylococcus aureus bakterijos, kurios gamina toksinus. Liga pasireiškia greitai – per kelias valandas."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 1–7 valandos.",
+                "Simptomai: pykinimas, vėmimas, pilvo skausmas.",
+                "Šaltiniai: žmogaus burna, nosis, oda, ypač rankomis gaminamas maistas su kremu ar majonezu."
+              ]
             },
             {
               "type": "paragraph",
-              "text": "Viena iš efektyviausių ligų prevencijos priemonių yra vakcinacija. Būtent dėl skiepų išnyko viena baisiausių infekcinių ligų – raupai. Labai sumažėjo sergančiųjų difterija, stablige, tymais, raudonuke, epideminiu parotitu, pasiutlige."
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Laikyti aukštą asmeninę higieną.",
+                "Nuolat plauti rankas.",
+                "Nedirbti su maistu, jei yra odos pažeidimų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bacillus cereus infekcija"
             },
             {
               "type": "paragraph",
+              "text": "Ši bakterija sukelia maisto toksikoinfekciją, kuri dažniausiai pasireiškia vėmimu arba viduriavimu."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 1–5 valandos.",
+                "Simptomai: pykinimas, vėmimas, pilvo skausmas, viduriavimas.",
+                "Šaltiniai: grūdinės kultūros, ryžiai, prieskoniai."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Nevartoti pakartotinai šildyto ryžių patiekalo.",
+                "Vengti laikyti maistą kambario temperatūroje.",
+                "Valgyti ryžius tik ką išvirtus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Šigeliozė"
+            },
+            {
+              "type": "paragraph",
+              "text": "Šią žarnyno infekciją sukelia Shigella bakterijos, o liga dažnai pasireiškia kraujingu viduriavimu ir skausmu."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 1–7 dienos.",
+                "Simptomai: pilvo skausmas, viduriavimas su krauju, karščiavimas, dažnas noras tuštintis su skausmu.",
+                "Šaltiniai: sergantys žmonės ir užterštas maistas bei vanduo."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Laikyti aukštą asmeninę higieną.",
+                "Nuolat plauti rankas.",
+                "Nedirbti su maistu sergant viduriavimu."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Botulizmas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Retas, bet labai pavojingas apsinuodijimas, kurį sukelia Clostridium botulinum bakterijos gaminami nuodai, pažeidžiantys nervų sistemą."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: nuo 2 valandų iki 8 dienų.",
+                "Simptomai: silpnumas, galvos svaigimas, regėjimo sutrikimai, burnos džiūvimas, rijimo ir kalbos sutrikimai, kvėpavimo sutrikimai.",
+                "Šaltiniai: nepakankamai paruošti ar sugedę konservai, rūkyti mėsos gaminiai."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Kruopščiai plauti daržoves, grybus ir mėsą prieš konservavimą.",
+                "Naudoti pakankamai druskos, cukraus arba rūgšties konservuojant.",
+                "Nevartoti išsipūtusių ar pakeistų konservų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Rotavirusai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rotavirusai sukelia žarnyno uždegimą, pasireiškiantį vėmimu ir viduriavimu."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 1–3 dienos.",
+                "Simptomai: vėmimas, karščiavimas, viduriavimas, pilvo skausmai.",
+                "Šaltiniai: užterštos rankos, nešvarūs maisto įrankiai."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Laikyti aukštą higieną.",
+                "Kruopščiai plauti rankas ir maistą.",
+                "Pašalinti užsikrėtusius darbuotojus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Norovirusai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Norovirusai sukelia ūminę žarnyno infekciją, dažnai vadinamą „žiemos vėmimo liga“."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 12–48 valandos.",
+                "Simptomai: vėmimas, viduriavimas, pykinimas, pilvo skausmas.",
+                "Šaltiniai: užterštas vanduo, jūrų gėrybės, nešvarūs įrankiai."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Vengti kryžminio užteršimo.",
+                "Laikyti aukštą higieną.",
+                "Kruopščiai valyti užkrėstas vietas."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Hepatito A virusas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hepatitas A yra kepenų uždegimas, kurį sukelia Hepatito A virusas."
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Inkubacinis laikotarpis: 2–5 savaitės.",
+                "Simptomai: karščiavimas, silpnumas, pykinimas, gelta, tamsus šlapimas, šviesios išmatos.",
+                "Užkrėtimo šaltiniai: užterštas maistas, sergantys žmonės."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Vakcinacija.",
+                "Aukšta asmeninė higiena.",
+                "Pašalinti užsikrėtusius darbuotojus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bendros maisto užteršimo priežastys:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
               "class": "margin-xxl",
-              "text": "Vis daugiau pasiskiepijama prieš erkinį encefalitą, virusinį A ir B hepatitą, meningokokinę infekciją ir daugelį kitų ligų."
+              "text": [
+                "Užkrėsti produktai.",
+                "Netinkama gaminimo trukmė ir temperatūra.",
+                "Kryžminis užteršimas nuo žalių produktų.",
+                "Netinkama darbuotojų higiena ir apmokymai."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bendri asmens higienos reikalavimai",
+      "sectionId": "section3",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Bendri asmens higienos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Maistu plintančios infekcijos"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rankų plovimas — paprastas ir veiksmingas būdas apsisaugoti nuo užkrečiamųjų ligų. Tinkamai plaunant rankas su muilu galima pašalinti iki 95 % žmogui pavojingų mikroorganizmų."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kada būtina plauti rankas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Prieš pradedant darbą ir po jo.",
+                "Pasinaudojus tualetu.",
+                "Po sąlyčio su užterštais daiktais.",
+                "Po kiekvieno maisto gamybos technologinio etapo.",
+                "Tvarkant žaliavas ar tarpinius produktus, galinčius užteršti gatavą maistą – būtina nusiplauti ir dezinfekuoti rankas bei pasikeisti darbo drabužius."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Taip pat rankas reikia plauti: "
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Nusikosėjus, nusičiaudėjus ar išsipūtus nosį.",
+                "Palietus veidą, plaukus.",
+                "Tvarkant šiukšles ar atliekas.",
+                "Po sąlyčio su gyvūnais ar jų ekskrementais.",
+                "Po darbo su cheminėmis medžiagomis.",
+                "Atlikus valymo darbus.",
+                "Po sąlyčio su nešvaria tara ar užterštais paviršiais."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Rankų plovimo technika "
             },
             {
               "type": "img",
-              "text": "img1.jpg"
+              "text": "img2.jpg"
             },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Rankų plaštakos ir riešai sudrėkinami vėsiu vandeniu; (tekantis šiltas ir šaltas vanduo turi atitikti geriamojo vandens kokybės reikalavimus);",
+                "Naudojamas skystas muilas;",
+                "Kruopščiai, 15-20 sek. rankos muiluojamos trinamaisiais ir sukamaisiais judesiais, ypač riešai, tarpupirščiai, pirštų galiukai, nagai, nykščiai;",
+                "Muiluotos rankos nuplaunamos tekančio vandens srove. Vanduo turi tekėti nuo riešo pirštų link;",
+                "Nuplautos rankos nusausinamos vienkartiniu popieriniu rankšluosčiu ar servetėle;",
+                "Vandens čiaupas užsukamas su panaudotu vienkartiniu rankšluosčiu ar servetėle, kuri išmetama į šiukšlių dėžę."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kaip pagerinti rankų plovimą?"
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Prieš plaunant rankas nuimkite laikrodžius, žiedus ar kitus rankų papuošalus."
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Bendri asmens higienos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Vienkartinės pirštinės"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vienkartinių pirštinių naudojimas nepakeičia rankų higienos, tačiau vienkartinių pirštinių naudojimas ir rankų plovimas gali užkirsti kelią tolesniam mikroorganizmų plitimui."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Vienkartinių pirštinių naudojimas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Rankos nuplaunamos prieš užsimaunant vienkartines pirštines",
+                "Pirštinės turi būti tinkamo dydžio",
+                "Pirštinės skirtos tik vienkartiniam naudojimui",
+                "Sugadintos ar įplyšusios pirštinės išmetamos",
+                "Ant rankų, esančias žaizdeles būtina užklijuoti nelaidžia vandeniui medžiaga ar pleistru ir tuomet užsimauti pirštines",
+                "Dirbant tiesiogiai su maistu po kiekvieno veiksmo būtina pirštines pakeisti (po žaliavos tvarkymo, prieš tvarkant vartojimui skirtą maistą)",
+                "Pirštines reikia nusimauti liečiant aplinkos daiktus, įrangą (telefoną, kompiuterį), o, tęsiant pradėtą darbą, naudoti naujas pirštines."
+              ]
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Bendri asmens higienos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Darbuotojų higiena"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Asmens higienos reikalavimai maisto tvarkymo zonoje dirbantiems darbuotojams"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto tvarkymo vietose darbuotojai privalo laikytis asmens higienos taisyklių:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Dėvėti švarius, darbui tinkamus drabužius.",
+                "Naudoti galvos apdangalą, visiškai dengiantį plaukus.",
+                "Avėti darbo avalynę.",
+                "Esant poreikiui, vilkėti apsauginius rūbus.",
+                "Prijuostės ir darbo drabužiai neturi siekti grindų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbo drabužių apibrėžimas ir naudojimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Darbo drabužiai pasirenkami atsižvelgiant į atliekamų darbų pobūdį. Esant didesnei profesinei rizikai, darbo apranga ir apsaugos priemonės turi būti kruopščiai parinktos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Pagrindinės darbo drabužių dėvėjimo taisyklės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Darbo drabužiai turi būti dėvimi tik darbo vietoje ir visą darbo laiką.",
+                "Jie turi būti švarūs, visos komplektacijos. Susitepus – nedelsiant pakeičiami.",
+                "Apranga turi būti nesuplyšusi, be žiogeliais susegtų vietų, kišenėse neturi būti pašalinių daiktų.",
+                "Darbo drabužiai turi būti asmeniniai – jais dalintis negalima.",
+                "Jie laikomi atskirai nuo asmeninių drabužių.",
+                "Kiekvienam darbuotojui turi būti skirti ne mažiau kaip 3 darbo drabužių komplektai."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Darbo drabužių komplektą sudaro:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Chalatas arba švarkas ir kelnės.",
+                "Kepuraitė arba galvos apdangalas.",
+                "Prijuostė.",
+                "Darbo avalynė.",
+                "Pirštinės."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Darbuotojai, naudojantys plovimo bei dezinfekcijos priemones ar plaunantys indus, papildomai privalo turėti vandeniui atsparią prijuostę ir gumines pirštines. Šios priemonės laikomos atskirai nuo kitų darbo drabužių. Tualetams valyti naudojamas specialus chalatas ir atskiros pirštinės."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Papuošalai ir kosmetika"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Darbuotojams draudžiama naudoti stiprius kvapus skleidžiančias priemones.",
+                "Privaloma nusiimti visus papuošalus: laikrodžius, žiedus, smeigtukus ir kt."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Plaukų ir veido priežiūra"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Plaukai turi būti švarūs, surišti ir visiškai paslėpti po galvos apdangalu.",
+                "Šukuotis galima tik ne darbo vietoje.",
+                "Dirbtinės blakstienos neleidžiamos."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Nagų ir rankų priežiūra"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Nagai turi būti trumpi, natūralūs, nelakuoti, dirbtiniai nagai draudžiami.",
+                "Rankų oda turi būti sveika.",
+                "Smulkios žaizdelės turi būti užklijuotos ryškiu pleistru ir dirbama tik su pirštinėmis."
+              ]
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Bendri asmens higienos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "text": "Darbuotojų sveikata ir įpročiai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto tvarkymo srityje dirbantys darbuotojai privalo laikytis griežtų asmens higienos taisyklių bei galiojančių teisės aktų reikalavimų."
+            },
+            {
+              "type": "paragraph",
+              "text": "Prieš pradėdami darbą ir periodiškai vėliau, darbuotojai turi pasitikrinti sveikatą ir turėti galiojančią asmens medicininę knygelę."
+            },
+            {
+              "type": "paragraph",
+              "text": "Taip pat maistą tvarkantys darbuotojai privalo būti įgiję Sveikatos žinių ir įgūdžių atestavimo pažymėjimą bei nuolat atnaujinti šias žinias nustatyta tvarka."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbo vietose griežtai draudžiama:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Rūkyti, valgyti, kramtyti kramtomąją gumą, saulėgrąžas ar pan.",
+                "Spjaudyti, kosėti, čiaudėti, valyti nosį, akis ar ausis virš neapsaugoto maisto."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbo apribojimai dėl sveikatos būklės"
+            },
+            {
+              "type": "paragraph",
+              "text": "Darbuotojams draudžiama dirbti ir lankytis maisto tvarkymo zonoje, jei jie:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Turi infekcinių ligų požymių.",
+                "Turi atvirų žaizdų, odos uždegimų ar opų.",
+                "Kenčia nuo viduriavimo, vėmimo, pilvo skausmų.",
+                "Karščiuoja arba jaučia stiprų gerklės skausmą.",
+                "Pastebi išskyras iš nosies."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Pajutęs sveikatos sutrikimus, darbuotojas privalo nedelsdamas apie tai informuoti administraciją."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Susižeidus, draudžiama toliau dirbti su maistu ar jį liesti, kol žaizda nebus apsaugota specialia vandeniui nelaidžia apsaugine priemone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bendri reikalavimai patalpoms ir jų priežiūra",
+      "sectionId": "section4",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Bendri reikalavimai patalpoms ir jų priežiūra"
+            },
+            {
+              "type": "heading",
+              "text": "Maisto tvarkymo patalpos"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Patalpų įrengimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto tvarkymo patalpos turi būti pakankamo dydžio, švarios, suremontuotos, įrengtos taip, kad būtų lengva prižiūrėti, valyti, dezinfekuoti. Jos turi užtikrinti vienkryptį srautą, kad būtų išvengta kryžminės taršos, neleistų kauptis nešvarumams, drėgmei, pelėsiui ir kondensatui. Patalpose negali būti augalų ar dekoracijų."
+            },
+            {
+              "type": "paragraph",
+              "text": "Visi paviršiai – nuo sienų iki grindų ir įrenginių – turi būti pagaminti iš korozijai atsparių, lygių, lengvai plaunamų ir nenuodingų medžiagų. Grindys – nelaidžios, nesugeriančios, su užglaistytomis sandūromis, prireikus įrengta drenažo sistema. Sienos – švarios, lygios, sandarios. Stiklinės pertvaros darbo zonose turi būti aiškiai pažymėtos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Langai turi būti valomi, atidaromuose languose – išimami vabzdžių tinklai. Durys – sandarios, iš drėgmės neįgeriančių, lengvai valomų medžiagų, jei būtina – automatiškai užsidarančios."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Vėdinimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Patalpose būtinas natūralus arba mechaninis vėdinimas, reguliuojantis temperatūrą, drėgmę, mažinantis kvapus, kondensatą, oro taršą. Oro srautai turi judėti iš švaresnių į nešvaresnes zonas. Vėdinimo angos turi turėti nerūdijančio metalo tinklelius ar gaubtus."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Apšvietimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Apšvietimas turi atitikti teisės aktų reikalavimus, būti natūralus, dirbtinis ar mišrus, neiškreipiantis spalvų ir netrukdantis higienai. Maistas turi būti apsaugotas nuo tiesioginių saulės spindulių. Šviestuvai – saugios konstrukcijos, kad sudužus neatsidurtų šukių maiste."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Vandens tiekimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Patalpose turi būti reikiamo slėgio šalto ir karšto geriamojo vandens tiekimas. Ledui, garams ar paviršiams plauti gali būti naudojamas tik geriamasis vanduo. Ledas ir garai turi būti ruošiami taip, kad būtų išvengiama taršos. Esant poreikiui, būtini vandens temperatūros matuokliai."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Nuotekos"
+            },
+            {
+              "type": "paragraph",
+              "text": "Patalpos turi turėti tvarkingą, atskirtą nuo buitinių, nuotekų šalinimo sistemą. Kanalizacija privalo atlaikyti apkrovas, būti tinkamai įrengta ir neužteršti maisto ar vandens."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Tualetai ir buitinės patalpos"
+            },
+            {
+              "type": "paragraph",
+              "text": "Tualetai ir buitinės zonos turi būti švarios, gerai apšviestos, vėdinamos, kur reikia – šildomos. Tualetų durys negali atsidaryti tiesiai į maisto tvarkymo vietas. Šalia turi būti įrengtos praustuvės su šaltu ir karštu vandeniu, rankų plovimo, džiovinimo, dezinfekavimo priemonėmis ir instrukcijomis. Maisto plovimo įranga turi būti atskirta nuo rankų plovimo."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Įrenginiai ir įrankiai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Įranga ir įrankiai turi būti iš medžiagų, tinkamų sąlyčiui su maistu, lengvai plaunami, prižiūrimi ir saugūs. Nenaudojama įranga turi būti pašalinta iš gamybos zonos. Įmonė privalo turėti bent vieną metrologiškai patikrintą termometrą."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Pagalbinės patalpos"
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "Darbuotojų persirengimo patalpos turi būti įrengtos su spintelėmis darbo ir asmeniniams drabužiams. Šie daiktai turi būti laikomi atskirai. Draudžiama laikyti daiktus ant ar po spintelėmis."
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Bendri reikalavimai patalpoms ir jų priežiūra"
+            },
+            {
+              "type": "heading",
+              "text": "Maisto tvarkymo teritorija, pastatai, maisto laikymo patalpos"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto tvarkymo teritorija"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto tvarkymo teritorija ir patalpos turi būti apsaugotos nuo užliejimo, pašalinių kvapų, dulkių, dūmų ir kitų taršos šaltinių. Žaliavų iškrovimo bei produkcijos pakrovimo vietos turi būti po stogu, saugančiu produktus nuo oro sąlygų. Teritorija privalo būti švari, prižiūrėta, gerai apšviesta, aptverta, lengvai valoma, su nelaidžia vandeniui danga ir nuolydžiais lietaus vandeniui nutekėti. Sausinimo įrenginiai turi būti saugūs ir nuolat prižiūrimi, o buitinės atliekos laikomos konteineriuose su dangčiais. Maisto tvarkymo vietoje draudžiama laikyti šunis, kates ir kitus augintinius. Teritorijoje ir patalpose būtina reguliariai vykdyti kenkėjų kontrolę."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
 
-            {
-              "type": "paragraph",
-              "text": "**Prieš skiepijant bet kuria vakcina, būtina patikrinti**:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "ar kiekvienas vakcinos flakonas turi standartinę etiketę?",
-                "ar sausoms vakcinoms praskiesti yra gamintojo pateiktas skiediklis?",
-                "ar nepasibaigęs vakcinos galiojimo laikas?"
-              ]
+              "text": "Pastatai"
             },
             {
               "type": "paragraph",
-              "text": "Jeigu ant vakcinos pakuotės yra „šalčio grandinės“ kontrolės indikatorius ir jeigu šių indikatorių spalva pakitusi ar išryškėja jų naudojimą draudžiantys užrašai, tokių vakcinų naudoti negalima; ar nepažeistas vakcinos flakonas; ar skystose bei praskiestose vakcinose nėra matomų drumzlių, neištirpstančių dribsnių?"
-            },
-            {
-              "type": "paragraph",
-              "text": "Vakcinos įskiepijamos per burną arba injekcijomis (į odą, į paodį, į raumenis). Skiepijimo kontraindikacijų įvertinimas yra viena svarbiausių nepageidaujamų povakcininių reiškinių profilaktikos priemonių. Prieš skiepijant, bet kurios vakcinos, bet kuria doze, būtina įvertinti skiepijimo kontraindikacijas."
-            },
-            {
-              "type": "paragraph",
-              "text": "**Prieš skiepijimą pateikiami šie klausimai:**"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "ar Jūsų vaikas šiandien sveikas?",
-                "ar Jūsų vaikas yra alergiškas maistui ar vaistams?",
-                "ar po paskutinio skiepijimo buvo kokių nors problemų?",
-                "ar Jūsų vaikas, ar kas iš namiškių serga imuninės sistemos ligomis?",
-                "ar per pastaruosius metus vaikas gavo imunoglobulinų ar kraujo preparatų?"
-              ]
+              "text": "Pastatai turi būti pritaikyti visiems technologiniams procesams vykdyti ir atitikti higienos normų reikalavimus. Juose turi būti palaikoma tinkama temperatūra ir oro drėgmė, užtikrinant, kad į vidų nepatektų graužikai, vabzdžiai ar aplinkos teršalai (dūmai, dulkės ir pan.). Gamybos procesai turi būti atskirti pertvaromis ar papildomomis sienelėmis."
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "Sergamumo Lietuvoje užkrečiamosiomis ligomis epidemiologinė apžvalga"
+
+              "text": "Maisto laikymo patalpos (sandėliai)"
             },
             {
               "type": "paragraph",
-              "text": "Šiuo metu pasaulyje naudojamos 42 vakcinos. Ypatingas dėmesys atkreipiamas į suaugusiųjų skiepijimus nuo infekcinių susirgimų, ypač keliautojų po įvairias šalis."
+              "text": "Sandėliai turi būti švarūs ir atitikti higienos reikalavimus. Maistas laikomas pakeltas nuo grindų ir atitrauktas nuo sienų. Skirtingų rūšių produktai laikomi atskirai, jei jų laikymo sąlygos skiriasi. Maisto produktų būklė turi būti periodiškai tikrinama, užtikrinant jų atitiktį teisės aktų reikalavimams."
             },
             {
-              "type": "paragraph",
-              "text": "Keliaujantiems asmenims siūloma imunoprofilaktika – tai galimybė išvengti užkrečiamųjų ligų keliaujant."
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+
+              "text": "Reikalavimai lauko kavinėms"
             },
             {
               "type": "paragraph",
               "class": "margin-xxl",
-              "text": "Išvykstantys į užsienį, skiepijami pagal šalies epidemiologinius parodymus. Rekomenduojama pasiskiepyti iki kelionės likus 4-6 savaitėms, nespecifiniam imunitetui susiformuoti po skiepų reikalingas tam tikras laikotarpis."
+              "text": "Lauko kavinių stalai turi būti lygūs ir lengvai valomi. Rekomenduojama virš stalų įrengti skėčius ar stogelius, apsaugančius maistą nuo aplinkos poveikio. Jei staliukai yra arti kelio, patiekalai turėtų būti patiekiami uždengti."
             }
           ]
         },
         {
-          "page": 6,
+          "page": 3,
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
+              "text": "Bendri reikalavimai patalpoms ir jų priežiūra"
             },
             {
               "type": "heading",
-              "text": "Sergamumo Lietuvoje užkrečiamosiomis ligomis epidemiologinė apžvalga "
+              "text": "Valymas ir dezinfekcija"
             },
             {
               "type": "paragraph",
-              "text": "Šiuo metu pasaulyje naudojamos **42 vakcinos**. Ypatingas dėmesys atkreipiamas į suaugusiųjų skiepijimus nuo infekcinių susirgimų, ypač keliautojų po įvairias šalis."
+              "text": "Visi paviršiai, kurie tiesiogiai liečiasi su maistu, dažnai liečiami rankomis, taip pat valymo įrankiai ir įranga, turi būti reguliariai valomi ir dezinfekuojami."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Valymo ir dezinfekcijos tikslai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Pašalinti maisto likučius.",
+                "Pašalinti susikaupusias atliekas.",
+                "Sunaikinti patogeninius mikroorganizmus."
+              ]
             },
             {
               "type": "paragraph",
-              "text": "Keliaujantiems asmenims siūloma imunoprofilaktika – tai galimybė išvengti užkrečiamųjų ligų keliaujant."
+              "text": "Paviršiams dezinfekuoti galima naudoti specialius dezinfekcinius skysčius arba karštą vandenį (daugiau kaip 82 °C)."
             },
             {
-              "type": "paragraph",
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Valymo tvarkaraščiai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Bendras patalpų, įrangos valymas, plovimas ir dezinfekavimas turi būti atliekami bent kartą per savaitę.",
+                "Valomos ir dezinfekuojamos visos patalpos bei jose esantys įrenginiai.",
+                "Kiekvienas darbuotojas, pabaigęs darbą, privalo sutvarkyti savo darbo vietą.",
+                "Turi būti parengtas valymo grafikas, kuriame nurodyta, kada, kas ir kokiomis priemonėmis atlieka valymą.",
+                "Atlikęs valymą, atsakingas darbuotojas turi pasirašyti žurnale."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Valymo priemonių naudojimas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Plovikliai ir dezinfekantai naudojami pagal paskirtį, laikantis gamintojo instrukcijų.",
+                "Visi darbuotojai turi būti supažindinti su valymo priemonių naudojimo tvarka.",
+                "Darbo vietose turi būti iškabintos aiškios valymo ir dezinfekavimo schemos bei grafikai.",
+                "Po dezinfekavimo ar valymo su plovikliu, visi paviršiai turi būti nuplauti vandeniu."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Stebėsena"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Stebėjimas atliekamas taikant RVASVT sistemą arba laikantis GHPT reikalavimų.",
+                "Svarbu fiksuoti stebėsenos rezultatus bei užtikrinti, kad visos naudojamos priemonės atitiktų gamintojo rekomendacijas.",
+                "Periodiškai reikia atlikti mikrobiologinius tyrimus, siekiant patikrinti, ar ant paviršių nelieka mikroorganizmų ir valymo priemonių likučių."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Valymo medžiagų ir įrangos laikymas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Cheminės valymo medžiagos, biocidai ir valymo inventorius turi būti laikomi specialiai tam skirtose vietose pagalbinėse patalpose ar užrakintose spintelėse.",
+                "Maisto tvarkymo patalpoje leidžiama laikyti tik tiek valymo priemonių, kiek reikia naudoti kasdien.",
+                "Valymo įrankiai (šepečiai, kibirai ir kt.) turi būti paženklinti, švarūs ir laikomi sausi."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Tualeto valymo reikalavimai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
               "class": "margin-xxl",
-              "text": "Išvykstantys į užsienį, skiepijami pagal šalies epidemiologinius parodymus. **Rekomenduojama pasiskiepyti iki kelionės likus 4-6 savaitėms**, nespecifiniam imunitetui susiformuoti po skiepų reikalingas tam tikras laikotarpis."
+              "text": [
+                "Tualetai turi būti valomi pagal poreikį, bet ne rečiau kaip kartą per dieną.",
+                "Rekomenduojama pildyti valymo registracijos formą, laikomą tualete ar šalia jo.",
+                "Tualetams valyti skirtas chalatas laikomas atskiroje vietoje, atokiau nuo darbo ar asmeninių drabužių.",
+                "Šiam tikslui skirta valymo įranga turi būti paženklinta ir laikoma atskirai nuo kitų valymo įrankių."
+              ]
             }
           ]
         },
         {
-          "page": 7,
+          "page": 4,
           "page_content": [
             {
               "type": "floating-heading",
-              "text": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai "
+              "text": "Bendri reikalavimai patalpoms ir jų priežiūra"
             },
             {
               "type": "heading",
-              "text": " Vyraujančios infekcijos "
+              "text": "Atliekų surinkimas. Kenkėjai, kenkėjų kontrolė "
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Atliekų tvarkymas ir kenkėjų prevencija "
             },
             {
               "type": "paragraph",
-              "text": "Vyraujančios infekcijos gali skirtis priklausomai nuo sezono, regiono ir epidemiologinių sąlygų. Tačiau yra keletas infekcijų, kurios dažniau pasireiškia įvairiuose kontekstuose:"
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "1. Kvėpavimo takų infekcijos:"
+              "text": "Tinkamas atliekų tvarkymas yra labai svarbus, nes netvarkingai laikomos ar šalinamos atliekos vilioja įvairius kenkėjus: peles, žiurkes, muses, tarakonus ir kitus. Siekiant išvengti jų atsiradimo, rekomenduojama:"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Gripas (Influenza) – virusinė infekcija, dažniausia šaltuoju metų laiku, ypač žiemą. Gripas gali sukelti karščiavimą, raumenų skausmus, gerklės skausmą ir kosulį.",
-                "Peršalimas – paprastai sukeliamas rinovirusų ir pasireiškia sloga, čiauduliu, gerklės skausmu.",
-                "COVID-19 (SARS-CoV-2) – vis dar aktuali pasaulyje pandeminė infekcija, sukelianti nuo lengvų iki sunkių kvėpavimo takų simptomų.",
-                "Plaučių uždegimas (Pneumonija) – dažnai sukeliama bakterijų (pvz., Streptococcus pneumoniae), virusų ar grybelių."
+                "Reguliariai šalinti atliekas iš patalpų, kuriose laikomas ar gaminamas maistas.",
+                "Atliekas kaupti tik sandariuose, tinkamos konstrukcijos konteineriuose, kuriuos lengva prižiūrėti, valyti ir prireikus dezinfekuoti. Atliekos turi būti nepasiekiamos gyvūnams ir kenkėjams.",
+                "Atliekas šalinti higieniškai, neleidžiant joms tapti aplinkos taršos šaltiniu."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "2. Virškinimo trakto infekcijos:"
+              "text": "Kenkėjus viliojančios sąlygos maisto tvarkymo patalpose"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": ["Maistas;", "Šiluma;", "Drėgmė;", "Pastogė."]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Galimi kenkėjai"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Rotavirusas ir norovirusas – dažniausiai sukelia vaikų ir suaugusiųjų gastroenteritą, pasireiškia vėmimu, viduriavimu ir pilvo skausmais.",
-                "Bakterinės infekcijos – tokios kaip Salmonella, E. coli, ir Campylobacter, dažnai perduodamos per užterštą maistą ar vandenį, sukeldamos viduriavimą ir karščiavimą."
+                "**Graužikai**: pelės, žiurkės.",
+                "**Vabzdžiai**: tarakonai, musės, skruzdėlės.",
+                "**Paukščiai**: balandžiai, žvirbliai, varnos.",
+                "**Gyvūnai**: naminiai (katės, šunys) ir laukiniai."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "3. Odos infekcijos:"
+              "text": "Kenkėjų keliama rizika"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Impetigo – bakterinė odos infekcija, kuri dažniau pasireiškia vaikams, sukelia skausmingas pūsleles ar šašus.",
-                "Furunkulai ir karbunkulai – sukeliami Staphylococcus aureus, dažnai pasireiškia pūlingų darinių forma."
+                "**Bakterinis užterštumas**: patogeninių bakterijų pernešimas.",
+                "**Fizinis užterštumas**: maisto užteršimas kailiu, ekskrementais, kiaušiniais, negyvais kenkėjais.",
+                "**Materialinė žala**: apgraužti vaisiai, produktų pakuotės.",
+                "**Cheminė tarša**: nunuodyti kenkėjai patekę į produktus.",
+                "**Kryžminė tarša**: bakterijų perkėlimas iš neapdoroto maisto į paruoštą vartoti."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "4. Šlapimo takų infekcijos (ŠTI):"
+              "text": "Kenkėjų buvimo požymiai"
             },
             {
               "type": "list",
               "list_type": "unordered",
               "text": [
-                "Cistitas – dažniausia šlapimo takų infekcija, pasireiškianti dažnu, skausmingu šlapinimusi. Dažniausi sukėlėjai yra bakterijos, tokios kaip Escherichia coli."
+                "Matomi kenkėjai, jų ekskrementai, kiaušiniai, lervos ar kūnai.",
+                "Takai palei sienas, įrangą.",
+                "Sugadintos ar pragraužtos pakuotės.",
+                "Išgraužti urvai sienose ar pakuotėse."
               ]
             },
             {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "5. Lytiniu būdu plintančios infekcijos (LPI):"
+              "text": "Kaip apsisaugoti nuo kenkėjų"
             },
             {
               "type": "list",
               "list_type": "unordered",
-              "text": [
-                "Chlamidiozė, gonorėja, sifilis ir ŽIV – dažnos LPI, kurių rizika padidėja dėl neapsaugotų lytinių santykių ar partnerių kaitos."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "6. Vaikų infekcijos:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Raudonukė, tymai, vėjaraupiai – virusinės infekcijos, dažniausiai plintančios tarp vaikų, dažnai lydimos karščiavimo ir odos bėrimo."
-              ]
-            },
-            {
-              "type": "heading",
-              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
-              "text": "7. Infekcijos dėl silpno imuniteto:"
-            },
-            {
-              "type": "list",
-              "list_type": "unordered",
-              "text": [
-                "Tuberkuliozė (TB) – visame pasaulyje paplitusi infekcija, kuri dažniau pasireiškia žmonėms su nusilpusiu imunitetu.",
-                "Grybelinės infekcijos – tokios kaip Candida ir Aspergillus, dažniau pasitaiko žmonėms, kurių imunitetas silpnesnis."
-              ]
-            },
-            {
-              "type": "paragraph",
               "class": "margin-xxl",
-              "text": "Šios infekcijos gali plisti per orą, kontaktuojant su užterštais paviršiais, per maistą, vandenį ar lytinius santykius. Profilaktikos priemonės, tokios kaip skiepai, rankų higiena ir tinkama mityba, gali padėti sumažinti infekcijų riziką."
+              "text": [
+                "Neleisti kenkėjams patekti į patalpas – langai ir durys turi būti sandarūs, su tinkliukais ar specialiomis užuolaidomis.",
+                "Nepalikti maisto, kurį galėtų pasiekti kenkėjai.",
+                "Užtaisyti įtrūkimus ir skyles sienose.",
+                "Reguliariai šalinti atliekas.",
+                "Nuolat valyti ir dezinfekuoti paviršius, įrangą ir patalpas.",
+                "Tikrinti sandėliuojamus produktus.",
+                "Pastebėjus įtartinus ženklus, nedelsiant atlikti patalpų apžiūrą ir valymą."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Saugūs maisto tvarkymo principai",
+      "sectionId": "section5",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Saugūs maisto tvarkymo principai"
+            },
+            {
+              "type": "heading",
+              "text": "Maisto pristatymas ir tiekėjų pasirinkimas"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto saugos užtikrinimas: žaliavų ir gaminių tiekėjų kontrolė"
+            },
+            {
+              "type": "paragraph",
+              "text": "Norėdama užtikrinti gaminamo maisto saugą, viešojo maitinimo įmonė privalo bendradarbiauti tik su patikimais žaliavų ir gaminių tiekėjais."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Tiekėjui keliami reikalavimai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Turėti galiojantį Valstybinės maisto ir veterinarijos tarnybos leidimą vykdyti veiklą.",
+                "Laikytis sutarties sąlygų.",
+                "Užtikrinti tinkamas maisto produktų transportavimo sąlygas.",
+                "Kruopščiai tikrinti maisto žaliavas jų priėmimo metu."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto produktų transportavimas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Transportavimo pakuotės turi būti sandarios, švarios, be purvo, dulkių ar kenkėjų pėdsakų.",
+                "Etiketėse turi būti aiškiai nurodytas galiojantis tinkamumo vartoti terminas.",
+                "Maisto žaliavų išvaizda ir kvapas transportuojant negali būti pakitę.",
+                "Greitai gendančių produktų transportavimo temperatūra turi atitikti gamintojo ar teisės aktuose numatytus reikalavimus. Kilus abejonių, temperatūra patikrinama produkto viduje ar tarp produktų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Priėmimo kontrolė:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Jei priėmimo metu nustatomi neatitikimai (pvz.: sugadinta pakuotė, pasibaigęs galiojimas ar netinkama temperatūra), produktai nepriimami, o apie tai nedelsiant informuojamas tiekėjas.",
+                "Jei netinkami produktai jau priimti, jie paženklinami užrašu „**Sulaikyti**“, o vėliau utilizuojami arba grąžinami utilizuoti tiekėjui.",
+                "Greitai gendančių produktų žurnalas pildomas tik tuo atveju, jei nustatomi neatitikimai. Jei lydimieji dokumentai ir sąskaitos faktūros pateikiamos ir saugomos įmonėje, žurnalo pildyti nereikia."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto produktų ir žaliavų laikymo tvarka:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Maisto žaliavos, pakavimo medžiagos, pusgaminiai ir paruošti patiekalai turi būti laikomi specialiai tam pritaikytose patalpose, kuriose užtikrintas tinkamas apšvietimas ir ventiliacija.",
+                "Skirtingų rūšių produktai (mėsa, žuvis, vaisiai, daržovės, duonos gaminiai, pieno produktai, perdirbti ir neperdirbti gaminiai) turi būti laikomi atskirai, vengiant kryžminės taršos.",
+                "Sandėliuojamos maisto žaliavos laikomos ant padėklų, lentynose ar šaldymo įrenginiuose, niekada – ant grindų.",
+                "Visi šaldymo ir šilumos palaikymo įrenginiai bei šaldymo patalpos turi būti sunumeruoti. Jų temperatūra turi būti reguliariai tikrinama ir fiksuojama specialiame maisto žaliavų laikymo žurnale."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Rekomenduojami laikymo terminai:"
+            },
+            {
+              "type": "img",
+              "text": "img3.png",
+              "class": "margin-xxl"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Saugūs maisto tvarkymo principai"
+            },
+            {
+              "type": "heading",
+              "text": "Maisto transportavimo higienos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Reikalavimai maisto produktų transportui"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto produktams pervežti naudojamos transporto priemonės bei konteineriai privalo atitikti teisės aktuose numatytus higienos reikalavimus, būti švarūs, tvarkingi, geros būklės ir reguliariai prižiūrimi. Jų konstrukcija turi užtikrinti galimybę patogiai valyti ir, esant poreikiui, dezinfekuoti."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto transportavimo taisyklės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Transportuojant negalima pažeisti pakuočių vientisumo, deformuoti ar kitaip sugadinti pakuočių.",
+                "Po kiekvieno pervežimo transporto priemonė turi būti išvaloma, jei reikia – išplaunama ir dezinfekuojama. Šie veiksmai fiksuojami specialiuose žurnaluose.",
+                "Valymą ir dezinfekavimą gali atlikti tik leidimą turinti ir apmokyta įmonė.",
+                "Transporto priemonių talpyklos ar konteineriai naudojami tik maisto produktams. Jie turi būti pažymėti užrašu „Tik maisto produktams“.",
+                "Sutartyje tarp vežėjo ir užsakovo turi būti aptartos gabenimo sąlygos ir režimai.",
+                "Maisto produktų gabenimo metu draudžiama transportuoti atliekas, šiukšles ar chemines medžiagas.",
+                "Nefasuoti skysčiai, granulės, milteliai pervežami tik specialiose maisto produktų talpyklose ar cisternose."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Temperatūros kontrolė:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Gabenimo metu būtina kontroliuoti temperatūrą, fiksuoti jos parodymus.",
+                "Greitai užšaldyti maisto produktai turi būti vežami laikantis -18 °C arba žemesnės temperatūros visoje produkto laikymo vietoje.",
+                "Leidžiamas trumpalaikis temperatūros svyravimas – ne daugiau kaip +3 °C transportavimo metu ir vietiniame paskirstyme.",
+                "Iškrovimo metu temperatūros pokytis taip pat negali viršyti ±3 °C."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Galimi maisto produktų užteršimo šaltiniai transportavimo metu:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Pasibaigęs galiojimo laikas.",
+                "Pažeistos ar suterštos pakuotės.",
+                "Nesilaikyta temperatūrinio režimo.",
+                "Kryžminė tarša."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Dokumentų reikalavimai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Krovininio transporto įmonės, vežančios maisto produktus, turi turėti galiojantį Maisto tvarkymo subjekto patvirtinimo pažymėjimą (MTSPP).",
+                "Įmonė turi užtikrinti, kad transportavimo procese būtų taikomi rizikos veiksnių analizės ir svarbių valdymo taškų principai (RVASVT).",
+                "Viešojo maitinimo įmonėms, kurios veža pagamintus patiekalus, MTSPP dokumente turi būti nurodytos papildomos veiklos sritys: „Pagaminto valgio tiekimas renginiams“ arba „Maisto tiekėjų pagal sutartį veikla“."
+              ]
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "page_content": [
+            {
+              "type": "floating-heading",
+              "text": "Bendri reikalavimai patalpoms ir jų priežiūra"
+            },
+            {
+              "type": "heading",
+              "text": "Maisto ženklinimas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Maisto ženklinimas – tai su maisto produktu susiję žodžiai, duomenys, prekės ženklai, registruotas prekės pavadinimas, vaizduojamoji medžiaga arba simbolis, pateikti ant pakuotės ar informaciniame lapelyje, etiketėje, žiede ar lankelyje, pridedamuose prie tokio maisto produkto arba jį nurodančiuose."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bendrieji ženklinimo reikalavimai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Duomenys ant pakuotės ar etiketės turi būti atspausdinti taip, kad būtų lengva juos įskaityti.",
+                "Ženklinimo informacija turi būti pateikta valstybine kalba.",
+                "Papildoma ženklinimo informacija gali būti pateikta ir užsienio kalbomis.",
+                "Ženklinamiems maisto produktams neturi būti priskiriamos gydomosios ar profilaktinės savybės.",
+                "Jei maisto produktai pateikiami nefasuoti, informacija pateikiama atitiktį patvirtinančiuose dokumentuose ar etiketėse."
+              ]
+            },
+            {
+              "type": "img",
+              "text": "img4.jpg"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sudedamųjų dalių sąrašas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Maisto produkto sudedamųjų dalių kiekis mažėjančia tvarka turi būti pateiktas sudedamųjų dalių sąraše.",
+                "Alergijas ar netoleravimą sukeliančios medžiagos parenkant šriftą, stilių arba fono spalvą turi aiškiai išsiskirti iš kitų sąrašo sudedamųjų dalių.",
+                "Ženklinimo etiketėse turi būti nurodyta, jei produkto sudėtyje yra daugiau kaip 0,9 proc. genetiškai modifikuotų organizmų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Grynasis kiekis:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Skysčių grynasis kiekis nurodytas litrais, centilitrais arba mililitrais, kitų produktų kiekis – kilogramais arba gramais.",
+                "Jei kietas maisto produktas pateikiamas skystoje terpėje, ženklinant nurodomas ir grynasis maisto produkto svoris be skystos terpės, o jei maisto produktas yra glazūruotas – be glazūros."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maistingumo deklaracija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Maistingumo deklaracijoje nurodoma ši informacija: energinė vertė ir riebalų, sočiųjų riebalų rūgščių, angliavandenių, cukrų, baltymų ir druskos kiekiai.",
+                "Deklaracijos turinys gali būti papildytas nurodant mononesočiųjų riebalų rūgščių, polinesočiųjų riebalų rūgščių, poliolių, krakmolo, skaidulinių medžiagų ir vitaminų ar mineralinių medžiagų (kurių kiekiai yra dideli) kiekius.",
+                "Informacija nurodoma 100 g arba 100 ml produkto.",
+                "Teiginiuose apie maistingumą tiesiogiai ar netiesiogiai pažymima, kad produktas turi tam tikrų naudingų maistinių arba kitų savybių.",
+                "Teiginiuose apie sveikumą tiesiogiai ar netiesiogiai pažymima, kad maisto produkto kategorijos, viena ar kelios maisto produkto sudedamosios dalys turi ryšį su sveikata.",
+                "Teiginius apie maistingumą ir sveikumą vartoti leidžiama tik tuos, kurie atitinka reglamento reikalavimus ir yra įtraukti į leidžiamų vartoti teiginių sąrašus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Minimalus tinkamumo vartoti terminas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Tinkamumo vartoti terminas žymimas „Geriausias iki…“ ir įrašoma data (diena, mėnuo, metai) arba pateikiama nuoroda, kurioje pakuotės ženklinimo vietoje nurodytas galiojimas.",
+                "Tačiau maisto produktų, kurie mikrobiologiniu atžvilgiu yra greitai gendantys, minimalus tinkamumo vartoti terminas nurodomas taip: „Tinka vartoti iki…“"
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Užšaldymo data"
+            },
+            {
+              "type": "paragraph",
+              "text": "Šaldytos mėsos pusgaminių ir šaldytų neperdirbtų žuvininkystės produktų užšaldymo datą arba pirmojo užšaldymo datą, jei produktas buvo užšaldytas daugiau nei vieną kartą: „Užšaldyta … (diena, mėnuo ir metai)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ant pakuotės turi būti nurodytas maisto tvarkymo subjekto (gamintojo, pakuotojo, pardavėjo ar importuotojo į Europos sąjungos rinką) pavadinimas ir adresas."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Informacija apie ekologiškumą"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "ES pagaminti ir supakuoti ekologiški maisto produktai turi būti paženklinti ES ekologinės gamybos logotipu.",
+                "Lietuvoje užauginti ar pagaminti ekologiški žemės ūkio ir maisto produktai privalo turėti ir prekės ženklą „Ekologinis žemės ūkis“."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Simbolis „Rakto skylutė“"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "„Rakto skylutės“ simboliu žymimi maisto produktai, kuriuose: mažiau riebalų, mažiau cukraus, mažiau druskos, daugiau maistinių skaidulinių medžiagų nei kituose tos pačios grupės produktuose.",
+                "Juo siekiama: mažinti Lietuvos gyventojų sergamumą širdies ir kraujagyslių, onkologinėmis ligomis, antsvoriu, nutukimu, antrojo tipo cukriniu diabetu.",
+                "Tai Sveikatos apsaugos ministerijos Lietuvoje įteisintas tarptautinis maisto produktų ženklas."
+              ]
+            },
+            {
+              "type": "img",
+              "text": "img5.png",
+              "class": "margin-xxl"
             }
           ]
         }

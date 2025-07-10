@@ -48,7 +48,7 @@ const RouteObserver = () => {
   useEffect(() => {
     const path = location.pathname;
     const pathSegments = path.split('/');
-    if (pathSegments.length > 1 && ['firstaid', 'hygiene1', 'hygiene2', 'hygiene3', 'hygiene4', 'hygieneh3', 'hygienehb', 'hygieneh10'].includes(pathSegments[1])) {
+    if (pathSegments.length > 1 && ['firstaid', 'hygiene1', 'hygiene2', 'hygiene3', 'hygiene4', 'hygieneh3', 'hygienehb', 'hygieneh10', 'hygienehbb'].includes(pathSegments[1])) {
       setSelectedProduct(pathSegments[1]);
     }
   }, [location.pathname, setSelectedProduct]);
@@ -136,6 +136,7 @@ const AppContent: React.FC = () => {
     { name: 'hygieneh3', title: 'Higienos mokymai H3' },
     { name: 'hygienehb', title: 'Higienos mokymai HB' },
     { name: 'hygieneh10', title: 'Higienos mokymai H10' },
+    { name: 'hygienehbb', title: 'Higienos mokymai HBB' },
   ];
 
   return (
