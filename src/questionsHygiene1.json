@@ -1,0 +1,239 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus.",
+      "questions": []
+    },
+    {
+      "sectionId": "2",
+      "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks turi būti maksimalus vandens gylis maudymosi vietose ikimokyklinio amžiaus vaikams ir vaikams, nemokantiems plaukti?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "0,5 m" },
+            { "optionId": "opt1b", "optionText": "0,7 m" },
+            { "optionId": "opt1c", "optionText": "1,3 m" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kaip dažnai stovyklos maudymosi vietų vandens mikrobiologiniai tyrimai turi būti atliekami?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Kartą per savaitę" },
+            { "optionId": "opt2b", "optionText": "Prieš stovyklos atidarymą" },
+            { "optionId": "opt2c", "optionText": "Kas mėnesį" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kiek vaikų iki 10 metų gali būti apgyvendinta viename stovyklos gyvenamajame kambaryje (miegamajame)?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ne daugiau kaip 5" },
+            { "optionId": "opt3b", "optionText": "Ne daugiau kaip 10" },
+            { "optionId": "opt3c", "optionText": "Ne daugiau kaip 15" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kiek unitazų turi būti įrengta 30-iai mergaičių stovykloje pagal nustatytą normą?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "1" },
+            { "optionId": "opt4b", "optionText": "2" },
+            { "optionId": "opt4c", "optionText": "3" }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kokia turi būti oro temperatūra vaikų stovyklos gyvenamuosiuose kambariuose ir ugdymo patalpose?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "16–24 °C" },
+            { "optionId": "opt5b", "optionText": "18–28 °C" },
+            { "optionId": "opt5c", "optionText": "20–30 °C" }
+          ],
+          "correctAnswer": "opt5b"
+        },
+        {
+          "id": "q6",
+          "question": "Kuriose patalpose leidžiama naudoti tik dirbtinį apšvietimą vaikų stovykloje?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Miegamuosiuose" },
+            { "optionId": "opt6b", "optionText": "Tualetuose ir sandėliuose" },
+            { "optionId": "opt6c", "optionText": "Valgykloje" }
+          ],
+          "correctAnswer": "opt6b"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Teritorijos, patalpų, įrenginių priežiūra.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kaip dažnai turi būti keičiamas ar atnaujinamas smėlis vaikų žaidimų dėžėse stovykloje?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Kartą per mėnesį" },
+            { "optionId": "opt1b", "optionText": "Kartą per metus" },
+            { "optionId": "opt1c", "optionText": "Kas dvi savaitės" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kur turi būti laikomos valymo ir dezinfekcijos priemonės stovykloje?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Virtuvėje, vaikams pasiekiamoje vietoje" },
+            { "optionId": "opt2b", "optionText": "Vaikams neprieinamoje vietoje" },
+            { "optionId": "opt2c", "optionText": "Bendroje sandėliavimo patalpoje su maisto atsargomis" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Ką draudžiama vykdyti vaikams esant stovyklos patalpose?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Stovyklos vadovo susirinkimus" },
+            { "optionId": "opt3b", "optionText": "Aplinkos kenksmingumo pašalinimą ar remonto darbus" },
+            { "optionId": "opt3c", "optionText": "Valymo darbus" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Ką būtina daryti atsiradus patalpų ar inventoriaus defektams, galintiems kelti pavojų vaikų sveikatai ar saugumui?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Užregistruoti juos inventoriaus žurnale" },
+            { "optionId": "opt4b", "optionText": "Pašalinti nedelsiant" },
+            { "optionId": "opt4c", "optionText": "Informuoti vaikus ir tęsti veiklą" }
+          ],
+          "correctAnswer": "opt4b"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Dienos režimo ir maitinimo organizavimas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kaip dažnai vaikai stovykloje turi būti maitinami?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "3 kartus per dieną" },
+            { "optionId": "opt1b", "optionText": "Ne rečiau kaip 4 kartus per dieną, kas 3,5–4 valandas" },
+            { "optionId": "opt1c", "optionText": "5 kartus per dieną kas 2 valandas" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Ką iš šio sąrašo draudžiama tiekti vaikams stovykloje?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Vaisius ir daržoves" },
+            { "optionId": "opt2b", "optionText": "Konditerijos gaminius su kremu" },
+            { "optionId": "opt2c", "optionText": "Sriubą" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Ką būtina užtikrinti žygio metu vaikų maitinimui?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Kad kiekvienas vaikas turėtų saldumynų" },
+            { "optionId": "opt3b", "optionText": "Kad būtų pakankamai maisto ir geriamojo vandens, bet be greitai gendančių produktų" },
+            { "optionId": "opt3c", "optionText": "Kad būtų karštas patiekalas" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kas gali organizuoti vaikų maitinimą stovyklose?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Bet kuris stovyklos darbuotojas" },
+            { "optionId": "opt4b", "optionText": "Maisto tvarkymo subjektai, turintys teisę verstis maisto tvarkymu" },
+            { "optionId": "opt4c", "optionText": "Vaikų tėvai" }
+          ],
+          "correctAnswer": "opt4b"
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "title": "Ugdymo proceso higiena.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kokią sveikatos pažymą turi turėti vaikas, kad galėtų būti priimtas į stovyklą?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Bet kokią gydytojo pažymą" },
+            { "optionId": "opt1b", "optionText": "Vaiko sveikatos pažymėjimą (forma Nr. 027-1/a), išduotą ne anksčiau kaip prieš metus" },
+            { "optionId": "opt1c", "optionText": "Tik tėvų patvirtinimą" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kas turi būti stovyklos pirmosios pagalbos rinkinyje?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Tik vaistai nuo skausmo" },
+            { "optionId": "opt2b", "optionText": "Sudėtis turi atitikti teisės akto reikalavimus" },
+            { "optionId": "opt2c", "optionText": "Tik plėvelės ir pleistrai" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Ką turi daryti stovyklos vadovas, jei per 1–2 dienas 2 ar daugiau vaikų pasireiškia užkrečiamosios ligos simptomai?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Informuoti tėvus" },
+            { "optionId": "opt3b", "optionText": "Nedelsiant telefonu informuoti teritorinę visuomenės sveikatos priežiūros įstaigą" },
+            { "optionId": "opt3c", "optionText": "Nieko nedaryti" }
+          ],
+          "correctAnswer": "opt3b"
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "title": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai).",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuri vakcina turi būti suleista naujagimiui per 24 valandas po gimimo?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "BCG (tuberkuliozės vakcina)" },
+            { "optionId": "opt1b", "optionText": "HepB (hepatito B vakcina)" },
+            { "optionId": "opt1c", "optionText": "DTaP (kokliušo, difterijos, stabligės vakcina)" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kurių vakcinų skiepijimas gali vykti kartu (vieno vizito metu) su MMR vakcina?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "PCV ir MenB" },
+            { "optionId": "opt2b", "optionText": "HepB ir RV" },
+            { "optionId": "opt2c", "optionText": "Tdap ir Hib" }
+          ],
+          "correctAnswer": "opt2a"
+        },
+        {
+          "id": "q3",
+          "question": "Kiek HPV vakcinos dozių yra nemokamai skiepijami visi vaikai pagal standartinę schemą?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Viena dozė" },
+            { "optionId": "opt3b", "optionText": "Dvi dozės" },
+            { "optionId": "opt3c", "optionText": "Tris dozės" }
+          ],
+          "correctAnswer": "opt3b"
+        }
+      ]
+    }
+  ]
+}

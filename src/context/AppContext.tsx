@@ -60,40 +60,40 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
       setQuestionnaireMaterial(require("../questions.json"));
     } else if (selectedProduct === "hygiene1") {
       setMaterial(require("../contentHygiene1.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygiene1.json"));
     } else if (selectedProduct === "hygiene2") {
       setMaterial(require("../contentHygiene2.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygiene2.json"));
     } else if (selectedProduct === "hygiene3") {
       setMaterial(require("../contentHygiene3.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygiene3.json"));
     } else if (selectedProduct === "hygiene4") {
       setMaterial(require("../contentHygiene4.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygiene4.json"));
     } else if (selectedProduct === "hygieneh3") {
       setMaterial(require("../contentHygieneh3.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygieneh3.json"));
     } else if (selectedProduct === "hygienehb") {
       setMaterial(require("../contentHygienehb.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygienehb.json"));
     } else if (selectedProduct === "hygieneh10") {
       setMaterial(require("../contentHygieneh10.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygieneh10.json"));
     } else if (selectedProduct === "hygienehbb") {
       setMaterial(require("../contentHygienehbb.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygienehbb.json"));
     } else if (selectedProduct === "hygieneh15") {
       setMaterial(require("../contentHygieneh15.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygieneh15.json"));
     } else if (selectedProduct === "hygieneh12") {
       setMaterial(require("../contentHygieneh12.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygieneh12.json"));
     } else if (selectedProduct === "hygieneh4") {
       setMaterial(require("../contentHygieneh4.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygieneh4.json"));
     } else if (selectedProduct === "hygieneh7") {
       setMaterial(require("../contentHygieneh7.json"));
-      setQuestionnaireMaterial(require("../questionsHygiene.json"));
+      setQuestionnaireMaterial(require("../questionsHygieneh7.json"));
     }
   }, [selectedProduct]);
 

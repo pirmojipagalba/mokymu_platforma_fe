@@ -1,0 +1,272 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus.",
+      "questions": []
+    },
+    {
+      "sectionId": "2",
+      "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kokia turi būti naujai steigiamos vaikų socialinės globos įstaigos teritorijos neužstatyta dalis, skirta vienam vaikui?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Ne mažesnė kaip 4 kv. m" },
+            { "optionId": "opt1b", "optionText": "Ne mažesnė kaip 6 kv. m" },
+            { "optionId": "opt1c", "optionText": "Ne mažesnė kaip 10 kv. m" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kiek vaikų gali gyventi viename kambaryje socialinės globos namuose?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Ne daugiau kaip 6" },
+            { "optionId": "opt2b", "optionText": "Ne daugiau kaip 4" },
+            { "optionId": "opt2c", "optionText": "Ne daugiau kaip 3" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kokiose patalpose draudžiama įrengti vaikų miegamuosius ir individualios veiklos kambarius?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Pirmame aukšte" },
+            { "optionId": "opt3b", "optionText": "Rūsiuose ir pusrūsiuose" },
+            { "optionId": "opt3c", "optionText": "Antrame aukšte" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kokia turi būti dirbtinė apšvieta (lx) vaikų individualios veiklos vietose, kompiuterizuotose vietose, pamokų ruošos kambaryje, bendruosiuose kambariuose ir miegamuosiuose?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "100 lx" },
+            { "optionId": "opt4b", "optionText": "200 lx" },
+            { "optionId": "opt4c", "optionText": "300 lx" }
+          ],
+          "correctAnswer": "opt4c"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Teritorijos, patalpų, įrenginių priežiūra.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kaip dažnai turi būti keičiama ar atnaujinama žaidimų aikštelių smėlio dėžėse esantis smėlis?",
+          "options": [
+            { "optionId": "opt3t1a", "optionText": "Kiekvieną mėnesį" },
+            {
+              "optionId": "opt3t1b",
+              "optionText": "Kiekvieną pavasarį ir pagal epidemiologinę situaciją"
+            },
+            { "optionId": "opt3t1c", "optionText": "Kartą per metus" }
+          ],
+          "correctAnswer": "opt3t1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kaip turi būti laikomos valymo ir dezinfekcijos priemonės vaikų socialinės globos įstaigose?",
+          "options": [
+            { "optionId": "opt3t2a", "optionText": "Spintoje prie įėjimo" },
+            {
+              "optionId": "opt3t2b",
+              "optionText": "Vaikams lengvai pasiekiamoje vietoje"
+            },
+            {
+              "optionId": "opt3t2c",
+              "optionText": "Vaikams neprieinamoje vietoje"
+            }
+          ],
+          "correctAnswer": "opt3t2c"
+        },
+        {
+          "id": "q3",
+          "question": "Kada draudžiama atlikti dezinfekciją, dezinsekciją, deratizaciją ar patalpų remontą vaikų globos įstaigose?",
+          "options": [
+            { "optionId": "opt3t3a", "optionText": "Naktį" },
+            { "optionId": "opt3t3b", "optionText": "Vaikams esant patalpose" },
+            { "optionId": "opt3t3c", "optionText": "Savaitgaliais" }
+          ],
+          "correctAnswer": "opt3t3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kaip dažnai turi būti keičiama vaikų patalynė ir rankšluosčiai?",
+          "options": [
+            {
+              "optionId": "opt3t4a",
+              "optionText": "Pagal poreikį, bet ne rečiau kaip 1 kartą per savaitę"
+            },
+            { "optionId": "opt3t4b", "optionText": "Kartą per mėnesį" },
+            { "optionId": "opt3t4c", "optionText": "Kas antrą savaitę" }
+          ],
+          "correctAnswer": "opt3t4a"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Dienos režimo ir maitinimo organizavimas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kiek valandų naktį turi miegoti 6–10 metų vaikas?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "9 val." },
+            { "optionId": "opt1b", "optionText": "10 val." },
+            { "optionId": "opt1c", "optionText": "8,5 val." }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokiomis sąlygomis žiemos metu į lauką gali būti vedami ikimokyklinio amžiaus vaikai, nelankantys ugdymo įstaigos?",
+          "options": [
+            {
+              "optionId": "opt2a",
+              "optionText": "Kai temperatūra ne žemesnė kaip –12 °C ir vėjo greitis ne didesnis kaip 2 m/s arba –8 °C ir vėjo greitis ne didesnis kaip 6 m/s"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Kai temperatūra ne žemesnė kaip –10 °C ir bet koks vėjo greitis"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Kai temperatūra ne žemesnė kaip –5 °C ir vėjo greitis ne didesnis kaip 10 m/s"
+            }
+          ],
+          "correctAnswer": "opt2a"
+        },
+        {
+          "id": "q3",
+          "question": "Ar vaikų socialinės globos įstaigose turi būti sudaromos sąlygos vaikams pamiegoti dieną, jei jie to pageidauja ar reikia?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ne, tai neprivaloma" },
+            {
+              "optionId": "opt3b",
+              "optionText": "Taip, jei vaikas to pageidauja ar esant poreikiui"
+            },
+            { "optionId": "opt3c", "optionText": "Tik vaikams iki 3 metų" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kokia yra rekomenduojama nakties miego trukmė 15–17 metų vaikams?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "10 val." },
+            { "optionId": "opt4b", "optionText": "8,5 val." },
+            { "optionId": "opt4c", "optionText": "9 val." }
+          ],
+          "correctAnswer": "opt4b"
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "title": "Ugdymo proceso higiena.",
+      "questions": [
+        {
+          "id": "g1",
+          "question": "Kokia turi būti šildymo prietaisų paviršiaus temperatūra vaikų socialinės globos įstaigose?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Ne aukštesnė kaip 50 °C" },
+            { "optionId": "opt1b", "optionText": "Ne aukštesnė kaip 42 °C" },
+            { "optionId": "opt1c", "optionText": "Ne aukštesnė kaip 45 °C" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia oro temperatūra turi būti vaikų miegamuosiuose patalpose?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "20–24 °C" },
+            { "optionId": "opt2b", "optionText": "18–22 °C" },
+            { "optionId": "opt2c", "optionText": "16–20 °C" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kokiose patalpose būtina įrengti ištraukiamąją vėdinimo sistemą?",
+          "options": [
+            {
+              "optionId": "opt3a",
+              "optionText": "Tik virtuvėje ir tualetuose"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Tualetuose, vonios (dušo) patalpose, virtuvėje, renginių ir kūno kultūros salėje, skalbykloje (jei yra įrengta)"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Tik skalbykloje ir virtuvėje"
+            }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kokia turi būti karšto vandens temperatūra vaikų tualetuose ir vonios (dušo) patalpose?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "30–50 °C" },
+            { "optionId": "opt4b", "optionText": "37–42 °C" },
+            { "optionId": "opt4c", "optionText": "40–50 °C" }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kokiu dažnumu socialinės globos namuose dėl legioneliozių prevencijos karšto vandens sistemoje temperatūra turi būti pakeliama iki 66 °C ir išlaikoma 25 minutes?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "Kas mėnesį" },
+            { "optionId": "opt5b", "optionText": "Kas 6 mėnesius" },
+            { "optionId": "opt5c", "optionText": "Kas 3 mėnesius" }
+          ],
+          "correctAnswer": "opt5c"
+        },
+        {
+          "id": "q6",
+          "question": "Koks turi būti oro judėjimo greitis vaikų socialinės globos įstaigų patalpose šaltuoju metų laiku?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Ne daugiau kaip 0,25 m/s" },
+            { "optionId": "opt6b", "optionText": "Ne daugiau kaip 0,15 m/s" },
+            { "optionId": "opt6c", "optionText": "Ne daugiau kaip 0,10 m/s" }
+          ],
+          "correctAnswer": "opt6b"
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "title": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai).",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kada turi būti įskiepijama pirmoji hepatito B (HepB) vakcinos dozė naujagimiui?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Per 48 val. po gimimo" },
+            { "optionId": "opt1b", "optionText": "Per 24 val. po gimimo" },
+            { "optionId": "opt1c", "optionText": "Per savaitę po gimimo" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kuris iš šių augalų yra draudžiamas sodinti vaikų socialinės globos įstaigų ir šeimynų teritorijoje, nes nuodinga visa jo dalis, ypač uogos?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Paprastoji pakalnutė" },
+            { "optionId": "opt2b", "optionText": "Amerikinė fitolaka" },
+            { "optionId": "opt2c", "optionText": "Rudeninis vėlyvis" }
+          ],
+          "correctAnswer": "opt2b"
+        }
+      ]
+    }
+  ]
+}

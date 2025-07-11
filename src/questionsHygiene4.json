@@ -1,0 +1,239 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus.",
+      "questions": []
+    },
+    {
+      "sectionId": "2",
+      "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kaip apskaičiuojama minimali neužstatyta mokyklos sklypo dalis, skirta mokinių poilsiui?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Planuojamas mokinių skaičius padauginamas iš 5 ir pridedama 500 kv. m." },
+            { "optionId": "opt1b", "optionText": "Planuojamas mokinių skaičius padauginamas iš 3 ir pridedama 800 kv. m." },
+            { "optionId": "opt1c", "optionText": "Planuojamas mokinių skaičius padauginamas iš 2 ir pridedama 1000 kv. m." }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia turi būti minimali universali sporto aikštelės dydis pradinės mokyklos sklype?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Ne mažesnė kaip 450 kv. m." },
+            { "optionId": "opt2b", "optionText": "Ne mažesnė kaip 800 kv. m." },
+            { "optionId": "opt2c", "optionText": "Ne mažesnė kaip 300 kv. m." }
+          ],
+          "correctAnswer": "opt2a"
+        },
+        {
+          "id": "q3",
+          "question": "Kiek plotas turi būti skirtas vienam mokiniui mokymo klasėje?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ne mažiau kaip 2,4 kv. m." },
+            { "optionId": "opt3b", "optionText": "Ne mažiau kaip 1,7 kv. m." },
+            { "optionId": "opt3c", "optionText": "Ne mažiau kaip 3 kv. m." }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kokia minimaliai turi būti sporto salės plotas vienam mokiniui fizinio ugdymo pamokose?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Ne mažiau kaip 8,5 kv. m." },
+            { "optionId": "opt4b", "optionText": "Ne mažiau kaip 10 kv. m." },
+            { "optionId": "opt4c", "optionText": "Ne mažiau kaip 6 kv. m." }
+          ],
+          "correctAnswer": "opt4a"
+        },
+        {
+          "id": "q5",
+          "question": "Kokia apšvietos vertė turi būti mokymo klasėse ant stalų horizontalios plokštumos?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "500 lx" },
+            { "optionId": "opt5b", "optionText": "300 lx" },
+            { "optionId": "opt5c", "optionText": "200 lx" }
+          ],
+          "correctAnswer": "opt5b"
+        },
+        {
+          "id": "q6",
+          "question": "Koks yra minimalus atstumas nuo kompiuterio monitoriaus iki mokinio akių?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Ne mažesnis kaip 40 cm" },
+            { "optionId": "opt6b", "optionText": "Ne mažesnis kaip 30 cm" },
+            { "optionId": "opt6c", "optionText": "Ne mažesnis kaip 50 cm" }
+          ],
+          "correctAnswer": "opt6a"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Teritorijos, patalpų, įrenginių priežiūra.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kokia tvarka turi būti vykdoma kenkėjų kontrolė mokykloje?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Pagal mokyklos darbuotojų nuožiūrą" },
+            { "optionId": "opt1b", "optionText": "Teisės akto nustatyta tvarka" },
+            { "optionId": "opt1c", "optionText": "Kartą per metus pagal mokinių pageidavimus" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kaip turi būti laikomas tualeto valymo inventorius?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Kartu su kitų patalpų valymo inventoriumi" },
+            { "optionId": "opt2b", "optionText": "Paženklintas ir atskirai nuo kitų patalpų inventoriaus" },
+            { "optionId": "opt2c", "optionText": "Mokinių kambaryje, kad būtų greitai pasiekiamas" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Ar mokiniams leidžiama naudoti valymo priemones, skirtas profesionaliesiems naudotojams?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ne, draudžiama skirti mokiniams naudoti tokias priemones" },
+            { "optionId": "opt3b", "optionText": "Taip, jei prižiūri mokytojas" },
+            { "optionId": "opt3c", "optionText": "Taip, bet tik mokyklos teritorijoje" }
+          ],
+          "correctAnswer": "opt3a"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Dienos režimo ir maitinimo organizavimas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kiek maksimaliai pamokų per dieną gali būti 2–4 klasėse?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "5" },
+            { "optionId": "opt1b", "optionText": "6" },
+            { "optionId": "opt1c", "optionText": "7" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia yra minimali pertraukos trukmė mokiniams pailsėti ar pavalgyti?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "5 min." },
+            { "optionId": "opt2b", "optionText": "10 min." },
+            { "optionId": "opt2c", "optionText": "20 min." }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kada pietūs mokykloje turi būti organizuojami?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Po 1 valandos nuo pamokų pradžios" },
+            { "optionId": "opt3b", "optionText": "Ne anksčiau kaip po 2,5 val. ir ne vėliau kaip praėjus 4 val. nuo pamokų pradžios" },
+            { "optionId": "opt3c", "optionText": "Bet kuriuo metu mokinių pasirinkimu" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kiek laiko neturi būti ilgesnė pamoka 1 klasėje?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "45 min." },
+            { "optionId": "opt4b", "optionText": "35 min." },
+            { "optionId": "opt4c", "optionText": "50 min." }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kokia yra ilgiausia nepertraukiamo mokymosi trukmė, jei ugdymas vyksta projekto ar kūrybinio darbo forma?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "45 min." },
+            { "optionId": "opt5b", "optionText": "60 min." },
+            { "optionId": "opt5c", "optionText": "90 min." }
+          ],
+          "correctAnswer": "opt5c"
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "title": "Ugdymo proceso higiena.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kas yra fizinės aplinkos dalis ugdymo proceso higienoje?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Emocinė mokinių gerovė ir streso mažinimas" },
+            { "optionId": "opt1b", "optionText": "Tinkamas apšvietimas, vėdinimas ir ergonomika (stalo ir kėdžių patogumas)" },
+            { "optionId": "opt1c", "optionText": "Sveika mityba ir fizinis aktyvumas" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia veikla priklauso psichologinei aplinkai ugdymo proceso higienoje?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Švarūs tualetai ir rankų plovimo įpročiai" },
+            { "optionId": "opt2b", "optionText": "Emocinė mokinių gerovė, streso mažinimas ir saugi atmosfera" },
+            { "optionId": "opt2c", "optionText": "Subalansuotas pamokų laikas ir pertraukos" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kas užtikrina socialinę aplinką ugdymo proceso higienoje?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ergonomiški stalai ir kėdės" },
+            { "optionId": "opt3b", "optionText": "Sveika mityba ir fizinis aktyvumas" },
+            { "optionId": "opt3c", "optionText": "Pagarba, bendradarbiavimas ir konfliktų sprendimas" }
+          ],
+          "correctAnswer": "opt3c"
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "title": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai).",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuri vakcina turi būti suleista naujagimiui per pirmąsias 24 valandas po gimimo?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "BCG (tuberkuliozės vakcina)" },
+            { "optionId": "opt1b", "optionText": "HepB (hepatito B vakcina)" },
+            { "optionId": "opt1c", "optionText": "DTaP (kokliušo, difterijos, stabligės vakcina)" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kurių vakcinų dozes galima suleisti kartu vieno vizito metu?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "BCG ir HepB" },
+            { "optionId": "opt2b", "optionText": "PCV, MenB ir MMR" },
+            { "optionId": "opt2c", "optionText": "HPV ir RV" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kiek dozių sudaro nemokama HPV vakcinos schema vaikams?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Viena dozė" },
+            { "optionId": "opt3b", "optionText": "Dvi dozės, tarp kurių turi būti ne trumpesnis kaip 6 mėn. tarpas" },
+            { "optionId": "opt3c", "optionText": "Trys dozės" }
+          ],
+          "correctAnswer": "opt3b"
+        }
+      ]
+    }
+  ]
+}

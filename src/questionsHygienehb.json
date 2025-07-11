@@ -1,0 +1,228 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kada būtina atlikti higieninę rankų antiseptiką?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Tik po darbo dienos pabaigos" },
+            { "optionId": "opt1b", "optionText": "Prieš ir po tiesioginio kontakto su pacientu" },
+            { "optionId": "opt1c", "optionText": "Tik jeigu rankos vizualiai nešvarios" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia yra viena svarbiausių taisyklių, prieš užsimaunant pirštines?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Pasitepti rankas kremu" },
+            { "optionId": "opt2b", "optionText": "Nusausinti rankas vienkartiniu rankšluosčiu" },
+            { "optionId": "opt2c", "optionText": "Palikti rankas drėgnas" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kokiu atveju grožio paslaugų teikėjas privalo dezinfekuoti rankas?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Tik pasibaigus darbo dienai" },
+            { "optionId": "opt3b", "optionText": "Prieš teikiant A kategorijos paslaugas, dirbant steriliais instrumentais" },
+            { "optionId": "opt3c", "optionText": "Tik jeigu nėra pirštinių" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kaip turi būti valomos rankos patekus ant jų paciento kraujo ar kūno skysčių?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Tiesiog nusausinant popieriniu rankšluosčiu" },
+            { "optionId": "opt4b", "optionText": "Nuplaunant tekančiu vandeniu ir muilu, po to dezinfekuojant" },
+            { "optionId": "opt4c", "optionText": "Tiesiog patepant kremu" }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kokio ilgio turi būti sveikatos priežiūros darbuotojų nagai?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "Ilgi, bet tvarkingi" },
+            { "optionId": "opt5b", "optionText": "Trumpai nukirpti, nelakuoti" },
+            { "optionId": "opt5c", "optionText": "Ilgi, su bespalviu laku" }
+          ],
+          "correctAnswer": "opt5b"
+        },
+        {
+          "id": "q6",
+          "question": "Ką būtina daryti chirurginio rankų paruošimo metu prieš pirmąją dienos operaciją?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Tik nusausinti rankas" },
+            { "optionId": "opt6b", "optionText": "Rankas plauti iki alkūnių" },
+            { "optionId": "opt6c", "optionText": "Tiesiog dezinfekuoti sausas rankas" }
+          ],
+          "correctAnswer": "opt6b"
+        }
+      ]
+    },
+    {
+      "sectionId": "2",
+      "title": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kas yra užkrečiamosios ligos?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Ligų grupė, kurias sukelia genetinės mutacijos." },
+            { "optionId": "opt1b", "optionText": "Ligų grupė, kurias sukelia mikroorganizmai, patekę į organizmą ir jame dauginantys." },
+            { "optionId": "opt1c", "optionText": "Ligų grupė, kurias sukelia cheminės medžiagos aplinkoje." }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kuri iš šių bakterijų savybių yra teisinga?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Bakterijos turi branduolį ir daugialąsčius organizmus." },
+            { "optionId": "opt2b", "optionText": "Bakterijos yra prokariotiniai organizmai, neturintys branduolio." },
+            { "optionId": "opt2c", "optionText": "Bakterijos neturi ląstelių sienelės." }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kaip užsikrečiama maliarija?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Per orą įkvepiant užkrėstą orą." },
+            { "optionId": "opt3b", "optionText": "Įkandus užkrėstam uodui." },
+            { "optionId": "opt3c", "optionText": "Suvalgius užkrėstą maistą." }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kuri dezinfekcijos rūšis atliekama, kai reikia visiškai likviduoti infekcijos židinį po ligonio pasveikimo?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Einamoji dezinfekcija." },
+            { "optionId": "opt4b", "optionText": "Baigiamoji dezinfekcija." },
+            { "optionId": "opt4c", "optionText": "Profilaktinė dezinfekcija." }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kuris iš šių mikroorganizmų yra mažiausias pagal dydį?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "Virusai." },
+            { "optionId": "opt5b", "optionText": "Grybai." },
+            { "optionId": "opt5c", "optionText": "Bakterijos." }
+          ],
+          "correctAnswer": "opt5a"
+        },
+        {
+          "id": "q6",
+          "question": "Kokia pagrindinė sporų funkcija?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Padeda mikroorganizmams dauginantis palankiomis sąlygomis." },
+            { "optionId": "opt6b", "optionText": "Leidžia mikroorganizmams išlikti nepalankioje aplinkoje." },
+            { "optionId": "opt6c", "optionText": "Didina mikroorganizmų medžiagų apykaitą." }
+          ],
+          "correctAnswer": "opt6b"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks yra pagrindinis žarnyno užkrečiamųjų ligų perdavimo kelias?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Oro lašelinis kelias" },
+            { "optionId": "opt1b", "optionText": "Fekalinis – oralinis kelias" },
+            { "optionId": "opt1c", "optionText": "Per kraują" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kuri iš šių infekcinių ligų plinta per kraują įkandus užkrėstam vabzdžiui?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Meningokokinė infekcija" },
+            { "optionId": "opt2b", "optionText": "Malarija" },
+            { "optionId": "opt2c", "optionText": "Gripą" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kurie mikroorganizmai dauginasi tik šeimininko ląstelėse?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Virusai" },
+            { "optionId": "opt3b", "optionText": "Bakterijos" },
+            { "optionId": "opt3c", "optionText": "Grybai" }
+          ],
+          "correctAnswer": "opt3a"
+        },
+        {
+          "id": "q4",
+          "question": "Kas yra infekcijos šaltinis?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Bet koks gyvas arba negyvas objektas, iš kurio patogenai gali patekti į organizmą" },
+            { "optionId": "opt4b", "optionText": "Tik sergantis žmogus" },
+            { "optionId": "opt4c", "optionText": "Tik gyvūnai" }
+          ],
+          "correctAnswer": "opt4a"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks yra pagrindinis užkrečiamųjų ligų profilaktikos tikslas?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Mažinti sergamumą ir užkirsti kelią ligų plitimui" },
+            { "optionId": "opt1b", "optionText": "Gydyti užsikrėtusius asmenis" },
+            { "optionId": "opt1c", "optionText": "Didinti ligų diagnostikos tikslumą" }
+          ],
+          "correctAnswer": "opt1a"
+        },
+        {
+          "id": "q2",
+          "question": "Kas yra užkrato nešiotojas?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Asmuo, kuris iš karto jaučia ligos simptomus" },
+            { "optionId": "opt2b", "optionText": "Asmuo, kuris nešioja sukėlėjus, bet neserga ir gali platinti ligą" },
+            { "optionId": "opt2c", "optionText": "Asmuo, kuris turi imunitetą nuo ligos" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kuri iš šių priemonių svarbiausia kovojant su infekcinėmis ligomis?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Izoliavimas, likvidavimas perdavimo mechanizmo ir imunoprofilaktika" },
+            { "optionId": "opt3b", "optionText": "Tik vakcinacija" },
+            { "optionId": "opt3c", "optionText": "Tik higienos taisyklių laikymasis" }
+          ],
+          "correctAnswer": "opt3a"
+        },
+        {
+          "id": "q4",
+          "question": "Kokį imunitetą įgyjame po vakcinacijos?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Įgimtą imunitetą" },
+            { "optionId": "opt4b", "optionText": "Dirbtinį įgytą imunitetą" },
+            { "optionId": "opt4c", "optionText": "Natūralų poinfekcinį imunitetą" }
+          ],
+          "correctAnswer": "opt4b"
+        }
+      ]
+    }
+  ]
+}

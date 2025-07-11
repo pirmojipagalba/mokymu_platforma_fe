@@ -1,0 +1,239 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Teisės aktai, reglamentuojantys vaikų socialinės globos organizavimo, vaikų ugdymo proceso bendruosius sveikatos saugos reikalavimus.",
+      "questions": []
+    },
+    {
+      "sectionId": "2",
+      "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks minimalus neužstatytos žaidimų aikštelės plotas turi būti skiriamas vienam vaikui?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "4 kv. m" },
+            { "optionId": "opt1b", "optionText": "6 kv. m" },
+            { "optionId": "opt1c", "optionText": "8 kv. m" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Koks minimalus tvoros aukštis turi būti aplink vaikų žaidimų aikšteles?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "1,0 m" },
+            { "optionId": "opt2b", "optionText": "1,2 m" },
+            { "optionId": "opt2c", "optionText": "1,5 m" }
+          ],
+          "correctAnswer": "opt2c"
+        },
+        {
+          "id": "q3",
+          "question": "Koks turi būti natūralios šviesos koeficientas grupių žaidimų patalpose?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "0,5 %" },
+            { "optionId": "opt3b", "optionText": "1,0 %" },
+            { "optionId": "opt3c", "optionText": "1,5 %" }
+          ],
+          "correctAnswer": "opt3c"
+        },
+        {
+          "id": "q4",
+          "question": "Koks apšvietimo lygis (lx) turi būti grupių žaidimų patalpose?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "100 lx" },
+            { "optionId": "opt4b", "optionText": "200 lx" },
+            { "optionId": "opt4c", "optionText": "300 lx" }
+          ],
+          "correctAnswer": "opt4c"
+        },
+        {
+          "id": "q5",
+          "question": "Kokia maksimaliai gali būti šildymo prietaisų paviršiaus temperatūra vaikų prieinamose vietose?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "38 °C" },
+            { "optionId": "opt5b", "optionText": "40 °C" },
+            { "optionId": "opt5c", "optionText": "42 °C" }
+          ],
+          "correctAnswer": "opt5c"
+        },
+        {
+          "id": "q6",
+          "question": "Kokio intervalo temperatūra turi būti karštame vandenyje tualetuose ir prausyklose?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "30–37 °C" },
+            { "optionId": "opt6b", "optionText": "37–42 °C" },
+            { "optionId": "opt6c", "optionText": "40–45 °C" }
+          ],
+          "correctAnswer": "opt6b"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Teritorijos, patalpų, įrenginių priežiūra.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kokia turi būti minimaliai skiriama patalpų/erdvių plotas vienam vaikui iki 3 metų amžiaus?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "2 kv. m" },
+            { "optionId": "opt1b", "optionText": "3 kv. m" },
+            { "optionId": "opt1c", "optionText": "4 kv. m" }
+          ],
+          "correctAnswer": "opt1c"
+        },
+        {
+          "id": "q2",
+          "question": "Kokių patalpų turi būti įrengta, jei grupėje vaikai maitinami?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Patalpa su plautuve indams plauti arba automatinė indų plovimo mašina ir plautuvė rankoms plauti, vieta indams ir stalo įrankiams laikyti" },
+            { "optionId": "opt2b", "optionText": "Tik valgymo salė" },
+            { "optionId": "opt2c", "optionText": "Patalpa su plautuve indams plauti arba automatinė indų plovimo mašina ir plautuvė rankoms plauti, vieta indams ir stalo įrankiams laikyti + bendroje valgymo salėje ar šalia jos vieta indams laikyti" }
+          ],
+          "correctAnswer": "opt2c"
+        },
+        {
+          "id": "q3",
+          "question": "Kur leidžiama laikyti naminius gyvūnus ikimokyklinio ugdymo įstaigoje?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Bet kur grupės patalpose" },
+            { "optionId": "opt3b", "optionText": "Tik atskiroje patalpoje, išskyrus saugiai įrengtus akvariumus su žuvytėmis grupių patalpose, jei nėra alergiškų vaikų" },
+            { "optionId": "opt3c", "optionText": "Tiesiog lauke teritorijoje" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kokių reikalavimų turi atitikti vaikams skirti baldai?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Gali būti bet kokie, svarbu, kad būtų patogūs" },
+            { "optionId": "opt4b", "optionText": "Gali būti seni, bet tvarkingi" },
+            { "optionId": "opt4c", "optionText": "Baldai turi būti geros būklės, pritaikyti vaikų ūgiui, kad pėda būtų visu padu ant grindų, o alkūnė prie stalo būtų apytikriai tame pačiame lygyje" }
+          ],
+          "correctAnswer": "opt4c"
+        },
+        {
+          "id": "q5",
+          "question": "Kaip turi būti įrengtos lovos vaikų miegui iki 1,5 metų?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "Be jokių apsaugų" },
+            { "optionId": "opt5b", "optionText": "Tik su aukštu čiužiniu" },
+            { "optionId": "opt5c", "optionText": "Su sienelėmis, kad vaikas neiškristų" }
+          ],
+          "correctAnswer": "opt5c"
+        },
+        {
+          "id": "q6",
+          "question": "Kaip turi būti laikomos valymo ir dezinfekcijos priemonės?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Patalpose, kuriose dirba darbuotojai, prie vaikų" },
+            { "optionId": "opt6b", "optionText": "Vaikams neprieinamoje vietoje" },
+            { "optionId": "opt6c", "optionText": "Atvirai, kad būtų greitai pasiekiamos" }
+          ],
+          "correctAnswer": "opt6b"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Dienos režimo ir maitinimo organizavimas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kada vaikai ikimokyklinio ugdymo įstaigoje nepriimami?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Jei turi užkrečiamųjų ligų požymių arba utėlių." },
+            { "optionId": "opt1b", "optionText": "Jei yra pavargę po žaidimų lauke." },
+            { "optionId": "opt1c", "optionText": "Jei neatsineša žaislų iš namų." }
+          ],
+          "correctAnswer": "opt1a"
+        },
+        {
+          "id": "q2",
+          "question": "Kiek kartų per dieną vaikai turi būti vedami į lauką?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Vieną kartą per dieną." },
+            { "optionId": "opt2b", "optionText": "Du kartus per dieną." },
+            { "optionId": "opt2c", "optionText": "Keturis kartus per dieną." }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kur ir kokiomis sąlygomis turi būti laikomas motinos pienas?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Šaldytuve 4–5 °C temperatūroje, o sušaldytas – šaldiklyje minus 18 °C temperatūroje." },
+            { "optionId": "opt3b", "optionText": "Kambario temperatūroje bet kurioje vietoje." },
+            { "optionId": "opt3c", "optionText": "Ant radiatoriaus ar šalia šilumos šaltinio." }
+          ],
+          "correctAnswer": "opt3a"
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "title": "Ugdymo proceso higiena.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kada vaikai ikimokyklinio ir priešmokyklinio ugdymo įstaigoje nepriimami?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Jei yra pavargę ir nenori dalyvauti veikloje." },
+            { "optionId": "opt1b", "optionText": "Jei turi užkrečiamųjų ligų ar kitų ūmių sveikatos sutrikimų požymių, taip pat turi utėlių ar glindų." },
+            { "optionId": "opt1c", "optionText": "Jei pamiršta atsinešti pietų dėžutę." }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kiek kartų per dieną ikimokyklinio ugdymo įstaigoje vaikai turi būti vedami į lauką, jei oro sąlygos tinkamos?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Vieną kartą per dieną." },
+            { "optionId": "opt2b", "optionText": "Du kartus per dieną." },
+            { "optionId": "opt2c", "optionText": "Keturis kartus per dieną." }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kiek vaikų vienas darbuotojas gali prižiūrėti maudymosi metu, jei vaikai yra 3 metų ir vyresni?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ne daugiau kaip 2 vaikus." },
+            { "optionId": "opt3b", "optionText": "Ne daugiau kaip 4 vaikus." },
+            { "optionId": "opt3c", "optionText": "Ne daugiau kaip 6 vaikus." }
+          ],
+          "correctAnswer": "opt3b"
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "title": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai).",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kurį augalą išvardytų žemiau galima priskirti prie nuodingųjų?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Baltažiedė robinija (Robinia pseudoacacia)" },
+            { "optionId": "opt1b", "optionText": "Braškė (Fragaria spp.)" },
+            { "optionId": "opt1c", "optionText": "Saulėgrąža (Helianthus annuus)" }
+          ],
+          "correctAnswer": "opt1a"
+        },
+        {
+          "id": "q2",
+          "question": "Kas atlieka vaikų sveikatos ir psichomotorinės raidos tikrinimą?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Šeimos gydytojas arba vaikų ligų gydytojas, pasirinktas pacientų tėvų ar atstovų." },
+            { "optionId": "opt2b", "optionText": "Tik gydytojas odontologas." },
+            { "optionId": "opt2c", "optionText": "Mokytojas ar socialinis darbuotojas." }
+          ],
+          "correctAnswer": "opt2a"
+        }
+      ]
+    }
+  ]
+}

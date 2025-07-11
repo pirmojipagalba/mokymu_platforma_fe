@@ -1,0 +1,293 @@
+{
+  "content": [
+    {
+      "sectionId": "1",
+      "title": "Teisės aktai, reglamentuojantys soliariumo paslaugų visuomenės sveikatos saugos reikalavimus.",
+      "questions": []
+    },
+    {
+      "sectionId": "2",
+      "title": "Soliariumo patalpų, įrangos ir jų priežiūros visuomenės sveikatos saugos reikalavimai.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks turi būti mažiausias laisvos vietos plotas šalia kiekvienos soliariumo įrangos?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "1,5 m²" },
+            { "optionId": "opt1b", "optionText": "2,2 m²" },
+            { "optionId": "opt1c", "optionText": "3,0 m²" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia turi būti temperatūra soliariumo kabinoje?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "18–22 °C" },
+            { "optionId": "opt2b", "optionText": "22–28 °C" },
+            { "optionId": "opt2c", "optionText": "28–32 °C" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Koks oro judėjimo greitis turi būti žiemą soliariumo patalpose?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "0,05–0,15 m/s" },
+            { "optionId": "opt3b", "optionText": "0,15–0,25 m/s" },
+            { "optionId": "opt3c", "optionText": "0,25–0,35 m/s" }
+          ],
+          "correctAnswer": "opt3a"
+        },
+        {
+          "id": "q4",
+          "question": "Ką turi turėti kiekviena soliariumo kabina?",
+          "options": [
+            {
+              "optionId": "opt4a",
+              "optionText": "Kėdė, veidrodis, kabykla drabužiams, spintelė ar lentyna, atliekų talpykla"
+            },
+            { "optionId": "opt4b", "optionText": "Tik kėdė ir veidrodis" },
+            { "optionId": "opt4c", "optionText": "Tik spintelė ir kabykla" }
+          ],
+          "correctAnswer": "opt4a"
+        },
+        {
+          "id": "q5",
+          "question": "Kokios medžiagos turi būti naudojamos soliariumo sienoms, luboms ir pertvaroms?",
+          "options": [
+            {
+              "optionId": "opt5a",
+              "optionText": "Spindinčios ir blizgios medžiagos"
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Medžiagos, neatspindinčios soliariumo šviesos"
+            },
+            { "optionId": "opt5c", "optionText": "Stiklas ir metalo plokštės" }
+          ],
+          "correctAnswer": "opt5b"
+        },
+        {
+          "id": "q6",
+          "question": "Kokia ultravioletinės spinduliuotės bangų ilgio riba yra draudžiama soliariumo įrangoje?",
+          "options": [
+            { "optionId": "opt6a", "optionText": "Trumpesnės nei 280 nm" },
+            { "optionId": "opt6b", "optionText": "Ilgesnės nei 400 nm" },
+            { "optionId": "opt6c", "optionText": "320–400 nm" }
+          ],
+          "correctAnswer": "opt6a"
+        },
+        {
+          "id": "q7",
+          "question": "Kokia turi būti maksimali UV spinduliuotės apšvieta 280–400 nm diapazone?",
+          "options": [
+            { "optionId": "opt7a", "optionText": "0,1 W/m²" },
+            { "optionId": "opt7b", "optionText": "0,3 W/m²" },
+            { "optionId": "opt7c", "optionText": "0,5 W/m²" }
+          ],
+          "correctAnswer": "opt7b"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Ultravioletinės spinduliuotės poveikis, odos tipai ir odos reakcija į ultravioletinius spindulius, deginimosi soliariume taisyklės, kontraindikacijos, nesaikingo deginimosi pasekmės. Piktybiniai odos susirgimai ir jų profilaktika.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuriems asmenims nerekomenduojama naudotis soliariumu?",
+          "options": [
+            {
+              "optionId": "opt1a",
+              "optionText": "Asmenims, turintiems daug apgamų ir strazdanų"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Asmenims, kurie turi tamsią odą ir nedegina saulėje"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Sveikiems, jaunesniems nei 30 metų asmenims"
+            }
+          ],
+          "correctAnswer": "opt1a"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia yra maksimali rekomenduojama pirmojo deginimosi soliariume trukmė?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "5 minutės" },
+            { "optionId": "opt2b", "optionText": "10 minučių" },
+            { "optionId": "opt2c", "optionText": "15 minučių" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kiek kartų per savaitę galima degintis soliariume?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Ne daugiau kaip 2 kartus" },
+            { "optionId": "opt3b", "optionText": "Ne daugiau kaip 4 kartus" },
+            { "optionId": "opt3c", "optionText": "Neribotai" }
+          ],
+          "correctAnswer": "opt3a"
+        },
+        {
+          "id": "q4",
+          "question": "Kokia pertrauka turi būti tarp dviejų deginimosi seansų soliariume?",
+          "options": [
+            {
+              "optionId": "opt4a",
+              "optionText": "Ne trumpesnė kaip 24 valandos"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Ne trumpesnė kaip 48 valandos"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Ne trumpesnė kaip 72 valandos"
+            }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kuri iš žemiau esančių priemonių draudžiama naudoti deginantis soliariume?",
+          "options": [
+            { "optionId": "opt5a", "optionText": "Apsauginiai akiniai" },
+            {
+              "optionId": "opt5b",
+              "optionText": "Įdegį stiprinantys kosmetikos gaminiai"
+            },
+            {
+              "optionId": "opt5c",
+              "optionText": "Švarios kūno priežiūros priemonės"
+            }
+          ],
+          "correctAnswer": "opt5b"
+        },
+        {
+          "id": "q6",
+          "question": "Kokios yra pagrindinės nesaikingo deginimosi soliariume pasekmės?",
+          "options": [
+            {
+              "optionId": "opt6a",
+              "optionText": "Odos nudegimai, akių pažeidimai, odos vėžys"
+            },
+            { "optionId": "opt6b", "optionText": "Tik odos sausumas" },
+            {
+              "optionId": "opt6c",
+              "optionText": "Pagerėjusi odos spalva ir elastingumas"
+            }
+          ],
+          "correctAnswer": "opt6a"
+        },
+        {
+          "id": "q7",
+          "question": "Ką reikia daryti, jei odoje atsiranda neišnykstančių patinimų ar pigmentinių apgamų po deginimosi soliariume?",
+          "options": [
+            { "optionId": "opt7a", "optionText": "Nieko, tai normalu" },
+            { "optionId": "opt7b", "optionText": "Kreiptis į gydytoją" },
+            { "optionId": "opt7c", "optionText": "Tęsti deginimąsi dažniau" }
+          ],
+          "correctAnswer": "opt7b"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "title": "Užkrečiamųjų ligų profilaktika.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Ką privaloma atlikti po kiekvieno kliento soliariume?",
+          "options": [
+            {
+              "optionId": "opt1a",
+              "optionText": "Dezinfekuoti soliariumo gulto paviršių ir apsauginius akinius"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Išvalyti tik soliariumo kabiną"
+            },
+            { "optionId": "opt1c", "optionText": "Nekeisti kilimėlio" }
+          ],
+          "correctAnswer": "opt1a"
+        },
+        {
+          "id": "q2",
+          "question": "Kokios temperatūros skalbti daugkartinius darbo rankšluosčius ar kilimėlius?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "Ne žemesnėje kaip 30 °C" },
+            { "optionId": "opt2b", "optionText": "Ne žemesnėje kaip 60 °C" },
+            { "optionId": "opt2c", "optionText": "Ne žemesnėje kaip 90 °C" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kuri iš žemiau esančių priemonių turi būti tualete soliariume?",
+          "options": [
+            {
+              "optionId": "opt3a",
+              "optionText": "Vienkartiniai rankšluosčiai arba rankų džiovintuvas"
+            },
+            { "optionId": "opt3b", "optionText": "Tik audinių rankšluosčiai" },
+            { "optionId": "opt3c", "optionText": "Tik oro kondicionierius" }
+          ],
+          "correctAnswer": "opt3a"
+        },
+        {
+          "id": "q4",
+          "question": "Ką turi daryti soliariumo darbuotojas, jei serga užkrečiamąja liga?",
+          "options": [
+            {
+              "optionId": "opt4a",
+              "optionText": "Dirbti su klientais, dėvėti kaukę"
+            },
+            { "optionId": "opt4b", "optionText": "Nedirbti su klientais" },
+            { "optionId": "opt4c", "optionText": "Dirbti tik trumpą laiką" }
+          ],
+          "correctAnswer": "opt4b"
+        },
+        {
+          "id": "q5",
+          "question": "Kuri iš žemiau esančių dezinfekcijos priemonių savybių yra privaloma?",
+          "options": [
+            {
+              "optionId": "opt5a",
+              "optionText": "Efektyvumas prieš bakterijas, virusus ir grybelines infekcijas"
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Gali būti bet kokia, svarbu tik kaina"
+            },
+            { "optionId": "opt5c", "optionText": "Turi būti kvapni" }
+          ],
+          "correctAnswer": "opt5a"
+        },
+        {
+          "id": "q6",
+          "question": "Kuri dokumentacija turi būti vedama soliariume?",
+          "options": [
+            {
+              "optionId": "opt6a",
+              "optionText": "Įrangos valymo ir dezinfekcijos žurnalas"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Darbuotojų asmeninių pomėgių žurnalas"
+            },
+            {
+              "optionId": "opt6c",
+              "optionText": "Klientų gimtadienio kalendorius"
+            }
+          ],
+          "correctAnswer": "opt6a"
+        }
+      ]
+    }
+  ]
+}
