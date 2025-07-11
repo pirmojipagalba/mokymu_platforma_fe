@@ -20,17 +20,19 @@ import BackToTop from "./components/BackToTop/BackToTop";
 import Loading from "./components/Loading/Loading";
 import Footer from "./components/Footer/Footer";
 import { sendAnswers } from "./services/api";
-import './App.scss';
+import "./App.scss";
 import { useAppContext } from "./context/AppContext";
 import ProductPage from "./pages/ProductPage/ProductPage";
 
 interface Question {
   id: string;
   question: string;
-  options: {
-    optionId: string;
-    optionText: string;
-  }[] | null;
+  options:
+    | {
+        optionId: string;
+        optionText: string;
+      }[]
+    | null;
   correctAnswer: string | null;
 }
 
@@ -47,8 +49,25 @@ const RouteObserver = () => {
 
   useEffect(() => {
     const path = location.pathname;
-    const pathSegments = path.split('/');
-    if (pathSegments.length > 1 && ['firstaid', 'hygiene1', 'hygiene2', 'hygiene3', 'hygiene4', 'hygieneh3', 'hygienehb', 'hygieneh10', 'hygienehbb', "hygieneh15", "hygieneh12"].includes(pathSegments[1])) {
+    const pathSegments = path.split("/");
+    if (
+      pathSegments.length > 1 &&
+      [
+        "firstaid",
+        "hygiene1",
+        "hygiene2",
+        "hygiene3",
+        "hygiene4",
+        "hygieneh3",
+        "hygienehb",
+        "hygieneh10",
+        "hygienehbb",
+        "hygieneh15",
+        "hygieneh12",
+        "hygieneh4",
+        "hygieneh7",
+      ].includes(pathSegments[1])
+    ) {
       setSelectedProduct(pathSegments[1]);
     }
   }, [location.pathname, setSelectedProduct]);
@@ -65,9 +84,13 @@ const AppContent: React.FC = () => {
   const { material, questionnaire_material, selectedProduct } = useAppContext();
 
   useEffect(() => {
-    const storedAnswers = JSON.parse(localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]");
+    const storedAnswers = JSON.parse(
+      localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]"
+    );
     setCollectedAnswers(storedAnswers);
-    const storedCompletedSections = Number(localStorage.getItem(`completedSections_${selectedProduct}`) || 0);
+    const storedCompletedSections = Number(
+      localStorage.getItem(`completedSections_${selectedProduct}`) || 0
+    );
     setCompletedSections(storedCompletedSections);
   }, [selectedProduct]);
 
@@ -77,47 +100,81 @@ const AppContent: React.FC = () => {
     return <Loading />;
   }
 
-  const sectionContent = material.topics.map((item: { topic_image: string; title: string; content: string; sectionId: string }) => ({
-    topic_image: item.topic_image,
-    title: item.title,
-    content: item.content,
-    sectionId: item.sectionId,
-    nextRoute: "/questionnaire1",
-  }));
+  const sectionContent = material.topics.map(
+    (item: {
+      topic_image: string;
+      title: string;
+      content: string;
+      sectionId: string;
+    }) => ({
+      topic_image: item.topic_image,
+      title: item.title,
+      content: item.content,
+      sectionId: item.sectionId,
+      nextRoute: "/questionnaire1",
+    })
+  );
 
   const sections = sectionContent.map((section: any, index: any) => ({
     ...section,
   }));
 
-  const handleAnswersCollected = async (answers: { id: string; question: string; answer: string; optionText: string }[]) => {
+  const handleAnswersCollected = async (
+    answers: {
+      id: string;
+      question: string;
+      answer: string;
+      optionText: string;
+    }[]
+  ) => {
     const updatedAnswers = [...collectedAnswers, ...answers];
 
     // Filter out duplicate answers based on the question field
-    const uniqueAnswers = updatedAnswers.filter((answer, index, self) =>
-      index === self.findIndex((a) => a.question === answer.question)
+    const uniqueAnswers = updatedAnswers.filter(
+      (answer, index, self) =>
+        index === self.findIndex((a) => a.question === answer.question)
     );
 
     setCollectedAnswers(uniqueAnswers);
     try {
-      localStorage.setItem(`collectedAnswers_${selectedProduct}`, JSON.stringify(uniqueAnswers)); // Save collected answers to local storage
+      localStorage.setItem(
+        `collectedAnswers_${selectedProduct}`,
+        JSON.stringify(uniqueAnswers)
+      ); // Save collected answers to local storage
     } catch (error) {
       console.error("Error saving collected answers:", error);
     }
 
-    const completedSections = Number(localStorage.getItem(`completedSections_${selectedProduct}`) || 0);
+    const completedSections = Number(
+      localStorage.getItem(`completedSections_${selectedProduct}`) || 0
+    );
     if (completedSections < sectionContent.length) {
-      localStorage.setItem(`completedSections_${selectedProduct}`, String(completedSections + 1));
+      localStorage.setItem(
+        `completedSections_${selectedProduct}`,
+        String(completedSections + 1)
+      );
       setCompletedSections(completedSections + 1);
     }
 
     if (completedSections + 1 >= sectionContent.length) {
-      await sendAnswers({ user: { id: user?.sub || '', email: user?.email || '' }, answers: uniqueAnswers, selectedProduct });
-
-      await fetch('https://mokymuplatformabe-production.up.railway.app/api/send-email', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ user, answers: uniqueAnswers, selectedProduct })
+      await sendAnswers({
+        user: { id: user?.sub || "", email: user?.email || "" },
+        answers: uniqueAnswers,
+        selectedProduct,
       });
+
+      await fetch(
+        "https://mokymuplatformabe-production.up.railway.app/api/send-email",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user,
+            answers: uniqueAnswers,
+            selectedProduct,
+          }),
+        }
+      );
 
       try {
         localStorage.removeItem(`collectedAnswers_${selectedProduct}`); // Clear local storage after sending answers
@@ -128,17 +185,19 @@ const AppContent: React.FC = () => {
   };
 
   const sampleProducts = [
-    { name: 'firstaid', title: 'Pirmosios pagalbos mokymai' },
-    { name: 'hygiene1', title: 'Higienos mokymai 1' },
-    { name: 'hygiene2', title: 'Higienos mokymai 2' },
-    { name: 'hygiene3', title: 'Higienos mokymai 3' },
-    { name: 'hygiene4', title: 'Higienos mokymai 4' },
-    { name: 'hygieneh3', title: 'Higienos mokymai H3' },
-    { name: 'hygienehb', title: 'Higienos mokymai HB' },
-    { name: 'hygieneh10', title: 'Higienos mokymai H10' },
-    { name: 'hygieneh12', title: 'Higienos mokymai H12' },
-    { name: 'hygienehbb', title: 'Higienos mokymai HBB' },
-    { name: 'hygieneh15', title: 'Higienos mokymai H15' },
+    { name: "firstaid", title: "Pirmosios pagalbos mokymai" },
+    { name: "hygiene1", title: "Higienos mokymai H1 (1)" },
+    { name: "hygiene2", title: "Higienos mokymai H1 (2)" },
+    { name: "hygiene3", title: "Higienos mokymai H1 (3)" },
+    { name: "hygiene4", title: "Higienos mokymai H1 (4)" },
+    { name: "hygieneh3", title: "Higienos mokymai H3" },
+    { name: "hygieneh4", title: "Higienos mokymai H4" },
+    { name: "hygieneh7", title: "Higienos mokymai H7" },
+    { name: "hygieneh10", title: "Higienos mokymai H10" },
+    { name: "hygieneh12", title: "Higienos mokymai H12" },
+    { name: "hygieneh15", title: "Higienos mokymai H15" },
+    { name: "hygienehb", title: "Higienos mokymai HB" },
+    { name: "hygienehbb", title: "Higienos mokymai HBB" },
   ];
 
   return (
@@ -156,9 +215,22 @@ const AppContent: React.FC = () => {
           />
           <Route
             path={`/${selectedProduct}/dashboard`}
-            element={isAuthenticated ? <Dashboard sections={sections.map((section: { title: string }) => section.title)} /> : <Navigate to="/login" />}
+            element={
+              isAuthenticated ? (
+                <Dashboard
+                  sections={sections.map(
+                    (section: { title: string }) => section.title
+                  )}
+                />
+              ) : (
+                <Navigate to="/login" />
+              )
+            }
           />
-          <Route path={`/${selectedProduct}/thankyoupage`} element={<ThankYouPage />} />
+          <Route
+            path={`/${selectedProduct}/thankyoupage`}
+            element={<ThankYouPage />}
+          />
           {sections.map((section: any, index: any) => (
             <Route
               key={section.title}
@@ -166,17 +238,33 @@ const AppContent: React.FC = () => {
               element={<Section {...section} />}
             />
           ))}
-          {questionnaire_material.content.map((questionnaire: QuestionnairePageProps, index: number) => (
-            <Route
-              key={questionnaire.title}
-              path={`/${selectedProduct}/questionnaire${index + 1}`}
-              element={<QuestionnairePage {...questionnaire} onAnswersCollected={handleAnswersCollected} />}
-            />
-          ))}
-          <Route path="/product" element={<ProductPage products={sampleProducts} />} />
+          {questionnaire_material.content.map(
+            (questionnaire: QuestionnairePageProps, index: number) => (
+              <Route
+                key={questionnaire.title}
+                path={`/${selectedProduct}/questionnaire${index + 1}`}
+                element={
+                  <QuestionnairePage
+                    {...questionnaire}
+                    onAnswersCollected={handleAnswersCollected}
+                  />
+                }
+              />
+            )
+          )}
+          <Route
+            path="/product"
+            element={<ProductPage products={sampleProducts} />}
+          />
           <Route
             path="/"
-            element={isAuthenticated ? <ProductPage products={sampleProducts} /> : <Navigate to="/login" />}
+            element={
+              isAuthenticated ? (
+                <ProductPage products={sampleProducts} />
+              ) : (
+                <Navigate to="/login" />
+              )
+            }
           />
         </Routes>
       </div>

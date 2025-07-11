@@ -1,0 +1,377 @@
+{
+  "topics": [
+    {
+      "title": "Teisės aktai, reglamentuojantys maisto higienos ir bendruosius keleivinio transporto visuomenės sveikatos saugos reikalavimus ",
+      "sectionId": "section1",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "main-heading",
+              "text": "Teisės aktai, reglamentuojantys maisto higienos ir bendruosius keleivinio transporto visuomenės sveikatos saugos reikalavimus "
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maisto įstatymas** (LR Seimo įstatymas Nr. I-1377) – pagrindinis teisės aktas, reglamentuojantis maisto saugą ir higieną Lietuvoje."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Maisto ir veterinarijos tarnybos (VMVT) teisės aktai** – įgyvendina ES teisės aktus, susijusius su maisto higiena."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Europos Parlamento ir Tarybos Reglamentas (ES) Nr. 852/2004 dėl maisto higienos** – nustato bendrus higienos reikalavimus visose maisto grandyse."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Europos Parlamento ir Tarybos Reglamentas (ES) Nr. 853/2004** – nustato specifinius higienos reikalavimus gyvulinės kilmės produktams."
+            },
+            {
+              "type": "paragraph",
+              "text": "**LR Sveikatos apsaugos ministerijos įsakymai** – reglamentuoja keleivinio transporto higieną, dezinfekciją ir visuomenės sveikatos saugą (pvz., reikalavimai viešojo transporto priemonėms)."
+            },
+            {
+              "type": "paragraph",
+              "text": "**LR Susisiekimo ministerijos teisės aktai** – reguliuoja keleivinio transporto veiklą, įskaitant saugos ir higienos normas."
+            },
+            {
+              "type": "paragraph",
+              "text": "**Valstybinės visuomenės sveikatos priežiūros taisyklės** – apima reikalavimus transporto priemonių higienai ir keleivių sveikatos apsaugai."
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "**COVID-19 laikotarpio laikini reikalavimai** – Sveikatos apsaugos ministerijos ir NVSC nurodymai dėl apsaugos priemonių viešajame transporte (jei aktualu)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mikroklimatinės patalpų sąlygos, vėdinimo, vandens, nuotekų tvarkymo, įrenginių ir įrankių, maisto gaminimo ir indų plovimo, gatavos produkcijos priėmimo, išdavimo ir laikymo geros higienos praktikos reikalavimai",
+      "sectionId": "section2",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Mikroklimatinės patalpų sąlygos, vėdinimo, vandens, nuotekų tvarkymo, įrenginių ir įrankių, maisto gaminimo ir indų plovimo, gatavos produkcijos priėmimo, išdavimo ir laikymo geros higienos praktikos reikalavimai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Mikroklimato sąlygos transporto priemonėse: "
+            },
+            {
+              "type": "transport-table"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ventiliacijos sistema turi būti reguliari, švariai prižiūrima, dezinfekuojama pagal grafiką."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Mikroklimatas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Darbuotojų darbo patalpose (pvz., vairuotojų poilsio kambariuose, kasose) turi būti palaikoma tinkama temperatūra (apie +18–22 °C) ir drėgmė, užtikrinanti komfortą ir mažinanti mikroorganizmų dauginimosi riziką.",
+                "Patalpose turi būti užtikrintas pakankamas oro judėjimas, kad nebūtų susikaupę nemalonūs kvapai ar kenksmingos medžiagos.",
+                "Apšvietimas turi būti pakankamas ir nekenksmingas darbuotojų sveikatai."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Vėdinimas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Viešojo transporto patalpos ir darbo vietos privalo turėti efektyvią vėdinimo sistemą – natūralų arba mechaninį vėdinimą, užtikrinantį šviežio oro tiekimą ir oro kokybės palaikymą.",
+                "Vėdinimo sistemas reikia reguliariai prižiūrėti, valyti ir dezinfekuoti, kad jose nesikauptų tarša."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Vandens tiekimas ir nuotekų tvarkymas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Darbo ir poilsio patalpose turi būti prieinamas saugus geriamojo vandens tiekimas.",
+                "Vandens tiekimo įrenginiai turi būti reguliariai tikrinami, kad nebūtų užteršimo rizikos.",
+                "Nuotekų tvarkymo sistema turi būti tvarkinga ir nepriekaištingai veikianti, neleidžianti užteršti aplinkos ar patalpų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Įrenginiai ir įrankiai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Naudojami įrenginiai (pvz., kavos aparatų, vandens dozatorių, maisto ruošimo įrenginių) ir įrankiai turi būti švarūs, reguliariai valomi ir dezinfekuojami.",
+                "Įrankiai, skirti maistui ruošti ir indams plauti, turi būti atskirti nuo kitų darbo priemonių, kad būtų išvengta kryžminės taršos.",
+                "Visi įrenginiai turi būti techniškai tvarkingi ir tinkami naudoti."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Maisto gaminimas ir indų plovimas (jei taikoma):"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Jei keleivinio transporto darbuotojai dalyvauja ruošiant maistą (pvz., kioskeliuose, stotyse), turi būti užtikrinta tinkama maisto terminė apdorojimo temperatūra.",
+                "Indų plovimo įrenginiai turi užtikrinti efektyvų plovimą ir dezinfekciją, o naudojamos priemonės turi būti saugios.",
+                "Indai turi būti laikomi švarioje, sausoje vietoje."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Gatavos produkcijos priėmimas, išdavimo ir laikymo reikalavimai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Priimant ir laikant gatavą maistą (pvz., sumuštinius ar gėrimus kioskeliuose), būtina tikrinti tinkamumo laiką, temperatūrą ir pakuotės būklę.",
+                "Produkcija turi būti laikoma atskirai nuo žaliavos, tinkamoje temperatūroje, kad būtų išvengta užteršimo.",
+                "Išduodant maistą keleiviams būtina užtikrinti higieniškas sąlygas."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Atliekų surinkimas ir tvarkymas, valymas, plovimas, dezinfekavimas, buitinių parazitų kontrolė",
+      "sectionId": "section3",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Atliekų surinkimas ir tvarkymas, valymas, plovimas, dezinfekavimas, buitinių parazitų kontrolė"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Atliekų surinkimas ir tvarkymas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Keleivinio transporto priemonėse atliekos turi būti surenkamos reguliariai, ypač po kiekvieno reisų ciklo.",
+                "Atliekų konteineriai turi būti sandarūs, uždengti, lengvai valomi ir dezinfekuojami.",
+                "Atliekos turi būti saugiai laikomos, kad nesudarytų sąlygų kvapams, parazitams ar bakterijoms daugintis.",
+                "Surinktos atliekos turi būti išvežamos į tam skirtas vietas laikantis aplinkos apsaugos reikalavimų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Valymas, plovimas ir dezinfekavimas:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Transporto priemonės vidaus patalpos privalo būti reguliariai valomos ir dezinfekuojamos – ypač rankenos, sėdynės, langai, grindys ir kt.",
+                "Naudojamos valymo ir dezinfekavimo priemonės turi būti saugios, efektyvios ir patvirtintos naudoti viešajame transporte.",
+                "Po valymo privaloma užtikrinti, kad paviršiai būtų sausi ir švarūs.",
+                "Keleivinio transporto darbuotojai turi būti apmokyti tinkamai atlikti valymo ir dezinfekavimo procedūras."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Buitinių parazitų kontrolė:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+
+              "text": [
+                "Transporto priemonės turi būti apsaugotos nuo graužikų, vabzdžių ir kitų parazitų (pvz., tinklai ventiliacijos angose, sandarūs langai).",
+                "Periodiškai vykdoma parazitų kontrolė, naudojant saugias ir patvirtintas priemones.",
+                "Keleivinio transporto darbuotojai turi atkreipti dėmesį į bet kokius parazitų požymius ir informuoti atsakingus asmenis.",
+                "Siekiant užkirsti kelią parazitams plisti, privaloma laikytis higienos reikalavimų patalpose, sandėliuose ir transporto priemonėse."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Darbuotojų asmens higiena",
+      "sectionId": "section4",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Darbuotojų asmens higiena"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Rankų higiena:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Darbuotojai privalo reguliariai plauti rankas šiltu vandeniu su muilu, ypač prieš pradedant darbą, po kontakto su šiukšlėmis, po naudojimosi tualetu, po kosėjimo ar čiaudėjimo ir po kontakto su potencialiai užterštais paviršiais.",
+              "Jei nėra galimybės naudotis vandeniu ir muilu, turi būti naudojami alkoholio pagrindu pagaminti dezinfekciniai rankų geliai."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Apranga:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Darbuotojai privalo dėvėti švarius, dirbti tinkamus drabužius ir, jei reikalaujama, papildomas apsaugos priemones (pvz., pirštines, kepures).",
+              "Darbo apranga turi būti keičiama reguliariai, ypač jei ji susitepa ar pažeidžiama."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Asmeninės apsaugos priemonės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Naudojamos apsaugos priemonės (pvz., kaukės, pirštinės) turi būti tinkamos, tvarkingos ir keičiamos pagal poreikį.",
+              "Darbuotojai turi būti apmokyti teisingai jas naudoti ir šalinti, kad nesukeltų užteršimo rizikos."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sveikatos būklė:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Darbuotojai, jaučiantys infekcijos požymius (karščiavimą, kosulį, odos pažeidimus), privalo nedirbti arba nedelsiant informuoti darbdavį.",
+              "Reguliariai vykdomas darbuotojų sveikatos stebėjimas ir, jei reikia, profilaktinės medicininės apžiūros."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Asmeninių daiktų tvarka:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Darbuotojai turi laikyti asmeninius daiktus atskirose, švariose vietose, ne darbo zonose.",
+              "Draudžiama nešvarius daiktus laikyti šalia maisto ar darbo įrankių."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Užkrečiamųjų ligų profilaktika ",
+      "sectionId": "section5",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Užkrečiamųjų ligų profilaktika "
+            },
+            {
+              "type": "paragraph",
+              "text": "Kadangi keleivinio transporto darbuotojai nuolat bendrauja su dideliu žmonių srautu, labai svarbu taikyti užkrečiamųjų ligų prevencijos priemones:"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbuotojų sveikatos stebėsena:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Darbuotojai, kuriems pasireiškė ūmių užkrečiamųjų ligų požymiai (karščiavimas, kosulys, gerklės skausmas, viduriavimas, odos bėrimai), negali dirbti su keleiviais ar maistu, privalo nedelsiant informuoti atsakingą asmenį ir, jei reikia, kreiptis į gydytoją.",
+              "Darbdavys turi užtikrinti, kad darbuotojai periodiškai tikrintųsi sveikatą pagal teisės aktų reikalavimus (ypač jei dirba su maistu ar keleivių aptarnavimu)."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Infekcinių ligų prevencija:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Transporto priemonėse ir patalpose turi būti įrengtos rankų dezinfekavimo priemonės tiek darbuotojams, tiek keleiviams.",
+              "Darbuotojai turi naudoti apsaugos priemones (pvz., kaukes), jei to reikalauja esama epidemiologinė situacija ar įmonės vidaus tvarka.",
+              "Turi būti užtikrinamas reguliarus transporto priemonių, paviršių, darbo vietų valymas ir dezinfekavimas."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Informavimas ir higienos kultūra:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+              "Darbuotojai turi būti informuoti apie užkrečiamųjų ligų prevencijos svarbą, simptomus ir prevencines priemones.",
+              "Įmonėje rekomenduojama parengti trumpas atmintines ar skelbimus su priminimais apie rankų higieną, kosėjimo / čiaudėjimo etiką ir kontaktų ribojimą sergant."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Skiepai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+
+              "text": [
+              "Darbdavys gali rekomenduoti ar organizuoti sezonines vakcinacijas nuo gripo ar kitų aktualių infekcijų (pvz., COVID-19) darbuotojams, ypač kontaktuojantiems su daug keleivių."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

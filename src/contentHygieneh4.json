@@ -1,0 +1,515 @@
+{
+  "topics": [
+    {
+      "title": "Teisės aktai, reglamentuojantys soliariumo paslaugų visuomenės sveikatos saugos reikalavimus",
+      "sectionId": "section1",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "main-heading",
+              "text": "Teisės aktai, reglamentuojantys soliariumo paslaugų visuomenės sveikatos saugos reikalavimus"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Lietuvos Respublikos teisės aktai:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "**Lietuvos Respublikos higienos norma HN 34:2017 „Soliariumų įrenginių eksploatavimas ir naudojimas“** – Ši norma nustato soliariumų įrenginių techninius ir saugos reikalavimus, naudojimo taisykles, rekomendacijas dėl apsaugos nuo ultravioletinių spindulių ir darbuotojų ir klientų sveikatos saugos užtikrinimą.",
+                "**Lietuvos Respublikos visuomenės sveikatos priežiūros įstatymas** – Reglamentuoja visuomenės sveikatos saugos kontrolę, įskaitant asmenų sveikatos saugos užtikrinimą soliariumo paslaugų teikimo metu.",
+                "**Lietuvos Respublikos higienos norma HN 12:2014 „Ultravioletinių spindulių šaltiniai ir jų saugos reikalavimai“** – Apibrėžia ultravioletinių spindulių šaltinių naudojimo higienos reikalavimus, įskaitant soliariumų įrenginius.",
+                "**Lietuvos Respublikos darbo kodeksas ir darbo saugos įstatymai** – Nustato darbuotojų saugos ir sveikatos apsaugos reikalavimus, susijusius su soliariumo įrenginių eksploatavimu."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Sąvokos:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+
+              "text": [
+                "**Apsauginių akinių ultravioletinės spinduliuotės praleidimo faktorius** – apsauginių akinių praleisto ir į juos krintančio ultravioletinės spinduliuotės srautų dalmuo;",
+                "**Deginimosi soliariume seansas** – vienas tam tikrą laikotarpį (min.) trunkantis deginimosi soliariume kartas;",
+                "**Soliariumas** – patalpa (patalpos), kur teikiamos soliariumų paslaugos ir yra viena ar daugiau soliariumo įrangų;",
+                "**Soliariumo įranga** – dirbtiniam įdegiui išgauti naudojama įranga, kurioje sumontuoti ultravioletinių spindulių spinduoliai;",
+                "**Ultravioletinė spinduliuotė** – nejonizuojančioji elektromagnetinė spinduliuotė, kurios bangų ilgio diapazonas yra nuo 100 nm iki 400 nm;",
+                "**Ultravioletinių spindulių spinduoliai** – odos švitinimo ultravioletine spinduliuote šaltiniai (lempos);",
+                "**Veiksmingoji energinė apšvieta** – elektromagnetinės spinduliuotės kiekis (srautas), tenkantis tam tikram paviršiaus plotui."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Soliariumo patalpų, įrangos ir jų priežiūros visuomenės sveikatos saugos reikalavimai",
+      "sectionId": "section2",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Soliariumo patalpų, įrangos ir jų priežiūros visuomenės sveikatos saugos reikalavimai"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Soliariumo kabinos įrengimas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Kiekvienai soliariumo įrangai turi būti skiriamas jos užimamas plotas + mažiausiai 2,2 m² laisvos vietos šalia.",
+                "Įranga turi būti atskirta pertvaromis.",
+                "Jei įranga turi integruotą persirengimo kabiną, jos dydis turi atitikti gamintojo reikalavimus, o įrengimas – higienos normos 20 punkto nuostatas."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Privalomos soliariumo patalpos"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Patalpa soliariumo įrangai.",
+                "Laukimo patalpa ar zona klientams.",
+                "Pagalbinė patalpa (zona) darbo priemonėms.",
+                "Tualetas (nebūtinas, jei soliariumas įrengtas pastate su bendru tualetu ne toliau kaip 50 m nuo soliariumo)."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Patalpų mikroklimatas ir apšvietimas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Temperatūra soliariumo kabinoje: 22–28 °C.",
+                "Drėgmė: 35–60 %.",
+                "Oro judėjimas: žiemą – 0,05–0,15 m/s, vasarą – 0,15–0,25 m/s.",
+                "Apšvietimas: laukimo patalpose ≥500 lx, soliariumo kabinose ≥200 lx.",
+                "Jei nėra natūralios šviesos – naudoti dienos šviesos (liuminescentines) lempas.",
+                "Turi būti tiekiamas kokybiškas šaltas ir karštas vanduo.",
+                "Triukšmo lygis negali viršyti teisės aktuose nustatytų normų."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Kiekvienoje soliariumo kabinoje turi būti"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Kėdė.",
+                "Veidrodis (pakabintas taip, kad neatspindėtų veikiančios įrangos šviesos).",
+                "Kabykla drabužiams.",
+                "Spintelė ar lentyna.",
+                "Atliekų talpykla."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Pagalbinėje patalpoje (zonoje)"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Atskira vieta valikliams, dezinfekcijai ir valymo inventoriui.",
+                "Atskira vieta kosmetikai, švariems ir nešvariems skalbiniams."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Valymo inventorius turi būti atskiras tualetui ir kitoms patalpoms."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Tualete turi būti"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Praustuvė.",
+                "Rankų higienos priemonės.",
+                "Vienkartiniai rankšluosčiai arba džiovintuvas.",
+                "Atliekų talpykla."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Soliariumo patalpose grindys turi būti lygios, lengvai valomos ir dezinfekuojamos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sienos, lubos ir pertvaros turi būti iš medžiagų, neatspindinčių soliariumo šviesos."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Soliariumo įrangos reikalavimai"
+            },
+            {
+              "type": "paragraph",
+              "text": "Įranga turi būti techniškai tvarkinga. "
+            },
+            {
+              "type": "paragraph",
+              "text": "Draudžiama naudoti įrangą, jei:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Įskilęs gultas.",
+                "Pažeisti UV filtrai.",
+                "Neveikia laikmatis."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Paslaugų teikėjas privalo turėti šiuos dokumentus"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Technines charakteristikas.",
+                "Atitikties deklaraciją.",
+                "Naudojimo ir priežiūros instrukcijas.",
+                "Techninės priežiūros planą.",
+                "UV spinduolių techninius aprašymus."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Visi dokumentai – lietuvių ir originalo kalba, laikomi soliariume.**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Įranga montuojama pagal gamintojo nurodymus.**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Draudžiama naudoti UV spindulius pasibaigus jų nustatytam tarnavimo laikui ar laikyti ne tam skirtose vietose.**"
+            },
+            {
+              "type": "paragraph",
+              "text": "**Kiekvienai įrangai turi būti bent 2 apsauginių akinių poros su CE ženklu.**"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Akinių UV praleidimo normos"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "250–320 nm: ≤ 0,1 %",
+                "320–400 nm: ≤ 1 %",
+                "400–550 nm: ≤ 5 %"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "**Draudžiama naudoti pažeistus apsauginius akinius.**"
+            },
+            {
+              "type": "paragraph",
+              "text": "Draudžiama naudoti UV spindulius, skleidžiančius bangas trumpesnes nei **280 nm.**"
+            },
+            {
+              "type": "paragraph",
+              "class": "margin-xxl",
+              "text": "UV spindulių skleidžiama apšvieta negali viršyti **0,3 W/m² (280–400 nm ruože).**"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ultravioletinės spinduliuotės poveikis, odos tipai ir odos reakcija į ultravioletinius spindulius, deginimosi soliariume taisyklės, kontraindikacijos, nesaikingo deginimosi pasekmės. Piktybiniai odos susirgimai ir jų profilaktika ",
+      "sectionId": "section3",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Ultravioletinės spinduliuotės poveikis, odos tipai ir odos reakcija į ultravioletinius spindulius, deginimosi soliariume taisyklės, kontraindikacijos, nesaikingo deginimosi pasekmės. Piktybiniai odos susirgimai ir jų profilaktika "
+            },
+            {
+              "type": "paragraph",
+              "text": "Prieš naudojimąsi soliariumu būtina pasitarti su gydytoju dermatologu ar bendrosios praktikos gydytoju dėl savo odos tipo, vartojamų vaistų ir galimos organizmo reakcijos į ultravioletinę spinduliuotę."
+            },
+            {
+              "type": "paragraph",
+              "text": "Deginantis soliariume nerekomenduojama naudoti įdegį stiprinančių (skatinančių) kosmetikos gaminių."
+            },
+            {
+              "type": "paragraph",
+              "text": "Paslaugų vartotojo prašymu už soliariumo paslaugų teikimą atsakingas soliariumo darbuotojas privalo išduoti Soliariumo paslaugų teikimo kortelę ir ją užpildyti. Soliariumo paslaugų teikimo kortelę rekomenduojama pildyti prieš kiekvieną deginimosi soliariume seansą."
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Soliariumu neturėtų naudotis:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "I–II odos tipą turintys asmenys. Būtina iki pusės sumažinti soliariumo įrangos gamintojo rekomenduojamą pirmojo deginimosi soliariume seanso trukmę, jeigu I ir II odos tipą turintys asmenys nusprendžia naudotis soliariumu;",
+                "daug apgamų, strazdanų turintys asmenys;",
+                "praeityje stipriai nudegę saulėje asmenys;",
+                "turintys piktybinių odos pakitimų asmenys;",
+                "sirgę odos vėžiu ar turintys odos vėžiu sirgusių šeimos narių;",
+                "vartojantys odos jautrumą ultravioletiniams spinduliams padidinančius vaistus (preparatus) (pvz.: antibiotikai, antidepresantai, sulfanilamidai, diuretikai, psoralenai, vitaminas A, retinoidai, vaistai diabetui, grybeliniams susirgimams gydyti, kontraceptiniai preparatai ir kt.);",
+                "nėščios moterys;",
+                "asmenys, sergantys odos ligomis (jungiamojo audinio sisteminėmis ligomis, odos raudonąja vilklige, sklerodermija), tuberkulioze, cukriniu diabetu, katarakta, tireotoksikoze bei užkrečiamosiomis ligomis);",
+                "asmenys, turintys širdies stimuliatorius ar transplantuotus organus."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Deginimosi soliariume taisyklės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "deginantis soliariume kūno ir veido oda turi būti švari, nesutepta kremais, losjonais, dezodorantais arba kitomis kosmetinėmis priemonėmis, sausa;",
+                "soliariume negalima naudoti kosmetikos gaminių, apsaugančių nuo natūralių saulės spindulių poveikio;",
+                "būtina naudotis apsauginiais akiniais;",
+                "deginimosi soliariume trukmė ir režimas turi būti pasirenkami atsižvelgiant į odos tipą, odos jautrumą, soliariumo (soliariumo spinduolių) gamintojo rekomenduojamą deginimosi trukmę ir deginimosi režimą;",
+                "pirmojo deginimosi soliariume trukmė turi būti ne ilgesnė kaip 10 min.;",
+                "deginimosi soliariume skaičius neturi viršyti dviejų kartų per savaitę ir daugiau kaip 30 kartų per kalendorinius metus;",
+                "tarp dviejų deginimosi seansų turi būti daroma ne trumpesnė kaip 48 val. pertrauka;",
+                "deginantis soliariume moterims rekomenduojama dengti krūtis;",
+                "deginantis soliariume rekomenduojama dengti plaukus, randus, tatuiruotas kūno vietas, nes tatuiruočių dažai gali blukti ar sukelti alerginę reakciją;",
+                "po deginimosi soliariume negalima tą pačią dieną degintis saulėje;",
+                "odoje atsiradus neišnykstančių patinimų, bėrimų, žaizdų arba pigmentinių apgamų būtina kreiptis į gydytoją."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Nesaikingo deginimosi pasekmės:"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "odos nudegimai;",
+                "akių pažeidimai (akies ragenos uždegimas (fotokeratitas), akies junginės uždegimas (fotokonjuktivitas), katarakta);",
+                "priešlaikinis odos senėjimas;",
+                "imuninės sistemos susilpnėjimas ir su tuo susijusi didesnė infekcinių susirgimų rizika;",
+                "odos vėžys, piktybiniai odos pakitimai."
+              ]
+            },
+            {
+              "type": "img",
+              "text": "0.png",
+              "class": "margin-xxl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Užkrečiamųjų ligų profilaktika",
+      "sectionId": "section4",
+      "content": [
+        {
+          "page": 1,
+          "page_content": [
+            {
+              "type": "heading",
+              "text": "Užkrečiamųjų ligų profilaktika"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vadovaujantis higienos normomis, soliariumų paslaugų teikėjai privalo laikytis šių infekcijų prevencijos reikalavimų:"
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Bendrieji reikalavimai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Soliariumų patalpos ir įranga turi būti švarios, reguliariai valomos ir dezinfekuojamos.",
+                "Patalpose negali būti dulkių, šiukšlių, gyvūnų, graužikų ar nariuotakojų.",
+                "Naudojami tik patvirtinti, higienos normas atitinkantys dezinfekantai."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Įrangos dezinfekcija"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Po kiekvieno kliento soliariumo gulto paviršius ir apsauginiai akiniai turi būti nedelsiant dezinfekuojami.",
+                "Naudojamas vienkartinis kilimėlis – keičiamas arba dezinfekuojamas daugkartinis.",
+                "Įranga dezinfekuojama pagal gamintojo nurodymus.",
+                "Naudojamos tinkamos, UV spindulių poveikiui atsparios dezinfekavimo priemonės.",
+                "Dezinfekcijai naudojama priemonė turi būti efektyvi prieš virusus, bakterijas ir grybelines infekcijas."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Patalpų higiena"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Patalpos valomos kasdien ir prireikus, naudojant atskirą valymo inventorių kiekvienai zonai (pvz.: tualetui – atskiras inventorius).",
+                "Naudojamos valymo ir dezinfekcijos priemonės turi būti tinkamos viešoms patalpoms.",
+                "Ventiliacijos angos turi būti valomos pagal gamintojo instrukciją, saugant nuo dulkių kaupimosi."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Tualete turi būti"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Rankų higienos priemonės.",
+                "Vienkartiniai rankšluosčiai arba rankų džiovintuvas.",
+                "Atliekų talpykla."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Darbo priemonių ir tekstilės higiena"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Naudojamos darbo priemonės (pvz.: rankšluosčiai, kilimėliai) turi būti arba vienkartinės, arba po kiekvieno kliento išskalbiamos ne žemesnėje kaip 60 °C temperatūroje.",
+                "Naudota tekstilė laikoma atskiroje talpykloje, atskirai nuo švarios.",
+                "Valymo inventorius turi būti tvarkingas, švarus, laikomas atskiroje vietoje."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Asmeninė higiena"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Soliariumo darbuotojai privalo dėvėti švarius, tvarkingus darbo drabužius.",
+                "Privaloma plauti rankas prieš ir po kiekvieno kliento aptarnavimo, po patalpų valymo.",
+                "Jei darbuotojas serga užkrečiamąja liga – jam draudžiama dirbti su klientais."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Klientų informavimas"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Privaloma informuoti klientus apie:",
+                [
+                  "apsauginių akinių naudojimo būtinybę;",
+                  "asmens higienos svarbą prieš ir po paslaugos;",
+                  "užkrečiamųjų ligų profilaktiką."
+                ],
+                "Paslaugos neteikiamos",
+                [
+                  "Asmenims su atviromis žaizdomis, odos ligomis, odos infekcijomis.",
+                  "Akivaizdžiai sergantiems ar turintiems infekcinių ligų požymių."
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Infekcijų kontrolės dokumentacija"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Vesti šiuos žurnalus:",
+                [
+                  "**Įrangos valymo ir dezinfekcijos žurnalą.**",
+                  "**UV lempų keitimo ir priežiūros žurnalą.**",
+                  "**Valymo ir dezinfekcijos priemonių apskaitos žurnalą.**"
+                ],
+                "Dokumentacija saugoma **ne trumpiau kaip 2 metus.**"
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Avarinės situacijos"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "text": [
+                "Esant užkrečiamosios ligos protrūkiui ar klientui pranešus apie ligą po apsilankymo – apie tai privaloma informuoti **Nacionalinį visuomenės sveikatos centrą (NVSC)** ir imtis papildomų dezinfekcijos priemonių."
+              ]
+            },
+            {
+              "type": "heading",
+              "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
+              "text": "Naudojami dezinfekantai"
+            },
+            {
+              "type": "list",
+              "list_type": "unordered",
+              "class": "margin-xxl",
+              "text": [
+                "Efektyvūs prieš bakterijas, virusus, grybelines infekcijas.",
+                "Turi būti registruoti Lietuvoje arba Europos Sąjungoje.",
+                "Naudojami pagal gamintojo instrukcijas, laikantis veikimo trukmės."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
