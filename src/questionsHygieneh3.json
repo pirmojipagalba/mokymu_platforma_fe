@@ -4,13 +4,22 @@
       "sectionId": "1",
       "title": "Teisės aktai, reglamentuojantys grožio paslaugų visuomenės sveikatos saugos reikalavimus.",
       "questions": [
-                {
+        {
           "id": "q1",
           "question": "Kokioje situacijoje grožio paslaugų teikimo patalpose gali nebūti atskiro tualeto?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Kai pastate yra bendro naudojimo tualetas už 100 m nuo patalpų" },
-            { "optionId": "opt1b", "optionText": "Kai pastate yra atskiras bendro naudojimo tualetas ne toliau kaip 50 m nuo grožio paslaugų patalpų, kuriuo gali naudotis paslaugų teikėjai ir vartotojai" },
-            { "optionId": "opt1c", "optionText": "Kai paslaugos teikiamos tik vienam klientui per dieną" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Kai pastate yra bendro naudojimo tualetas už 100 m nuo patalpų"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Kai pastate yra atskiras bendro naudojimo tualetas ne toliau kaip 50 m nuo grožio paslaugų patalpų, kuriuo gali naudotis paslaugų teikėjai ir vartotojai"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Kai paslaugos teikiamos tik vienam klientui per dieną"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -29,8 +38,14 @@
           "question": "Kas būtinai turi būti įrengta grožio paslaugų teikimo patalpoje prie darbo vietos?",
           "options": [
             { "optionId": "opt3a", "optionText": "Poilsio zona darbuotojams" },
-            { "optionId": "opt3b", "optionText": "Praustuvė, rankų higienos priemonės, vienkartiniai rankšluosčiai, atliekų surinkimo talpykla" },
-            { "optionId": "opt3c", "optionText": "Televizorius paslaugų vartotojams" }
+            {
+              "optionId": "opt3b",
+              "optionText": "Praustuvė, rankų higienos priemonės, vienkartiniai rankšluosčiai, atliekų surinkimo talpykla"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Televizorius paslaugų vartotojams"
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -38,9 +53,18 @@
           "id": "q4",
           "question": "Kokie turi būti paviršiai, ant kurių dedami instrumentai ir kitos darbo priemonės?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Iš medžio, natūralios medžiagos, be papildomos dangos" },
-            { "optionId": "opt4b", "optionText": "Lygūs, padengti drėgmei, valikliams ir dezinfekcijos priemonėms atsparia medžiaga" },
-            { "optionId": "opt4c", "optionText": "Padengti tekstile, kuri sugeria skysčius" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Iš medžio, natūralios medžiagos, be papildomos dangos"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Lygūs, padengti drėgmei, valikliams ir dezinfekcijos priemonėms atsparia medžiaga"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Padengti tekstile, kuri sugeria skysčius"
+            }
           ],
           "correctAnswer": "opt4b"
         }
@@ -54,9 +78,18 @@
           "id": "q1",
           "question": "Kokioje situacijoje grožio paslaugų teikimo patalpose gali nebūti atskiro tualeto?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Kai pastate yra bendro naudojimo tualetas už 100 m nuo patalpų" },
-            { "optionId": "opt1b", "optionText": "Kai pastate yra atskiras bendro naudojimo tualetas ne toliau kaip 50 m nuo grožio paslaugų patalpų, kuriuo gali naudotis paslaugų teikėjai ir vartotojai" },
-            { "optionId": "opt1c", "optionText": "Kai paslaugos teikiamos tik vienam klientui per dieną" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Kai pastate yra bendro naudojimo tualetas už 100 m nuo patalpų"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Kai pastate yra atskiras bendro naudojimo tualetas ne toliau kaip 50 m nuo grožio paslaugų patalpų, kuriuo gali naudotis paslaugų teikėjai ir vartotojai"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Kai paslaugos teikiamos tik vienam klientui per dieną"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -75,8 +108,14 @@
           "question": "Kas būtinai turi būti įrengta grožio paslaugų teikimo patalpoje prie darbo vietos?",
           "options": [
             { "optionId": "opt3a", "optionText": "Poilsio zona darbuotojams" },
-            { "optionId": "opt3b", "optionText": "Praustuvė, rankų higienos priemonės, vienkartiniai rankšluosčiai, atliekų surinkimo talpykla" },
-            { "optionId": "opt3c", "optionText": "Televizorius paslaugų vartotojams" }
+            {
+              "optionId": "opt3b",
+              "optionText": "Praustuvė, rankų higienos priemonės, vienkartiniai rankšluosčiai, atliekų surinkimo talpykla"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Televizorius paslaugų vartotojams"
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -84,9 +123,18 @@
           "id": "q4",
           "question": "Kokie turi būti paviršiai, ant kurių dedami instrumentai ir kitos darbo priemonės?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Iš medžio, natūralios medžiagos, be papildomos dangos" },
-            { "optionId": "opt4b", "optionText": "Lygūs, padengti drėgmei, valikliams ir dezinfekcijos priemonėms atsparia medžiaga" },
-            { "optionId": "opt4c", "optionText": "Padengti tekstile, kuri sugeria skysčius" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Iš medžio, natūralios medžiagos, be papildomos dangos"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Lygūs, padengti drėgmei, valikliams ir dezinfekcijos priemonėms atsparia medžiaga"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Padengti tekstile, kuri sugeria skysčius"
+            }
           ],
           "correctAnswer": "opt4b"
         }
@@ -100,8 +148,14 @@
           "id": "q1",
           "question": "Kiek turi būti bendras aerobinių mezofilinių bakterijų skaičius 1 g arba 1 ml I kategorijos kosmetikos gaminyje, kad jis atitiktų ribines vertes?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Ne daugiau kaip 1 × 10³ KSV" },
-            { "optionId": "opt1b", "optionText": "Ne daugiau kaip 1 × 10² KSV" },
+            {
+              "optionId": "opt1a",
+              "optionText": "Ne daugiau kaip 1 × 10³ KSV"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Ne daugiau kaip 1 × 10² KSV"
+            },
             { "optionId": "opt1c", "optionText": "Ne daugiau kaip 2 × 10² KSV" }
           ],
           "correctAnswer": "opt1b"
@@ -130,9 +184,18 @@
           "id": "q4",
           "question": "Kaip pagal reikalavimus turi būti naudojami tatuiravimo ar ilgalaikio makiažo dažai paslaugos metu?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Galima naudoti tą patį indą keliems klientams" },
-            { "optionId": "opt4b", "optionText": "Supilti į vienkartinį indą ir naudoti tik vienam klientui" },
-            { "optionId": "opt4c", "optionText": "Naudoti tiesiai iš gamintojo pakuotės" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Galima naudoti tą patį indą keliems klientams"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Supilti į vienkartinį indą ir naudoti tik vienam klientui"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Naudoti tiesiai iš gamintojo pakuotės"
+            }
           ],
           "correctAnswer": "opt4b"
         },
@@ -150,9 +213,18 @@
           "id": "q6",
           "question": "Kam draudžiama teikti tatuiravimo, ilgalaikio makiažo ar papuošalų vėrimo paslaugas?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Vyresniems nei 18 metų asmenims" },
-            { "optionId": "opt6b", "optionText": "Asmenims iki 16 metų be sutikimo" },
-            { "optionId": "opt6c", "optionText": "Asmenims iki 18 metų be tėvų ar globėjų raštiško sutikimo" }
+            {
+              "optionId": "opt6a",
+              "optionText": "Vyresniems nei 18 metų asmenims"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Asmenims iki 16 metų be sutikimo"
+            },
+            {
+              "optionId": "opt6c",
+              "optionText": "Asmenims iki 18 metų be tėvų ar globėjų raštiško sutikimo"
+            }
           ],
           "correctAnswer": "opt6c"
         }
@@ -176,9 +248,18 @@
           "id": "q2",
           "question": "Ką pirmiausia rekomenduojama daryti, jei grožio procedūros metu buvo pažeista oda?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Užklijuoti pleistrą ir tęsti procedūrą" },
-            { "optionId": "opt2b", "optionText": "Dezinfekuoti pažeistą vietą ir stebėti uždegimo požymius" },
-            { "optionId": "opt2c", "optionText": "Patepti makiažo priemone, kad nesimatytų" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Užklijuoti pleistrą ir tęsti procedūrą"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Dezinfekuoti pažeistą vietą ir stebėti uždegimo požymius"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Patepti makiažo priemone, kad nesimatytų"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -186,9 +267,18 @@
           "id": "q3",
           "question": "Kuriuo iš šių atvejų paslauga (procedūra) grožio salone negali būti teikiama?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Jei klientas prieš tai buvo procedūrą atlikęs kitame salone" },
-            { "optionId": "opt3b", "optionText": "Jei klientas turi atvirų žaizdų ar odos infekcijų" },
-            { "optionId": "opt3c", "optionText": "Jei klientas naudoja apsauginį kremą" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Jei klientas prieš tai buvo procedūrą atlikęs kitame salone"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Jei klientas turi atvirų žaizdų ar odos infekcijų"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Jei klientas naudoja apsauginį kremą"
+            }
           ],
           "correctAnswer": "opt3b"
         }
@@ -202,9 +292,18 @@
           "id": "q1",
           "question": "Kas privaloma padaryti su paviršiais, prie kurių tiesiogiai liečiasi paslaugų vartotojas teikiant jam grožio paslaugą?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Dezinfekuoti tik darbo dienos pabaigoje" },
-            { "optionId": "opt1b", "optionText": "Padengti daugkartiniu audeklu" },
-            { "optionId": "opt1c", "optionText": "Padengti vienkartiniu užtiesalu arba valyti ir dezinfekuoti po kiekvieno vartotojo" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Dezinfekuoti tik darbo dienos pabaigoje"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Padengti daugkartiniu audeklu"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Padengti vienkartiniu užtiesalu arba valyti ir dezinfekuoti po kiekvieno vartotojo"
+            }
           ],
           "correctAnswer": "opt1c"
         },
@@ -212,9 +311,18 @@
           "id": "q2",
           "question": "Kokie instrumentai turi būti naudojami A kategorijos paslaugoms teikti?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Tik vienkartiniai sterilūs instrumentai" },
-            { "optionId": "opt2b", "optionText": "Tik mechaniniu būdu valomi ir džiovinami instrumentai" },
-            { "optionId": "opt2c", "optionText": "Sterilūs vienkartiniai arba daugkartinio naudojimo instrumentai, kurie po panaudojimo dezinfekuojami, valomi, sausinami ar džiovinami ir sterilizuojami" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Tik vienkartiniai sterilūs instrumentai"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Tik mechaniniu būdu valomi ir džiovinami instrumentai"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Sterilūs vienkartiniai arba daugkartinio naudojimo instrumentai, kurie po panaudojimo dezinfekuojami, valomi, sausinami ar džiovinami ir sterilizuojami"
+            }
           ],
           "correctAnswer": "opt2c"
         },
@@ -222,9 +330,18 @@
           "id": "q3",
           "question": "Kas draudžiama darant instrumentų priežiūrą teikiant A kategorijos paslaugas?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Instrumentus mirkyti dezinfekcijos valomajame tirpale" },
-            { "optionId": "opt3b", "optionText": "Instrumentus valyti ultragarsu" },
-            { "optionId": "opt3c", "optionText": "Instrumentus valyti rankomis prieš dezinfekciją" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Instrumentus mirkyti dezinfekcijos valomajame tirpale"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Instrumentus valyti ultragarsu"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Instrumentus valyti rankomis prieš dezinfekciją"
+            }
           ],
           "correctAnswer": "opt3c"
         }
@@ -239,8 +356,14 @@
           "question": "Kada asmenys, teikiantys grožio paslaugas, privalo plauti rankas?",
           "options": [
             { "optionId": "opt1a", "optionText": "Tik prieš pradedant darbą." },
-            { "optionId": "opt1b", "optionText": "Prieš pradėdami ir baigę teikti grožio paslaugą, prieš užsimaudami ir nusimovę pirštines." },
-            { "optionId": "opt1c", "optionText": "Tik po kontakto su kliento oda." }
+            {
+              "optionId": "opt1b",
+              "optionText": "Prieš pradėdami ir baigę teikti grožio paslaugą, prieš užsimaudami ir nusimovę pirštines."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Tik po kontakto su kliento oda."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -249,14 +372,17 @@
           "question": "Kokias apsaugos priemones turi dėvėti grožio paslaugų teikėjas valydamas instrumentus ar tvarkydamas daiktus, užterštus krauju ar kūno skysčiais?",
           "options": [
             { "optionId": "opt2a", "optionText": "Tik darbo drabužius." },
-            { "optionId": "opt2b", "optionText": "Asmenines apsaugos priemones, kurias nurodo valiklio ar dezinfekcijos priemonės gamintojas, ir gumines pirštines." },
+            {
+              "optionId": "opt2b",
+              "optionText": "Asmenines apsaugos priemones, kurias nurodo valiklio ar dezinfekcijos priemonės gamintojas, ir gumines pirštines."
+            },
             { "optionId": "opt2c", "optionText": "Tik medicinines kaukes." }
           ],
           "correctAnswer": "opt2b"
         }
       ]
     },
-        {
+    {
       "sectionId": "7",
       "title": "Užkrečiamųjų, odos ir alerginių ligų profilaktika.",
       "questions": [
@@ -264,9 +390,18 @@
           "id": "q1",
           "question": "Kokiu tikslu grožio paslaugų teikėjai turi naudoti autorizuotas dezinfekcines priemones ir tinkamai valyti bei sterilizuoti instrumentus?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Kad pagreitintų darbo eigą." },
-            { "optionId": "opt1b", "optionText": "Siekiant užtikrinti infekcijų kontrolę ir apsaugoti klientų bei darbuotojų sveikatą." },
-            { "optionId": "opt1c", "optionText": "Kad dezinfekcinės priemonės ilgiau galiotų." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Kad pagreitintų darbo eigą."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Siekiant užtikrinti infekcijų kontrolę ir apsaugoti klientų bei darbuotojų sveikatą."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Kad dezinfekcinės priemonės ilgiau galiotų."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -274,11 +409,50 @@
           "id": "q2",
           "question": "Kodėl grožio specialistams rekomenduojama naudoti asmenines apsaugos priemones, tokias kaip pirštinės ir apsauginės kaukės?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Kad atrodytų profesionaliau." },
-            { "optionId": "opt2b", "optionText": "Siekiant išvengti profesinių ligų ir alerginių reakcijų dėl cheminių medžiagų ar lakiųjų medžiagų poveikio." },
-            { "optionId": "opt2c", "optionText": "Kad apsaugotų kosmetikos priemones nuo dulkių." }
+            {
+              "optionId": "opt2a",
+              "optionText": "Kad atrodytų profesionaliau."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Siekiant išvengti profesinių ligų ir alerginių reakcijų dėl cheminių medžiagų ar lakiųjų medžiagų poveikio."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Kad apsaugotų kosmetikos priemones nuo dulkių."
+            }
           ],
           "correctAnswer": "opt2b"
+        }
+      ]
+    },
+    {
+      "sectionId": "8",
+      "title": "Praktinė užduotis",
+      "description": "Į grožio paslaugų saloną atvyksta valstybinės visuomenės sveikatos priežiūros specialistai atlikti patikrinimo. Jie apžiūri patalpas ir pastebi, kad grožio paslaugų teikimo patalpoje, kurioje dirba keturi specialistai, nėra įrengtos mechaninės vėdinimo sistemos, patalpoje naudojami tik natūralūs langai orui išleisti. Specialistai paaiškina, kad pagal teisės aktus tokioje darbo vietų skaičių turinčioje patalpoje privaloma mechaninė vėdinimo sistema.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kiek darbo vietų grožio paslaugų teikimo patalpoje turi būti, kad pagal visuomenės sveikatos saugos reikalavimus būtų privaloma įrengti mechaninę vėdinimo sistemą?",
+          "options": [
+            {
+              "optionId": "opt1a",
+              "optionText": "Nuo 2 darbo vietų"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Nuo 3 darbo vietų"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Nuo 4 darbo vietų"
+            },
+            {
+              "optionId": "opt1d",
+              "optionText": "Kai eksploatuojamos daugiau kaip 3 darbo vietos"
+            }
+          ],
+          "correctAnswer": "opt1d"
         }
       ]
     }

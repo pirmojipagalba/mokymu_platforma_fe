@@ -8,9 +8,18 @@
           "id": "q1",
           "question": "Kodėl svarbu užtikrinti maisto saugą dirbant su maistu?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Nes maistas gali būti ne toks skanus." },
-            { "optionId": "opt1b", "optionText": "Nes užterštas ar netinkamai tvarkytas maistas gali sukelti ligas ir finansinius nuostolius." },
-            { "optionId": "opt1c", "optionText": "Nes maisto gamyba trunka ilgiau." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Nes maistas gali būti ne toks skanus."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Nes užterštas ar netinkamai tvarkytas maistas gali sukelti ligas ir finansinius nuostolius."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Nes maisto gamyba trunka ilgiau."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -18,9 +27,18 @@
           "id": "q2",
           "question": "Kuri iš žemiau pateiktų priežasčių dažniausiai lemia maisto užterštumą?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Naudojamos naujos technologijos." },
-            { "optionId": "opt2b", "optionText": "Netinkama temperatūros kontrolė ir kryžminis užterštumas." },
-            { "optionId": "opt2c", "optionText": "Per ilgas maisto gaminimo laikas." }
+            {
+              "optionId": "opt2a",
+              "optionText": "Naudojamos naujos technologijos."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Netinkama temperatūros kontrolė ir kryžminis užterštumas."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Per ilgas maisto gaminimo laikas."
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -38,9 +56,18 @@
           "id": "q4",
           "question": "Kuri iš žemiau pateiktų yra mikrobiologinės kryžminės taršos priežastis?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Į maistą patenkantys plovikliai." },
-            { "optionId": "opt4b", "optionText": "Bakterijų perdavimas nuo žaliavos ar aplinkos į paruoštą maistą." },
-            { "optionId": "opt4c", "optionText": "Į maistą patekę stiklo ar akmenukų dalelės." }
+            {
+              "optionId": "opt4a",
+              "optionText": "Į maistą patenkantys plovikliai."
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Bakterijų perdavimas nuo žaliavos ar aplinkos į paruoštą maistą."
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Į maistą patekę stiklo ar akmenukų dalelės."
+            }
           ],
           "correctAnswer": "opt4b"
         },
@@ -48,9 +75,18 @@
           "id": "q5",
           "question": "Kaip galima sumažinti kryžminės taršos riziką?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Naudoti tą patį įrankį visiems produktams." },
-            { "optionId": "opt5b", "optionText": "Naudoti atskirą inventorių žaliam ir paruoštam maistui." },
-            { "optionId": "opt5c", "optionText": "Laikyti visus produktus kartu vienoje lentynoje." }
+            {
+              "optionId": "opt5a",
+              "optionText": "Naudoti tą patį įrankį visiems produktams."
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Naudoti atskirą inventorių žaliam ir paruoštam maistui."
+            },
+            {
+              "optionId": "opt5c",
+              "optionText": "Laikyti visus produktus kartu vienoje lentynoje."
+            }
           ],
           "correctAnswer": "opt5b"
         },
@@ -59,7 +95,10 @@
           "question": "Kuri iš šių maisto produktų dažniausiai sukelia alergines reakcijas?",
           "options": [
             { "optionId": "opt6a", "optionText": "Bulvės" },
-            { "optionId": "opt6b", "optionText": "Pienas, kiaušiniai, riešutai" },
+            {
+              "optionId": "opt6b",
+              "optionText": "Pienas, kiaušiniai, riešutai"
+            },
             { "optionId": "opt6c", "optionText": "Morkos" }
           ],
           "correctAnswer": "opt6b"
@@ -74,9 +113,18 @@
           "id": "q1",
           "question": "Kas yra mikroorganizmai?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Dideli, daugialąsčiai organizmai, matomi plika akimi" },
-            { "optionId": "opt1b", "optionText": "Itin smulkūs gyvi organizmai, dažniausiai vienaląsčiai, matomi tik per mikroskopą" },
-            { "optionId": "opt1c", "optionText": "Organizmų grupė, sudaryta tik iš virusų" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Dideli, daugialąsčiai organizmai, matomi plika akimi"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Itin smulkūs gyvi organizmai, dažniausiai vienaląsčiai, matomi tik per mikroskopą"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Organizmų grupė, sudaryta tik iš virusų"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -104,9 +152,15 @@
           "id": "q4",
           "question": "Kokie yra pagrindiniai veiksniai, lemiantys bakterijų dauginimąsi maisto produktuose?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Maistas, drėgmė, temperatūra, deguonis, laikas" },
+            {
+              "optionId": "opt4a",
+              "optionText": "Maistas, drėgmė, temperatūra, deguonis, laikas"
+            },
             { "optionId": "opt4b", "optionText": "Tik drėgmė ir šviesa" },
-            { "optionId": "opt4c", "optionText": "Tik temperatūra ir ultravioletinė spinduliuotė" }
+            {
+              "optionId": "opt4c",
+              "optionText": "Tik temperatūra ir ultravioletinė spinduliuotė"
+            }
           ],
           "correctAnswer": "opt4a"
         },
@@ -124,8 +178,14 @@
           "id": "q6",
           "question": "Kaip pagrindinį infekcijos plitimo būdą galima apibūdinti?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Fekalinį-oralinį kelią, dažnai per nešvarias rankas" },
-            { "optionId": "opt6b", "optionText": "Oro lašelius tik tiesioginiame kontakte" },
+            {
+              "optionId": "opt6a",
+              "optionText": "Fekalinį-oralinį kelią, dažnai per nešvarias rankas"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Oro lašelius tik tiesioginiame kontakte"
+            },
             { "optionId": "opt6c", "optionText": "Tik per vabzdžių įkandimus" }
           ],
           "correctAnswer": "opt6a"
@@ -140,9 +200,18 @@
           "id": "q1",
           "question": "Kada būtina plauti rankas, siekiant apsisaugoti nuo maistu plintančių infekcijų?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Tik prieš pradedant darbą ir po jo" },
-            { "optionId": "opt1b", "optionText": "Tik pasinaudojus tualetu ir tvarkant šiukšles" },
-            { "optionId": "opt1c", "optionText": "Prieš pradedant darbą, po jo, pasinaudojus tualetu, po sąlyčio su užterštais daiktais ir po kiekvieno maisto gamybos etapo" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Tik prieš pradedant darbą ir po jo"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Tik pasinaudojus tualetu ir tvarkant šiukšles"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Prieš pradedant darbą, po jo, pasinaudojus tualetu, po sąlyčio su užterštais daiktais ir po kiekvieno maisto gamybos etapo"
+            }
           ],
           "correctAnswer": "opt1c"
         },
@@ -150,9 +219,18 @@
           "id": "q2",
           "question": "Kuri iš šių taisyklių yra teisinga, kalbant apie vienkartinių pirštinių naudojimą?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Pirštines galima naudoti kelis kartus, jei jos nesugadintos" },
-            { "optionId": "opt2b", "optionText": "Pirštinės turi būti tinkamo dydžio, rankos nuplaunamos prieš užsimaunant, ir po kiekvieno darbo etapo pirštinės keičiasi" },
-            { "optionId": "opt2c", "optionText": "Pirštines reikia nusimauti ir vėl užsidėti be rankų plovimo" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Pirštines galima naudoti kelis kartus, jei jos nesugadintos"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Pirštinės turi būti tinkamo dydžio, rankos nuplaunamos prieš užsimaunant, ir po kiekvieno darbo etapo pirštinės keičiasi"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Pirštines reikia nusimauti ir vėl užsidėti be rankų plovimo"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -160,9 +238,18 @@
           "id": "q3",
           "question": "Kuri iš šių taisyklių yra privaloma darbuotojams maisto tvarkymo zonoje?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Dėvėti švarius, darbui tinkamus drabužius, galvos apdangalą ir darbo avalynę" },
-            { "optionId": "opt3b", "optionText": "Naudoti savo asmeninius drabužius darbo metu, jei jie švarūs" },
-            { "optionId": "opt3c", "optionText": "Dirbti su papuošalais ir stipriais kvapais skleidžiančiomis kosmetikos priemonėmis" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Dėvėti švarius, darbui tinkamus drabužius, galvos apdangalą ir darbo avalynę"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Naudoti savo asmeninius drabužius darbo metu, jei jie švarūs"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Dirbti su papuošalais ir stipriais kvapais skleidžiančiomis kosmetikos priemonėmis"
+            }
           ],
           "correctAnswer": "opt3a"
         }
@@ -176,9 +263,18 @@
           "id": "q1",
           "question": "Kokia turi būti maisto tvarkymo patalpų grindų danga?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Nelaidi vandeniui, nesugeriančia, su užglaistytomis sandūromis ir, prireikus, drenažo sistema." },
-            { "optionId": "opt1b", "optionText": "Iš medžio, kad būtų natūralu ir šilta." },
-            { "optionId": "opt1c", "optionText": "Iš kiliminės dangos, kad būtų minkšta ir triukšmą slopinanti." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Nelaidi vandeniui, nesugeriančia, su užglaistytomis sandūromis ir, prireikus, drenažo sistema."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Iš medžio, kad būtų natūralu ir šilta."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Iš kiliminės dangos, kad būtų minkšta ir triukšmą slopinanti."
+            }
           ],
           "correctAnswer": "opt1a"
         },
@@ -186,9 +282,18 @@
           "id": "q2",
           "question": "Kuri iš šių sąlygų yra būtina siekiant išvengti kryžminės taršos maisto tvarkymo patalpose?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Užtikrinti vienkryptį oro srautų judėjimą iš švaresnių į nešvaresnes zonas." },
-            { "optionId": "opt2b", "optionText": "Patalpose laikyti dekoracijas ir augalus." },
-            { "optionId": "opt2c", "optionText": "Durys turi būti atviros visą darbo laiką." }
+            {
+              "optionId": "opt2a",
+              "optionText": "Užtikrinti vienkryptį oro srautų judėjimą iš švaresnių į nešvaresnes zonas."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Patalpose laikyti dekoracijas ir augalus."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Durys turi būti atviros visą darbo laiką."
+            }
           ],
           "correctAnswer": "opt2a"
         },
@@ -196,9 +301,18 @@
           "id": "q3",
           "question": "Kaip turi būti tvarkomos atliekos maisto tvarkymo teritorijoje, siekiant apsisaugoti nuo kenkėjų?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Atliekos turi būti laikomos sandariuose konteineriuose, nepasiekiamuose kenkėjams, ir reguliariai pašalinamos." },
-            { "optionId": "opt3b", "optionText": "Atliekos galima laikyti atvirai, kad jos greičiau suyrautų." },
-            { "optionId": "opt3c", "optionText": "Atliekas galima laikyti šalia maisto, kad būtų patogu jas greitai išmesti." }
+            {
+              "optionId": "opt3a",
+              "optionText": "Atliekos turi būti laikomos sandariuose konteineriuose, nepasiekiamuose kenkėjams, ir reguliariai pašalinamos."
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Atliekos galima laikyti atvirai, kad jos greičiau suyrautų."
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Atliekas galima laikyti šalia maisto, kad būtų patogu jas greitai išmesti."
+            }
           ],
           "correctAnswer": "opt3a"
         }
@@ -245,6 +359,36 @@
             }
           ],
           "correctAnswer": "opt2c"
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "title": "Praktinė užduotis",
+      "description": "Maisto gamybos įmonėje virėja Rasa ruošia vištienos kepsnius pietums. Baigusi pjaustyti žalią vištieną ant raudonos pjaustymo lentos, ji neplaudama rankų ir nepakeitusi peilio pradeda ruošti šviežių daržovių salotas. Tos pačios salotos patiekiamos valgykloje su termiškai apdorotais patiekalais.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuo šioje situacijoje pavojinga Rasos elgsena?",
+          "options": [
+            {
+              "optionId": "optA",
+              "optionText": "Ji sugaišo per daug laiko gamindama patiekalus."
+            },
+            {
+              "optionId": "optB",
+              "optionText": "Ji galėjo sukelti kryžminę taršą tarp žalios vištienos ir šviežių daržovių."
+            },
+            {
+              "optionId": "optC",
+              "optionText": "Ji nesutaupė produktų ruošiant pietus."
+            },
+            {
+              "optionId": "optD",
+              "optionText": "Ji neteisingai pažymėjo gamybos dokumentaciją."
+            }
+          ],
+          "correctAnswer": "optB"
         }
       ]
     }

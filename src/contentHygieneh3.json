@@ -852,6 +852,12 @@
           ]
         }
       ]
+    },
+        {
+      "title": "Praktinė užduotis",
+      "type": "practical-task",
+      "sectionId": "8",
+      "content": []
     }
   ]
 }

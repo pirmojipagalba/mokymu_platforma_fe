@@ -34,7 +34,10 @@
           "question": "Kaip dažnai turi būti prižiūrima ir dezinfekuojama vėdinimo sistema?",
           "options": [
             { "optionId": "opt3a", "optionText": "Tik pradedant eksploatuoti" },
-            { "optionId": "opt3b", "optionText": "Pagal nustatytą grafiką reguliariai" },
+            {
+              "optionId": "opt3b",
+              "optionText": "Pagal nustatytą grafiką reguliariai"
+            },
             { "optionId": "opt3c", "optionText": "Tik kai atsiranda kvapai" }
           ],
           "correctAnswer": "opt3b"
@@ -53,9 +56,18 @@
           "id": "q5",
           "question": "Koks reikalavimas taikomas gatavos produkcijos laikymui?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Laikyti kartu su žaliava, kad būtų patogiau" },
-            { "optionId": "opt5b", "optionText": "Laikyti atskirai tinkamoje temperatūroje, kad būtų išvengta užteršimo" },
-            { "optionId": "opt5c", "optionText": "Laikyti bet kurioje vietoje, jei pakuotė uždaryta" }
+            {
+              "optionId": "opt5a",
+              "optionText": "Laikyti kartu su žaliava, kad būtų patogiau"
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Laikyti atskirai tinkamoje temperatūroje, kad būtų išvengta užteršimo"
+            },
+            {
+              "optionId": "opt5c",
+              "optionText": "Laikyti bet kurioje vietoje, jei pakuotė uždaryta"
+            }
           ],
           "correctAnswer": "opt5b"
         }
@@ -79,8 +91,14 @@
           "id": "q2",
           "question": "Kokiomis savybėmis turi pasižymėti atliekų konteineriai keleiviniame transporte?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Atviri ir lengvai pasiekiami" },
-            { "optionId": "opt2b", "optionText": "Sandarūs, uždengti, lengvai valomi ir dezinfekuojami" },
+            {
+              "optionId": "opt2a",
+              "optionText": "Atviri ir lengvai pasiekiami"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Sandarūs, uždengti, lengvai valomi ir dezinfekuojami"
+            },
             { "optionId": "opt2c", "optionText": "Pagaminti iš kartono" }
           ],
           "correctAnswer": "opt2b"
@@ -90,7 +108,10 @@
           "question": "Kokių paviršių valymas ir dezinfekavimas yra privalomas transporto priemonėse?",
           "options": [
             { "optionId": "opt3a", "optionText": "Tik langų valymas" },
-            { "optionId": "opt3b", "optionText": "Rankenos, sėdynės, langai, grindys ir kt." },
+            {
+              "optionId": "opt3b",
+              "optionText": "Rankenos, sėdynės, langai, grindys ir kt."
+            },
             { "optionId": "opt3c", "optionText": "Tik grindų plovimas" }
           ],
           "correctAnswer": "opt3b"
@@ -99,8 +120,14 @@
           "id": "q4",
           "question": "Kaip apsaugoti transporto priemonę nuo parazitų?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Naudoti tik kvapus naikinančius purškalus" },
-            { "optionId": "opt4b", "optionText": "Naudoti tinklus ventiliacijos angose, sandarius langus" },
+            {
+              "optionId": "opt4a",
+              "optionText": "Naudoti tik kvapus naikinančius purškalus"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Naudoti tinklus ventiliacijos angose, sandarius langus"
+            },
             { "optionId": "opt4c", "optionText": "Atidaryti langus visą laiką" }
           ],
           "correctAnswer": "opt4b"
@@ -109,9 +136,18 @@
           "id": "q5",
           "question": "Kas yra privaloma, siekiant užkirsti kelią parazitų plitimui transporto priemonėse?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Laikytis higienos reikalavimų patalpose, sandėliuose ir transporte" },
-            { "optionId": "opt5b", "optionText": "Leidžiama laikyti maistą neuždarytą" },
-            { "optionId": "opt5c", "optionText": "Nereikia kreipti dėmesio į parazitų požymius" }
+            {
+              "optionId": "opt5a",
+              "optionText": "Laikytis higienos reikalavimų patalpose, sandėliuose ir transporte"
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Leidžiama laikyti maistą neuždarytą"
+            },
+            {
+              "optionId": "opt5c",
+              "optionText": "Nereikia kreipti dėmesio į parazitų požymius"
+            }
           ],
           "correctAnswer": "opt5a"
         }
@@ -126,7 +162,10 @@
           "question": "Kada darbuotojai privalo plauti rankas?",
           "options": [
             { "optionId": "opt1a", "optionText": "Tik prieš pradedant darbą" },
-            { "optionId": "opt1b", "optionText": "Prieš darbą, po kontakto su šiukšlėmis, po tualeto, kosėjimo, čiaudėjimo ir kontakto su užterštais paviršiais" },
+            {
+              "optionId": "opt1b",
+              "optionText": "Prieš darbą, po kontakto su šiukšlėmis, po tualeto, kosėjimo, čiaudėjimo ir kontakto su užterštais paviršiais"
+            },
             { "optionId": "opt1c", "optionText": "Tik darbo pabaigoje" }
           ],
           "correctAnswer": "opt1b"
@@ -136,7 +175,10 @@
           "question": "Ką reikia naudoti, jei nėra galimybės plauti rankų vandeniu ir muilu?",
           "options": [
             { "optionId": "opt2a", "optionText": "Vandens purškalą" },
-            { "optionId": "opt2b", "optionText": "Alkoholio pagrindu pagamintus dezinfekcinius rankų gelius" },
+            {
+              "optionId": "opt2b",
+              "optionText": "Alkoholio pagrindu pagamintus dezinfekcinius rankų gelius"
+            },
             { "optionId": "opt2c", "optionText": "Bet kokią muilo alternatyvą" }
           ],
           "correctAnswer": "opt2b"
@@ -146,7 +188,10 @@
           "question": "Kaip dažnai darbuotojai turi keisti darbo aprangą?",
           "options": [
             { "optionId": "opt3a", "optionText": "Tik kartą per savaitę" },
-            { "optionId": "opt3b", "optionText": "Reguliariai, ypač jei apranga susitepa ar pažeidžiama" },
+            {
+              "optionId": "opt3b",
+              "optionText": "Reguliariai, ypač jei apranga susitepa ar pažeidžiama"
+            },
             { "optionId": "opt3c", "optionText": "Tik darbo pabaigoje" }
           ],
           "correctAnswer": "opt3b"
@@ -155,9 +200,18 @@
           "id": "q4",
           "question": "Ką privalo daryti darbuotojai, jei jaučia infekcijos požymius (pvz., karščiavimą, kosulį)?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Tęsti darbą, bet dėvėti kaukę" },
-            { "optionId": "opt4b", "optionText": "Nedirbti arba nedelsiant informuoti darbdavį" },
-            { "optionId": "opt4c", "optionText": "Paslėpti simptomus ir dirbti toliau" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Tęsti darbą, bet dėvėti kaukę"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Nedirbti arba nedelsiant informuoti darbdavį"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Paslėpti simptomus ir dirbti toliau"
+            }
           ],
           "correctAnswer": "opt4b"
         },
@@ -165,8 +219,14 @@
           "id": "q5",
           "question": "Kur darbuotojai turi laikyti asmeninius daiktus?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Šalia maisto ir darbo įrankių" },
-            { "optionId": "opt5b", "optionText": "Atskirose, švariose vietose, ne darbo zonose" },
+            {
+              "optionId": "opt5a",
+              "optionText": "Šalia maisto ir darbo įrankių"
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Atskirose, švariose vietose, ne darbo zonose"
+            },
             { "optionId": "opt5c", "optionText": "Bet kur, kur patogu" }
           ],
           "correctAnswer": "opt5b"
@@ -181,9 +241,18 @@
           "id": "q1",
           "question": "Ką turi daryti darbuotojas, jei jam pasireiškia ūmių užkrečiamųjų ligų požymiai?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Tęsti darbą, bet dėvėti kaukę" },
-            { "optionId": "opt1b", "optionText": "Nedirbti su keleiviais ar maistu, nedelsiant informuoti atsakingą asmenį ir kreiptis į gydytoją" },
-            { "optionId": "opt1c", "optionText": "Ignoruoti simptomus ir tęsti darbą" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Tęsti darbą, bet dėvėti kaukę"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Nedirbti su keleiviais ar maistu, nedelsiant informuoti atsakingą asmenį ir kreiptis į gydytoją"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Ignoruoti simptomus ir tęsti darbą"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -192,8 +261,14 @@
           "question": "Kas turi užtikrinti darbuotojų sveikatos periodinius tikrinimus?",
           "options": [
             { "optionId": "opt2a", "optionText": "Darbuotojas pats" },
-            { "optionId": "opt2b", "optionText": "Darbdavys pagal teisės aktų reikalavimus" },
-            { "optionId": "opt2c", "optionText": "Sveikatos apsaugos ministerija" }
+            {
+              "optionId": "opt2b",
+              "optionText": "Darbdavys pagal teisės aktų reikalavimus"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Sveikatos apsaugos ministerija"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -201,7 +276,10 @@
           "id": "q3",
           "question": "Kokia priemonė turi būti įrengta transporto priemonėse darbuotojams ir keleiviams infekcijų prevencijai?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Rankų dezinfekavimo priemonės" },
+            {
+              "optionId": "opt3a",
+              "optionText": "Rankų dezinfekavimo priemonės"
+            },
             { "optionId": "opt3b", "optionText": "Oro kondicionieriai" },
             { "optionId": "opt3c", "optionText": "Muzikos sistema" }
           ],
@@ -211,9 +289,18 @@
           "id": "q4",
           "question": "Kada darbuotojai turi naudoti apsaugos priemones, pvz., kaukes?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Tik kai jaučia ligos požymius" },
-            { "optionId": "opt4b", "optionText": "Esant epidemiologinei situacijai arba įmonės vidaus tvarkai" },
-            { "optionId": "opt4c", "optionText": "Visada, nepriklausomai nuo situacijos" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Tik kai jaučia ligos požymius"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Esant epidemiologinei situacijai arba įmonės vidaus tvarkai"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Visada, nepriklausomai nuo situacijos"
+            }
           ],
           "correctAnswer": "opt4b"
         },
@@ -221,11 +308,47 @@
           "id": "q5",
           "question": "Ką darbdavys gali rekomenduoti darbuotojams užkrečiamųjų ligų prevencijai?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Skiepytis sezoninėmis vakcinomis nuo gripo ar kitų infekcijų" },
+            {
+              "optionId": "opt5a",
+              "optionText": "Skiepytis sezoninėmis vakcinomis nuo gripo ar kitų infekcijų"
+            },
             { "optionId": "opt5b", "optionText": "Dirbti ilgiau be pertraukų" },
-            { "optionId": "opt5c", "optionText": "Vengti darbo su keleiviais bet kuriuo atveju" }
+            {
+              "optionId": "opt5c",
+              "optionText": "Vengti darbo su keleiviais bet kuriuo atveju"
+            }
           ],
           "correctAnswer": "opt5a"
+        }
+      ]
+    },
+    {
+      "sectionId": "6",
+      "title": "Praktinė užduotis",
+      "description": "Jūs esate atsakingas už keleivinio transporto priemonės švarą ir higieną. Po ilgo dienos darbo pastebėjote, kad atliekų talpykla perpildyta, kai kurie paviršiai lipnūs, ant sėdynių matomi trupiniai, o ventiliacijos angoje įstrigęs vabzdys. Taip pat pastebėjote, kad vienas iš kolegų, surinkęs atliekas, rankų nenusiplovė ir iškart pradėjo tvarkyti keleivių sėdynes. Jūsų užduotis — užtikrinti, kad būtų tinkamai atliktas atliekų surinkimas, valymas, dezinfekavimas, o darbuotojai laikytųsi asmens higienos ir buitinių parazitų kontrolės taisyklių.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuris iš žemiau pateiktų teiginių apie atliekų surinkimą, valymą ir parazitų kontrolę keleiviniame transporte yra TEISINGAS?",
+          "options": [
+            {
+              "optionId": "optA",
+              "optionText": "Atliekų talpyklas galima naudoti be dangčio, jei jos ištuštinamos kartą per savaitę."
+            },
+            {
+              "optionId": "optB",
+              "optionText": "Po kiekvieno atliekų surinkimo darbuotojas turi nusiplauti rankas šaltu vandeniu, be muilo."
+            },
+            {
+              "optionId": "optC",
+              "optionText": "Transporto priemonėje turi būti reguliariai atliekama valymo, plovimo, dezinfekavimo ir parazitų kontrolė naudojant patvirtintas saugias priemones."
+            },
+            {
+              "optionId": "optD",
+              "optionText": "Buitinių parazitų kontrolę užtenka atlikti kartą per metus, jei nepastebėta vabzdžių ar graužikų."
+            }
+          ],
+          "correctAnswer": "optC"
         }
       ]
     }

@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Container from "../../components/Container/Container";
 import BackButton from "../../components/BackButton/BackButton";
 import Questionnaire from "../../components/Questionnaire/Questionnaire";
+import { useAppContext } from "../../context/AppContext";
+import ReactMarkdown from "react-markdown";
 import "./questionnairePage.scss";
 
 interface Question {
@@ -18,6 +20,7 @@ interface Question {
 
 interface QuestionnairePageProps {
   title: string;
+  description: string;
   sectionId: string;
   questions: Question[];
   onAnswersCollected: (
@@ -32,6 +35,7 @@ interface QuestionnairePageProps {
 
 const QuestionnairePage: React.FC<QuestionnairePageProps> = ({
   title,
+  description,
   questions,
   onAnswersCollected,
 }) => {
@@ -41,6 +45,20 @@ const QuestionnairePage: React.FC<QuestionnairePageProps> = ({
   const [correctAnswersCount, setCorrectAnswersCount] = useState<number | null>(
     null
   );
+  const [totalAnswersCount, setTotalAnswersCount] = useState<number>(0);
+
+  const { selectedProduct } = useAppContext();
+  const [isCompleted, setIsCompleted] = useState(false);
+
+  useEffect(() => {
+    const completedSections = Number(
+      localStorage.getItem(`completedSections_${selectedProduct}`) || 0
+    );
+    const currentSectionIndex = Number(
+      localStorage.getItem(`currentSection_${selectedProduct}`) || 0
+    );
+    setIsCompleted(currentSectionIndex <= completedSections);
+  }, [selectedProduct]);
 
   const handleAnswersCollected = (
     answers: {
@@ -53,8 +71,6 @@ const QuestionnairePage: React.FC<QuestionnairePageProps> = ({
     setCollectedAnswers((prevAnswers) => [...prevAnswers, ...answers]);
     onAnswersCollected([...collectedAnswers, ...answers]); // Pass all collected answers
   };
-
-  console.log(questions)
 
   return (
     <Container>
@@ -70,16 +86,32 @@ const QuestionnairePage: React.FC<QuestionnairePageProps> = ({
             />
             Sveikiname atlikus testą!
             <span className="questionnaire-page__correct-answers-count">
-            Jūsų rezultatas yra <strong>{correctAnswersCount} iš 4</strong> teisingų atsakymų.</span>
+              Jūsų rezultatas yra <strong>{correctAnswersCount} iš {totalAnswersCount}</strong>{" "}
+              teisingų atsakymų.
+            </span>
           </div>
-        ) : ( 
-          <h2 className="questionnaire-page__heading">{title}</h2>
+        ) : (
+          <>
+            <h2 className="questionnaire-page__heading">{title}</h2>
+            {description ? (
+              <p className="questionnaire-page__description">
+                <ReactMarkdown>
+                  {description}
+                </ReactMarkdown>
+              </p>
+            ) : (
+              ""
+            )}
+          </>
         )}
         <Questionnaire
           questions={questions}
           onAnswersCollected={handleAnswersCollected}
           setCorrectAnswersCount={setCorrectAnswersCount}
           correctAnswersCount={correctAnswersCount}
+          isDisabled={isCompleted}
+          isPracticeQuestion={description !== undefined}
+          setTotalAnswersCount={setTotalAnswersCount}
         />
       </div>
     </Container>

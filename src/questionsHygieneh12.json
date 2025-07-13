@@ -13,9 +13,18 @@
           "id": "q1",
           "question": "Kas yra dezinfekcija?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Tik dulkių pašalinimas nuo paviršių" },
-            { "optionId": "opt1b", "optionText": "Daugelio arba visų mikroorganizmų sunaikinimas aplinkoje, išskyrus kai kurias bakterijų sporas, naudojant fizines ir chemines priemones" },
-            { "optionId": "opt1c", "optionText": "Skalbyklos patalpų vėdinimas" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Tik dulkių pašalinimas nuo paviršių"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Daugelio arba visų mikroorganizmų sunaikinimas aplinkoje, išskyrus kai kurias bakterijų sporas, naudojant fizines ir chemines priemones"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Skalbyklos patalpų vėdinimas"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -23,9 +32,18 @@
           "id": "q2",
           "question": "Kokiai temperatūrai ir trukmei turi būti skalbiama, kad būtų užtikrinta šiluminė skalbinių dezinfekcija?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Ne žemesnėje kaip 50 °C temperatūroje 15 minučių" },
-            { "optionId": "opt2b", "optionText": "Ne žemesnėje kaip 60 °C temperatūroje 20 minučių" },
-            { "optionId": "opt2c", "optionText": "Ne žemesnėje kaip 71 °C temperatūroje 25 minutes" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Ne žemesnėje kaip 50 °C temperatūroje 15 minučių"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Ne žemesnėje kaip 60 °C temperatūroje 20 minučių"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Ne žemesnėje kaip 71 °C temperatūroje 25 minutes"
+            }
           ],
           "correctAnswer": "opt2c"
         },
@@ -33,9 +51,18 @@
           "id": "q3",
           "question": "Kaip turi būti organizuoti švarūs ir nešvarūs skalbiniai skalbykloje?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Juos galima laikyti toje pačioje vietoje, jei skiriasi lentynos" },
-            { "optionId": "opt3b", "optionText": "Turi būti tvarkomi taip, kad būtų užkirstas kelias švarių skalbinių kryžminei (antrinei) taršai" },
-            { "optionId": "opt3c", "optionText": "Nešvarūs skalbiniai turi būti laikomi šalia švarių, bet atskiruose maišuose" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Juos galima laikyti toje pačioje vietoje, jei skiriasi lentynos"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Turi būti tvarkomi taip, kad būtų užkirstas kelias švarių skalbinių kryžminei (antrinei) taršai"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Nešvarūs skalbiniai turi būti laikomi šalia švarių, bet atskiruose maišuose"
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -43,9 +70,18 @@
           "id": "q4",
           "question": "Kuri iš šių sąlygų netinkama maisto gaminimo vietose keleiviniame transporte?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Indų plovimo įrenginiai užtikrina efektyvų plovimą ir dezinfekciją" },
-            { "optionId": "opt4b", "optionText": "Indai laikomi drėgnoje vietoje" },
-            { "optionId": "opt4c", "optionText": "Maistas gaminamas laikantis tinkamos terminės apdorojimo temperatūros" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Indų plovimo įrenginiai užtikrina efektyvų plovimą ir dezinfekciją"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Indai laikomi drėgnoje vietoje"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Maistas gaminamas laikantis tinkamos terminės apdorojimo temperatūros"
+            }
           ],
           "correctAnswer": "opt4b"
         }
@@ -59,9 +95,18 @@
           "id": "q1",
           "question": "Kokia turi būti savitarnos skalbyklos vandens kokybė?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Gali būti bet kokios kokybės, svarbu, kad būtų vanduo" },
-            { "optionId": "opt1b", "optionText": "Vanduo turi atitikti geriamojo vandens kokybės normas" },
-            { "optionId": "opt1c", "optionText": "Vanduo turi būti dezinfekuotas chemikalais" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Gali būti bet kokios kokybės, svarbu, kad būtų vanduo"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Vanduo turi atitikti geriamojo vandens kokybės normas"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Vanduo turi būti dezinfekuotas chemikalais"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -69,9 +114,18 @@
           "id": "q2",
           "question": "Ką turi apimti skalbyklos patalpų, įrenginių ir inventoriaus valymo tvarkos aprašas?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Tik valymo priemonių sąrašą" },
-            { "optionId": "opt2b", "optionText": "Valymo objektą, naudojamas priemones, periodiškumą ir atsakingą asmenį" },
-            { "optionId": "opt2c", "optionText": "Tik periodiškumą, kaip dažnai valyti" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Tik valymo priemonių sąrašą"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Valymo objektą, naudojamas priemones, periodiškumą ir atsakingą asmenį"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Tik periodiškumą, kaip dažnai valyti"
+            }
           ],
           "correctAnswer": "opt2b"
         }
@@ -85,9 +139,18 @@
           "id": "q1",
           "question": "Kokia turi būti pertvara tarp švariosios ir nešvariosios skalbyklos dalių?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Atvira, kad būtų geras oro cirkuliavimas" },
-            { "optionId": "opt1b", "optionText": "Sandari, siekianti lubas ir sienas, su durimis darbuotojų pereiti" },
-            { "optionId": "opt1c", "optionText": "Pagaminta iš tinklo medžiagos, kad būtų matyti abi dalys" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Atvira, kad būtų geras oro cirkuliavimas"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Sandari, siekianti lubas ir sienas, su durimis darbuotojų pereiti"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Pagaminta iš tinklo medžiagos, kad būtų matyti abi dalys"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -95,9 +158,18 @@
           "id": "q2",
           "question": "Kur turi būti įrengti du atskiri įėjimai skalbykloje?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Vienas darbuotojams, kitas klientams" },
-            { "optionId": "opt2b", "optionText": "Vienas nešvariems skalbiniams priimti, kitas – švariems skalbiniams išduoti" },
-            { "optionId": "opt2c", "optionText": "Vienas skalbimui, kitas džiovinimui" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Vienas darbuotojams, kitas klientams"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Vienas nešvariems skalbiniams priimti, kitas – švariems skalbiniams išduoti"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Vienas skalbimui, kitas džiovinimui"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -105,9 +177,18 @@
           "id": "q3",
           "question": "Kaip turi būti tvarkomi vežimėliai, kuriais transportuojami švarūs ir nešvarūs skalbiniai?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Tie patys vežimėliai, naudojami be jokių specialių priemonių" },
-            { "optionId": "opt3b", "optionText": "Vežimėliai turi būti valomi ir dezinfekuojami atskiroje patalpoje arba turi būti atskiri ir aiškiai pažymėti" },
-            { "optionId": "opt3c", "optionText": "Naudojami tik metaliniai vežimėliai" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Tie patys vežimėliai, naudojami be jokių specialių priemonių"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Vežimėliai turi būti valomi ir dezinfekuojami atskiroje patalpoje arba turi būti atskiri ir aiškiai pažymėti"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Naudojami tik metaliniai vežimėliai"
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -116,8 +197,14 @@
           "question": "Ką turi dėvėti darbuotojai švariojoje ir nešvariojoje skalbyklos dalyse?",
           "options": [
             { "optionId": "opt4a", "optionText": "Tie patys darbo drabužiai" },
-            { "optionId": "opt4b", "optionText": "Specialiai pažymėtus arba skirtingų spalvų darbo drabužius" },
-            { "optionId": "opt4c", "optionText": "Laisvus drabužius be specialių reikalavimų" }
+            {
+              "optionId": "opt4b",
+              "optionText": "Specialiai pažymėtus arba skirtingų spalvų darbo drabužius"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Laisvus drabužius be specialių reikalavimų"
+            }
           ],
           "correctAnswer": "opt4b"
         }
@@ -131,9 +218,18 @@
           "id": "q1",
           "question": "Kas yra biocidai?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Cheminės arba biologinės medžiagos, skirtos valyti paviršius" },
-            { "optionId": "opt1b", "optionText": "Cheminės arba biologinės medžiagos, skirtos kontroliuoti kenksmingus organizmus" },
-            { "optionId": "opt1c", "optionText": "Priemonės, skirtos plauti skalbinius" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Cheminės arba biologinės medžiagos, skirtos valyti paviršius"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Cheminės arba biologinės medžiagos, skirtos kontroliuoti kenksmingus organizmus"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Priemonės, skirtos plauti skalbinius"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -141,9 +237,18 @@
           "id": "q2",
           "question": "Kuri iš šių biocidų kategorijų skirta žmogaus odai dezinfekuoti?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Dezinfekantai paviršiams ir įrangai" },
-            { "optionId": "opt2b", "optionText": "Asmens higiena – biocidai, skirti žmogaus odai dezinfekuoti" },
-            { "optionId": "opt2c", "optionText": "Veterinarinė higiena – produktai gyvūnams" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Dezinfekantai paviršiams ir įrangai"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Asmens higiena – biocidai, skirti žmogaus odai dezinfekuoti"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Veterinarinė higiena – produktai gyvūnams"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -151,9 +256,18 @@
           "id": "q3",
           "question": "Kokios yra pagrindinės darbo su biocidais taisyklės?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Laikyti kartu su maistu ir naudoti be apsauginių priemonių" },
-            { "optionId": "opt3b", "optionText": "Naudoti kiek norima, nes biocidai nėra pavojingi" },
-            { "optionId": "opt3c", "optionText": "Laikyti sandariai uždarytus specialioje patalpoje, nenaudoti skirtingų priemonių kartu, dirbti su apsauginėmis pirštinėmis" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Laikyti kartu su maistu ir naudoti be apsauginių priemonių"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Naudoti kiek norima, nes biocidai nėra pavojingi"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Laikyti sandariai uždarytus specialioje patalpoje, nenaudoti skirtingų priemonių kartu, dirbti su apsauginėmis pirštinėmis"
+            }
           ],
           "correctAnswer": "opt3c"
         }
@@ -167,9 +281,18 @@
           "id": "q1",
           "question": "Kokios patalpos privalo būti įrengtos skalbyklose, kurios neskalbia sveikatos priežiūros įstaigų skalbinių?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Tik skalbinių priėmimo ir išdavimo patalpa" },
-            { "optionId": "opt1b", "optionText": "Skalbinių priėmimo ir išdavimo, nešvarių skalbinių laikymo, skalbimo/džiovinimo/lygimo, švarių skalbinių laikymo ir personalo patalpos" },
-            { "optionId": "opt1c", "optionText": "Tik skalbimo ir džiovinimo patalpos" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Tik skalbinių priėmimo ir išdavimo patalpa"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Skalbinių priėmimo ir išdavimo, nešvarių skalbinių laikymo, skalbimo/džiovinimo/lygimo, švarių skalbinių laikymo ir personalo patalpos"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Tik skalbimo ir džiovinimo patalpos"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -177,9 +300,18 @@
           "id": "q2",
           "question": "Kur turi būti laikomi švarūs skalbiniai?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Ant grindų nešvarioje skalbyklos dalyje" },
-            { "optionId": "opt2b", "optionText": "Supakuoti, pakelti nuo grindų lentynose, spintose ar vežimėliuose švarių skalbinių laikymo patalpoje arba priėmimo ir išdavimo zonoje" },
-            { "optionId": "opt2c", "optionText": "Bet kurioje skalbyklos patalpoje, kur yra vietos" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Ant grindų nešvarioje skalbyklos dalyje"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Supakuoti, pakelti nuo grindų lentynose, spintose ar vežimėliuose švarių skalbinių laikymo patalpoje arba priėmimo ir išdavimo zonoje"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Bet kurioje skalbyklos patalpoje, kur yra vietos"
+            }
           ],
           "correctAnswer": "opt2c"
         },
@@ -187,9 +319,18 @@
           "id": "q3",
           "question": "Kaip turi būti transportuojami švarūs ir nešvarūs skalbiniai?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Vienais ir tais pačiais vežimėliais, tik po vieną kartą plauti" },
-            { "optionId": "opt3b", "optionText": "Atsekiamai, atskirais, aiškiai skirtingai pažymėtais vežimėliais – švarūs tik švarioje skalbyklos dalyje, nešvarūs – tik nešvarioje" },
-            { "optionId": "opt3c", "optionText": "Nešvarūs skalbiniai gali būti transportuojami švariais vežimėliais, jei jie yra tušti" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Vienais ir tais pačiais vežimėliais, tik po vieną kartą plauti"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Atsekiamai, atskirais, aiškiai skirtingai pažymėtais vežimėliais – švarūs tik švarioje skalbyklos dalyje, nešvarūs – tik nešvarioje"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Nešvarūs skalbiniai gali būti transportuojami švariais vežimėliais, jei jie yra tušti"
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -198,14 +339,20 @@
           "question": "Kokia priemonė turi būti įrengta vietoje, kur susiliečia švarioji ir nešvarioji skalbyklos dalys?",
           "options": [
             { "optionId": "opt4a", "optionText": "Tik muilo dozatorius" },
-            { "optionId": "opt4b", "optionText": "Tik popieriniai rankšluosčiai" },
-            { "optionId": "opt4c", "optionText": "Praustuvė, skystas muilas, muilo dozatorius, popierinių rankšluosčių įrenginys arba antiseptiko dozatorius, taip pat darbo drabužių pakabos" }
+            {
+              "optionId": "opt4b",
+              "optionText": "Tik popieriniai rankšluosčiai"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Praustuvė, skystas muilas, muilo dozatorius, popierinių rankšluosčių įrenginys arba antiseptiko dozatorius, taip pat darbo drabužių pakabos"
+            }
           ],
           "correctAnswer": "opt4c"
         }
       ]
     },
-        {
+    {
       "sectionId": "7",
       "title": "Reikalavimai skalbyklų darbuotojams. Asmeninės apsaugos priemonės, jų reikšmė profesinių ir kitų ligų profilaktikai.",
       "questions": [
@@ -213,9 +360,18 @@
           "id": "q1",
           "question": "Koks pagrindinis skalbyklos darbuotojų reikalavimas, dirbant su cheminėmis medžiagomis?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Darbuotojai privalo naudoti tik natūralias skalbimo priemones" },
-            { "optionId": "opt1b", "optionText": "Darbuotojai turi kas 2 metus atlikti profilaktinę sveikatos apžiūrą pas bendrosios praktikos gydytoją ir otorinolaringologą" },
-            { "optionId": "opt1c", "optionText": "Darbuotojai privalo dirbti be asmeninių apsaugos priemonių, kad priprastų prie cheminių medžiagų poveikio" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Darbuotojai privalo naudoti tik natūralias skalbimo priemones"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Darbuotojai turi kas 2 metus atlikti profilaktinę sveikatos apžiūrą pas bendrosios praktikos gydytoją ir otorinolaringologą"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Darbuotojai privalo dirbti be asmeninių apsaugos priemonių, kad priprastų prie cheminių medžiagų poveikio"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -224,8 +380,14 @@
           "question": "Kada turi būti naudojamos asmeninės apsaugos priemonės (AAP) skalbyklų darbuotojams?",
           "options": [
             { "optionId": "opt2a", "optionText": "Tik kai darbdavys primena" },
-            { "optionId": "opt2b", "optionText": "Tik kai darbuotojas pats nusprendžia" },
-            { "optionId": "opt2c", "optionText": "Kai rizikos negalima pašalinti ar pakankamai sumažinti kitomis priemonėmis" }
+            {
+              "optionId": "opt2b",
+              "optionText": "Tik kai darbuotojas pats nusprendžia"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Kai rizikos negalima pašalinti ar pakankamai sumažinti kitomis priemonėmis"
+            }
           ],
           "correctAnswer": "opt2c"
         },
@@ -233,11 +395,50 @@
           "id": "q3",
           "question": "Kas yra darbdavio pareiga, susijusi su asmeninių apsaugos priemonių (AAP) naudojimu?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Darbuotojams parduoti AAP už mažesnę kainą" },
-            { "optionId": "opt3b", "optionText": "Nemokamai aprūpinti darbuotojus saugiomis ir tinkamomis AAP bei užtikrinti jų priežiūrą" },
-            { "optionId": "opt3c", "optionText": "Leisti darbuotojams naudoti savo asmenines apsaugos priemones be kontrolės" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Darbuotojams parduoti AAP už mažesnę kainą"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Nemokamai aprūpinti darbuotojus saugiomis ir tinkamomis AAP bei užtikrinti jų priežiūrą"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Leisti darbuotojams naudoti savo asmenines apsaugos priemones be kontrolės"
+            }
           ],
           "correctAnswer": "opt3b"
+        }
+      ]
+    },
+    {
+      "sectionId": "8",
+      "title": "Praktinė užduotis",
+      "description": "Sveikatos priežiūros įstaigos skalbykloje dirbanti Jurgita ruošiasi pervežti švarius skalbinius į švarių skalbinių laikymo patalpą. Tačiau pastebi, kad švarūs ir nešvarūs skalbiniai laikinai vežami tais pačiais vežimėliais. Šie vežimėliai dezinfekuojami ne atskiroje patalpoje, o tiesiog švariojoje skalbyklos dalyje. Be to, nešvarūs skalbiniai trumpam palikti prie švarių skalbinių zonos, o prie durų nėra praustuvės su rankų higienos priemonėmis.\n\nJurgita susimąsto, ar toks darbo organizavimas atitinka visuomenės sveikatos saugos reikalavimus.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kurio iš šių reikalavimų būtina laikytis, kad skalbykla, skalbianti sveikatos priežiūros įstaigų skalbinius, atitiktų visuomenės sveikatos saugos reikalavimus?",
+          "options": [
+            {
+              "optionId": "optA",
+              "optionText": "Naudoti tuos pačius vežimėlius švariems ir nešvariems skalbiniams, dezinfekuojant juos bet kurioje skalbyklos vietoje."
+            },
+            {
+              "optionId": "optB",
+              "optionText": "Laikyti švarius ir nešvarius skalbinius toje pačioje patalpoje, jei jie supakuoti."
+            },
+            {
+              "optionId": "optC",
+              "optionText": "Nešvarūs ir švarūs skalbiniai turi būti vežami atskirais, skirtingai pažymėtais vežimėliais arba tie patys vežimėliai turi būti dezinfekuojami atskiroje valymo ir dezinfekcijos patalpoje."
+            },
+            {
+              "optionId": "optD",
+              "optionText": "Praustuvių rankų higienai įrengti nebūtina, jei darbuotojai dėvi pirštines."
+            }
+          ],
+          "correctAnswer": "optC"
         }
       ]
     }

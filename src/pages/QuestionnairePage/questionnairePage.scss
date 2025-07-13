@@ -19,6 +19,21 @@
     }
   }
 
+  &__description {
+    font-size: $paragraph;
+    line-height: 24px;
+    color: $text;
+    margin-bottom: 24px;
+
+    p {
+      margin-bottom: 8px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
   &__correct-answers {
     display: flex;
     flex-direction: column;

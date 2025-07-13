@@ -89,9 +89,18 @@
           "id": "q2",
           "question": "Kur turi būti laikomos valymo ir dezinfekcijos priemonės stovykloje?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Virtuvėje, vaikams pasiekiamoje vietoje" },
-            { "optionId": "opt2b", "optionText": "Vaikams neprieinamoje vietoje" },
-            { "optionId": "opt2c", "optionText": "Bendroje sandėliavimo patalpoje su maisto atsargomis" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Virtuvėje, vaikams pasiekiamoje vietoje"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Vaikams neprieinamoje vietoje"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Bendroje sandėliavimo patalpoje su maisto atsargomis"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -99,8 +108,14 @@
           "id": "q3",
           "question": "Ką draudžiama vykdyti vaikams esant stovyklos patalpose?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Stovyklos vadovo susirinkimus" },
-            { "optionId": "opt3b", "optionText": "Aplinkos kenksmingumo pašalinimą ar remonto darbus" },
+            {
+              "optionId": "opt3a",
+              "optionText": "Stovyklos vadovo susirinkimus"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Aplinkos kenksmingumo pašalinimą ar remonto darbus"
+            },
             { "optionId": "opt3c", "optionText": "Valymo darbus" }
           ],
           "correctAnswer": "opt3b"
@@ -109,9 +124,15 @@
           "id": "q4",
           "question": "Ką būtina daryti atsiradus patalpų ar inventoriaus defektams, galintiems kelti pavojų vaikų sveikatai ar saugumui?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Užregistruoti juos inventoriaus žurnale" },
+            {
+              "optionId": "opt4a",
+              "optionText": "Užregistruoti juos inventoriaus žurnale"
+            },
             { "optionId": "opt4b", "optionText": "Pašalinti nedelsiant" },
-            { "optionId": "opt4c", "optionText": "Informuoti vaikus ir tęsti veiklą" }
+            {
+              "optionId": "opt4c",
+              "optionText": "Informuoti vaikus ir tęsti veiklą"
+            }
           ],
           "correctAnswer": "opt4b"
         }
@@ -126,8 +147,14 @@
           "question": "Kaip dažnai vaikai stovykloje turi būti maitinami?",
           "options": [
             { "optionId": "opt1a", "optionText": "3 kartus per dieną" },
-            { "optionId": "opt1b", "optionText": "Ne rečiau kaip 4 kartus per dieną, kas 3,5–4 valandas" },
-            { "optionId": "opt1c", "optionText": "5 kartus per dieną kas 2 valandas" }
+            {
+              "optionId": "opt1b",
+              "optionText": "Ne rečiau kaip 4 kartus per dieną, kas 3,5–4 valandas"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "5 kartus per dieną kas 2 valandas"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -136,7 +163,10 @@
           "question": "Ką iš šio sąrašo draudžiama tiekti vaikams stovykloje?",
           "options": [
             { "optionId": "opt2a", "optionText": "Vaisius ir daržoves" },
-            { "optionId": "opt2b", "optionText": "Konditerijos gaminius su kremu" },
+            {
+              "optionId": "opt2b",
+              "optionText": "Konditerijos gaminius su kremu"
+            },
             { "optionId": "opt2c", "optionText": "Sriubą" }
           ],
           "correctAnswer": "opt2b"
@@ -145,8 +175,14 @@
           "id": "q3",
           "question": "Ką būtina užtikrinti žygio metu vaikų maitinimui?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Kad kiekvienas vaikas turėtų saldumynų" },
-            { "optionId": "opt3b", "optionText": "Kad būtų pakankamai maisto ir geriamojo vandens, bet be greitai gendančių produktų" },
+            {
+              "optionId": "opt3a",
+              "optionText": "Kad kiekvienas vaikas turėtų saldumynų"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Kad būtų pakankamai maisto ir geriamojo vandens, bet be greitai gendančių produktų"
+            },
             { "optionId": "opt3c", "optionText": "Kad būtų karštas patiekalas" }
           ],
           "correctAnswer": "opt3b"
@@ -155,8 +191,14 @@
           "id": "q4",
           "question": "Kas gali organizuoti vaikų maitinimą stovyklose?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Bet kuris stovyklos darbuotojas" },
-            { "optionId": "opt4b", "optionText": "Maisto tvarkymo subjektai, turintys teisę verstis maisto tvarkymu" },
+            {
+              "optionId": "opt4a",
+              "optionText": "Bet kuris stovyklos darbuotojas"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Maisto tvarkymo subjektai, turintys teisę verstis maisto tvarkymu"
+            },
             { "optionId": "opt4c", "optionText": "Vaikų tėvai" }
           ],
           "correctAnswer": "opt4b"
@@ -172,7 +214,10 @@
           "question": "Kokią sveikatos pažymą turi turėti vaikas, kad galėtų būti priimtas į stovyklą?",
           "options": [
             { "optionId": "opt1a", "optionText": "Bet kokią gydytojo pažymą" },
-            { "optionId": "opt1b", "optionText": "Vaiko sveikatos pažymėjimą (forma Nr. 027-1/a), išduotą ne anksčiau kaip prieš metus" },
+            {
+              "optionId": "opt1b",
+              "optionText": "Vaiko sveikatos pažymėjimą (forma Nr. 027-1/a), išduotą ne anksčiau kaip prieš metus"
+            },
             { "optionId": "opt1c", "optionText": "Tik tėvų patvirtinimą" }
           ],
           "correctAnswer": "opt1b"
@@ -182,7 +227,10 @@
           "question": "Kas turi būti stovyklos pirmosios pagalbos rinkinyje?",
           "options": [
             { "optionId": "opt2a", "optionText": "Tik vaistai nuo skausmo" },
-            { "optionId": "opt2b", "optionText": "Sudėtis turi atitikti teisės akto reikalavimus" },
+            {
+              "optionId": "opt2b",
+              "optionText": "Sudėtis turi atitikti teisės akto reikalavimus"
+            },
             { "optionId": "opt2c", "optionText": "Tik plėvelės ir pleistrai" }
           ],
           "correctAnswer": "opt2b"
@@ -192,7 +240,10 @@
           "question": "Ką turi daryti stovyklos vadovas, jei per 1–2 dienas 2 ar daugiau vaikų pasireiškia užkrečiamosios ligos simptomai?",
           "options": [
             { "optionId": "opt3a", "optionText": "Informuoti tėvus" },
-            { "optionId": "opt3b", "optionText": "Nedelsiant telefonu informuoti teritorinę visuomenės sveikatos priežiūros įstaigą" },
+            {
+              "optionId": "opt3b",
+              "optionText": "Nedelsiant telefonu informuoti teritorinę visuomenės sveikatos priežiūros įstaigą"
+            },
             { "optionId": "opt3c", "optionText": "Nieko nedaryti" }
           ],
           "correctAnswer": "opt3b"
@@ -207,9 +258,15 @@
           "id": "q1",
           "question": "Kuri vakcina turi būti suleista naujagimiui per 24 valandas po gimimo?",
           "options": [
-            { "optionId": "opt1a", "optionText": "BCG (tuberkuliozės vakcina)" },
+            {
+              "optionId": "opt1a",
+              "optionText": "BCG (tuberkuliozės vakcina)"
+            },
             { "optionId": "opt1b", "optionText": "HepB (hepatito B vakcina)" },
-            { "optionId": "opt1c", "optionText": "DTaP (kokliušo, difterijos, stabligės vakcina)" }
+            {
+              "optionId": "opt1c",
+              "optionText": "DTaP (kokliušo, difterijos, stabligės vakcina)"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -232,6 +289,33 @@
             { "optionId": "opt3c", "optionText": "Tris dozės" }
           ],
           "correctAnswer": "opt3b"
+        }
+      ]
+    },
+    {
+      "sectionId": "7",
+      "title": "Praktinė užduotis",
+      "description": "Stovyklos vadovė Lina planuoja rytinį žygį su 20 vaikų. Ji apgalvoja, kokį maistą pasiimti, kaip užtikrinti vaikų saugumą ir higieną. Pasitarusi su virtuvės darbuotojais, Lina pasiūlo vaikams į žygį pasiimti sumuštinių su šviežia mėsa, jogurto gėrimų ir šokoladinius pyragaičius. Taip pat nusprendžia pasiimti du 5 litrų talpos bidonus su geriamuoju vandeniu. Ruošiantis žygiui viena auklėtoja pasiūlo įdėti salotų su majonezu ir džiovintų vaisių mišinio.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kurį iš šių sprendimų Lina padarė pažeisdama vaikų poilsio stovyklų higienos normų reikalavimus žygio metu?",
+          "options": [
+            {
+              "optionId": "opt1a",
+              "optionText": "Nusprendė pasiimti bidonus su geriamuoju vandeniu"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Nusprendė įdėti džiovintų vaisių mišinio"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Planuoja pasiimti sumuštinių su šviežia mėsa ir jogurto gėrimų"
+            },
+            { "optionId": "opt1d", "optionText": "Atsisakė salotų su majonezu" }
+          ],
+          "correctAnswer": "opt1c"
         }
       ]
     }

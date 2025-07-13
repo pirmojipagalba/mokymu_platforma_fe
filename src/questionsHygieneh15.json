@@ -8,9 +8,18 @@
           "id": "q1",
           "question": "Kas yra kenksmingas darbo aplinkos veiksnys?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Veiksnys, kuris pagerina darbuotojo sveikatą." },
-            { "optionId": "opt1b", "optionText": "Veiksnys, dėl kurio darbuotojas gali netekti darbingumo arba susirgti profesine liga." },
-            { "optionId": "opt1c", "optionText": "Veiksnys, kuris neturi jokio poveikio darbuotojui." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Veiksnys, kuris pagerina darbuotojo sveikatą."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Veiksnys, dėl kurio darbuotojas gali netekti darbingumo arba susirgti profesine liga."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Veiksnys, kuris neturi jokio poveikio darbuotojui."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -18,9 +27,18 @@
           "id": "q2",
           "question": "Kas apibūdina profesinę riziką?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Galimybė gauti atostogas dėl darbo sąlygų." },
-            { "optionId": "opt2b", "optionText": "Pavojaus sveikatai ar gyvybei galimybė dėl kenksmingo darbo aplinkos veiksnio poveikio." },
-            { "optionId": "opt2c", "optionText": "Papildomas atlygis už darbą pavojingose sąlygose." }
+            {
+              "optionId": "opt2a",
+              "optionText": "Galimybė gauti atostogas dėl darbo sąlygų."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Pavojaus sveikatai ar gyvybei galimybė dėl kenksmingo darbo aplinkos veiksnio poveikio."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Papildomas atlygis už darbą pavojingose sąlygose."
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -28,9 +46,18 @@
           "id": "q3",
           "question": "Kuris apibrėžimas teisingai apibūdina fumigantą?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Cheminė medžiaga, skirta metalo apdirbimui." },
-            { "optionId": "opt3b", "optionText": "Augalų apsaugos produktas, naikinantis kenksminguosius organizmus dujomis ar garais." },
-            { "optionId": "opt3c", "optionText": "Medžiaga, naudojama vandens valymui." }
+            {
+              "optionId": "opt3a",
+              "optionText": "Cheminė medžiaga, skirta metalo apdirbimui."
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Augalų apsaugos produktas, naikinantis kenksminguosius organizmus dujomis ar garais."
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Medžiaga, naudojama vandens valymui."
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -38,8 +65,14 @@
           "id": "q4",
           "question": "Koks yra pagrindinis cheminės medžiagos toksiškumo veiksnys?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Medžiagos spalva ir kvapas." },
-            { "optionId": "opt4b", "optionText": "Medžiagos kiekis, poveikio trukmė, patekimo kelias ir fizinės/cheminės savybės." },
+            {
+              "optionId": "opt4a",
+              "optionText": "Medžiagos spalva ir kvapas."
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Medžiagos kiekis, poveikio trukmė, patekimo kelias ir fizinės/cheminės savybės."
+            },
             { "optionId": "opt4c", "optionText": "Darbuotojo amžius." }
           ],
           "correctAnswer": "opt4b"
@@ -48,9 +81,18 @@
           "id": "q5",
           "question": "Koks yra pavojingo cheminio veiksnio apibrėžimas?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Cheminis veiksnys, kuris naudojamas tik laboratorijoje." },
-            { "optionId": "opt5b", "optionText": "Bet koks cheminis veiksnys, kuris gali kelti pavojų darbuotojų sveikatai ar sukelti mirtį." },
-            { "optionId": "opt5c", "optionText": "Cheminis veiksnys, kuris yra visiškai nekenksmingas." }
+            {
+              "optionId": "opt5a",
+              "optionText": "Cheminis veiksnys, kuris naudojamas tik laboratorijoje."
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Bet koks cheminis veiksnys, kuris gali kelti pavojų darbuotojų sveikatai ar sukelti mirtį."
+            },
+            {
+              "optionId": "opt5c",
+              "optionText": "Cheminis veiksnys, kuris yra visiškai nekenksmingas."
+            }
           ],
           "correctAnswer": "opt5b"
         },
@@ -59,7 +101,10 @@
           "question": "Kaip cheminės medžiagos gali patekti į žmogaus organizmą?",
           "options": [
             { "optionId": "opt6a", "optionText": "Tik per odą." },
-            { "optionId": "opt6b", "optionText": "Per kvėpavimo takus, odą, virškinimo traktą, akis ir injekcijas." },
+            {
+              "optionId": "opt6b",
+              "optionText": "Per kvėpavimo takus, odą, virškinimo traktą, akis ir injekcijas."
+            },
             { "optionId": "opt6c", "optionText": "Tik per virškinimo traktą." }
           ],
           "correctAnswer": "opt6b"
@@ -69,7 +114,10 @@
           "question": "Kuri piktograma reiškia „Labai toksiškas pavojus sveikatai“?",
           "options": [
             { "optionId": "opt7a", "optionText": "Šauktukas." },
-            { "optionId": "opt7b", "optionText": "Kaukolė ir sukryžiuoti kaulai." },
+            {
+              "optionId": "opt7b",
+              "optionText": "Kaukolė ir sukryžiuoti kaulai."
+            },
             { "optionId": "opt7c", "optionText": "Liepsnojantis lankas." }
           ],
           "correctAnswer": "opt7b"
@@ -84,9 +132,18 @@
           "id": "q1",
           "question": "Koks yra pagrindinis ūmaus apsinuodijimo požymis?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Galvos skausmas ir nuovargis" },
-            { "optionId": "opt1b", "optionText": "Pykinimas, vėmimas ir sąmonės netekimas" },
-            { "optionId": "opt1c", "optionText": "Atminties sutrikimai ir depresija" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Galvos skausmas ir nuovargis"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Pykinimas, vėmimas ir sąmonės netekimas"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Atminties sutrikimai ir depresija"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -96,7 +153,10 @@
           "options": [
             { "optionId": "opt2a", "optionText": "Anglies monoksidas (CO)" },
             { "optionId": "opt2b", "optionText": "Pesticidai" },
-            { "optionId": "opt2c", "optionText": "Ergonomiškai netinkama darbo poza" }
+            {
+              "optionId": "opt2c",
+              "optionText": "Ergonomiškai netinkama darbo poza"
+            }
           ],
           "correctAnswer": "opt2a"
         },
@@ -104,7 +164,10 @@
           "id": "q3",
           "question": "Kiek gali trukti ūmi ekspozicija nuodingosioms medžiagoms?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Nuo kelių sekundžių iki kelių parų" },
+            {
+              "optionId": "opt3a",
+              "optionText": "Nuo kelių sekundžių iki kelių parų"
+            },
             { "optionId": "opt3b", "optionText": "Tik kelias valandas" },
             { "optionId": "opt3c", "optionText": "Kelis mėnesius" }
           ],
@@ -115,7 +178,10 @@
           "question": "Kurie iš šių požymių yra būdingi lėtiniam apsinuodijimui?",
           "options": [
             { "optionId": "opt4a", "optionText": "Pykinimas ir traukuliai" },
-            { "optionId": "opt4b", "optionText": "Nemiga, galvos skausmas ir atminties sutrikimai" },
+            {
+              "optionId": "opt4b",
+              "optionText": "Nemiga, galvos skausmas ir atminties sutrikimai"
+            },
             { "optionId": "opt4c", "optionText": "Staigus sąmonės netekimas" }
           ],
           "correctAnswer": "opt4b"
@@ -126,7 +192,10 @@
           "options": [
             { "optionId": "opt5a", "optionText": "Triukšmas" },
             { "optionId": "opt5b", "optionText": "Mityba" },
-            { "optionId": "opt5c", "optionText": "Cheminės medžiagos (tirpikliai, pesticidai)" }
+            {
+              "optionId": "opt5c",
+              "optionText": "Cheminės medžiagos (tirpikliai, pesticidai)"
+            }
           ],
           "correctAnswer": "opt5b"
         },
@@ -134,9 +203,18 @@
           "id": "q6",
           "question": "Kokiu tikslu atliekami profilaktiniai sveikatos tikrinimai darbuotojams?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Nustatyti, ar darbuotojas gali dirbti rizikingomis sąlygomis ir ar nėra ankstyvų sveikatos pakitimų" },
-            { "optionId": "opt6b", "optionText": "Tik nustatyti darbuotojo amžių" },
-            { "optionId": "opt6c", "optionText": "Vertinti darbuotojo darbo našumą" }
+            {
+              "optionId": "opt6a",
+              "optionText": "Nustatyti, ar darbuotojas gali dirbti rizikingomis sąlygomis ir ar nėra ankstyvų sveikatos pakitimų"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Tik nustatyti darbuotojo amžių"
+            },
+            {
+              "optionId": "opt6c",
+              "optionText": "Vertinti darbuotojo darbo našumą"
+            }
           ],
           "correctAnswer": "opt6a"
         }
@@ -151,7 +229,10 @@
           "question": "Kur galima dirbti su nuodingosiomis medžiagomis?",
           "options": [
             { "optionId": "opt1a", "optionText": "Bet kurioje darbo vietoje" },
-            { "optionId": "opt1b", "optionText": "Tik specialiai tam pritaikytose patalpose" },
+            {
+              "optionId": "opt1b",
+              "optionText": "Tik specialiai tam pritaikytose patalpose"
+            },
             { "optionId": "opt1c", "optionText": "Lauke, prie atviro lango" }
           ],
           "correctAnswer": "opt1b"
@@ -160,7 +241,10 @@
           "id": "q2",
           "question": "Kuri iš šių priemonių yra privaloma naudojant nuodingąsias medžiagas?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Asmeninės apsaugos priemonės, tokios kaip respiratorius ir pirštinės" },
+            {
+              "optionId": "opt2a",
+              "optionText": "Asmeninės apsaugos priemonės, tokios kaip respiratorius ir pirštinės"
+            },
             { "optionId": "opt2b", "optionText": "Tik apsauginiai akiniai" },
             { "optionId": "opt2c", "optionText": "Tik kombinezonas" }
           ],
@@ -170,9 +254,18 @@
           "id": "q3",
           "question": "Kas yra darbdavio atsakomybė saugiai dirbant su nuodingosiomis medžiagomis?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Nemokamai aprūpinti darbuotojus AAP ir organizuoti mokymus" },
-            { "optionId": "opt3b", "optionText": "Tik nupirkti apsauginius batus" },
-            { "optionId": "opt3c", "optionText": "Užtikrinti tik darbo vietos valymą" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Nemokamai aprūpinti darbuotojus AAP ir organizuoti mokymus"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Tik nupirkti apsauginius batus"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Užtikrinti tik darbo vietos valymą"
+            }
           ],
           "correctAnswer": "opt3a"
         },
@@ -180,7 +273,10 @@
           "id": "q4",
           "question": "Kokių priemonių naudojimas padeda užtikrinti gerą oro kokybę patalpose su nuodingosiomis medžiagomis?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Traukomosios spintos ir filtravimo įrenginiai" },
+            {
+              "optionId": "opt4a",
+              "optionText": "Traukomosios spintos ir filtravimo įrenginiai"
+            },
             { "optionId": "opt4b", "optionText": "Oro kondicionieriai" },
             { "optionId": "opt4c", "optionText": "Tik langų atidarymas" }
           ],
@@ -190,9 +286,18 @@
           "id": "q5",
           "question": "Ką reikia daryti avarinės situacijos metu, kai išsilieja cheminė medžiaga?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Žinoti pirmosios pagalbos veiksmus ir greitai reaguoti" },
-            { "optionId": "opt5b", "optionText": "Palikti darbo vietą ir eiti namo" },
-            { "optionId": "opt5c", "optionText": "Nieko nedaryti, palaukti kol chemikalas išdžius" }
+            {
+              "optionId": "opt5a",
+              "optionText": "Žinoti pirmosios pagalbos veiksmus ir greitai reaguoti"
+            },
+            {
+              "optionId": "opt5b",
+              "optionText": "Palikti darbo vietą ir eiti namo"
+            },
+            {
+              "optionId": "opt5c",
+              "optionText": "Nieko nedaryti, palaukti kol chemikalas išdžius"
+            }
           ],
           "correctAnswer": "opt5a"
         },
@@ -200,9 +305,18 @@
           "id": "q6",
           "question": "Kokie elementai padeda užtikrinti rizikos kontrolę darbe su nuodingosiomis medžiagomis?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Atsargų kontrolė, medžiagų ženklinimas, techninių saugiklių naudojimas" },
-            { "optionId": "opt6b", "optionText": "Tik asmeninių apsaugos priemonių naudojimas" },
-            { "optionId": "opt6c", "optionText": "Tik saugos duomenų lapų laikymas" }
+            {
+              "optionId": "opt6a",
+              "optionText": "Atsargų kontrolė, medžiagų ženklinimas, techninių saugiklių naudojimas"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Tik asmeninių apsaugos priemonių naudojimas"
+            },
+            {
+              "optionId": "opt6c",
+              "optionText": "Tik saugos duomenų lapų laikymas"
+            }
           ],
           "correctAnswer": "opt6a"
         },
@@ -236,9 +350,18 @@
           "id": "q2",
           "question": "Ką pirmiausia rekomenduojama daryti, jei grožio procedūros metu buvo pažeista oda?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Užklijuoti pleistrą ir tęsti procedūrą" },
-            { "optionId": "opt2b", "optionText": "Dezinfekuoti pažeistą vietą ir stebėti uždegimo požymius" },
-            { "optionId": "opt2c", "optionText": "Patepti makiažo priemone, kad nesimatytų" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Užklijuoti pleistrą ir tęsti procedūrą"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Dezinfekuoti pažeistą vietą ir stebėti uždegimo požymius"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Patepti makiažo priemone, kad nesimatytų"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -246,9 +369,18 @@
           "id": "q3",
           "question": "Kuriuo iš šių atvejų paslauga (procedūra) grožio salone negali būti teikiama?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Jei klientas prieš tai buvo procedūrą atlikęs kitame salone" },
-            { "optionId": "opt3b", "optionText": "Jei klientas turi atvirų žaizdų ar odos infekcijų" },
-            { "optionId": "opt3c", "optionText": "Jei klientas naudoja apsauginį kremą" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Jei klientas prieš tai buvo procedūrą atlikęs kitame salone"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Jei klientas turi atvirų žaizdų ar odos infekcijų"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Jei klientas naudoja apsauginį kremą"
+            }
           ],
           "correctAnswer": "opt3b"
         }
@@ -262,9 +394,18 @@
           "id": "q1",
           "question": "Kas privaloma padaryti su paviršiais, prie kurių tiesiogiai liečiasi paslaugų vartotojas teikiant jam grožio paslaugą?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Dezinfekuoti tik darbo dienos pabaigoje" },
-            { "optionId": "opt1b", "optionText": "Padengti daugkartiniu audeklu" },
-            { "optionId": "opt1c", "optionText": "Padengti vienkartiniu užtiesalu arba valyti ir dezinfekuoti po kiekvieno vartotojo" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Dezinfekuoti tik darbo dienos pabaigoje"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Padengti daugkartiniu audeklu"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Padengti vienkartiniu užtiesalu arba valyti ir dezinfekuoti po kiekvieno vartotojo"
+            }
           ],
           "correctAnswer": "opt1c"
         },
@@ -272,9 +413,18 @@
           "id": "q2",
           "question": "Kokie instrumentai turi būti naudojami A kategorijos paslaugoms teikti?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Tik vienkartiniai sterilūs instrumentai" },
-            { "optionId": "opt2b", "optionText": "Tik mechaniniu būdu valomi ir džiovinami instrumentai" },
-            { "optionId": "opt2c", "optionText": "Sterilūs vienkartiniai arba daugkartinio naudojimo instrumentai, kurie po panaudojimo dezinfekuojami, valomi, sausinami ar džiovinami ir sterilizuojami" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Tik vienkartiniai sterilūs instrumentai"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Tik mechaniniu būdu valomi ir džiovinami instrumentai"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Sterilūs vienkartiniai arba daugkartinio naudojimo instrumentai, kurie po panaudojimo dezinfekuojami, valomi, sausinami ar džiovinami ir sterilizuojami"
+            }
           ],
           "correctAnswer": "opt2c"
         },
@@ -282,9 +432,18 @@
           "id": "q3",
           "question": "Kas draudžiama darant instrumentų priežiūrą teikiant A kategorijos paslaugas?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Instrumentus mirkyti dezinfekcijos valomajame tirpale" },
-            { "optionId": "opt3b", "optionText": "Instrumentus valyti ultragarsu" },
-            { "optionId": "opt3c", "optionText": "Instrumentus valyti rankomis prieš dezinfekciją" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Instrumentus mirkyti dezinfekcijos valomajame tirpale"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Instrumentus valyti ultragarsu"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Instrumentus valyti rankomis prieš dezinfekciją"
+            }
           ],
           "correctAnswer": "opt3c"
         }
@@ -299,8 +458,14 @@
           "question": "Kada asmenys, teikiantys grožio paslaugas, privalo plauti rankas?",
           "options": [
             { "optionId": "opt1a", "optionText": "Tik prieš pradedant darbą." },
-            { "optionId": "opt1b", "optionText": "Prieš pradėdami ir baigę teikti grožio paslaugą, prieš užsimaudami ir nusimovę pirštines." },
-            { "optionId": "opt1c", "optionText": "Tik po kontakto su kliento oda." }
+            {
+              "optionId": "opt1b",
+              "optionText": "Prieš pradėdami ir baigę teikti grožio paslaugą, prieš užsimaudami ir nusimovę pirštines."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Tik po kontakto su kliento oda."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -309,14 +474,17 @@
           "question": "Kokias apsaugos priemones turi dėvėti grožio paslaugų teikėjas valydamas instrumentus ar tvarkydamas daiktus, užterštus krauju ar kūno skysčiais?",
           "options": [
             { "optionId": "opt2a", "optionText": "Tik darbo drabužius." },
-            { "optionId": "opt2b", "optionText": "Asmenines apsaugos priemones, kurias nurodo valiklio ar dezinfekcijos priemonės gamintojas, ir gumines pirštines." },
+            {
+              "optionId": "opt2b",
+              "optionText": "Asmenines apsaugos priemones, kurias nurodo valiklio ar dezinfekcijos priemonės gamintojas, ir gumines pirštines."
+            },
             { "optionId": "opt2c", "optionText": "Tik medicinines kaukes." }
           ],
           "correctAnswer": "opt2b"
         }
       ]
     },
-        {
+    {
       "sectionId": "7",
       "title": "Užkrečiamųjų, odos ir alerginių ligų profilaktika.",
       "questions": [
@@ -324,9 +492,18 @@
           "id": "q1",
           "question": "Kokiu tikslu grožio paslaugų teikėjai turi naudoti autorizuotas dezinfekcines priemones ir tinkamai valyti bei sterilizuoti instrumentus?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Kad pagreitintų darbo eigą." },
-            { "optionId": "opt1b", "optionText": "Siekiant užtikrinti infekcijų kontrolę ir apsaugoti klientų bei darbuotojų sveikatą." },
-            { "optionId": "opt1c", "optionText": "Kad dezinfekcinės priemonės ilgiau galiotų." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Kad pagreitintų darbo eigą."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Siekiant užtikrinti infekcijų kontrolę ir apsaugoti klientų bei darbuotojų sveikatą."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Kad dezinfekcinės priemonės ilgiau galiotų."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -334,11 +511,50 @@
           "id": "q2",
           "question": "Kodėl grožio specialistams rekomenduojama naudoti asmenines apsaugos priemones, tokias kaip pirštinės ir apsauginės kaukės?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Kad atrodytų profesionaliau." },
-            { "optionId": "opt2b", "optionText": "Siekiant išvengti profesinių ligų ir alerginių reakcijų dėl cheminių medžiagų ar lakiųjų medžiagų poveikio." },
-            { "optionId": "opt2c", "optionText": "Kad apsaugotų kosmetikos priemones nuo dulkių." }
+            {
+              "optionId": "opt2a",
+              "optionText": "Kad atrodytų profesionaliau."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Siekiant išvengti profesinių ligų ir alerginių reakcijų dėl cheminių medžiagų ar lakiųjų medžiagų poveikio."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Kad apsaugotų kosmetikos priemones nuo dulkių."
+            }
           ],
           "correctAnswer": "opt2b"
+        }
+      ]
+    },
+    {
+      "sectionId": "8",
+      "title": "Praktinė užduotis",
+      "description": "Įmonės darbuotojas Jonas dirba dažymo ceche, kuriame naudojamos organiniai tirpikliai ir dažai, pažymėti piktograma su **kaukole ir sukryžiuotais kaulais** bei **liepsna**. Dirbdamas Jonas pastebėjo, kad patalpoje neveikia vėdinimo sistema, nedėvi respiratoriaus ir darbo pirštinių. Po darbo dienos jis pajuto pykinimą, galvos svaigimą ir odos niežėjimą. Kitą dieną simptomai kartojosi.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuris iš šių teiginių apie nuodingąsias medžiagas yra teisingas?",
+          "options": [
+            {
+              "optionId": "optA",
+              "optionText": "Nuodingosios medžiagos veikia tik tuomet, kai patenka į organizmą per virškinamąjį traktą."
+            },
+            {
+              "optionId": "optB",
+              "optionText": "Nuodingųjų medžiagų toksiškumas nepriklauso nuo jų fizinių ir cheminių savybių."
+            },
+            {
+              "optionId": "optC",
+              "optionText": "Pavojingiausias nuodingųjų medžiagų patekimo į organizmą kelias – per kvėpavimo takus."
+            },
+            {
+              "optionId": "optD",
+              "optionText": "Nuodingosios medžiagos organizme nesikaupia ir visos pašalinamos per prakaitą."
+            }
+          ],
+          "correctAnswer": "optC"
         }
       ]
     }

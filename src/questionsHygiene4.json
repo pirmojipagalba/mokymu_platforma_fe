@@ -13,9 +13,18 @@
           "id": "q1",
           "question": "Kaip apskaičiuojama minimali neužstatyta mokyklos sklypo dalis, skirta mokinių poilsiui?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Planuojamas mokinių skaičius padauginamas iš 5 ir pridedama 500 kv. m." },
-            { "optionId": "opt1b", "optionText": "Planuojamas mokinių skaičius padauginamas iš 3 ir pridedama 800 kv. m." },
-            { "optionId": "opt1c", "optionText": "Planuojamas mokinių skaičius padauginamas iš 2 ir pridedama 1000 kv. m." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Planuojamas mokinių skaičius padauginamas iš 5 ir pridedama 500 kv. m."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Planuojamas mokinių skaičius padauginamas iš 3 ir pridedama 800 kv. m."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Planuojamas mokinių skaičius padauginamas iš 2 ir pridedama 1000 kv. m."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -79,9 +88,18 @@
           "id": "q1",
           "question": "Kokia tvarka turi būti vykdoma kenkėjų kontrolė mokykloje?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Pagal mokyklos darbuotojų nuožiūrą" },
-            { "optionId": "opt1b", "optionText": "Teisės akto nustatyta tvarka" },
-            { "optionId": "opt1c", "optionText": "Kartą per metus pagal mokinių pageidavimus" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Pagal mokyklos darbuotojų nuožiūrą"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Teisės akto nustatyta tvarka"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Kartą per metus pagal mokinių pageidavimus"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -89,9 +107,18 @@
           "id": "q2",
           "question": "Kaip turi būti laikomas tualeto valymo inventorius?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Kartu su kitų patalpų valymo inventoriumi" },
-            { "optionId": "opt2b", "optionText": "Paženklintas ir atskirai nuo kitų patalpų inventoriaus" },
-            { "optionId": "opt2c", "optionText": "Mokinių kambaryje, kad būtų greitai pasiekiamas" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Kartu su kitų patalpų valymo inventoriumi"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Paženklintas ir atskirai nuo kitų patalpų inventoriaus"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Mokinių kambaryje, kad būtų greitai pasiekiamas"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -99,9 +126,18 @@
           "id": "q3",
           "question": "Ar mokiniams leidžiama naudoti valymo priemones, skirtas profesionaliesiems naudotojams?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Ne, draudžiama skirti mokiniams naudoti tokias priemones" },
-            { "optionId": "opt3b", "optionText": "Taip, jei prižiūri mokytojas" },
-            { "optionId": "opt3c", "optionText": "Taip, bet tik mokyklos teritorijoje" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Ne, draudžiama skirti mokiniams naudoti tokias priemones"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Taip, jei prižiūri mokytojas"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Taip, bet tik mokyklos teritorijoje"
+            }
           ],
           "correctAnswer": "opt3a"
         }
@@ -135,9 +171,18 @@
           "id": "q3",
           "question": "Kada pietūs mokykloje turi būti organizuojami?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Po 1 valandos nuo pamokų pradžios" },
-            { "optionId": "opt3b", "optionText": "Ne anksčiau kaip po 2,5 val. ir ne vėliau kaip praėjus 4 val. nuo pamokų pradžios" },
-            { "optionId": "opt3c", "optionText": "Bet kuriuo metu mokinių pasirinkimu" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Po 1 valandos nuo pamokų pradžios"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Ne anksčiau kaip po 2,5 val. ir ne vėliau kaip praėjus 4 val. nuo pamokų pradžios"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Bet kuriuo metu mokinių pasirinkimu"
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -171,9 +216,18 @@
           "id": "q1",
           "question": "Kas yra fizinės aplinkos dalis ugdymo proceso higienoje?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Emocinė mokinių gerovė ir streso mažinimas" },
-            { "optionId": "opt1b", "optionText": "Tinkamas apšvietimas, vėdinimas ir ergonomika (stalo ir kėdžių patogumas)" },
-            { "optionId": "opt1c", "optionText": "Sveika mityba ir fizinis aktyvumas" }
+            {
+              "optionId": "opt1a",
+              "optionText": "Emocinė mokinių gerovė ir streso mažinimas"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Tinkamas apšvietimas, vėdinimas ir ergonomika (stalo ir kėdžių patogumas)"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Sveika mityba ir fizinis aktyvumas"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -181,9 +235,18 @@
           "id": "q2",
           "question": "Kokia veikla priklauso psichologinei aplinkai ugdymo proceso higienoje?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Švarūs tualetai ir rankų plovimo įpročiai" },
-            { "optionId": "opt2b", "optionText": "Emocinė mokinių gerovė, streso mažinimas ir saugi atmosfera" },
-            { "optionId": "opt2c", "optionText": "Subalansuotas pamokų laikas ir pertraukos" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Švarūs tualetai ir rankų plovimo įpročiai"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Emocinė mokinių gerovė, streso mažinimas ir saugi atmosfera"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Subalansuotas pamokų laikas ir pertraukos"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -191,9 +254,18 @@
           "id": "q3",
           "question": "Kas užtikrina socialinę aplinką ugdymo proceso higienoje?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Ergonomiški stalai ir kėdės" },
-            { "optionId": "opt3b", "optionText": "Sveika mityba ir fizinis aktyvumas" },
-            { "optionId": "opt3c", "optionText": "Pagarba, bendradarbiavimas ir konfliktų sprendimas" }
+            {
+              "optionId": "opt3a",
+              "optionText": "Ergonomiški stalai ir kėdės"
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Sveika mityba ir fizinis aktyvumas"
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Pagarba, bendradarbiavimas ir konfliktų sprendimas"
+            }
           ],
           "correctAnswer": "opt3c"
         }
@@ -207,9 +279,15 @@
           "id": "q1",
           "question": "Kuri vakcina turi būti suleista naujagimiui per pirmąsias 24 valandas po gimimo?",
           "options": [
-            { "optionId": "opt1a", "optionText": "BCG (tuberkuliozės vakcina)" },
+            {
+              "optionId": "opt1a",
+              "optionText": "BCG (tuberkuliozės vakcina)"
+            },
             { "optionId": "opt1b", "optionText": "HepB (hepatito B vakcina)" },
-            { "optionId": "opt1c", "optionText": "DTaP (kokliušo, difterijos, stabligės vakcina)" }
+            {
+              "optionId": "opt1c",
+              "optionText": "DTaP (kokliušo, difterijos, stabligės vakcina)"
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -228,10 +306,43 @@
           "question": "Kiek dozių sudaro nemokama HPV vakcinos schema vaikams?",
           "options": [
             { "optionId": "opt3a", "optionText": "Viena dozė" },
-            { "optionId": "opt3b", "optionText": "Dvi dozės, tarp kurių turi būti ne trumpesnis kaip 6 mėn. tarpas" },
+            {
+              "optionId": "opt3b",
+              "optionText": "Dvi dozės, tarp kurių turi būti ne trumpesnis kaip 6 mėn. tarpas"
+            },
             { "optionId": "opt3c", "optionText": "Trys dozės" }
           ],
           "correctAnswer": "opt3b"
+        }
+      ]
+    },
+    {
+      "sectionId": "7",
+      "title": "Praktinė užduotis",
+      "description": "Jūs esate mokyklos darbuotojas, atsakingas už mokymo patalpų priežiūrą. Pastebėjote, kad vienoje mokymo klasėje, esančioje pastato šiaurinėje pusėje, mokiniai skundžiasi prastu apšvietimu — mokantis prie toliausiai nuo lango esančių stalų, sunku įžiūrėti sąsiuviniuose užrašytus tekstus net dienos metu. Klasėje nėra užuolaidų ar žaliuzių, tačiau tiesioginiai saulės spinduliai šioje pusėje nepatenka.\n\nPagal galiojančius higienos normų reikalavimus, jūs turite patikrinti, ar klasėje pakankamas **natūralus apšvietimas**, o esant nepakankamam, imtis priemonių situacijai gerinti.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Koks turi būti minimalus natūralios apšvietos koeficientas mokymo klasėje toliausiai nuo lango esančiame taške?",
+          "options": [
+            {
+              "optionId": "opt1a",
+              "optionText": "1,0 %"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "1,5 %"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "2,0 %"
+            },
+            {
+              "optionId": "opt1d",
+              "optionText": "0,5 %"
+            }
+          ],
+          "correctAnswer": "opt1b"
         }
       ]
     }

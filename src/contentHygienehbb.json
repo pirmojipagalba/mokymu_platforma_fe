@@ -1370,7 +1370,7 @@
                 "Jos dauginsis tol, kol sąlygos leis"
               ]
             },
-                        {
+            {
               "type": "heading",
               "text": "Rizikos veiksniai – virusai "
             },
@@ -1378,9 +1378,9 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Virusai dauginasi tik gyvų ląstelių viduje",
-              "Maiste nesidaugina, tačiau gali išlikti",
-              "Išgyvena kaitinant ir atšaldant, todėl gali būti perduodami per maistą"
+                "Virusai dauginasi tik gyvų ląstelių viduje",
+                "Maiste nesidaugina, tačiau gali išlikti",
+                "Išgyvena kaitinant ir atšaldant, todėl gali būti perduodami per maistą"
               ]
             },
             {
@@ -1391,16 +1391,16 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Nuo asmens kitam asmeniui",
-              "Nuo žmogaus maistui",
-              "Nuo žmogaus maisto paviršiui"
+                "Nuo asmens kitam asmeniui",
+                "Nuo žmogaus maistui",
+                "Nuo žmogaus maisto paviršiui"
               ]
             },
             {
               "type": "paragraph",
               "text": "**Svarbu**: Bloga asmens higiena ženkliai padidina virusų plitimo riziką."
             },
-                                    {
+            {
               "type": "heading",
               "text": "Temperatūrų kontrolės įranga "
             },
@@ -1412,10 +1412,10 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "**Šaldikliai**: –17,0 °C iki –23,0 °C",
-              "**Šaldytuvai**: +2,2 °C iki +4,0 °C",
-              "**Pieno tankai**: +2,2 °C iki +4,0 °C",
-              "**Maisto šildytuvai**: ne žemesnė kaip 63 °C"
+                "**Šaldikliai**: –17,0 °C iki –23,0 °C",
+                "**Šaldytuvai**: +2,2 °C iki +4,0 °C",
+                "**Pieno tankai**: +2,2 °C iki +4,0 °C",
+                "**Maisto šildytuvai**: ne žemesnė kaip 63 °C"
               ]
             },
             {
@@ -1435,15 +1435,15 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Lietuvoje vis dar fiksuojami apsinuodijimo maistu protrūkiai, dažniausiai dėl viešojo maitinimo įmonių kaltės.",
-              "Nukentėjusiems asmenims dažniausiai diagnozuojamos ūmios bakterinės žarnyno infekcijos.",
-              "Patikrinimų metu nustatyta nemažai pažeidimų, galinčių kelti pavojų maisto saugai:",
-              [
-                "Kryžminės taršos rizika",
-                "Higienos reikalavimų nesilaikymas ruošiant maistą",
-                "Netinkama žaliavų laikymo temperatūra ir sąlygos"
-              ],
-              "Svarbu žinoti, kad apsinuodijimo maistu rizika egzistuoja ne tik maitinimo įmonėse, bet ir ruošiant maistą namų sąlygomis."
+                "Lietuvoje vis dar fiksuojami apsinuodijimo maistu protrūkiai, dažniausiai dėl viešojo maitinimo įmonių kaltės.",
+                "Nukentėjusiems asmenims dažniausiai diagnozuojamos ūmios bakterinės žarnyno infekcijos.",
+                "Patikrinimų metu nustatyta nemažai pažeidimų, galinčių kelti pavojų maisto saugai:",
+                [
+                  "Kryžminės taršos rizika",
+                  "Higienos reikalavimų nesilaikymas ruošiant maistą",
+                  "Netinkama žaliavų laikymo temperatūra ir sąlygos"
+                ],
+                "Svarbu žinoti, kad apsinuodijimo maistu rizika egzistuoja ne tik maitinimo įmonėse, bet ir ruošiant maistą namų sąlygomis."
               ]
             },
             {
@@ -1454,15 +1454,15 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "**Cholera** (A00)",
-              "**Vidurių šiltinė ir paratifai** (A01)",
-              "**Ūmių žarnyno infekcinių ligų grupė** (ŪŽIL)",
-              "**Salmoneliozės** (A02)",
-              "**Šigeliozės** (A03)",
-              "**Kitos patikslintos bakterinės žarnyno infekcijos** (A04 (A04.0–A04.8))",
-              "**Nepatikslintos bakterinės žarnyno infekcijos** (A04.9, A09)",
-              "**Virusinės žarnyno infekcijos** (A08)",
-              "**Kitos maisto toksinės infekcijos** (A05) (išskyrus botulizmą – A05.1)"
+                "**Cholera** (A00)",
+                "**Vidurių šiltinė ir paratifai** (A01)",
+                "**Ūmių žarnyno infekcinių ligų grupė** (ŪŽIL)",
+                "**Salmoneliozės** (A02)",
+                "**Šigeliozės** (A03)",
+                "**Kitos patikslintos bakterinės žarnyno infekcijos** (A04 (A04.0–A04.8))",
+                "**Nepatikslintos bakterinės žarnyno infekcijos** (A04.9, A09)",
+                "**Virusinės žarnyno infekcijos** (A08)",
+                "**Kitos maisto toksinės infekcijos** (A05) (išskyrus botulizmą – A05.1)"
               ]
             },
             {
@@ -1473,7 +1473,7 @@
               "type": "paragraph",
               "text": "Simptomai gali pasireikšti **greitai – per 30 minučių** arba išsivystyti **lėtai – per kelias dienas ar net savaites**."
             },
-                        {
+            {
               "type": "paragraph",
               "text": "**Dažniausi požymiai:**."
             },
@@ -1481,13 +1481,13 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Pykinimas",
-              "Vėmimas",
-              "Viduriavimas",
-              "Spastiniai (traukulius primenantys) pilvo skausmai",
-              "Apetito praradimas",
-              "Nuovargis",
-              "Karščiavimas"
+                "Pykinimas",
+                "Vėmimas",
+                "Viduriavimas",
+                "Spastiniai (traukulius primenantys) pilvo skausmai",
+                "Apetito praradimas",
+                "Nuovargis",
+                "Karščiavimas"
               ]
             },
             {
@@ -1499,15 +1499,15 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Jei naudojate šulinio vandenį gerti, gaminti maistą ar valytis dantis:",
-              [
-                "Stebėkite vandens spalvą, skonį ir kvapą; jei pastebėsite pakitimus, nenaudokite tokio vandens.",
-                "Naudokite tik virintą vandenį arba pirkite fasuotą geriamąjį vandenį."
-              ],
-              "Dažniausiai vandentiekio vanduo potvynių metu išlieka neužterštas ir saugus vartoti.",
-              [
-                "Jei vanduo tampa nesaugus, apie tai praneša atsakingos institucijos."
-              ]
+                "Jei naudojate šulinio vandenį gerti, gaminti maistą ar valytis dantis:",
+                [
+                  "Stebėkite vandens spalvą, skonį ir kvapą; jei pastebėsite pakitimus, nenaudokite tokio vandens.",
+                  "Naudokite tik virintą vandenį arba pirkite fasuotą geriamąjį vandenį."
+                ],
+                "Dažniausiai vandentiekio vanduo potvynių metu išlieka neužterštas ir saugus vartoti.",
+                [
+                  "Jei vanduo tampa nesaugus, apie tai praneša atsakingos institucijos."
+                ]
               ]
             },
             {
@@ -1524,14 +1524,14 @@
               "list_type": "ordered",
               "text": [
                 "Laikykitės maisto gaminimo ir asmeninės higienos reikalavimų.",
-              "Plaukite rankas:",
-              [
-                              "Prieš maisto ruošimą,",
-              "Po kontakto su žalia mėsa,",
-              "Pasinaudojus tualetu,",
-              "Prieš valgį."
-              ],
-"Po maisto gaminimo išplaukite ir dezinfekuokite visus virtuvės paviršius, įrankius ir indus."
+                "Plaukite rankas:",
+                [
+                  "Prieš maisto ruošimą,",
+                  "Po kontakto su žalia mėsa,",
+                  "Pasinaudojus tualetu,",
+                  "Prieš valgį."
+                ],
+                "Po maisto gaminimo išplaukite ir dezinfekuokite visus virtuvės paviršius, įrankius ir indus."
               ]
             },
 
@@ -1541,13 +1541,13 @@
 
               "text": "ATSKIRKITE ŽALIAVĄ NUO PARUOŠTO MAISTO"
             },
-                        {
+            {
               "type": "list",
               "list_type": "ordered",
               "text": [
-"Rinkitės tik saugias ir kokybiškas žaliavas.",
-"Atskirai laikykite žalią mėsą, paukštieną, žuvį nuo jau paruošto maisto ar tų produktų, kurie nebus termiškai apdorojami.",
-"Naudokite atskiras lenteles ir peilius žaliai mėsai, paukštienai, žuviai apdoroti  arba gerai nuplaukite juos po naudojimo."
+                "Rinkitės tik saugias ir kokybiškas žaliavas.",
+                "Atskirai laikykite žalią mėsą, paukštieną, žuvį nuo jau paruošto maisto ar tų produktų, kurie nebus termiškai apdorojami.",
+                "Naudokite atskiras lenteles ir peilius žaliai mėsai, paukštienai, žuviai apdoroti  arba gerai nuplaukite juos po naudojimo."
               ]
             },
             {
@@ -1560,9 +1560,9 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Kruopščiai išvirkite arba iškepkite gyvūninį maistą: mėsą, paukštieną, žuvį, kiaušinius.",
-              "Užtikrinkite, kad patiekalai būtų pašildyti iki ne žemesnės kaip 70 °C temperatūros.",
-              "Gerai paruoštos mėsos ar paukštienos sultys turi būti skaidrios, o ne rausvos."
+                "Kruopščiai išvirkite arba iškepkite gyvūninį maistą: mėsą, paukštieną, žuvį, kiaušinius.",
+                "Užtikrinkite, kad patiekalai būtų pašildyti iki ne žemesnės kaip 70 °C temperatūros.",
+                "Gerai paruoštos mėsos ar paukštienos sultys turi būti skaidrios, o ne rausvos."
               ]
             },
             {
@@ -1574,11 +1574,11 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Žaliavas ir paruoštus patiekalus laikykite tinkamoje temperatūroje, atskirai vienus nuo kitų.",
-              "Nepalikite paruošto maisto kambario temperatūroje ilgiau nei 2 valandas.",
-              "Nedelsdami atvėsinkite nesuvartotą ar greitai gendantį maistą.",
-              "Karštus patiekalus laikykite ne žemesnėje kaip 60 °C temperatūroje iki patiekimo.",
-              "Venkite ilgai laikyti maistą, net šaldytuve."
+                "Žaliavas ir paruoštus patiekalus laikykite tinkamoje temperatūroje, atskirai vienus nuo kitų.",
+                "Nepalikite paruošto maisto kambario temperatūroje ilgiau nei 2 valandas.",
+                "Nedelsdami atvėsinkite nesuvartotą ar greitai gendantį maistą.",
+                "Karštus patiekalus laikykite ne žemesnėje kaip 60 °C temperatūroje iki patiekimo.",
+                "Venkite ilgai laikyti maistą, net šaldytuve."
               ]
             },
             {
@@ -1591,15 +1591,20 @@
               "class": "margin-xxl",
               "list_type": "unordered",
               "text": [
-              "Maistui gaminti naudokite švarų geriamąjį vandenį.",
-              "Nevartokite nepasterizuoto arba nevirinto pieno ir jo produktų.",
-              "Kruopščiai plaukite daržoves ir vaisius, ypač jei vartojate juos neapdorotus šiluma."
+                "Maistui gaminti naudokite švarų geriamąjį vandenį.",
+                "Nevartokite nepasterizuoto arba nevirinto pieno ir jo produktų.",
+                "Kruopščiai plaukite daržoves ir vaisius, ypač jei vartojate juos neapdorotus šiluma."
               ]
             }
-
           ]
         }
       ]
+    },
+    {
+      "title": "Praktinė užduotis",
+      "type": "practical-task",
+      "sectionId": "3",
+      "content": []
     }
   ]
 }

@@ -38,6 +38,7 @@ interface Question {
 
 interface QuestionnairePageProps {
   title: string;
+  description: string;
   sectionId: string;
   questions: Question[];
 }
@@ -103,15 +104,18 @@ const AppContent: React.FC = () => {
   const sectionContent = material.topics.map(
     (item: {
       topic_image: string;
+      type: string;
       title: string;
       content: string;
       sectionId: string;
+      nextRoute: string;
     }) => ({
       topic_image: item.topic_image,
       title: item.title,
+      type: item.type,
       content: item.content,
       sectionId: item.sectionId,
-      nextRoute: "/questionnaire1",
+      nextRoute: "/questionnaire" + item.sectionId,
     })
   );
 
@@ -200,6 +204,9 @@ const AppContent: React.FC = () => {
     { name: "hygienehbb", title: "Higienos mokymai HBB" },
   ];
 
+  console.log("selectedProduct", selectedProduct);
+  console.log("questionnaire_material", questionnaire_material);
+
   return (
     <>
       <RouteObserver />
@@ -218,9 +225,7 @@ const AppContent: React.FC = () => {
             element={
               isAuthenticated ? (
                 <Dashboard
-                  sections={sections.map(
-                    (section: { title: string }) => section.title
-                  )}
+                  sections={sections}
                 />
               ) : (
                 <Navigate to="/login" />
@@ -251,7 +256,7 @@ const AppContent: React.FC = () => {
             .map((questionnaire: QuestionnairePageProps, index: number) => (
               <Route
                 key={questionnaire.title}
-                path={`/${selectedProduct}/questionnaire${index + 1}`}
+                path={`/${selectedProduct}/questionnaire${questionnaire.sectionId}`}
                 element={
                   <QuestionnairePage
                     {...questionnaire}

@@ -288,6 +288,36 @@
           "correctAnswer": "opt6a"
         }
       ]
+    },
+    {
+      "sectionId": "5",
+      "title": "Praktinė užduotis",
+      "description": "Jūs dirbate soliariume ir esate atsakingas už patalpų, įrangos priežiūrą bei klientų saugumą. Vienas naujas darbuotojas neseniai pradėjo dirbti ir dar nėra iki galo susipažinęs su visuomenės sveikatos saugos reikalavimais. Jūs turite paaiškinti, kokie yra pagrindiniai reikalavimai soliariumo kabinos įrangai, patalpoms ir kokios yra svarbiausios taisyklės, kurias turi žinoti klientai apie soliariumo naudojimą bei galimas kontraindikacijas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kuris iš žemiau pateiktų teiginių apie soliariumo įrangos ir patalpų visuomenės sveikatos saugos reikalavimus yra TEISINGAS?",
+          "options": [
+            {
+              "optionId": "opt2a",
+              "optionText": "Kiekvienai soliariumo įrangai užtenka skirti bent 1 m² laisvos vietos šalia."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Soliariumo kabinoje veidrodis turi būti pakabintas taip, kad neatspindėtų veikiančios įrangos šviesos."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Soliariumo įranga gali būti naudojama, jei jos UV filtrai yra įskilę, bet laikmatis veikia."
+            },
+            {
+              "optionId": "opt2d",
+              "optionText": "Deginantis soliariume galima naudoti kosmetikos gaminius, kurie stiprina įdegį."
+            }
+          ],
+          "correctAnswer": "opt2b"
+        }
+      ]
     }
   ]
 }

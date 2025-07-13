@@ -267,6 +267,24 @@
           "correctAnswer": "opt2b"
         }
       ]
+    },
+    {
+      "sectionId": "7",
+      "title": "Praktinė užduotis",
+      "description": "Vaikų socialinės globos namų šeimynos kieme vyksta žaidimai. Yra karšta vasaros diena, temperatūra +29 °C. Žaidimų aikštelėje nėra pavėsinių ar skėčių nuo saulės, todėl vaikai žaidžia tiesioginėje saulėje. Aikštelės smėlio dėžė nėra uždengta nuo vakarykščio vakaro. Vienas vaikas užlipęs ant karštos metalinės sūpynės nusidegina ranką. Dar kitas vaikas pastebėjo, jog šalia žaidimų aikštelės auga dekoratyvinis augalas — paprastoji pakalnutė (Convallaria majalis), kurios uogas vaikai renka ir žaidžia, nežinodami, jog tai nuodingas augalas.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kokie veiksmai turi būti atlikti šioje situacijoje?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Nedelsiant suteikti pirmąją pagalbą nudegusiam vaikui." },
+            { "optionId": "opt1b", "optionText": "Informuoti vadovą apie incidentą ir surašyti įvykio žurnalą." },
+            { "optionId": "opt1c", "optionText": "Užtikrinti, kad smėlio dėžė būtų uždengta po kiekvieno naudojimo." },
+            { "optionId": "opt1d", "optionText": "Visi atsakymai teisingi" }
+          ],
+          "correctAnswer": "opt1d"
+        }
+      ]
     }
   ]
 }

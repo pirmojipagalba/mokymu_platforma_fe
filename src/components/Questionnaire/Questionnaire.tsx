@@ -12,12 +12,23 @@ interface QuestionnaireProps {
       | {
           optionId: string;
           optionText: string;
-        }[] | null;
+        }[]
+      | null;
     correctAnswer: string | null;
   }[];
-  onAnswersCollected: (answers: { id: string; question: string; answer: string; optionText: string }[]) => void;
+  onAnswersCollected: (
+    answers: {
+      id: string;
+      question: string;
+      answer: string;
+      optionText: string;
+    }[]
+  ) => void;
   setCorrectAnswersCount: React.Dispatch<React.SetStateAction<number | null>>;
   correctAnswersCount: number | null;
+  isDisabled?: boolean; // Optional prop to disable the questionnaire
+  isPracticeQuestion?: boolean; // Optional prop to indicate if it's a practice question
+  setTotalAnswersCount: React.Dispatch<React.SetStateAction<number>>;
 }
 
 interface SelectedAnswer {
@@ -25,7 +36,15 @@ interface SelectedAnswer {
   answer: string;
 }
 
-const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersCollected, setCorrectAnswersCount, correctAnswersCount }) => {
+const Questionnaire: React.FC<QuestionnaireProps> = ({
+  questions,
+  onAnswersCollected,
+  setCorrectAnswersCount,
+  correctAnswersCount,
+  isDisabled,
+  isPracticeQuestion,
+  setTotalAnswersCount,
+}) => {
   const [selectedAnswers, setSelectedAnswers] = useState<{
     [key: string]: SelectedAnswer;
   }>({});
@@ -81,6 +100,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
         optionText: string;
       }[] = [];
       let correctCount = 0;
+      setTotalAnswersCount(randomQuestions.length);
 
       randomQuestions.forEach((question) => {
         const selectedOption = question.options?.find(
@@ -126,16 +146,27 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
       );
       if (!hasIncorrectAnswers) {
         // Save collected answers to local storage
-        const storedAnswers = JSON.parse(localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]");
+        const storedAnswers = JSON.parse(
+          localStorage.getItem(`collectedAnswers_${selectedProduct}`) || "[]"
+        );
         const updatedAnswers = [...storedAnswers, ...collectedAnswers];
-        localStorage.setItem(`collectedAnswers_${selectedProduct}`, JSON.stringify(updatedAnswers));
+        localStorage.setItem(
+          `collectedAnswers_${selectedProduct}`,
+          JSON.stringify(updatedAnswers)
+        );
 
         onAnswersCollected(updatedAnswers); // Pass all collected answers
       } else {
         setHasFailed(true);
       }
     },
-    [selectedAnswers, randomQuestions, onAnswersCollected, selectedProduct, setCorrectAnswersCount]
+    [
+      selectedAnswers,
+      randomQuestions,
+      onAnswersCollected,
+      selectedProduct,
+      setCorrectAnswersCount,
+    ]
   );
 
   return (
@@ -155,21 +186,21 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
       ))}
 
       <div className="questionnaire__actions">
-      {currentQuestionIndex < randomQuestions.length - 1 && (
-        <button
-          className="questionnaire__next"
-          type="button"
-          onClick={handleNextQuestion}
-          disabled={!isNextEnabled}
-        >
-          Kitas klausimas
-        </button>
-      )}
+        {currentQuestionIndex < randomQuestions.length - 1 && (
+          <button
+            className="questionnaire__next"
+            type="button"
+            onClick={handleNextQuestion}
+            disabled={!isNextEnabled}
+          >
+            Kitas klausimas
+          </button>
+        )}
         {currentQuestionIndex === randomQuestions.length - 1 && (
           <button
             className="questionnaire__submit"
             type="submit"
-            disabled={isSubmitted}
+            disabled={isSubmitted || isDisabled}
           >
             Pateikti atsakymus
           </button>
@@ -183,11 +214,22 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ questions, onAnswersColle
             Atgal į temų sąrašą
           </button>
         )}
-        {hasFailed && sectionIndex !== null && (
+        {hasFailed && sectionIndex !== null && !isPracticeQuestion && (
           <button
             className="questionnaire__try-again"
             type="button"
-            onClick={() => navigate(`/${selectedProduct}/section${sectionIndex}`)}
+            onClick={() =>
+              navigate(`/${selectedProduct}/section${sectionIndex}`)
+            }
+          >
+            Bandyti dar kartą
+          </button>
+        )}
+        {hasFailed && sectionIndex !== null && isPracticeQuestion && (
+          <button
+            className="questionnaire__try-again"
+            type="button"
+            onClick={() => navigate(`/${selectedProduct}/dashboard`)}
           >
             Bandyti dar kartą
           </button>

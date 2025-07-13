@@ -20,38 +20,11 @@ const AppContext = createContext<AppContextProps | undefined>(undefined);
 export const AppProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  // Get initial product from URL if available
-  const getInitialProduct = (): string => {
-    const path = window.location.pathname;
-    const productFromPath = path.split("/")[1];
-    if (
-      [
-        "firstaid",
-        "hygiene1",
-        "hygiene2",
-        "hygiene3",
-        "hygiene4",
-        "hygieneh3",
-        "hygienehb",
-        "hygieneh10",
-        "hygienehbb",
-        "hygieneh15",
-        "hygieneh4",
-        "hygieneh7",
-      ].includes(productFromPath)
-    ) {
-      return productFromPath;
-    }
-    return "";
-  };
-
   const [material, setMaterial] = useState(require("../content.json"));
   const [questionnaire_material, setQuestionnaireMaterial] = useState(
     require("../questions.json")
   );
-  const [selectedProduct, setSelectedProduct] = useState<string>(
-    getInitialProduct()
-  );
+  const [selectedProduct, setSelectedProduct] = useState<string>(""); // Start empty
 
   // Update material based on selectedProduct
   useEffect(() => {

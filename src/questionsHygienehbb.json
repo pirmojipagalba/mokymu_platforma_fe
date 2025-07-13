@@ -8,9 +8,18 @@
           "id": "q1",
           "question": "Kaip turi būti laikomos maisto žaliavos ir ingredientai sandėlyje?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Bet kokiomis sąlygomis, svarbiausia, kad būtų patogu laikyti." },
-            { "optionId": "opt1b", "optionText": "Tinkamomis sąlygomis, saugančiomis nuo gedimo ir užteršimo." },
-            { "optionId": "opt1c", "optionText": "Laikyti kartu su naminių gyvūnų maistu, kad būtų patogu." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Bet kokiomis sąlygomis, svarbiausia, kad būtų patogu laikyti."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Tinkamomis sąlygomis, saugančiomis nuo gedimo ir užteršimo."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Laikyti kartu su naminių gyvūnų maistu, kad būtų patogu."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -18,9 +27,18 @@
           "id": "q2",
           "question": "Ar sandėliuose leidžiama laikyti naminius gyvūnus?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Taip, jei gyvūnai nesukelia triukšmo." },
-            { "optionId": "opt2b", "optionText": "Ne, į sandėlius neturi būti leidžiama patekti naminiams gyvūnams." },
-            { "optionId": "opt2c", "optionText": "Taip, jei gyvūnai yra uždarose narveliuose." }
+            {
+              "optionId": "opt2a",
+              "optionText": "Taip, jei gyvūnai nesukelia triukšmo."
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Ne, į sandėlius neturi būti leidžiama patekti naminiams gyvūnams."
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Taip, jei gyvūnai yra uždarose narveliuose."
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -28,9 +46,18 @@
           "id": "q3",
           "question": "Ką reikia užtikrinti laikant produktus, kuriuose gali daugintis patogenai?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Produktus galima laikyti kambario temperatūroje ilgą laiką." },
-            { "optionId": "opt3b", "optionText": "Produktai turi būti laikomi tokiomis sąlygomis, kurios neleidžia patogenams daugintis." },
-            { "optionId": "opt3c", "optionText": "Produktus galima laikyti kartu su vaisiais ir daržovėmis." }
+            {
+              "optionId": "opt3a",
+              "optionText": "Produktus galima laikyti kambario temperatūroje ilgą laiką."
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Produktai turi būti laikomi tokiomis sąlygomis, kurios neleidžia patogenams daugintis."
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Produktus galima laikyti kartu su vaisiais ir daržovėmis."
+            }
           ],
           "correctAnswer": "opt3b"
         },
@@ -38,9 +65,18 @@
           "id": "q4",
           "question": "Kokie yra pagrindiniai reikalavimai sandėliavimo vietoms?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Sandėliai turi būti tvarkingi, švarūs ir užtikrinti apsaugą nuo užteršimo." },
-            { "optionId": "opt4b", "optionText": "Sandėliai gali būti laikomi bet kokiose patalpose, jei tik yra durys." },
-            { "optionId": "opt4c", "optionText": "Sandėliuose galima laikyti įvairius ne maisto daiktus kartu su žaliavomis." }
+            {
+              "optionId": "opt4a",
+              "optionText": "Sandėliai turi būti tvarkingi, švarūs ir užtikrinti apsaugą nuo užteršimo."
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Sandėliai gali būti laikomi bet kokiose patalpose, jei tik yra durys."
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Sandėliuose galima laikyti įvairius ne maisto daiktus kartu su žaliavomis."
+            }
           ],
           "correctAnswer": "opt4a"
         },
@@ -48,7 +84,10 @@
           "id": "q5",
           "question": "Kas privalo atlikti laboratorinę savikontrolę tvarkant nepakuotą maistą?",
           "options": [
-            { "optionId": "opt5a", "optionText": "Valstybinės maisto kontrolės institucijos" },
+            {
+              "optionId": "opt5a",
+              "optionText": "Valstybinės maisto kontrolės institucijos"
+            },
             { "optionId": "opt5b", "optionText": "Maisto tvarkymo subjektai" },
             { "optionId": "opt5c", "optionText": "Maisto pakuočių gamintojai" }
           ],
@@ -58,9 +97,18 @@
           "id": "q6",
           "question": "Kuri sąlyga NETURI būti pažeista pakavimo medžiagų higienos reikalavimuose?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Pakavimo medžiagos gali būti laikomos atvirai, jei jos greitai naudojamos" },
-            { "optionId": "opt6b", "optionText": "Pakavimo medžiagos neturi būti užteršimo šaltinis" },
-            { "optionId": "opt6c", "optionText": "Pakavimo medžiagos gali būti užterštos, jei naudojamos greitai perdirbant maistą" }
+            {
+              "optionId": "opt6a",
+              "optionText": "Pakavimo medžiagos gali būti laikomos atvirai, jei jos greitai naudojamos"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Pakavimo medžiagos neturi būti užteršimo šaltinis"
+            },
+            {
+              "optionId": "opt6c",
+              "optionText": "Pakavimo medžiagos gali būti užterštos, jei naudojamos greitai perdirbant maistą"
+            }
           ],
           "correctAnswer": "opt6b"
         },
@@ -68,8 +116,14 @@
           "id": "q7",
           "question": "Kokius biocidinius produktus galima naudoti technologinės įrangos ir paviršių dezinfekcijai?",
           "options": [
-            { "optionId": "opt7a", "optionText": "Bet kokius dezinfekcijos produktus, kurie yra pigiausi" },
-            { "optionId": "opt7b", "optionText": "Tik tuos, kurie atitinka ES reglamentą Nr. 528/2012" },
+            {
+              "optionId": "opt7a",
+              "optionText": "Bet kokius dezinfekcijos produktus, kurie yra pigiausi"
+            },
+            {
+              "optionId": "opt7b",
+              "optionText": "Tik tuos, kurie atitinka ES reglamentą Nr. 528/2012"
+            },
             { "optionId": "opt7c", "optionText": "Tik namų apyvokos valiklius" }
           ],
           "correctAnswer": "opt7b"
@@ -78,9 +132,15 @@
           "id": "q8",
           "question": "Koks yra pagrindinis kryžminio teršimo šaltinis maisto tvarkymo vietose?",
           "options": [
-            { "optionId": "opt8a", "optionText": "Tik paviršiai, liečiantys maistą" },
+            {
+              "optionId": "opt8a",
+              "optionText": "Tik paviršiai, liečiantys maistą"
+            },
             { "optionId": "opt8b", "optionText": "Tik darbo įrankiai" },
-            { "optionId": "opt8c", "optionText": "Darbo įrankiai, paviršiai, rankos, seilių lašeliai ir nešvarūs rūbai" }
+            {
+              "optionId": "opt8c",
+              "optionText": "Darbo įrankiai, paviršiai, rankos, seilių lašeliai ir nešvarūs rūbai"
+            }
           ],
           "correctAnswer": "opt8c"
         },
@@ -88,9 +148,18 @@
           "id": "q9",
           "question": "Kokios turi būti maisto gamybos patalpų grindų dangos savybės?",
           "options": [
-            { "optionId": "opt9a", "optionText": "Nelaidžios, lengvai valomos ir prireikus dezinfekuojamos" },
-            { "optionId": "opt9b", "optionText": "Sugeriamos ir minkštos, kad būtų patogu vaikščioti" },
-            { "optionId": "opt9c", "optionText": "Porėtos ir sunkiai valomos, kad neslidinėtų" }
+            {
+              "optionId": "opt9a",
+              "optionText": "Nelaidžios, lengvai valomos ir prireikus dezinfekuojamos"
+            },
+            {
+              "optionId": "opt9b",
+              "optionText": "Sugeriamos ir minkštos, kad būtų patogu vaikščioti"
+            },
+            {
+              "optionId": "opt9c",
+              "optionText": "Porėtos ir sunkiai valomos, kad neslidinėtų"
+            }
           ],
           "correctAnswer": "opt9a"
         },
@@ -98,9 +167,18 @@
           "id": "q10",
           "question": "Kokiomis sąlygomis draudžiama tvarkyti maistą?",
           "options": [
-            { "optionId": "opt10a", "optionText": "Tik jei nėra pakankamai darbo vietos" },
-            { "optionId": "opt10b", "optionText": "Nutraukus vandens, elektros tiekimą arba sugedus šaldymo įrenginius" },
-            { "optionId": "opt10c", "optionText": "Kai darbuotojai nesilaiko darbo grafiko" }
+            {
+              "optionId": "opt10a",
+              "optionText": "Tik jei nėra pakankamai darbo vietos"
+            },
+            {
+              "optionId": "opt10b",
+              "optionText": "Nutraukus vandens, elektros tiekimą arba sugedus šaldymo įrenginius"
+            },
+            {
+              "optionId": "opt10c",
+              "optionText": "Kai darbuotojai nesilaiko darbo grafiko"
+            }
           ],
           "correctAnswer": "opt10b"
         }
@@ -115,7 +193,10 @@
           "question": "Kas yra viena pagrindinių per maistą plintančių užkrečiamųjų ligų atsiradimo priežasčių?",
           "options": [
             { "optionId": "opt1a", "optionText": "Tinkama pakuotė" },
-            { "optionId": "opt1b", "optionText": "Netinkama maisto temperatūra" },
+            {
+              "optionId": "opt1b",
+              "optionText": "Netinkama maisto temperatūra"
+            },
             { "optionId": "opt1c", "optionText": "Mažo kaloringumo maistas" }
           ],
           "correctAnswer": "opt1b"
@@ -124,9 +205,18 @@
           "id": "q2",
           "question": "Ką reiškia kryžminė tarša?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Maisto gaminimas ant atskiros viryklės" },
-            { "optionId": "opt2b", "optionText": "Mikroorganizmų perdavimas iš vienos terpės į kitą" },
-            { "optionId": "opt2c", "optionText": "Vaisių plovimas tekančiu vandeniu" }
+            {
+              "optionId": "opt2a",
+              "optionText": "Maisto gaminimas ant atskiros viryklės"
+            },
+            {
+              "optionId": "opt2b",
+              "optionText": "Mikroorganizmų perdavimas iš vienos terpės į kitą"
+            },
+            {
+              "optionId": "opt2c",
+              "optionText": "Vaisių plovimas tekančiu vandeniu"
+            }
           ],
           "correctAnswer": "opt2b"
         },
@@ -134,7 +224,10 @@
           "id": "q3",
           "question": "Kokie yra pagrindiniai kryžminės taršos šaltiniai?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Paviršiai, rankos, darbo įrankiai" },
+            {
+              "optionId": "opt3a",
+              "optionText": "Paviršiai, rankos, darbo įrankiai"
+            },
             { "optionId": "opt3b", "optionText": "Tik oras" },
             { "optionId": "opt3c", "optionText": "Tik žaliavos" }
           ],
@@ -164,8 +257,14 @@
           "id": "q6",
           "question": "Kodėl virusai pavojingi maiste?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Nes gali daugintis bet kokiomis sąlygomis" },
-            { "optionId": "opt6b", "optionText": "Nes maiste nesidaugina, bet gali išlikti ir būti perduodami" },
+            {
+              "optionId": "opt6a",
+              "optionText": "Nes gali daugintis bet kokiomis sąlygomis"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Nes maiste nesidaugina, bet gali išlikti ir būti perduodami"
+            },
             { "optionId": "opt6c", "optionText": "Nes juos sunaikina šaldymas" }
           ],
           "correctAnswer": "opt6b"
@@ -175,7 +274,10 @@
           "question": "Kokie mikroorganizmai yra biologiniai maisto rizikos veiksniai?",
           "options": [
             { "optionId": "opt7a", "optionText": "Tik bakterijos" },
-            { "optionId": "opt7b", "optionText": "Bakterijos, grybai, pelėsiai, virusai" },
+            {
+              "optionId": "opt7b",
+              "optionText": "Bakterijos, grybai, pelėsiai, virusai"
+            },
             { "optionId": "opt7c", "optionText": "Tik pirmuonys" }
           ],
           "correctAnswer": "opt7b"
@@ -184,8 +286,14 @@
           "id": "q8",
           "question": "Kada maistas gali būti laikomas nesaugus?",
           "options": [
-            { "optionId": "opt8a", "optionText": "Jei laikomas per žemoje temperatūroje" },
-            { "optionId": "opt8b", "optionText": "Jei paliekamas kambario temperatūroje ilgiau nei 2 valandas" },
+            {
+              "optionId": "opt8a",
+              "optionText": "Jei laikomas per žemoje temperatūroje"
+            },
+            {
+              "optionId": "opt8b",
+              "optionText": "Jei paliekamas kambario temperatūroje ilgiau nei 2 valandas"
+            },
             { "optionId": "opt8c", "optionText": "Jei laikomas uždengtas" }
           ],
           "correctAnswer": "opt8b"
@@ -194,8 +302,14 @@
           "id": "q9",
           "question": "Kaip išvengti kryžminės taršos ruošiant maistą?",
           "options": [
-            { "optionId": "opt9a", "optionText": "Naudoti tą patį peilį visiems produktams" },
-            { "optionId": "opt9b", "optionText": "Naudoti atskiras lenteles ir peilius žaliai mėsai bei kitiems produktams" },
+            {
+              "optionId": "opt9a",
+              "optionText": "Naudoti tą patį peilį visiems produktams"
+            },
+            {
+              "optionId": "opt9b",
+              "optionText": "Naudoti atskiras lenteles ir peilius žaliai mėsai bei kitiems produktams"
+            },
             { "optionId": "opt9c", "optionText": "Gaminti be rankų plovimo" }
           ],
           "correctAnswer": "opt9b"
@@ -209,6 +323,36 @@
             { "optionId": "opt10c", "optionText": "Odos bėrimas" }
           ],
           "correctAnswer": "opt10b"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "title": "Praktinė užduotis",
+      "description": "Jūs dirbate maisto tvarkymo įmonėje, kurioje gaminamas ir tiekiamas šviežias ir šaldytas maistas. Jūsų užduotis – užtikrinti, kad maisto produktai būtų laikomi tinkamomis temperatūromis ir atitiktų Reglamento (EB) Nr. 853/2004 specialiuosius higienos reikalavimus. Šaldytuvo temperatūra turi būti ne aukštesnė kaip +4 °C, o šaldiklių – ne aukštesnė kaip -18 °C. Taip pat būtina užtikrinti, kad maistas būtų laikomas atskirai, kad nesimaišytų šviežias maistas su anksčiau pagamintais patiekalais ar jų likučiais.\n\nJūsų tikslas – atlikti maisto tvarkymo patikrinimą ir nustatyti, kuri iš pateiktų veiksmų atitinka higienos reikalavimus.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Kurį iš šių veiksmų privalote atlikti, kad būtų užtikrinta maisto tvarkymo higiena pagal Reglamento (EB) Nr. 853/2004 reikalavimus?",
+          "options": [
+            {
+              "optionId": "optA",
+              "optionText": "Laikyti šaldytą maistą temperatūroje -10 °C, nes tai yra pakankamai šalta, kad išsaugotų produktų kokybę."
+            },
+            {
+              "optionId": "optB",
+              "optionText": "Sumaišyti šviežius maisto produktus su anksčiau paruoštais patiekalais, kad būtų patogiau sandėliuoti."
+            },
+            {
+              "optionId": "optC",
+              "optionText": "Atšildyti šaldytą maistą po šaltu tekančiu vandeniu, užtikrinant, kad produktas nesiliestų su vandeniu."
+            },
+            {
+              "optionId": "optD",
+              "optionText": "Naudoti riebalus kepimui, net jei jie pakeitė spalvą ir kvapą, jei nėra laiko juos keisti."
+            }
+          ],
+          "correctAnswer": "optC"
         }
       ]
     }

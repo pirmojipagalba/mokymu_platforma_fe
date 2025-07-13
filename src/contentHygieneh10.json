@@ -2429,6 +2429,12 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Praktinė užduotis",
+      "type": "practical-task",
+      "sectionId": "6",
+      "content": []
     }
   ]
 }

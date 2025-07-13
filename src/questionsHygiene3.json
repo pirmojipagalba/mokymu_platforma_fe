@@ -89,9 +89,15 @@
           "id": "q2",
           "question": "Kokių patalpų turi būti įrengta, jei grupėje vaikai maitinami?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Patalpa su plautuve indams plauti arba automatinė indų plovimo mašina ir plautuvė rankoms plauti, vieta indams ir stalo įrankiams laikyti" },
+            {
+              "optionId": "opt2a",
+              "optionText": "Patalpa su plautuve indams plauti arba automatinė indų plovimo mašina ir plautuvė rankoms plauti, vieta indams ir stalo įrankiams laikyti"
+            },
             { "optionId": "opt2b", "optionText": "Tik valgymo salė" },
-            { "optionId": "opt2c", "optionText": "Patalpa su plautuve indams plauti arba automatinė indų plovimo mašina ir plautuvė rankoms plauti, vieta indams ir stalo įrankiams laikyti + bendroje valgymo salėje ar šalia jos vieta indams laikyti" }
+            {
+              "optionId": "opt2c",
+              "optionText": "Patalpa su plautuve indams plauti arba automatinė indų plovimo mašina ir plautuvė rankoms plauti, vieta indams ir stalo įrankiams laikyti + bendroje valgymo salėje ar šalia jos vieta indams laikyti"
+            }
           ],
           "correctAnswer": "opt2c"
         },
@@ -100,7 +106,10 @@
           "question": "Kur leidžiama laikyti naminius gyvūnus ikimokyklinio ugdymo įstaigoje?",
           "options": [
             { "optionId": "opt3a", "optionText": "Bet kur grupės patalpose" },
-            { "optionId": "opt3b", "optionText": "Tik atskiroje patalpoje, išskyrus saugiai įrengtus akvariumus su žuvytėmis grupių patalpose, jei nėra alergiškų vaikų" },
+            {
+              "optionId": "opt3b",
+              "optionText": "Tik atskiroje patalpoje, išskyrus saugiai įrengtus akvariumus su žuvytėmis grupių patalpose, jei nėra alergiškų vaikų"
+            },
             { "optionId": "opt3c", "optionText": "Tiesiog lauke teritorijoje" }
           ],
           "correctAnswer": "opt3b"
@@ -109,9 +118,18 @@
           "id": "q4",
           "question": "Kokių reikalavimų turi atitikti vaikams skirti baldai?",
           "options": [
-            { "optionId": "opt4a", "optionText": "Gali būti bet kokie, svarbu, kad būtų patogūs" },
-            { "optionId": "opt4b", "optionText": "Gali būti seni, bet tvarkingi" },
-            { "optionId": "opt4c", "optionText": "Baldai turi būti geros būklės, pritaikyti vaikų ūgiui, kad pėda būtų visu padu ant grindų, o alkūnė prie stalo būtų apytikriai tame pačiame lygyje" }
+            {
+              "optionId": "opt4a",
+              "optionText": "Gali būti bet kokie, svarbu, kad būtų patogūs"
+            },
+            {
+              "optionId": "opt4b",
+              "optionText": "Gali būti seni, bet tvarkingi"
+            },
+            {
+              "optionId": "opt4c",
+              "optionText": "Baldai turi būti geros būklės, pritaikyti vaikų ūgiui, kad pėda būtų visu padu ant grindų, o alkūnė prie stalo būtų apytikriai tame pačiame lygyje"
+            }
           ],
           "correctAnswer": "opt4c"
         },
@@ -121,7 +139,10 @@
           "options": [
             { "optionId": "opt5a", "optionText": "Be jokių apsaugų" },
             { "optionId": "opt5b", "optionText": "Tik su aukštu čiužiniu" },
-            { "optionId": "opt5c", "optionText": "Su sienelėmis, kad vaikas neiškristų" }
+            {
+              "optionId": "opt5c",
+              "optionText": "Su sienelėmis, kad vaikas neiškristų"
+            }
           ],
           "correctAnswer": "opt5c"
         },
@@ -129,9 +150,18 @@
           "id": "q6",
           "question": "Kaip turi būti laikomos valymo ir dezinfekcijos priemonės?",
           "options": [
-            { "optionId": "opt6a", "optionText": "Patalpose, kuriose dirba darbuotojai, prie vaikų" },
-            { "optionId": "opt6b", "optionText": "Vaikams neprieinamoje vietoje" },
-            { "optionId": "opt6c", "optionText": "Atvirai, kad būtų greitai pasiekiamos" }
+            {
+              "optionId": "opt6a",
+              "optionText": "Patalpose, kuriose dirba darbuotojai, prie vaikų"
+            },
+            {
+              "optionId": "opt6b",
+              "optionText": "Vaikams neprieinamoje vietoje"
+            },
+            {
+              "optionId": "opt6c",
+              "optionText": "Atvirai, kad būtų greitai pasiekiamos"
+            }
           ],
           "correctAnswer": "opt6b"
         }
@@ -145,9 +175,18 @@
           "id": "q1",
           "question": "Kada vaikai ikimokyklinio ugdymo įstaigoje nepriimami?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Jei turi užkrečiamųjų ligų požymių arba utėlių." },
-            { "optionId": "opt1b", "optionText": "Jei yra pavargę po žaidimų lauke." },
-            { "optionId": "opt1c", "optionText": "Jei neatsineša žaislų iš namų." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Jei turi užkrečiamųjų ligų požymių arba utėlių."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Jei yra pavargę po žaidimų lauke."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Jei neatsineša žaislų iš namų."
+            }
           ],
           "correctAnswer": "opt1a"
         },
@@ -165,9 +204,18 @@
           "id": "q3",
           "question": "Kur ir kokiomis sąlygomis turi būti laikomas motinos pienas?",
           "options": [
-            { "optionId": "opt3a", "optionText": "Šaldytuve 4–5 °C temperatūroje, o sušaldytas – šaldiklyje minus 18 °C temperatūroje." },
-            { "optionId": "opt3b", "optionText": "Kambario temperatūroje bet kurioje vietoje." },
-            { "optionId": "opt3c", "optionText": "Ant radiatoriaus ar šalia šilumos šaltinio." }
+            {
+              "optionId": "opt3a",
+              "optionText": "Šaldytuve 4–5 °C temperatūroje, o sušaldytas – šaldiklyje minus 18 °C temperatūroje."
+            },
+            {
+              "optionId": "opt3b",
+              "optionText": "Kambario temperatūroje bet kurioje vietoje."
+            },
+            {
+              "optionId": "opt3c",
+              "optionText": "Ant radiatoriaus ar šalia šilumos šaltinio."
+            }
           ],
           "correctAnswer": "opt3a"
         }
@@ -181,9 +229,18 @@
           "id": "q1",
           "question": "Kada vaikai ikimokyklinio ir priešmokyklinio ugdymo įstaigoje nepriimami?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Jei yra pavargę ir nenori dalyvauti veikloje." },
-            { "optionId": "opt1b", "optionText": "Jei turi užkrečiamųjų ligų ar kitų ūmių sveikatos sutrikimų požymių, taip pat turi utėlių ar glindų." },
-            { "optionId": "opt1c", "optionText": "Jei pamiršta atsinešti pietų dėžutę." }
+            {
+              "optionId": "opt1a",
+              "optionText": "Jei yra pavargę ir nenori dalyvauti veikloje."
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Jei turi užkrečiamųjų ligų ar kitų ūmių sveikatos sutrikimų požymių, taip pat turi utėlių ar glindų."
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Jei pamiršta atsinešti pietų dėžutę."
+            }
           ],
           "correctAnswer": "opt1b"
         },
@@ -217,9 +274,15 @@
           "id": "q1",
           "question": "Kurį augalą išvardytų žemiau galima priskirti prie nuodingųjų?",
           "options": [
-            { "optionId": "opt1a", "optionText": "Baltažiedė robinija (Robinia pseudoacacia)" },
+            {
+              "optionId": "opt1a",
+              "optionText": "Baltažiedė robinija (Robinia pseudoacacia)"
+            },
             { "optionId": "opt1b", "optionText": "Braškė (Fragaria spp.)" },
-            { "optionId": "opt1c", "optionText": "Saulėgrąža (Helianthus annuus)" }
+            {
+              "optionId": "opt1c",
+              "optionText": "Saulėgrąža (Helianthus annuus)"
+            }
           ],
           "correctAnswer": "opt1a"
         },
@@ -227,11 +290,47 @@
           "id": "q2",
           "question": "Kas atlieka vaikų sveikatos ir psichomotorinės raidos tikrinimą?",
           "options": [
-            { "optionId": "opt2a", "optionText": "Šeimos gydytojas arba vaikų ligų gydytojas, pasirinktas pacientų tėvų ar atstovų." },
+            {
+              "optionId": "opt2a",
+              "optionText": "Šeimos gydytojas arba vaikų ligų gydytojas, pasirinktas pacientų tėvų ar atstovų."
+            },
             { "optionId": "opt2b", "optionText": "Tik gydytojas odontologas." },
-            { "optionId": "opt2c", "optionText": "Mokytojas ar socialinis darbuotojas." }
+            {
+              "optionId": "opt2c",
+              "optionText": "Mokytojas ar socialinis darbuotojas."
+            }
           ],
           "correctAnswer": "opt2a"
+        }
+      ]
+    },
+    {
+      "sectionId": "7",
+      "title": "Praktinė užduotis",
+      "description": "Ikimokyklinio ugdymo įstaigos „Smalsučiai“ auklėtoja Rasa, vasarą organizuodama vaikų žaidimus lauke, pastebėjo, kad žaidimų aikštelėje nėra jokios priemonės, apsaugančios vaikus nuo tiesioginių saulės spindulių. Saulėtomis dienomis vaikai vis tiek praleidžia nemažai laiko aikštelėje, o dalis jų skundžiasi karščiu ir diskomfortu.\n\nAuklėtoja kreipėsi į įstaigos vadovę su prašymu įrengti pavėsinę arba pasirūpinti kilnojamaisiais skėčiais. Vadovė pažadėjo situaciją spręsti ir nurodė, jog pagal galiojančius sveikatos saugos reikalavimus vaikų žaidimų aikštelėse turi būti sudaryta galimybė apsaugoti vaikus nuo tiesioginių saulės spindulių.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Ką, pagal bendruosius sveikatos saugos reikalavimus, privalo užtikrinti švietimo teikėjas vaikų žaidimų aikštelėse?",
+          "options": [
+            {
+              "optionId": "opt1a",
+              "optionText": "Tik švarą ir saugius įrenginius, pritaikytus vaikų amžiui"
+            },
+            {
+              "optionId": "opt1b",
+              "optionText": "Tik tvarkingą aptvėrimą ne žemesne kaip 1,5 m aukščio tvora"
+            },
+            {
+              "optionId": "opt1c",
+              "optionText": "Sudaryti galimybę apsaugoti vaikus nuo tiesioginių saulės spindulių stacionariais ar kilnojamaisiais įrenginiais ar želdiniais"
+            },
+            {
+              "optionId": "opt1d",
+              "optionText": "Leisti vaikams būti lauke bet kokiomis oro sąlygomis be papildomų priemonių"
+            }
+          ],
+          "correctAnswer": "opt1c"
         }
       ]
     }

@@ -436,6 +436,12 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Praktinė užduotis",
+      "type": "practical-task",
+      "sectionId": "7",
+      "content": []
     }
   ]
 }

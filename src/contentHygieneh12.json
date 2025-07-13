@@ -378,7 +378,7 @@
               "type": "heading",
               "text": "Reikalavimai skalbyklų darbuotojams. Asmeninės apsaugos priemonės, jų reikšmė profesinių ir kitų ligų profilaktikai"
             },
-                        {
+            {
               "type": "heading",
               "class": "section__sub-heading--align-left section__sub-heading--small section__sub-heading--underline",
               "text": "Reikalavimai skalbyklų darbuotojams: "
@@ -474,6 +474,12 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Praktinė užduotis",
+      "type": "practical-task",
+      "sectionId": "7",
+      "content": []
     }
   ]
 }

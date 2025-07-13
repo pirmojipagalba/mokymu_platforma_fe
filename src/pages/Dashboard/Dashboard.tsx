@@ -6,7 +6,14 @@ import { useAppContext } from "../../context/AppContext";
 import "./dashboard.scss";
 
 interface DashboardProps {
-  sections: string[];
+  sections: {
+    topic_image: string;
+    type: string;
+    title: string;
+    content: string;
+    sectionId: string;
+    nextRoute: string;
+  }[];
 }
 
 const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
@@ -27,13 +34,20 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
     }
   }, [selectedProduct]);
 
-  const handleSectionClick = (sectionIndex: number) => {
-    if (sectionIndex <= enabledSections) {
+  const handleSectionClick = (sectionIndex: number, type: string, nextRoute: string) => {
+    if (sectionIndex <= enabledSections && !type) {
       localStorage.setItem(
         `currentSection_${selectedProduct}`,
         String(sectionIndex)
       );
       navigate(`/${selectedProduct}/section${sectionIndex}`);
+    } else if (type === "practical-task") {
+      // If the section is a practical task, allow access regardless of enabled sections
+      localStorage.setItem(
+        `currentSection_${selectedProduct}`,
+        String(sectionIndex)
+      );
+      navigate(`/${selectedProduct}${nextRoute}`);
     }
   };
 
@@ -111,10 +125,10 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
               <div className={"dashboard__list-item-container"} key={index}>
                 <button
                   className={"dashboard__list-item"}
-                  onClick={() => handleSectionClick(index + 1)}
+                  onClick={() => handleSectionClick(index + 1, section.type, section.nextRoute)}
                   disabled={index + 1 > enabledSections}
                 >
-                  {section}
+                  {section.title}
                 </button>
                 {index + 1 < enabledSections && (
                   <img

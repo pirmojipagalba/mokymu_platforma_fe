@@ -240,8 +240,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Darbuotojai privalo reguliariai plauti rankas šiltu vandeniu su muilu, ypač prieš pradedant darbą, po kontakto su šiukšlėmis, po naudojimosi tualetu, po kosėjimo ar čiaudėjimo ir po kontakto su potencialiai užterštais paviršiais.",
-              "Jei nėra galimybės naudotis vandeniu ir muilu, turi būti naudojami alkoholio pagrindu pagaminti dezinfekciniai rankų geliai."
+                "Darbuotojai privalo reguliariai plauti rankas šiltu vandeniu su muilu, ypač prieš pradedant darbą, po kontakto su šiukšlėmis, po naudojimosi tualetu, po kosėjimo ar čiaudėjimo ir po kontakto su potencialiai užterštais paviršiais.",
+                "Jei nėra galimybės naudotis vandeniu ir muilu, turi būti naudojami alkoholio pagrindu pagaminti dezinfekciniai rankų geliai."
               ]
             },
             {
@@ -253,8 +253,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Darbuotojai privalo dėvėti švarius, dirbti tinkamus drabužius ir, jei reikalaujama, papildomas apsaugos priemones (pvz., pirštines, kepures).",
-              "Darbo apranga turi būti keičiama reguliariai, ypač jei ji susitepa ar pažeidžiama."
+                "Darbuotojai privalo dėvėti švarius, dirbti tinkamus drabužius ir, jei reikalaujama, papildomas apsaugos priemones (pvz., pirštines, kepures).",
+                "Darbo apranga turi būti keičiama reguliariai, ypač jei ji susitepa ar pažeidžiama."
               ]
             },
             {
@@ -266,8 +266,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Naudojamos apsaugos priemonės (pvz., kaukės, pirštinės) turi būti tinkamos, tvarkingos ir keičiamos pagal poreikį.",
-              "Darbuotojai turi būti apmokyti teisingai jas naudoti ir šalinti, kad nesukeltų užteršimo rizikos."
+                "Naudojamos apsaugos priemonės (pvz., kaukės, pirštinės) turi būti tinkamos, tvarkingos ir keičiamos pagal poreikį.",
+                "Darbuotojai turi būti apmokyti teisingai jas naudoti ir šalinti, kad nesukeltų užteršimo rizikos."
               ]
             },
             {
@@ -279,8 +279,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Darbuotojai, jaučiantys infekcijos požymius (karščiavimą, kosulį, odos pažeidimus), privalo nedirbti arba nedelsiant informuoti darbdavį.",
-              "Reguliariai vykdomas darbuotojų sveikatos stebėjimas ir, jei reikia, profilaktinės medicininės apžiūros."
+                "Darbuotojai, jaučiantys infekcijos požymius (karščiavimą, kosulį, odos pažeidimus), privalo nedirbti arba nedelsiant informuoti darbdavį.",
+                "Reguliariai vykdomas darbuotojų sveikatos stebėjimas ir, jei reikia, profilaktinės medicininės apžiūros."
               ]
             },
             {
@@ -292,8 +292,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Darbuotojai turi laikyti asmeninius daiktus atskirose, švariose vietose, ne darbo zonose.",
-              "Draudžiama nešvarius daiktus laikyti šalia maisto ar darbo įrankių."
+                "Darbuotojai turi laikyti asmeninius daiktus atskirose, švariose vietose, ne darbo zonose.",
+                "Draudžiama nešvarius daiktus laikyti šalia maisto ar darbo įrankių."
               ]
             }
           ]
@@ -324,8 +324,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Darbuotojai, kuriems pasireiškė ūmių užkrečiamųjų ligų požymiai (karščiavimas, kosulys, gerklės skausmas, viduriavimas, odos bėrimai), negali dirbti su keleiviais ar maistu, privalo nedelsiant informuoti atsakingą asmenį ir, jei reikia, kreiptis į gydytoją.",
-              "Darbdavys turi užtikrinti, kad darbuotojai periodiškai tikrintųsi sveikatą pagal teisės aktų reikalavimus (ypač jei dirba su maistu ar keleivių aptarnavimu)."
+                "Darbuotojai, kuriems pasireiškė ūmių užkrečiamųjų ligų požymiai (karščiavimas, kosulys, gerklės skausmas, viduriavimas, odos bėrimai), negali dirbti su keleiviais ar maistu, privalo nedelsiant informuoti atsakingą asmenį ir, jei reikia, kreiptis į gydytoją.",
+                "Darbdavys turi užtikrinti, kad darbuotojai periodiškai tikrintųsi sveikatą pagal teisės aktų reikalavimus (ypač jei dirba su maistu ar keleivių aptarnavimu)."
               ]
             },
             {
@@ -337,9 +337,9 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Transporto priemonėse ir patalpose turi būti įrengtos rankų dezinfekavimo priemonės tiek darbuotojams, tiek keleiviams.",
-              "Darbuotojai turi naudoti apsaugos priemones (pvz., kaukes), jei to reikalauja esama epidemiologinė situacija ar įmonės vidaus tvarka.",
-              "Turi būti užtikrinamas reguliarus transporto priemonių, paviršių, darbo vietų valymas ir dezinfekavimas."
+                "Transporto priemonėse ir patalpose turi būti įrengtos rankų dezinfekavimo priemonės tiek darbuotojams, tiek keleiviams.",
+                "Darbuotojai turi naudoti apsaugos priemones (pvz., kaukes), jei to reikalauja esama epidemiologinė situacija ar įmonės vidaus tvarka.",
+                "Turi būti užtikrinamas reguliarus transporto priemonių, paviršių, darbo vietų valymas ir dezinfekavimas."
               ]
             },
             {
@@ -351,8 +351,8 @@
               "type": "list",
               "list_type": "unordered",
               "text": [
-              "Darbuotojai turi būti informuoti apie užkrečiamųjų ligų prevencijos svarbą, simptomus ir prevencines priemones.",
-              "Įmonėje rekomenduojama parengti trumpas atmintines ar skelbimus su priminimais apie rankų higieną, kosėjimo / čiaudėjimo etiką ir kontaktų ribojimą sergant."
+                "Darbuotojai turi būti informuoti apie užkrečiamųjų ligų prevencijos svarbą, simptomus ir prevencines priemones.",
+                "Įmonėje rekomenduojama parengti trumpas atmintines ar skelbimus su priminimais apie rankų higieną, kosėjimo / čiaudėjimo etiką ir kontaktų ribojimą sergant."
               ]
             },
             {
@@ -366,12 +366,18 @@
               "class": "margin-xxl",
 
               "text": [
-              "Darbdavys gali rekomenduoti ar organizuoti sezonines vakcinacijas nuo gripo ar kitų aktualių infekcijų (pvz., COVID-19) darbuotojams, ypač kontaktuojantiems su daug keleivių."
+                "Darbdavys gali rekomenduoti ar organizuoti sezonines vakcinacijas nuo gripo ar kitų aktualių infekcijų (pvz., COVID-19) darbuotojams, ypač kontaktuojantiems su daug keleivių."
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "title": "Praktinė užduotis",
+      "type": "practical-task",
+      "sectionId": "6",
+      "content": []
     }
   ]
 }
