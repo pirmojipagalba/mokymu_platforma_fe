@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import Container from "../../components/Container/Container";
@@ -47,6 +47,14 @@ interface SectionProps {
   sectionId: string;
   content: { page: number; page_content: PageContent[] }[];
   nextRoute: string;
+  onAnswersCollected: (
+    answers: {
+      id: string;
+      question: string;
+      answer: string;
+      optionText: string;
+    }[]
+  ) => void;
 }
 
 const Pagination: React.FC<{
@@ -58,6 +66,15 @@ const Pagination: React.FC<{
   onComplete: () => void;
   isCompleted: boolean;
   isTop: boolean | null;
+  sectionId: string;
+  onAnswersCollected: (
+    answers: {
+      id: string;
+      question: string;
+      answer: string;
+      optionText: string;
+    }[]
+  ) => void;
 }> = ({
   currentPage,
   totalPages,
@@ -67,55 +84,236 @@ const Pagination: React.FC<{
   onComplete,
   isCompleted,
   isTop = false,
-}) => (
-  <div className={`section__pagination ${isTop && "section__pagination--top"}`}>
-    <button
-      className={"section__pagination-back-button"}
-      onClick={currentPage === 1 ? onBack : onPrevious}
-    >
-      <img
-        className="section__pagination-back-button-arrow"
-        src="/assets/arrow-left.svg"
-        alt="chevron pointing left"
-      />
-      Grižti atgal
-    </button>
-    <div className="section__pagination-dots">
-      {Array.from({ length: totalPages }).map((_, index) => (
-        <span
-          key={index}
-          className={`section__pagination-dot ${
-            currentPage === index + 1 ? "active" : ""
-          }`}
-        />
-      ))}
-    </div>
-    <button
-      className={"section__pagination-next-button"}
-      onClick={currentPage === totalPages ? onComplete : onNext}
-      disabled={currentPage === totalPages && isCompleted}
-    >
-      {currentPage === totalPages ? "Spręsti testą" : "Toliau"}
-      <img
-        className="section__pagination-back-button-arrow"
-        src="/assets/arrow-right.svg"
-        alt="arrow pointing right"
-      />
-    </button>
-  </div>
-);
+  sectionId,
+  onAnswersCollected,
+}) => {
+    const { questionnaire_material } = useAppContext();
 
-const Section: React.FC<SectionProps> = ({
+  const questionnaire_section = questionnaire_material.content.find(
+    (item: { sectionId: string }) => item.sectionId === sectionId
+  );
+
+  // console.log(sectionId);
+
+  console.log(questionnaire_section);
+
+  if(!questionnaire_section.questions.length) {
+    // onComplete();
+    // onAnswersCollected([]);
+  }
+
+
+  return (
+    <div
+      className={`section__pagination ${isTop && "section__pagination--top"}`}
+    >
+      <button
+        className={"section__pagination-back-button"}
+        onClick={currentPage === 1 ? onBack : onPrevious}
+      >
+        <img
+          className="section__pagination-back-button-arrow"
+          src="/assets/arrow-left.svg"
+          alt="chevron pointing left"
+        />
+        Grižti atgal
+      </button>
+      <div className="section__pagination-dots">
+        {Array.from({ length: totalPages }).map((_, index) => (
+          <span
+            key={index}
+            className={`section__pagination-dot ${
+              currentPage === index + 1 ? "active" : ""
+            }`}
+          />
+        ))}
+      </div>
+      <button
+        className={"section__pagination-next-button"}
+        onClick={currentPage === totalPages ? onComplete : onNext}
+        disabled={currentPage === totalPages && isCompleted}
+      >
+        {currentPage === totalPages ? "Spręsti testą" : "Toliau"}
+        <img
+          className="section__pagination-back-button-arrow"
+          src="/assets/arrow-right.svg"
+          alt="arrow pointing right"
+        />
+      </button>
+    </div>
+  );
+};
+
+// Helper component for rendering each content item
+const SectionContentItem: React.FC<{
+  item: PageContent;
+  selectedProduct: string;
+  sectionId: string;
+}> = ({ item, selectedProduct, sectionId }) => {
+  switch (item.type) {
+    case "list":
+      return (
+        <ul className={`section__list ${item.list_type} ${item.class || ""}`}>
+          {Array.isArray(item.text) &&
+            item.text.map((textItem: any, textIndex: number) => {
+              if (typeof textItem === "object" && textItem.type === "img") {
+                return (
+                  <div
+                    key={textIndex}
+                    className={`section__image-container ${item.class || ""}`}
+                  >
+                    <img
+                      src={`/assets/${selectedProduct}/${sectionId}/${textItem.text}`}
+                      alt="#"
+                      className="section__image"
+                    />
+                  </div>
+                );
+              } else if (typeof textItem === "object" && textItem.type === "anchor") {
+                return (
+                  <div key={textIndex}>
+                    <a
+                      href={textItem.url || textItem.text}
+                      className={`section__anchor ${textItem.class || ""}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {textItem.label || textItem.text}
+                    </a>
+                  </div>
+                );
+              } else if (Array.isArray(textItem)) {
+                return (
+                  <ul className="section__list unordered" key={textIndex}>
+                    {textItem.map((nestedItem, nestedIndex) => (
+                      <li className="section__list-item" key={nestedIndex}>
+                        <ReactMarkdown className={"section__paragraph"} components={{ div: "span", p: "span" }}>
+                          {nestedItem}
+                        </ReactMarkdown>
+                      </li>
+                    ))}
+                  </ul>
+                );
+              } else {
+                return (
+                  <li className={`section__list-item ${item.list_item_class || ""}`} key={textIndex}>
+                    <ReactMarkdown className={"section__paragraph"} components={{ div: "span", p: "span" }}>
+                      {textItem}
+                    </ReactMarkdown>
+                  </li>
+                );
+              }
+            })}
+        </ul>
+      );
+    case "heading":
+      return <h2 className={`section__sub-heading ${item.class || ""}`}>{item.text}</h2>;
+    case "divider":
+      return <hr className={`section__divider ${item.class || ""}`} />;
+    case "floating-heading":
+      return (
+        <div className={`section__floating-heading ${item.class || ""}`}>
+          <h2 className={`section__floating-heading__text`}>{item.text}</h2>
+        </div>
+      );
+    case "main-heading":
+      return <h2 className={`section__heading section__heading--title ${item.class || ""}`}>{item.text}</h2>;
+    case "section-heading":
+      return <h2 className={`section__heading ${item.class || ""}`}>{item.text}</h2>;
+    case "table":
+      return <Table />;
+    case "premises-table":
+      return <PremisesTable />;
+    case "plant-table":
+      return <PlantTable />;
+    case "poisonous-plants-table":
+      return <PoisonousPlantsTable />;
+    case "interval-table":
+      return <IntervalTable />;
+    case "tool-table":
+      return <ToolTable />;
+    case "lighting-table":
+      return <LightingTable />;
+    case "luminosity-table":
+      return <LuminosityTable />;
+    case "feeding-table":
+      return <FeedingTable />;
+    case "temperature-table":
+      return <TemperatureTable />;
+    case "temperature-table-premises":
+      return <TemperatureTablePremises />;
+    case "maitenance-table":
+      return <MaitenanceTable />;
+    case "microbial-table":
+      return <MicrobialTable />;
+    case "microbial-size-table":
+      return <MicrobialSizeTable />;
+    case "legend-table":
+      return <LegendTable />;
+    case "animal-table":
+      return <AnimalTable />;
+    case "antiseptic-table":
+      return <AntisepticTable />;
+    case "sanitization-table":
+      return <SanitizationTable />;
+    case "hand-table":
+      return <HandTable />;
+    case "chirurgical-hand-table":
+      return <ChirurgicalHandTable />;
+    case "illness-table":
+      return <IllnessTable />;
+    case "pictogram-table":
+      return <PictogramTable />;
+    case "transport-table":
+      return <TransportTable />;
+    case "meanings-table":
+      return <MeaningsTable />;
+    case "requirements-table":
+      return <RequirementsTable />;
+    case "anchor":
+      return (
+        <a
+          href={item.text as string}
+          className={`section__anchor ${item.class || ""}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {item.text}
+        </a>
+      );
+    case "img":
+      return (
+        <div className={`section__image-container ${item.class || ""}`}>
+          <img
+            src={`/assets/${selectedProduct}/${sectionId}/${item.text}`}
+            alt="#"
+            className="section__image"
+          />
+        </div>
+      );
+    default:
+      return (
+        <ReactMarkdown className={`section__paragraph ${item.class || ""}`} components={{ div: "span", p: "span" }}>
+          {typeof item.text === "string" ? item.text : Array.isArray(item.text) ? item.text.join(" ") : ""}
+        </ReactMarkdown>
+      );
+  }
+};
+
+const Section: React.FC<SectionProps> = React.memo(({
   topic_image,
   title,
   sectionId,
   content,
   nextRoute,
+  onAnswersCollected,
 }) => {
   const navigate = useNavigate();
   const { selectedProduct } = useAppContext();
   const [isCompleted, setIsCompleted] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
+
+  console.log(sectionId);
 
   useEffect(() => {
     const completedSections = Number(
@@ -155,8 +353,9 @@ const Section: React.FC<SectionProps> = ({
     navigate(`/${selectedProduct}${nextRoute}`);
   };
 
-  const currentPageContent =
-    content.find((page) => page.page === currentPage)?.page_content || [];
+  const currentPageContent = useMemo(() => {
+    return content.find((page) => page.page === currentPage)?.page_content || [];
+  }, [content, currentPage]);
 
   return (
     <Container>
@@ -170,193 +369,17 @@ const Section: React.FC<SectionProps> = ({
           onComplete={handleComplete}
           isCompleted={isCompleted}
           isTop={true}
+          onAnswersCollected={onAnswersCollected}
+          sectionId={sectionId}
         />
         <div className="section__content">
           {currentPageContent.map((item, index) => (
-            <div key={index}>
-              {item.type === "list" ? (
-                <ul
-                  className={`section__list ${item.list_type} ${
-                    item.class && item.class
-                  }`}
-                >
-                  {Array.isArray(item.text) &&
-                    item.text.map((textItem: string | any, textIndex) =>
-                      typeof textItem === "object" &&
-                      textItem.type === "img" ? (
-                        <div
-                          key={textIndex}
-                          className={`section__image-container ${
-                            item.class && item.class
-                          }`}
-                        >
-                          <img
-                            src={`/assets/${selectedProduct}/${sectionId}/${textItem.text}`}
-                            alt="#"
-                            className="section__image"
-                          />
-                        </div>
-                      ) : typeof textItem === "object" &&
-                        textItem.type === "anchor" ? (
-                        <div key={textIndex}>
-                          <a
-                            href={textItem.url || textItem.text}
-                            className={`section__anchor ${
-                              textItem.class && textItem.class
-                            }`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {textItem.label || textItem.text}
-                          </a>
-                        </div>
-                      ) : Array.isArray(textItem) ? (
-                        <ul className="section__list unordered" key={textIndex}>
-                          {textItem.map((nestedItem, nestedIndex) => (
-                            <li
-                              className="section__list-item"
-                              key={nestedIndex}
-                            >
-                              <ReactMarkdown
-                                className={"section__paragraph"}
-                                components={{ div: "span", p: "span" }}
-                              >
-                                {nestedItem}
-                              </ReactMarkdown>
-                            </li>
-                          ))}
-                        </ul>
-                      ) : (
-                        <li
-                          className={`section__list-item ${
-                            item.list_item_class && item.list_item_class
-                          }`}
-                          key={textIndex}
-                        >
-                          <ReactMarkdown
-                            className={"section__paragraph"}
-                            components={{ div: "span", p: "span" }}
-                          >
-                            {textItem}
-                          </ReactMarkdown>
-                        </li>
-                      )
-                    )}
-                </ul>
-              ) : item.type === "heading" ? (
-                <h2
-                  className={`section__sub-heading ${item.class && item.class}`}
-                >
-                  {item.text}
-                </h2>
-              ) : item.type === "divider" ? (
-                <hr
-                  className={`section__divider ${item.class && item.class}`}
-                />
-              ) : item.type === "floating-heading" ? (
-                <div
-                  className={`section__floating-heading ${
-                    item.class && item.class
-                  }`}
-                >
-                  <h2 className={`section__floating-heading__text`}>
-                    {item.text}
-                  </h2>
-                </div>
-              ) : item.type === "main-heading" ? (
-                <h2
-                  className={`section__heading section__heading--title ${
-                    item.class && item.class
-                  }`}
-                >
-                  {item.text}
-                </h2>
-              ) : item.type === "section-heading" ? (
-                <h2 className={`section__heading ${item.class && item.class}`}>
-                  {item.text}
-                </h2>
-              ) : item.type === "table" ? (
-                <Table />
-              ) : item.type === "premises-table" ? (
-                <PremisesTable />
-              ) : item.type === "plant-table" ? (
-                <PlantTable />
-              ) : item.type === "poisonous-plants-table" ? (
-                <PoisonousPlantsTable />
-              ) : item.type === "interval-table" ? (
-                <IntervalTable />
-              ) : item.type === "tool-table" ? (
-                <ToolTable />
-              ) : item.type === "lighting-table" ? (
-                <LightingTable />
-              ) : item.type === "luminosity-table" ? (
-                <LuminosityTable />
-              ) : item.type === "feeding-table" ? (
-                <FeedingTable />
-              ) : item.type === "temperature-table" ? (
-                <TemperatureTable />
-              ) : item.type === "temperature-table-premises" ? (
-                <TemperatureTablePremises />
-              ) : item.type === "maitenance-table" ? (
-                <MaitenanceTable />
-              ) : item.type === "microbial-table" ? (
-                <MicrobialTable />
-              ) : item.type === "microbial-size-table" ? (
-                <MicrobialSizeTable />
-              ) : item.type === "legend-table" ? (
-                <LegendTable />
-              ) : item.type === "animal-table" ? (
-                <AnimalTable />
-              ) : item.type === "antiseptic-table" ? (
-                <AntisepticTable />
-              ) : item.type === "sanitization-table" ? (
-                <SanitizationTable />
-              ) : item.type === "hand-table" ? (
-                <HandTable />
-              ) : item.type === "chirurgical-hand-table" ? (
-                <ChirurgicalHandTable />
-              ) : item.type === "illness-table" ? (
-                <IllnessTable />
-              )  : item.type === "pictogram-table" ? (
-                <PictogramTable />
-              )   : item.type === "transport-table" ? (
-                <TransportTable />
-              ) : item.type === "meanings-table" ? (
-                <MeaningsTable />
-              ) : item.type === "requirements-table" ? (
-                <RequirementsTable />
-              ) : item.type === "anchor" ? (
-                <a
-                  href={item.text as string}
-                  className={`section__anchor ${item.class && item.class}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {item.text}
-                </a>
-              ) : item.type === "img" ? (
-                <div
-                  className={`section__image-container ${
-                    item.class && item.class
-                  }`}
-                >
-                  <img
-                    src={`/assets/${selectedProduct}/${sectionId}/${item.text}`}
-                    alt="#"
-                    className="section__image"
-                  />
-                </div>
-              ) : (
-                <ReactMarkdown
-                  className={`section__paragraph ${item.class && item.class}`}
-                  components={{ div: "span", p: "span" }}
-                >
-                  {typeof item.text === "string"
-                    ? item.text
-                    : item.text.join(" ")}
-                </ReactMarkdown>
-              )}
-            </div>
+            <SectionContentItem
+              key={index}
+              item={item}
+              selectedProduct={selectedProduct}
+              sectionId={sectionId}
+            />
           ))}
         </div>
         <Pagination
@@ -368,10 +391,12 @@ const Section: React.FC<SectionProps> = ({
           onComplete={handleComplete}
           isCompleted={isCompleted}
           isTop={false}
+          onAnswersCollected={onAnswersCollected}
+          sectionId={sectionId}
         />
       </div>
     </Container>
   );
-};
+});
 
 export default Section;

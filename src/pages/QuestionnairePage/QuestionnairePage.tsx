@@ -70,7 +70,7 @@ const QuestionnairePage: React.FC<QuestionnairePageProps> = ({
             <span className="questionnaire-page__correct-answers-count">
             Jūsų rezultatas yra <strong>{correctAnswersCount} iš 4</strong> teisingų atsakymų.</span>
           </div>
-        ) : (
+        ) : ( 
           <h2 className="questionnaire-page__heading">{title}</h2>
         )}
         <Questionnaire

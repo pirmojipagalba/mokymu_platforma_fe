@@ -36,7 +36,7 @@ const Header: React.FC = () => {
   }, []);
 
   const handleLogoClick = () => {
-    navigate(`/${selectedProduct}/dashboard`);
+    navigate("/product");
   };
 
   return (
@@ -44,8 +44,12 @@ const Header: React.FC = () => {
       <Container type="wide">
         <div className="header__container">
           <img
-            className={`header__logo ${isSmallScreen ? "header__logo--small" : ""}`}
-            src={isSmallScreen ? "/assets/icon_blue.svg" : "/assets/logo-blue.svg"}
+            className={`header__logo ${
+              isSmallScreen ? "header__logo--small" : ""
+            }`}
+            src={
+              isSmallScreen ? "/assets/icon_blue.svg" : "/assets/logo-blue.svg"
+            }
             alt="logo"
             onClick={handleLogoClick}
           />
@@ -53,7 +57,8 @@ const Header: React.FC = () => {
             {isAuthenticated && (
               <>
                 <span className="header__welcome-message">
-                  {isSmallScreen ? '' : 'Sveiki, '}<span className="header__user-name">{user?.name}</span>!
+                  {isSmallScreen ? "" : "Sveiki, "}
+                  <span className="header__user-name">{user?.name}</span>!
                 </span>
                 <LogoutButton />
               </>

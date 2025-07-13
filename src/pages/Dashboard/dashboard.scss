@@ -14,8 +14,27 @@
     color: $text;
   }
 
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h2 {
+      font-size: $sub-heading;
+      line-height: 1.5;
+      color: $text;
+    }
+
+    p {
+      color: $text;
+      line-height: 1.6;
+      font-size: $paragraph;
+    }
+  }
+
   &__content {
     display: flex;
+    align-items: center;
     gap: 16px;
     color: $text;
 

@@ -235,7 +235,7 @@ const AppContent: React.FC = () => {
             <Route
               key={section.title}
               path={`/${selectedProduct}/section${index + 1}`}
-              element={<Section {...section} />}
+              element={<Section {...section} onAnswersCollected={handleAnswersCollected} />}
             />
           ))}
           {questionnaire_material.content.map(

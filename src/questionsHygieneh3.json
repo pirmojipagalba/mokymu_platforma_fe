@@ -3,7 +3,48 @@
     {
       "sectionId": "1",
       "title": "Teisės aktai, reglamentuojantys grožio paslaugų visuomenės sveikatos saugos reikalavimus.",
-      "questions": []
+      "questions": [
+                {
+          "id": "q1",
+          "question": "Kokioje situacijoje grožio paslaugų teikimo patalpose gali nebūti atskiro tualeto?",
+          "options": [
+            { "optionId": "opt1a", "optionText": "Kai pastate yra bendro naudojimo tualetas už 100 m nuo patalpų" },
+            { "optionId": "opt1b", "optionText": "Kai pastate yra atskiras bendro naudojimo tualetas ne toliau kaip 50 m nuo grožio paslaugų patalpų, kuriuo gali naudotis paslaugų teikėjai ir vartotojai" },
+            { "optionId": "opt1c", "optionText": "Kai paslaugos teikiamos tik vienam klientui per dieną" }
+          ],
+          "correctAnswer": "opt1b"
+        },
+        {
+          "id": "q2",
+          "question": "Kokia turi būti minimali oro temperatūra grožio paslaugų teikimo patalpose?",
+          "options": [
+            { "optionId": "opt2a", "optionText": "16 °C" },
+            { "optionId": "opt2b", "optionText": "18 °C" },
+            { "optionId": "opt2c", "optionText": "20 °C" }
+          ],
+          "correctAnswer": "opt2b"
+        },
+        {
+          "id": "q3",
+          "question": "Kas būtinai turi būti įrengta grožio paslaugų teikimo patalpoje prie darbo vietos?",
+          "options": [
+            { "optionId": "opt3a", "optionText": "Poilsio zona darbuotojams" },
+            { "optionId": "opt3b", "optionText": "Praustuvė, rankų higienos priemonės, vienkartiniai rankšluosčiai, atliekų surinkimo talpykla" },
+            { "optionId": "opt3c", "optionText": "Televizorius paslaugų vartotojams" }
+          ],
+          "correctAnswer": "opt3b"
+        },
+        {
+          "id": "q4",
+          "question": "Kokie turi būti paviršiai, ant kurių dedami instrumentai ir kitos darbo priemonės?",
+          "options": [
+            { "optionId": "opt4a", "optionText": "Iš medžio, natūralios medžiagos, be papildomos dangos" },
+            { "optionId": "opt4b", "optionText": "Lygūs, padengti drėgmei, valikliams ir dezinfekcijos priemonėms atsparia medžiaga" },
+            { "optionId": "opt4c", "optionText": "Padengti tekstile, kuri sugeria skysčius" }
+          ],
+          "correctAnswer": "opt4b"
+        }
+      ]
     },
     {
       "sectionId": "2",

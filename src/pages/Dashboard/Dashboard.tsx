@@ -62,7 +62,6 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   return (
     <Container type="wide">
       <div className={"dashboard"}>
-        <button onClick={() => navigate('/product')}>back to products</button>
         {allSectionsCompleted && (
           <>
             <div className="dashboard__message-container">
@@ -72,6 +71,38 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
               </p>
             </div>
           </>
+        )}
+        {selectedProduct === "hygieneh3" ? (
+          <div className="dashboard__info">
+            <h2 className="dashboard__heading">
+              PRIVALOMOJO HIGIENOS ĮGŪDŽIŲ MOKYMO SPECIALIOSIOS PROGRAMOS
+              MEDŽIAGA (KODAS H3)
+            </h2>
+            <p>
+              Privalomojo higienos įgūdžių specialioji programa (H3) nustatyta
+              Lietuvos Respublikos sveikatos apsaugos ministro 2008 m. sausio 28
+              d. įsakymu Nr. V-69 „Dėl Privalomųjų pirmosios pagalbos, higienos
+              įgūdžių, alkoholio, narkotinių ir psichotropinių ar kitų psichiką
+              veikiančių medžiagų vartojimo poveikio žmogaus sveikatai mokymų ir
+              atestavimo tvarkos aprašo ir Asmenų, kuriems privalomas sveikatos
+              ir (ar) pirmosios pagalbos mokymas, profesijų ir veiklos sričių
+              sąrašo, mokymo programų kodų ir mokymo periodiškumo patvirtinimo“.
+            </p>
+            <p>
+              Ši higienos norma nustato pagrindinius grožio paslaugų sveikatos
+              saugos reikalavimus. Ji privaloma visiems Lietuvos Respublikos
+              juridiniams ir fiziniams asmenims, projektuojantiems, statantiems,
+              įrengiantiems, rekonstruojantiems statinius ir patalpas, kuriose
+              teikiamos grožio paslaugos, paslaugų teikėjams bei
+              kontroliuojančioms institucijoms.
+            </p>
+            <p>
+              <strong>H3 – Higienos pažymėjimas.</strong> Grožio paslaugas
+              teikiantiems darbuotojams
+            </p>
+          </div>
+        ) : (
+          ""
         )}
         <h2 className={"dashboard__heading"}>Pasirinkite temą</h2>
         <div className={"dashboard__content"}>
@@ -95,11 +126,11 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
               </div>
             ))}
           </ul>
-          <img
+          {/* <img
             className="dashboard__image"
-            src="/assets/cpr.png"
+            src="/assets/logo-blue.svg"
             alt="woman doing cpr"
-          />
+          /> */}
         </div>
         {allSectionsCompleted && (
           <button
