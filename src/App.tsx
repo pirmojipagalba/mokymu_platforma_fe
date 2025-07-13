@@ -235,11 +235,20 @@ const AppContent: React.FC = () => {
             <Route
               key={section.title}
               path={`/${selectedProduct}/section${index + 1}`}
-              element={<Section {...section} onAnswersCollected={handleAnswersCollected} />}
+              element={
+                <Section
+                  {...section}
+                  onAnswersCollected={handleAnswersCollected}
+                />
+              }
             />
           ))}
-          {questionnaire_material.content.map(
-            (questionnaire: QuestionnairePageProps, index: number) => (
+          {questionnaire_material?.content
+            .filter(
+              (questionnaire: QuestionnairePageProps) =>
+                questionnaire.questions && questionnaire.questions.length > 0
+            )
+            .map((questionnaire: QuestionnairePageProps, index: number) => (
               <Route
                 key={questionnaire.title}
                 path={`/${selectedProduct}/questionnaire${index + 1}`}
@@ -250,8 +259,7 @@ const AppContent: React.FC = () => {
                   />
                 }
               />
-            )
-          )}
+            ))}
           <Route
             path="/product"
             element={<ProductPage products={sampleProducts} />}

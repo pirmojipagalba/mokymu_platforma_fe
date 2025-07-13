@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Teisės aktai: ",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -64,7 +64,7 @@
     },
     {
       "title": "Nuodingųjų medžiagų grupės, jų savybės, poveikis, priklausomai nuo jų rūšies, fizinių ir cheminių savybių, patekimo, kaupimosi, išsiskyrimo iš organizmo būdų. Bendrosios žinios apie nuodingųjų medžiagų toksiškumą, poveikį žmogaus sveikatai ir aplinkai",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -283,7 +283,7 @@
     },
     {
       "title": "Ūmaus ir lėtinio apsinuodijimo nuodingosiomis medžiagomis požymiai. Profesinės rizikos veiksniai, jų poveikis žmogaus sveikatai, medicinos pagalbos organizavimas. Profilaktinių sveikatos tikrinimų reikšmė lėtinių apsinuodijimų ir profesinių ligų profilaktikai.",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -334,7 +334,7 @@
     },
     {
       "title": "Saugaus darbo su nuodingosiomis medžiagomis įgūdžių formavimas. Inžinerinės, techninės, technologinės priemonės, saugančios nuo apsinuodijimo nuodingosiomis medžiagomis bei jų patekimo į aplinką rizikos ",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,

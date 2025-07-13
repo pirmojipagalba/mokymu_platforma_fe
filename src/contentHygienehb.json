@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Asmens higienos, rankų plovimo svarba ir rankų plovimo taisyklės. Asmeninės saugos priemonės ",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -346,7 +346,7 @@
     },
     {
       "title": "Užkrečiamųjų ligų sukėlėjų grupės, sukėlėjų savybės, dezinfekcija, sterilizacija",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -822,7 +822,7 @@
     },
     {
       "title": "Užkrečiamosios ligos, jų sukėlėjai, plitimo keliai",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -1275,7 +1275,7 @@
     },
     {
       "title": "Užkrečiamųjų ligų profilaktikos principai. Imunitetas. Skiepai ",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,

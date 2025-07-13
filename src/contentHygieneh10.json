@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Maisto saugos principai",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -648,7 +648,7 @@
     },
     {
       "title": "Maistu plintančios infekcinės ligos. Jų prevencija.",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -1432,7 +1432,7 @@
     },
     {
       "title": "Bendri asmens higienos reikalavimai",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -1742,7 +1742,7 @@
     },
     {
       "title": "Bendri reikalavimai patalpoms ir jų priežiūra",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,
@@ -2111,7 +2111,7 @@
     },
     {
       "title": "Saugūs maisto tvarkymo principai",
-      "sectionId": "section5",
+      "sectionId": "5",
       "content": [
         {
           "page": 1,

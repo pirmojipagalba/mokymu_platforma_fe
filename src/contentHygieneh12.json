@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Teisės aktai, reglamentuojantys skalbyklų paslaugų visuomenės sveikatos saugos reikalavimus ",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -46,7 +46,7 @@
     },
     {
       "title": "Bendrieji skalbyklų įrengimo ir priežiūros reikalavimai. Patalpų, įrenginių, inventoriaus priežiūra",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -107,7 +107,7 @@
     },
     {
       "title": "Skalbyklų specialieji reikalavimai",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -138,7 +138,7 @@
     },
     {
       "title": "Technologinio proceso (nešvarių skalbinių priėmimas, švarių ir nešvarių skalbinių laikymas, skalbimas, džiovinimas, lyginimas, pakavimas, švarių skalbinių išdavimas) visuomenės sveikatos saugos reikalavimai",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,
@@ -228,7 +228,7 @@
     },
     {
       "title": "Skalbimo būdai ir technologijos, skalbimo ir dezinfekcijos priemonių reikalavimai, jų galimas poveikis sveikatai",
-      "sectionId": "section5",
+      "sectionId": "5",
       "content": [
         {
           "page": 1,
@@ -309,7 +309,7 @@
     },
     {
       "title": "Skalbinių surinkimo, rūšiavimo, laikymo ir gabenimo į skalbyklą visuomenės sveikatos saugos reikalavimai",
-      "sectionId": "section6",
+      "sectionId": "6",
       "content": [
         {
           "page": 1,
@@ -369,7 +369,7 @@
     },
     {
       "title": "Reikalavimai skalbyklų darbuotojams. Asmeninės apsaugos priemonės, jų reikšmė profesinių ir kitų ligų profilaktikai",
-      "sectionId": "section6",
+      "sectionId": "6",
       "content": [
         {
           "page": 1,

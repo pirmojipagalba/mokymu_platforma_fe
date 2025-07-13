@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Įvykio vietos saugumo ir nukentėjusiojo būklės įvertinimas. Gyvybei pavojingos psichikos būsenos, jų atpažinimas, pirmoji pagalba ir medicinos pagalbos organizavimas. Psichologinės pagalbos principai",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -530,7 +530,7 @@
     },
     {
       "title": "Pradinis gaivinimas. Pradinis gaivinimas naudojant išorinį širdies defibriliatorių",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -1109,7 +1109,7 @@
     },
     {
       "title": "Kraujavimo stabdymas. Šautinės, durtinės ir plėštinės žaizdos. Tvarstymas",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -1645,7 +1645,7 @@
     },
     {
       "title": "Nukentėjusiojo parengimas transportuoti, pažeistos kūno dalies imobilizavimas, traumuotų, sužalotų asmenų nešimas",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,
@@ -1997,7 +1997,7 @@
     },
     {
       "title": "Pirmosios pagalbos teikimas asmenims, patyrusiems įvairias būkles",
-      "sectionId": "section5",
+      "sectionId": "5",
       "content": [
         {
           "page": 1,

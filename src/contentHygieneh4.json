@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Teisės aktai, reglamentuojantys soliariumo paslaugų visuomenės sveikatos saugos reikalavimus",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -52,7 +52,7 @@
     },
     {
       "title": "Soliariumo patalpų, įrangos ir jų priežiūros visuomenės sveikatos saugos reikalavimai",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -251,7 +251,7 @@
     },
     {
       "title": "Ultravioletinės spinduliuotės poveikis, odos tipai ir odos reakcija į ultravioletinius spindulius, deginimosi soliariume taisyklės, kontraindikacijos, nesaikingo deginimosi pasekmės. Piktybiniai odos susirgimai ir jų profilaktika ",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -341,7 +341,7 @@
     },
     {
       "title": "Užkrečiamųjų ligų profilaktika",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,

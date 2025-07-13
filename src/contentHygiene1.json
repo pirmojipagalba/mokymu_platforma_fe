@@ -48,7 +48,7 @@
     },
     {
       "title": "Teritorijos, patalpų, apšvietimo, šildymo, vėdinimo, oro kondicionavimo, vandens tiekimo ir nuotekų šalinimo reikalavimai",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -164,7 +164,7 @@
     },
     {
       "title": " Teritorijos, patalpų, įrenginių priežiūra",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -182,7 +182,7 @@
     },
     {
       "title": "Dienos režimo ir maitinimo organizavimas",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,
@@ -305,7 +305,7 @@
     },
     {
       "title": "Ugdymo proceso higiena",
-      "sectionId": "section5",
+      "sectionId": "5",
       "content": [
         {
           "page": 1,
@@ -371,7 +371,7 @@
     },
     {
       "title": "Vaikų sveikatos priežiūra (užkrečiamųjų ligų profilaktika, skiepai)",
-      "sectionId": "section6",
+      "sectionId": "6",
       "content": [
         {
           "page": 1,

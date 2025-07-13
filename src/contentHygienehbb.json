@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Maisto tvarkymo subjektų higienos reikalavimai (asmens higiena, maisto tvarkymo higiena, kryžminės taršos prevencija, patalpų, įrangos, transporto priežiūra, nariuotakojų ir graužikų kontrolė, atliekų tvarkymas) ",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -1205,7 +1205,7 @@
     },
     {
       "title": "Per maistą plintančių užkrečiamųjų ligų profilaktika",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,

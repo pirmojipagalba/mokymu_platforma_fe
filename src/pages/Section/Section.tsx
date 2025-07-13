@@ -87,21 +87,19 @@ const Pagination: React.FC<{
   sectionId,
   onAnswersCollected,
 }) => {
-    const { questionnaire_material } = useAppContext();
+  const { questionnaire_material, selectedProduct } = useAppContext();
+  const navigate = useNavigate();
 
   const questionnaire_section = questionnaire_material.content.find(
     (item: { sectionId: string }) => item.sectionId === sectionId
   );
 
-  // console.log(sectionId);
+  // If there are no questions, override the next button behavior
+  const hasQuestions = questionnaire_section?.questions?.length > 0;
 
   console.log(questionnaire_section);
 
-  if(!questionnaire_section.questions.length) {
-    // onComplete();
-    // onAnswersCollected([]);
-  }
-
+  console.log(hasQuestions);
 
   return (
     <div
@@ -128,18 +126,37 @@ const Pagination: React.FC<{
           />
         ))}
       </div>
-      <button
-        className={"section__pagination-next-button"}
-        onClick={currentPage === totalPages ? onComplete : onNext}
-        disabled={currentPage === totalPages && isCompleted}
-      >
-        {currentPage === totalPages ? "Spręsti testą" : "Toliau"}
-        <img
-          className="section__pagination-back-button-arrow"
-          src="/assets/arrow-right.svg"
-          alt="arrow pointing right"
-        />
-      </button>
+      {hasQuestions ? (
+        <button
+          className={"section__pagination-next-button"}
+          onClick={currentPage === totalPages ? onComplete : onNext}
+          disabled={currentPage === totalPages && isCompleted}
+        >
+          {currentPage === totalPages ? "Spręsti testą" : "Toliau"}
+          <img
+            className="section__pagination-back-button-arrow"
+            src="/assets/arrow-right.svg"
+            alt="arrow pointing right"
+          />
+        </button>
+      ) : (
+        <button
+          className={"section__pagination-next-button"}
+          onClick={() => {
+            // Complete section and go to dashboard
+            onAnswersCollected([]);
+            navigate(`/${selectedProduct}/dashboard`);
+          }}
+          disabled={isCompleted}
+        >
+          Baigti
+          <img
+            className="section__pagination-back-button-arrow"
+            src="/assets/arrow-right.svg"
+            alt="arrow pointing right"
+          />
+        </button>
+      )}
     </div>
   );
 };
@@ -169,7 +186,10 @@ const SectionContentItem: React.FC<{
                     />
                   </div>
                 );
-              } else if (typeof textItem === "object" && textItem.type === "anchor") {
+              } else if (
+                typeof textItem === "object" &&
+                textItem.type === "anchor"
+              ) {
                 return (
                   <div key={textIndex}>
                     <a
@@ -187,7 +207,10 @@ const SectionContentItem: React.FC<{
                   <ul className="section__list unordered" key={textIndex}>
                     {textItem.map((nestedItem, nestedIndex) => (
                       <li className="section__list-item" key={nestedIndex}>
-                        <ReactMarkdown className={"section__paragraph"} components={{ div: "span", p: "span" }}>
+                        <ReactMarkdown
+                          className={"section__paragraph"}
+                          components={{ div: "span", p: "span" }}
+                        >
                           {nestedItem}
                         </ReactMarkdown>
                       </li>
@@ -196,8 +219,16 @@ const SectionContentItem: React.FC<{
                 );
               } else {
                 return (
-                  <li className={`section__list-item ${item.list_item_class || ""}`} key={textIndex}>
-                    <ReactMarkdown className={"section__paragraph"} components={{ div: "span", p: "span" }}>
+                  <li
+                    className={`section__list-item ${
+                      item.list_item_class || ""
+                    }`}
+                    key={textIndex}
+                  >
+                    <ReactMarkdown
+                      className={"section__paragraph"}
+                      components={{ div: "span", p: "span" }}
+                    >
                       {textItem}
                     </ReactMarkdown>
                   </li>
@@ -207,7 +238,11 @@ const SectionContentItem: React.FC<{
         </ul>
       );
     case "heading":
-      return <h2 className={`section__sub-heading ${item.class || ""}`}>{item.text}</h2>;
+      return (
+        <h2 className={`section__sub-heading ${item.class || ""}`}>
+          {item.text}
+        </h2>
+      );
     case "divider":
       return <hr className={`section__divider ${item.class || ""}`} />;
     case "floating-heading":
@@ -217,9 +252,19 @@ const SectionContentItem: React.FC<{
         </div>
       );
     case "main-heading":
-      return <h2 className={`section__heading section__heading--title ${item.class || ""}`}>{item.text}</h2>;
+      return (
+        <h2
+          className={`section__heading section__heading--title ${
+            item.class || ""
+          }`}
+        >
+          {item.text}
+        </h2>
+      );
     case "section-heading":
-      return <h2 className={`section__heading ${item.class || ""}`}>{item.text}</h2>;
+      return (
+        <h2 className={`section__heading ${item.class || ""}`}>{item.text}</h2>
+      );
     case "table":
       return <Table />;
     case "premises-table":
@@ -293,110 +338,121 @@ const SectionContentItem: React.FC<{
       );
     default:
       return (
-        <ReactMarkdown className={`section__paragraph ${item.class || ""}`} components={{ div: "span", p: "span" }}>
-          {typeof item.text === "string" ? item.text : Array.isArray(item.text) ? item.text.join(" ") : ""}
+        <ReactMarkdown
+          className={`section__paragraph ${item.class || ""}`}
+          components={{ div: "span", p: "span" }}
+        >
+          {typeof item.text === "string"
+            ? item.text
+            : Array.isArray(item.text)
+            ? item.text.join(" ")
+            : ""}
         </ReactMarkdown>
       );
   }
 };
 
-const Section: React.FC<SectionProps> = React.memo(({
-  topic_image,
-  title,
-  sectionId,
-  content,
-  nextRoute,
-  onAnswersCollected,
-}) => {
-  const navigate = useNavigate();
-  const { selectedProduct } = useAppContext();
-  const [isCompleted, setIsCompleted] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
+const Section: React.FC<SectionProps> = React.memo(
+  ({
+    topic_image,
+    title,
+    sectionId,
+    content,
+    nextRoute,
+    onAnswersCollected,
+  }) => {
+    const navigate = useNavigate();
+    const { selectedProduct } = useAppContext();
+    const [isCompleted, setIsCompleted] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
 
-  console.log(sectionId);
+    console.log(sectionId);
 
-  useEffect(() => {
-    const completedSections = Number(
-      localStorage.getItem(`completedSections_${selectedProduct}`) || 0
-    );
-    const currentSectionIndex = Number(
-      localStorage.getItem(`currentSection_${selectedProduct}`) || 0
-    );
-    setIsCompleted(currentSectionIndex <= completedSections);
-  }, [selectedProduct]);
+    useEffect(() => {
+      const completedSections = Number(
+        localStorage.getItem(`completedSections_${selectedProduct}`) || 0
+      );
+      const currentSectionIndex = Number(
+        localStorage.getItem(`currentSection_${selectedProduct}`) || 0
+      );
+      setIsCompleted(currentSectionIndex <= completedSections);
+    }, [selectedProduct]);
 
-  const handleNextPage = () => {
-    if (currentPage < content.length) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
+    const handleNextPage = () => {
+      if (currentPage < content.length) {
+        setCurrentPage(currentPage + 1);
+      }
+    };
 
-  const handlePreviousPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
+    const handlePreviousPage = () => {
+      if (currentPage > 1) {
+        setCurrentPage(currentPage - 1);
+      }
+    };
 
-  const handleBack = () => {
-    const path = window.location.pathname;
-    if (path.startsWith("/questionnaire")) {
-      const sectionNumber = path.replace("/questionnaire", "");
-      navigate(`/${selectedProduct}/section${sectionNumber}`);
-    } else if (path.startsWith("/section")) {
-      navigate(`/${selectedProduct}/dashboard`);
-    } else {
-      navigate(-1);
-    }
-  };
+    const handleBack = () => {
+      const path = window.location.pathname;
+      if (path.startsWith("/questionnaire")) {
+        const sectionNumber = path.replace("/questionnaire", "");
+        navigate(`/${selectedProduct}/section${sectionNumber}`);
+      } else if (path.startsWith("/section")) {
+        navigate(`/${selectedProduct}/dashboard`);
+      } else {
+        navigate(-1);
+      }
+    };
 
-  const handleComplete = () => {
-    navigate(`/${selectedProduct}${nextRoute}`);
-  };
+    const handleComplete = () => {
+      navigate(`/${selectedProduct}${nextRoute}`);
+    };
 
-  const currentPageContent = useMemo(() => {
-    return content.find((page) => page.page === currentPage)?.page_content || [];
-  }, [content, currentPage]);
+    const currentPageContent = useMemo(() => {
+      return (
+        content.find((page) => page.page === currentPage)?.page_content || []
+      );
+    }, [content, currentPage]);
 
-  return (
-    <Container>
-      <div className={"section"}>
-        <Pagination
-          currentPage={currentPage}
-          totalPages={content.length}
-          onPrevious={handlePreviousPage}
-          onNext={handleNextPage}
-          onBack={handleBack}
-          onComplete={handleComplete}
-          isCompleted={isCompleted}
-          isTop={true}
-          onAnswersCollected={onAnswersCollected}
-          sectionId={sectionId}
-        />
-        <div className="section__content">
-          {currentPageContent.map((item, index) => (
-            <SectionContentItem
-              key={index}
-              item={item}
-              selectedProduct={selectedProduct}
-              sectionId={sectionId}
-            />
-          ))}
+    return (
+      <Container>
+        <div className={"section"}>
+          <Pagination
+            currentPage={currentPage}
+            totalPages={content.length}
+            onPrevious={handlePreviousPage}
+            onNext={handleNextPage}
+            onBack={handleBack}
+            onComplete={handleComplete}
+            isCompleted={isCompleted}
+            isTop={true}
+            onAnswersCollected={onAnswersCollected}
+            sectionId={sectionId}
+          />
+          <div className="section__content">
+            {currentPageContent.map((item, index) => (
+              <SectionContentItem
+                key={index}
+                item={item}
+                selectedProduct={selectedProduct}
+                sectionId={sectionId}
+              />
+            ))}
+          </div>
+          <Pagination
+            currentPage={currentPage}
+            totalPages={content.length}
+            onPrevious={handlePreviousPage}
+            onNext={handleNextPage}
+            onBack={handleBack}
+            onComplete={handleComplete}
+            isCompleted={isCompleted}
+            isTop={false}
+            onAnswersCollected={onAnswersCollected}
+            sectionId={sectionId}
+          />
         </div>
-        <Pagination
-          currentPage={currentPage}
-          totalPages={content.length}
-          onPrevious={handlePreviousPage}
-          onNext={handleNextPage}
-          onBack={handleBack}
-          onComplete={handleComplete}
-          isCompleted={isCompleted}
-          isTop={false}
-          onAnswersCollected={onAnswersCollected}
-          sectionId={sectionId}
-        />
-      </div>
-    </Container>
-  );
-});
+      </Container>
+    );
+  }
+);
 
 export default Section;

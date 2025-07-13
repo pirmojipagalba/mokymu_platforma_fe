@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Teisės aktai, reglamentuojantys grožio paslaugų visuomenės sveikatos saugos reikalavimus",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -161,7 +161,7 @@
     },
     {
       "title": "Patalpų, naudojamo inventoriaus, įrangos ir jų priežiūros visuomenės sveikatos saugos reikalavimai",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -262,7 +262,7 @@
     },
     {
       "title": "Kosmetikos gaminių, dažų, papuošalų, naudojamų teikiant grožio paslaugas, reikalavimai ",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -499,7 +499,7 @@
     },
     {
       "title": "Informacija apie riziką, susijusią su paslaugų teikimu, galimas komplikacijas, tolesnę pažeistų (sužalotų) kūno vietų priežiūrą, atvejai, kai paslauga (procedūra) negali būti teikiama paslaugos vartotojui ",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,
@@ -592,7 +592,7 @@
     },
     {
       "title": "Instrumentų (įrankių) priežiūros, valymo, dezinfekcijos, sterilizacijos reikalavimai ",
-      "sectionId": "section5",
+      "sectionId": "5",
       "content": [
         {
           "page": 1,
@@ -756,7 +756,7 @@
     },
     {
       "title": "Reikalavimai asmenims, teikiantiems grožio paslaugas, jų asmeninės apsaugos priemonės ",
-      "sectionId": "section6",
+      "sectionId": "6",
       "content": [
         {
           "page": 1,
@@ -790,7 +790,7 @@
     },
     {
       "title": "Užkrečiamųjų, odos ir alerginių ligų profilaktika",
-      "sectionId": "section7",
+      "sectionId": "7",
       "content": [
         {
           "page": 1,

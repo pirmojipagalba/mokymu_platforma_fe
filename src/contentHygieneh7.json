@@ -2,7 +2,7 @@
   "topics": [
     {
       "title": "Teisės aktai, reglamentuojantys maisto higienos ir bendruosius keleivinio transporto visuomenės sveikatos saugos reikalavimus ",
-      "sectionId": "section1",
+      "sectionId": "1",
       "content": [
         {
           "page": 1,
@@ -50,7 +50,7 @@
     },
     {
       "title": "Mikroklimatinės patalpų sąlygos, vėdinimo, vandens, nuotekų tvarkymo, įrenginių ir įrankių, maisto gaminimo ir indų plovimo, gatavos produkcijos priėmimo, išdavimo ir laikymo geros higienos praktikos reikalavimai",
-      "sectionId": "section2",
+      "sectionId": "2",
       "content": [
         {
           "page": 1,
@@ -160,7 +160,7 @@
     },
     {
       "title": "Atliekų surinkimas ir tvarkymas, valymas, plovimas, dezinfekavimas, buitinių parazitų kontrolė",
-      "sectionId": "section3",
+      "sectionId": "3",
       "content": [
         {
           "page": 1,
@@ -222,7 +222,7 @@
     },
     {
       "title": "Darbuotojų asmens higiena",
-      "sectionId": "section4",
+      "sectionId": "4",
       "content": [
         {
           "page": 1,
@@ -302,7 +302,7 @@
     },
     {
       "title": "Užkrečiamųjų ligų profilaktika ",
-      "sectionId": "section5",
+      "sectionId": "5",
       "content": [
         {
           "page": 1,

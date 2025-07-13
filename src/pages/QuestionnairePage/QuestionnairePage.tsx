@@ -54,6 +54,8 @@ const QuestionnairePage: React.FC<QuestionnairePageProps> = ({
     onAnswersCollected([...collectedAnswers, ...answers]); // Pass all collected answers
   };
 
+  console.log(questions)
+
   return (
     <Container>
       <div className="questionnaire-page">
