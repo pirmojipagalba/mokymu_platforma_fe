@@ -39,7 +39,108 @@ const PRODUCT_CONFIG: Record<
     PRODUCT_CODE: "H2",
     HOURS: "6 a.k.",
   },
-  // Add more products here as needed
+  hygiene3: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygiene4: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh3: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh4: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh5: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh6: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh7: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh9: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygiene10: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygiene11: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh12: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh13: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh14: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygieneh15: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygienehb: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+  hygienehbb: {
+    FIELD_CODE: "008",
+    PRODUCT_CODE: "H2",
+    HOURS: "6 a.k.",
+  },
+};
+
+const getCurrentDateLt = () => {
+  const months = [
+    "sausio",
+    "vasario",
+    "kovo",
+    "balandžio",
+    "gegužės",
+    "birželio",
+    "liepos",
+    "rugpjūčio",
+    "rugsėjo",
+    "spalio",
+    "lapkričio",
+    "gruodžio",
+  ];
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = months[today.getMonth()];
+  const day = today.getDate();
+  return `${year} m. ${month} ${day} d.`;
 };
 
 const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
@@ -54,7 +155,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   const [fieldCode, setFieldCode] = useState("");
   const [productCode, setProductCode] = useState("");
   const [hours, setHours] = useState("");
-  const [date, setDate] = useState("2024 m. gruodžio 5 d.");
+  const [date, setDate] = useState(getCurrentDateLt());
   const [countNumber, setCountNumber] = useState("Nr. H100002");
   const [agreed, setAgreed] = useState(false);
   const { user } = useAuth0();
@@ -298,7 +399,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                 <div className="pdf-modal__content">
                   <div className="labels">
                     <label>
-                      Vardas: *
+                      *Vardas:
                       <input
                         value={name}
                         onChange={(e) => {
@@ -326,7 +427,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                       />
                     </label>
                     <label>
-                      Pavardė: *
+                      *Pavardė:
                       <input
                         value={surname}
                         onChange={(e) => {
@@ -340,7 +441,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                       />
                     </label>
                     <label>
-                      Gimimo data: *
+                      *Gimimo data:
                       <input
                         type="date"
                         value={birthDate}
@@ -354,11 +455,13 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                         onChange={(e) => setAgreed(e.target.checked)}
                       />
                       <p>
-                        Sutinku, kad sertifikate matomi duomenys yra teisingi.
+                        *Sutinku, kad sertifikate matomi duomenys yra teisingi.
                       </p>
                     </div>
                     <button
-                      disabled={!agreed || !name.trim() || !surname.trim() || !birthDate}
+                      disabled={
+                        !agreed || !name.trim() || !surname.trim() || !birthDate
+                      }
                       onClick={() => {
                         if (pdfBlob) {
                           const url = URL.createObjectURL(pdfBlob);
