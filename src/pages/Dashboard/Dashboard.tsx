@@ -49,7 +49,6 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   const [allSectionsCompleted, setAllSectionsCompleted] =
     useState<boolean>(false);
   const [isPdfModalOpen, setPdfModalOpen] = useState(false);
-  const [userName, setUserName] = useState("");
   const [pdfBlob, setPdfBlob] = useState<Blob | null>(null);
   const [birthDate, setBirthDate] = useState("");
   const [fieldCode, setFieldCode] = useState("");
@@ -57,6 +56,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
   const [hours, setHours] = useState("");
   const [date, setDate] = useState("2024 m. gruodžio 5 d.");
   const [countNumber, setCountNumber] = useState("Nr. H100002");
+  const [agreed, setAgreed] = useState(false);
   const { user } = useAuth0();
 
   console.log("User from Auth0:", user);
@@ -298,17 +298,18 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                 <div className="pdf-modal__content">
                   <div className="labels">
                     <label>
-                      Vardas:
+                      Vardas: *
                       <input
                         value={name}
                         onChange={(e) => {
-                          // Only allow letters and spaces
+                          // Only allow letters (any language) and spaces
                           const val = e.target.value.replace(
-                            /[^a-zA-ZąčęėįšųūžĄČĘĖĮŠŲŪŽ\s]/g,
+                            /[^\p{L}\s]/gu,
                             ""
                           );
                           setName(val);
                         }}
+                        required
                       />
                     </label>
                     <label>
@@ -316,9 +317,8 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                       <input
                         value={middleName}
                         onChange={(e) => {
-                          // Only allow letters and spaces
                           const val = e.target.value.replace(
-                            /[^a-zA-ZąčęėįšųūžĄČĘĖĮŠŲŪŽ\s]/g,
+                            /[^\p{L}\s]/gu,
                             ""
                           );
                           setMiddleName(val);
@@ -326,28 +326,39 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
                       />
                     </label>
                     <label>
-                      Pavardė:
+                      Pavardė: *
                       <input
                         value={surname}
                         onChange={(e) => {
-                          // Only allow letters and spaces
                           const val = e.target.value.replace(
-                            /[^a-zA-ZąčęėįšųūžĄČĘĖĮŠŲŪŽ\s]/g,
+                            /[^\p{L}\s]/gu,
                             ""
                           );
                           setSurname(val);
                         }}
+                        required
                       />
                     </label>
                     <label>
-                      Gimimo data:
+                      Gimimo data: *
                       <input
                         type="date"
                         value={birthDate}
                         onChange={(e) => setBirthDate(e.target.value)}
                       />
                     </label>
+                    <div className="checkbox-label">
+                      <input
+                        type="checkbox"
+                        checked={agreed}
+                        onChange={(e) => setAgreed(e.target.checked)}
+                      />
+                      <p>
+                        Sutinku, kad sertifikate matomi duomenys yra teisingi.
+                      </p>
+                    </div>
                     <button
+                      disabled={!agreed || !name.trim() || !surname.trim() || !birthDate}
                       onClick={() => {
                         if (pdfBlob) {
                           const url = URL.createObjectURL(pdfBlob);
@@ -393,7 +404,8 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
               veikiančių medžiagų vartojimo poveikio žmogaus sveikatai mokymų ir
               atestavimo tvarkos aprašo ir Asmenų, kuriems privalomas sveikatos
               ir (ar) pirmosios pagalbos mokymas, profesijų ir veiklos sričių
-              sąrašo, mokymo programų kodų ir mokymo periodiškumo patvirtinimo“.
+              sąrašo, mokymo programų kodų and mokymo periodiškumo
+              patvirtinimo“.
             </p>
             <p>
               Ši higienos norma nustato pagrindinius grožio paslaugų sveikatos
@@ -618,7 +630,7 @@ const Dashboard: React.FC<DashboardProps> = ({ sections }) => {
           <div className="dashboard__info">
             <h2 className="dashboard__heading">
               PRIVALOMOJO HIGIENOS ĮGŪDŽIŲ MOKYMO (KODAS HBB) SPECIALIOSIOS
-              PROGRAMOS MEDŽIAGA
+              PROGRAMOS MEDŽIAGA
             </h2>
             <p>Kam skirti šie mokymai?</p>
             <p>
