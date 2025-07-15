@@ -17,12 +17,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
 
   return (
     <div className={`product-card`} onClick={handleClick}>
-      <img
-        src={`/assets/${
-          product.name === "firstaid" ? "cpr2.png" : "hygiene.jpg"
-        }`}
-        alt="product"
-      />
+      <img src={`/assets/${product.name}/thumbnail.png`} alt="product" />
       <h2 className="product-card__name">{product.title}</h2>
     </div>
   );
